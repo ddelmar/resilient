@@ -1,0 +1,81 @@
+
+
+@charset "utf-8";
+
+@font-face {    
+    font-family: "Liberator";    
+    src: url(f/Liberator.ttf); /* IE */    
+    src: local("Liberator"), url("f/Liberator.TTF") format("truetype"); /* non-IE */    
+}
+
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+#intro{
+	/*
+	the height of this div determines how long the scroll is.
+	Make sure to also edit the JS
+	*/
+	height:500px;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:194;
+}
+
+#intro_bg {
+
+}
+
+
+/* --------- NEW YORK ---------- */
+
+#overlaid{
+	/*
+	This is the image that fades in 
+	*/
+	background-image:  url(i/hero_blurred.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#underlaid{
+	/*
+	This is the bottom image 
+	*/
+	z-index:0;
+	background-image:  url(i/hero_clear.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+
