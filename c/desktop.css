@@ -1,0 +1,148 @@
+
+
+@charset "utf-8";
+
+@font-face {    
+    font-family: "Liberator";    
+    src: url(f/Liberator.ttf); /* IE */    
+    src: local("Liberator"), url("f/Liberator.TTF") format("truetype"); /* non-IE */    
+}
+
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+	background: #ededed;
+	
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+h1 {
+	font-size: 10em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h2#tagline {
+	margin: 300px 0 0 0 ;
+	opacity: 0;
+	color: white;
+}
+
+#intro{
+	/*
+	the height of this div determines how long the scroll is.
+	Make sure to also edit the JS
+	*/
+	height:500px;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:194;
+}
+
+#overlaid{
+	/*
+	This is the image that fades in 
+	*/
+	background-image:  url(/i/hero_blurred.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;
+	color: white;
+	height: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#underlaid{
+	/*
+	This is the bottom image 
+	*/
+	z-index:-1;
+	background-image:  url(/i/hero_clear.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;	color: white;
+	height: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+/*
+::::::::::::::::
+::: CONTENT ::::
+::::::::::::::::
+*/
+
+#container {
+	position: absolute;
+	width: 100%;
+	z-index:2;
+}
+
+#header {
+	width: 70%;
+	margin: 400px 0 0 -35%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	background: transparent;
+}
+
+#tier2 {
+	position: absolute;
+	top: 1100px;
+	text-align: center;
+	width: 100%;
+	padding: 60px 0;
+}
+
+#tier2 * {opacity:0;}
+
+.product {
+	width: 750px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.product a {
+	font-size: 1.2em;
+	float: left;
+	width: 350px;
+	height: 250px;
+	border: 8px solid white;
+	padding: 30px 0;
+	color: #333;
+	background: #f7f7f7;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+}
+
+.product a:hover {
+	background: #D6F0D1;
+	color: #000;
+}
+
+.product a.brass { margin: 0 0 0 12px;}
+
+.product a h3 {
+	margin: 150px auto 20px auto;
+}

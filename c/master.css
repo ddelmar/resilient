@@ -1,0 +1,71 @@
+@import url("mobile.css") (max-width: 767px);
+
+@import url("tablet.css") (min-width: 768px) and (max-width: 1025px);
+
+@import url("desktop.css") (min-width: 1026px);
+
+/* #General styles
+================================================== */
+
+@font-face {
+    font-family: 'league gothic';
+    src: url('/f/LeagueGothic.otf');
+}
+@font-face {
+    font-family: 'brix';
+    src: url('/f/BrixSlab-Medium.otf');
+}
+@font-face {
+    font-family: 'carton';
+    src: url('/f/Carton-Slab.otf');
+}
+
+@-webkit-keyframes fadeIn1 {
+	0% {opacity:0;} 
+	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn1 {
+	0% {opacity:0;} 
+	100% {opacity:1;}
+}
+
+@-moz-document url-prefix() {
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	margin:0 auto;
+	background: #f7f7f7;
+	font-size: 81.25%;
+}
+
+img {border:none;}
+
+a { text-decoration:none; color:#666; }
+
+a:hover { text-decoration:none; color:#0093c2; }
+
+h1 {
+	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+h2 {
+	font-family: "brix", helvetica;
+	-webkit-font-smoothing: antialiased;
+	color: #222;
+}
+
+h2#tagline {
+	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
+	color: white;
+}

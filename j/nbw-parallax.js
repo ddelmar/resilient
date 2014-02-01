@@ -15,25 +15,21 @@ http://www.gnu.org/licenses/gpl.html
 
 $(document).ready(function() { //when the document is ready...
 
-
+if (($(document).width()) < 768){
+} else {
+	
 	//save selectors as variables to increase performance
 	var $window = $(window);
 	var $firstBG = $('#intro');
 	var $overlaidBG = $('#overlaid');
-	var $thirdBG = $('#third');
-	var $third_text = $('#third_text');
-	var $fourthBG = $('#fourth');
-	var $fourth_text = $('#fourth_text');
-	var $fifthBG = $('#fifth');
-	// var $fifth_child = $('#fifth > *');
-	var cloud1 = $("#overlaid .cloud1");
-	var cloud2 = $("#overlaid .cloud2");
+	var $tagline = $('#tagline');
+	var $tier2 = $('#tier2 *');
 	
 	var windowHeight = $window.height(); //get the height of the window
 	
 	
 	//apply the class "inview" to a section that is in the viewport
-	$('#intro, #overlaid').bind('inview', function (event, visible) {
+	$('#intro, #overlaid, #tier2').bind('inview', function (event, visible) {
 			if (visible == true) {
 			$(this).addClass("inview");
 			} else {
@@ -72,14 +68,18 @@ $(document).ready(function() { //when the document is ready...
 		if($firstBG.hasClass("inview")){
 			//call the newPos function and change the background position
 			// $firstBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.1)}); 
-			$("#pos").html(pos * 0.002);
-			$overlaidBG.css({"opacity": (pos * 0.002)});
 		}
 		
+		
+		
 		//if the second section is in view...
-		if($overlaidBG.hasClass("inview")){
-			
+		if($('#tier2').hasClass("inview")){
+			$tier2.css({"opacity": ((pos - 500) * 0.01)});
 		}
+		
+		$("#pos").html(pos);
+		$overlaidBG.css({"opacity": (pos * 0.005)});
+		$tagline.css({"opacity": (pos * 0.002)});
 	}
 		
 	RepositionNav(); //Reposition the Navigation to center it in the window when the script loads
@@ -92,5 +92,6 @@ $(document).ready(function() { //when the document is ready...
 	$window.bind('scroll', function(){ //when the user is scrolling...
 		Move(); //move the background images in relation to the movement of the scrollbar
 	});
-	
+
+} // end of conditional	
 });
