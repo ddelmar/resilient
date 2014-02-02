@@ -51,11 +51,22 @@ h2#tagline {
 	z-index:194;
 }
 
+#logo a {
+width: 200px;
+height: 75px;
+position: fixed;
+top: 20px;
+left: 0;
+z-index: 0;
+overflow: hidden;
+text-indent: -999px;
+}
+
 #overlaid{
 	/*
 	This is the image that fades in 
 	*/
-	background-image:  url(/i/hero_blurred.jpg);
+	background-image:  url(/i/hero1_blurred.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -65,7 +76,7 @@ h2#tagline {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	z-index: 0;
+	z-index: 2;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -75,12 +86,14 @@ h2#tagline {
 	/*
 	This is the bottom image 
 	*/
-	z-index:-1;
-	background-image:  url(/i/hero_clear.jpg);
+	z-index:1;
+	background-image:  url(/i/hero1_clear.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
 	background-attachment: fixed;	color: white;
+	position: absolute;
+	width: 100%;
 	height: 1100px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -96,7 +109,7 @@ h2#tagline {
 #container {
 	position: absolute;
 	width: 100%;
-	z-index:2;
+	z-index:4;
 }
 
 #header {
@@ -106,6 +119,7 @@ h2#tagline {
 	position: absolute;
 	left: 50%;
 	background: transparent;
+	z-index: 4;
 }
 
 #tier2 {
@@ -113,10 +127,19 @@ h2#tagline {
 	top: 1100px;
 	text-align: center;
 	width: 100%;
-	padding: 60px 0;
+	padding: 60px 0 90px 0;
+	z-index: 3;
 }
 
 #tier2 * {opacity:0;}
+
+#tier3 {
+	position: absolute;
+	top: 1677px;
+	padding: 60px 0 90px 0;
+}
+
+#tier3 * {opacity:0;}
 
 .product {
 	width: 750px;
@@ -125,7 +148,6 @@ h2#tagline {
 }
 
 .product a {
-	font-size: 1.2em;
 	float: left;
 	width: 350px;
 	height: 250px;
@@ -145,4 +167,8 @@ h2#tagline {
 
 .product a h3 {
 	margin: 150px auto 20px auto;
+}
+
+.product > p {
+	margin: 30px 0 0 0 ;
 }

@@ -1,19 +1,21 @@
 <?php include_once("includes/head.php") ?>
-<div id="pos" style="position: fixed; top: 10px; left:0; z-index:9999; ">Nope</div>
+<div id="pos" style="display:none; position: fixed; top: 10px; left:0; z-index:9999; ">Nope</div>
 
-<body>
 
 
 <div id="container">
 <div id="header">
 	<section>
-	<h1 id="logo">Resilient</h1>
-	<h2 id="tagline">Writing code to change the odds for underserved kids.</h2>
+	<h1>Resilient</h1>
+	<h2 id="tagline">Writing code to change the odds for urban teens.</h2>
 	</section>
 </div><!-- /header -->
 
 <div id="tier2">
 	<section>
+		<div id="logo">
+			<a href="/">Resilient</a>
+		</div>
 		<h2>Here's how</h2>
 		<div class="product">
 			<a class="resilient" href="#">
@@ -26,16 +28,23 @@
 			</a>
 		</div>
 	</section>
-</div><!-- /content1 -->
+</div><!-- /tier2 -->
+
+<div id="tier3">
+	<section>
+		<div class="product">
+		<h2>Hacking the opportunity gap</h2>
+		<p>
+We are a network of developers and designers committed to the vision of technology as an equalizer in Boston. Volunteer with us. Help us nudge our communities forward. 
+		</p>
+		</div>
+	</section>
+</div><!-- /tier3 -->
 </div><!-- container -->
 
 	<div id="intro"></div> <!--#intro-->
 <div id="overlaid"></div> <!--#overlaid-->
 <div id="underlaid"></div> <!--#underlaid-->
 
-<!--
-<div id="takeupspace" style="height:1200px; width:100%;"></div>
-
--->
 </body>
 </html>

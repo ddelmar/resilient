@@ -24,12 +24,13 @@ if (($(document).width()) < 768){
 	var $overlaidBG = $('#overlaid');
 	var $tagline = $('#tagline');
 	var $tier2 = $('#tier2 *');
+	var $tier3 = $('#tier3 *');
 	
 	var windowHeight = $window.height(); //get the height of the window
 	
 	
 	//apply the class "inview" to a section that is in the viewport
-	$('#intro, #overlaid, #tier2').bind('inview', function (event, visible) {
+	$('#intro, #overlaid, #tier2, #tier3').bind('inview', function (event, visible) {
 			if (visible == true) {
 			$(this).addClass("inview");
 			} else {
@@ -74,7 +75,10 @@ if (($(document).width()) < 768){
 		
 		//if the second section is in view...
 		if($('#tier2').hasClass("inview")){
-			$tier2.css({"opacity": ((pos - 500) * 0.01)});
+			$tier2.css({"opacity": ((pos - 420) * 0.004)});
+		}
+		if($('#tier3').hasClass("inview")){
+			$tier3.css({"opacity": ((pos - 997) * 0.004)});
 		}
 		
 		$("#pos").html(pos);

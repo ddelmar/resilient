@@ -45,6 +45,8 @@ body {
 	font-size: 81.25%;
 }
 
+p {font-size: 1.6em; }
+
 img {border:none;}
 
 a { text-decoration:none; color:#666; }
@@ -62,10 +64,28 @@ h1 {
 h2 {
 	font-family: "brix", helvetica;
 	-webkit-font-smoothing: antialiased;
-	color: #222;
+}
+
+h3 {
+	font-size: 2em;
 }
 
 h2#tagline {
 	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
 	color: white;
+}
+
+#tier3 {
+	text-align: center;
+	width: 100%;
+	background: #333;
+	color: #f7f7f7;
+}
+
+#tier3 .product p {text-align: justify;}
+
+#logo a {
+background: url(/i/resilient_logo.png) center top no-repeat;
+background-size: 50%;
+display: block;
 }
