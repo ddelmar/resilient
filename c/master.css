@@ -45,47 +45,30 @@ body {
 	font-size: 81.25%;
 }
 
-p {font-size: 1.6em; }
-
 img {border:none;}
 
 a { text-decoration:none; color:#666; }
 
 a:hover { text-decoration:none; color:#0093c2; }
 
-h1 {
-	font-family: "league gothic", helvetica;
-	text-transform: uppercase;
-	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-}
-
-h2 {
-	font-family: "brix", helvetica;
-	-webkit-font-smoothing: antialiased;
-}
-
-h3 {
-	font-size: 2em;
-}
-
-h2#tagline {
-	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
-	color: white;
-}
-
 #tier3 {
 	text-align: center;
 	width: 100%;
-	background: #333;
-	color: #f7f7f7;
 }
 
 #tier3 .product p {text-align: justify;}
 
 #logo a {
-background: url(/i/resilient_logo.png) center top no-repeat;
-background-size: 50%;
+background-image: url(/i/resilient_logo.png);
+background-position: center top;
+background-repeat: no-repeat;
 display: block;
+overflow: hidden;
+text-indent: -999px;
+}
+
+.footer {
+	text-align: center;
+	width: 100%;
+	padding: 12px 0;
 }

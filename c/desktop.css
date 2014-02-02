@@ -2,14 +2,6 @@
 
 @charset "utf-8";
 
-@font-face {    
-    font-family: "Liberator";    
-    src: url(f/Liberator.ttf); /* IE */    
-    src: local("Liberator"), url("f/Liberator.TTF") format("truetype"); /* non-IE */    
-}
-
-/* CSS Document */
-
 * {margin:0; padding:0;}
 
 body{
@@ -22,20 +14,40 @@ body{
 
 p{
 	margin: 0 0 20px 0;	
+	font-size: 1.6em;
 }
 
 h1 {
+	font-family: "league gothic", helvetica;
 	font-size: 10em;
+	text-transform: uppercase;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
 }
 
 h2 {
 	font-size: 4em;
+	font-family: "brix", helvetica;
+	-webkit-font-smoothing: antialiased;
 }
+
+h3 {
+	font-size: 2em;
+}
+
+
+/*
+::::::::::::::::
+::: HOME ::::
+::::::::::::::::
+*/
 
 h2#tagline {
 	margin: 300px 0 0 0 ;
 	opacity: 0;
 	color: white;
+	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
 }
 
 #intro{
@@ -52,14 +64,16 @@ h2#tagline {
 }
 
 #logo a {
+background-size: 50%;
 width: 200px;
 height: 75px;
-position: fixed;
-top: 20px;
-left: 0;
 z-index: 0;
-overflow: hidden;
-text-indent: -999px;
+}
+
+.body_ #logo a { 
+	position: fixed;
+	top: 20px;
+	left: 0;
 }
 
 #overlaid{
@@ -112,7 +126,7 @@ text-indent: -999px;
 	z-index:4;
 }
 
-#header {
+.body_ #header {
 	width: 70%;
 	margin: 400px 0 0 -35%;
 	background: white;
@@ -135,8 +149,10 @@ text-indent: -999px;
 
 #tier3 {
 	position: absolute;
-	top: 1677px;
+	top: 1507px;
 	padding: 60px 0 90px 0;
+	background: #333;
+	color: #f7f7f7;
 }
 
 #tier3 * {opacity:0;}
@@ -150,7 +166,7 @@ text-indent: -999px;
 .product a {
 	float: left;
 	width: 350px;
-	height: 250px;
+	height: 80px;
 	border: 8px solid white;
 	padding: 30px 0;
 	color: #333;
@@ -159,16 +175,59 @@ text-indent: -999px;
 }
 
 .product a:hover {
-	background: #D6F0D1;
-	color: #000;
+	background: #333;
+	color: #ccc;
 }
 
-.product a.brass { margin: 0 0 0 12px;}
+.product a.resilient { 
+	/* background: url(/i/busstop_thumb.jpg) center top no-repeat; */
+	background-size: 100% auto;
+}
+
+.product a.brass { 
+	/* background: url(/i/brass_thumb.png) center top no-repeat; */
+	background-size: 100% auto;
+	margin: 0 0 0 12px;
+}
 
 .product a h3 {
-	margin: 150px auto 20px auto;
+	margin: 0px auto 20px auto;
 }
 
 .product > p {
 	margin: 30px 0 0 0 ;
+}
+
+#footer_home .footer {
+	position: absolute;
+	top: 1860px;
+	z-index:4;
+}
+
+.footer {
+	background: #333;
+	color: #ccc;
+	border-top: 1px solid #4e4e4e;
+}
+
+
+/*
+::::::::::::::::
+::: PAGES ::::
+::::::::::::::::
+*/
+
+.body_rlab #header {
+	width: 100%;
+	height: 300px;
+	background-image: url(/i/hero2_clear.jpg);
+	background-position: center 70%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.body_rlab #logo a { 
+	position: absolute;
+	top: 320px;
+	left: 0;
 }
