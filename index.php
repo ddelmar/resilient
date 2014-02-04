@@ -8,7 +8,7 @@
 <div id="header">
 	<section>
 	<h1>Resilient</h1>
-	<h2 id="tagline">Writing code to change the odds for urban teens.</h2>
+	<h2 id="tagline">Writing code to change the odds for underserved communities.</h2>
 	</section>
 </div><!-- /header -->
 
@@ -17,13 +17,13 @@
 		<div id="logo">
 			<a href="/">Resilient</a>
 		</div>
-		<h2>What we do</h2>
+		<h2>Current Projects</h2>
 		<div class="product">
 			<a class="resilient" href="/rlab">
 				<h3>Resilient Lab</h3>
 				<p>Teaching teens to code</p>
 			</a>
-			<a class="brass" href="#">
+			<a class="brass" href="/brass">
 				<h3>BRASS</h3>
 				<p>Smarter Corrections Software</p>
 			</a>
@@ -36,7 +36,10 @@
 		<div class="product">
 		<h2>Hacking the opportunity gap</h2>
 		<p>
-We are a network of developers and designers committed to the vision of technology as an equalizer in Boston. Volunteer with us. Help us nudge our communities forward.
+We are a network of developers and designers committed to the vision of technology as an equalizer in Boston. We offer design and dev consulting for public institutions and social change-makers. We love solving hard problems; particularly those that matter most to the community. </p>
+
+<p>Start a project with us. Or volunteer with us. <a href="mailto:david@resilientlab.org">Drop us a note.</a></p>
+
 		</p>
 		</div>
 	</section>

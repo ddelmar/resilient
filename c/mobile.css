@@ -25,6 +25,11 @@ div {width: 100%; float: left; display: block;}
 #container {
 	width: 90%;
 	padding: 5%;
+	margin: 60px auto 70px auto;
+}
+
+.body_ #container {
+	margin: 0 auto;
 }
 
 #tier2, #tier3 {
