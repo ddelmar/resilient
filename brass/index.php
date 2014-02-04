@@ -13,7 +13,7 @@
 
 <div id="tier2">
 	<section>
-		<img src="/i/brass.jpg" alt="BRASS" width="100%"/>
+		<img src="http://delmarsenties.s3.amazonaws.com/resilient/brass.jpg" alt="BRASS" />
 
 		<h2>BRASS</h2>
 

@@ -54,7 +54,7 @@ a:hover { text-decoration:none; color:#0093c2; }
 #tier3 .product p {text-align: justify;}
 
 #logo a {
-background-image: url(/i/resilient_logo.png);
+background-image: url(http://delmarsenties.s3.amazonaws.com/resilient/resilient_logo.png);
 background-position: center top;
 background-repeat: no-repeat;
 display: block;
@@ -81,6 +81,10 @@ line-height: 1.4;
 text-align:left;
 }
 
+b, i, a {font-size: 1em; }
+
+b {font-weight: bold; }
+
 #nav {
 	z-index: 0;
 	position: fixed;
@@ -101,10 +105,10 @@ text-align:left;
 	
 }
 
-#tier2 {
-	padding: 0 0 80px 0;
-}
-
 p a {
 	border-bottom: 1px dotted #666;
+}
+
+.body_rlab .footer, .body_brass .footer {
+	padding-top: 80px;
 }

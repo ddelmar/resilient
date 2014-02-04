@@ -1,9 +1,15 @@
 
 /*
 *****************************
-Currently the same as desktop
+Deviations from desktop:
+
+#container
+#tier2 img {width:75%; }
+removed min-width from body
 *****************************
 */
+
+
 
 @charset "utf-8";
 
@@ -11,15 +17,9 @@ Currently the same as desktop
 
 body{
 	margin: 0;
-	min-width: 980px;
 	padding: 0;
 	background: #ededed;
 	
-}
-
-p{
-	margin: 0 0 20px 0;	
-	font-size: 1.6em;
 }
 
 h1 {
@@ -41,6 +41,20 @@ h3 {
 	font-size: 2em;
 }
 
+
+/*
+::::::::::::::::
+::: HOME ::::
+::::::::::::::::
+*/
+
+.body_ p{
+	margin: 0 0 20px 0;	
+	font-size: 1.6em;
+}
+
+.body_ h2 { margin: 0; }
+
 h2#tagline {
 	margin: 300px 0 0 0 ;
 	opacity: 0;
@@ -48,7 +62,7 @@ h2#tagline {
 	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
 }
 
-#intro{
+.body_ #intro{
 	/*
 	the height of this div determines how long the scroll is.
 	Make sure to also edit the JS
@@ -62,20 +76,20 @@ h2#tagline {
 }
 
 #logo a {
-width: 200px;
-height: 75px;
-position: fixed;
-top: 20px;
-left: 0;
-z-index: 0;
-background-size: 50%;
+	background-size: 50%;
+	width: 200px;
+	height: 75px;
+	z-index: 0;
+	position: fixed;
+	top: 20px;
+	left: 0;
 }
 
 #overlaid{
 	/*
 	This is the image that fades in 
 	*/
-	background-image:  url(/i/hero1_blurred.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_blurred.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -96,7 +110,7 @@ background-size: 50%;
 	This is the bottom image 
 	*/
 	z-index:1;
-	background-image:  url(/i/hero1_clear.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_clear.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -109,19 +123,14 @@ background-size: 50%;
 	padding: 0;
 }
 
-/*
-::::::::::::::::
-::: CONTENT ::::
-::::::::::::::::
-*/
-
-#container {
+.body_ #container {
 	position: absolute;
 	width: 100%;
 	z-index:4;
+	margin: 0;
 }
 
-#header {
+.body_ #header {
 	width: 70%;
 	margin: 400px 0 0 -35%;
 	background: white;
@@ -131,7 +140,7 @@ background-size: 50%;
 	z-index: 4;
 }
 
-#tier2 {
+.body_ #tier2 {
 	position: absolute;
 	top: 1100px;
 	text-align: center;
@@ -140,9 +149,9 @@ background-size: 50%;
 	z-index: 3;
 }
 
-#tier2 * {opacity:0;}
+.body_ #tier2 * {opacity:0;}
 
-#tier3 {
+.body_ #tier3 {
 	position: absolute;
 	top: 1507px;
 	padding: 60px 0 90px 0;
@@ -150,7 +159,7 @@ background-size: 50%;
 	color: #f7f7f7;
 }
 
-#tier3 * {opacity:0;}
+.body_ #tier3 * {opacity:0;}
 
 .product {
 	width: 750px;
@@ -158,7 +167,7 @@ background-size: 50%;
 	text-align: center;
 }
 
-.product a {
+#tier2 .product a {
 	float: left;
 	width: 350px;
 	height: 80px;
@@ -169,18 +178,18 @@ background-size: 50%;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
 }
 
-.product a:hover {
+#tier2 .product a:hover {
 	background: #333;
 	color: #ccc;
 }
 
 .product a.resilient { 
-	/* background: url(/i/busstop_thumb.jpg) center top no-repeat; */
+	/* background: url(http://delmarsenties.s3.amazonaws.com/resilient/busstop_thumb.jpg) center top no-repeat; */
 	background-size: 100% auto;
 }
 
 .product a.brass { 
-	/* background: url(/i/brass_thumb.png) center top no-repeat; */
+	/* background: url(http://delmarsenties.s3.amazonaws.com/resilient/brass_thumb.png) center top no-repeat; */
 	background-size: 100% auto;
 	margin: 0 0 0 12px;
 }
@@ -195,12 +204,36 @@ background-size: 50%;
 
 #footer_home .footer {
 	position: absolute;
-	top: 1860px;
+	top: 1960px;
 	z-index:4;
 }
 
-.footer {
+.body_ .footer {
 	background: #333;
 	color: #ccc;
 	border-top: 1px solid #4e4e4e;
 }
+
+
+/*
+::::::::::::::::
+::: PAGES ::::
+::::::::::::::::
+*/
+
+.body_rlab #header {
+	width: 100%;
+	height: 300px;
+	background-image: url(http://delmarsenties.s3.amazonaws.com/resilient/hero2_clear.jpg);
+	background-position: center 70%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#container {
+	margin: 140px 5% 0px 5%;
+	width: 90%;
+}
+
+#tier2 img {width:75%; }

@@ -25,12 +25,14 @@ div {width: 100%; float: left; display: block;}
 #container {
 	width: 90%;
 	padding: 5%;
-	margin: 60px auto 70px auto;
+	margin: 60px auto 0px auto;
 }
 
 .body_ #container {
 	margin: 0 auto;
 }
+
+#tier2 {padding: 0; }
 
 #tier2, #tier3 {
 	width:100%;
@@ -39,7 +41,7 @@ div {width: 100%; float: left; display: block;}
 
 .product {width:100%;}
 
-.product a {
+#tier2 .product a {
 	width: 100%;
 	float: left;
 	padding: 12px 0;
@@ -52,3 +54,5 @@ div {width: 100%; float: left; display: block;}
 	width: 100%;
 	padding: 12px 0 0 0;
 }
+
+#tier2 img {width:75%; }

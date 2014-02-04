@@ -6,7 +6,7 @@
 	<meta name="HandheldFriendly" content="True" /> 
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="/i/favicon.gif" />
+<link rel="shortcut icon" href="http://delmarsenties.s3.amazonaws.com/resilient/favicon.gif" />
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
