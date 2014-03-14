@@ -36,7 +36,7 @@ h2 {
 	margin: 1.2em 0 .5em 0;
 }
 
-.body_ p { text-align: center; }
+.body_ p { text-align: left; }
 
 ul, ol, li { list-style-type:none; }
 

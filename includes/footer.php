@@ -6,5 +6,5 @@
       theYear=now.getYear()
 		theYear=theYear+1900
       document.write(theYear)
-</script> Resilient Lab. <a href="mailto:david@resilientlab.org">Contact us</a>
+</script> Resilient Coders. <a href="mailto:david@civica.io">Contact us</a>
 </div>

@@ -78,7 +78,7 @@ if (($(document).width()) < 768){
 			$tier2.css({"opacity": ((pos - 420) * 0.004)});
 		}
 		if($('#tier3').hasClass("inview")){
-			$tier3.css({"opacity": ((pos - 827) * 0.004)});
+			$tier3.css({"opacity": ((pos - 1260) * 0.004)});
 		}
 		
 		$("#pos").html(pos);

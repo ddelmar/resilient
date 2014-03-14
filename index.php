@@ -7,26 +7,31 @@
 <div id="container">
 <div id="header">
 	<section>
-	<h1>Resilient</h1>
-	<h2 id="tagline">Writing code to change the odds for underserved communities.</h2>
+	<h1>Resilient Coders</h1>
+	<h2 id="tagline">Hacking the opportunity gap</h2>
 	</section>
 </div><!-- /header -->
 
 <div id="tier2">
 	<section>
 		<div id="logo">
-			<a href="/">Resilient</a>
+			<a href="/">Resilient Coders</a>
 		</div>
-		<h2>Current Projects</h2>
+		<h2>What we do</h2>
 		<div class="product">
-			<a class="resilient" href="/rlab">
-				<h3>Resilient Lab</h3>
-				<p>Teaching teens to code</p>
-			</a>
-			<a class="brass" href="/brass">
-				<h3>BRASS</h3>
-				<p>Smarter Corrections Software</p>
-			</a>
+			<p>
+				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll spend eight weeks building their own websites, exploring web development as a means of self-expression.
+			</p>
+				<p>
+		<b>It's good for the student</b><br />
+		A student could have an innate gift for web development, and just never have an opportunity to explore it. He may not have the right role model, or live in a community that values it. If we were to just introduce the basics to these kids, we might awaken the curiosity of one such student, and begin to bridge the opportunity gap in that one case.
+		<br /><br />
+		<b>The tech world needs these kids</b><br />
+		While 7% of Americans can't find work, the tech industry still struggles to find talent. There simply aren't enough people in the workforce to satisfy a market hungry for certain skill sets. The local tech community stands to benefit from an investment in programs that expand the talent pool, and open the doors to young people from communities traditionally underrepresented in technology.
+		<br /><br />
+		<b>Our communities benefit from the students' development of a lucrative skill</b>
+		<br />The best way to break the generational cycle of poverty is to get kids interested in developing a reliable and lucrative skill.
+				</p>
 		</div>
 	</section>
 </div><!-- /tier2 -->
@@ -34,11 +39,15 @@
 <div id="tier3">
 	<section>
 		<div class="product">
-		<h2>Hacking the opportunity gap</h2>
+		<h2>
+			Who we are
+		</h2>
 		<p>
-We are a network of developers and designers committed to the vision of technology as an equalizer in Boston. We offer design and dev consulting for public institutions and social change-makers. We love solving hard problems; particularly those that matter most to the community. </p>
+Resilient Coders is run by Civica.io. We build web products that do public good. We partner with
+government agencies and with social change-makers to advance a mutual vision of technology as a tool
+for public progress. We love solving hard problems; particularly those that matter most to the community.</p>
 
-<p>Start a project with us. Or volunteer with us. <a href="mailto:david@resilientlab.org">Drop us a note.</a></p>
+<p>Start a project with us. Or volunteer with Resilient Coders. Drop us a note at <a href="mailto:david@civica.io">david@civica.io.</a></p>
 
 		</p>
 		</div>

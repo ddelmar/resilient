@@ -32,8 +32,6 @@ div {width: 100%; float: left; display: block;}
 	margin: 0 auto;
 }
 
-#tier2 {padding: 0; }
-
 #tier2, #tier3 {
 	width:100%;
 	padding: 20px 0 0 0;
