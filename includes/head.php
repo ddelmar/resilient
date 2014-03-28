@@ -18,8 +18,8 @@ $(document).ready(function(){
 	$uri = "{$_SERVER['REQUEST_URI']}";
 	$uri_clean = ucwords(basename($uri));
 	$pagetitle = "body_" . basename($uri);
-	if ($uri_clean == NULL){ echo "Resilient Lab";}
-	else { echo $uri_clean . " | Resilient Lab"; }
+	if ($uri_clean == NULL){ echo "Resilient Coders";}
+	else { echo $uri_clean . " | Resilient Coders"; }
 
 ?></title>
 
