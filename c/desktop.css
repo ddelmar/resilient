@@ -79,7 +79,7 @@ h2#tagline {
 	/*
 	This is the image that fades in 
 	*/
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_blurred.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -100,7 +100,7 @@ h2#tagline {
 	This is the bottom image 
 	*/
 	z-index:1;
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_clear.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;

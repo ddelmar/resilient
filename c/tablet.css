@@ -6,8 +6,12 @@ Deviations from desktop:
 #container
 #tier2 img {width:75%; }
 removed min-width from body
+#logo { display:none;}
+h1 {font-size:6em;}
+
 *****************************
 */
+
 
 
 
@@ -24,7 +28,7 @@ body{
 
 h1 {
 	font-family: "league gothic", helvetica;
-	font-size: 10em;
+	font-size: 6em;
 	text-transform: uppercase;
 	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
 	color: white;
@@ -75,21 +79,13 @@ h2#tagline {
 	z-index:194;
 }
 
-#logo a {
-	background-size: 50%;
-	width: 200px;
-	height: 75px;
-	z-index: 0;
-	position: fixed;
-	top: 20px;
-	left: 0;
-}
+#logo { display:none;}
 
 #overlaid{
 	/*
 	This is the image that fades in 
 	*/
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_blurred.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -110,7 +106,7 @@ h2#tagline {
 	This is the bottom image 
 	*/
 	z-index:1;
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1_clear.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -153,7 +149,7 @@ h2#tagline {
 
 .body_ #tier3 {
 	position: absolute;
-	top: 1507px;
+	top: 1987px;
 	padding: 60px 0 90px 0;
 	background: #333;
 	color: #f7f7f7;
@@ -204,7 +200,7 @@ h2#tagline {
 
 #footer_home .footer {
 	position: absolute;
-	top: 1960px;
+	top: 2440px;
 	z-index:4;
 }
 
@@ -229,6 +225,15 @@ h2#tagline {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+
+#container {
+	margin: 140px auto 0px auto;
+	width: 800px;
+}
+
+#tier2 img {width: 100%; }
+
 
 
 #container {

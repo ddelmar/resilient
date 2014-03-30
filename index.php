@@ -14,13 +14,15 @@
 
 <div id="tier2">
 	<section>
+		<? php /*
 		<div id="logo">
 			<a href="/">Resilient Coders</a>
 		</div>
+		*/ ?>
 		<h2>What we do</h2>
 		<div class="product">
 			<p>
-				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll spend eight weeks building their own websites, exploring web development as a means of self-expression.
+				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll spend eight weeks building their own websites, exploring web development as a means of improving their communities.
 			</p>
 				<p>
 		<b>It's good for the student</b><br />
