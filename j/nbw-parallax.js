@@ -71,8 +71,9 @@ if (($(document).width()) < 768){
 			// $firstBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.1)}); 
 		}
 		
-		
-		
+		if (($(document).width()) < 1025){
+		} else {
+
 		//if the second section is in view...
 		if($('#tier2').hasClass("inview")){
 			$tier2.css({"opacity": ((pos - 420) * 0.004)});
@@ -80,12 +81,13 @@ if (($(document).width()) < 768){
 		if($('#tier3').hasClass("inview")){
 			$tier3.css({"opacity": ((pos - 1260) * 0.004)});
 		}
+} // end of the conditional
 		
 		$("#pos").html(pos);
 		$overlaidBG.css({"opacity": (pos * 0.005)});
 		$tagline.css({"opacity": (pos * 0.002)});
 	}
-		
+
 	RepositionNav(); //Reposition the Navigation to center it in the window when the script loads
 	
 	$window.resize(function(){ //if the user resizes the window...

@@ -8,7 +8,6 @@
 <div id="header">
 	<section>
 	<h1>Resilient Coders</h1>
-	<h2 id="tagline">Hacking the opportunity gap</h2>
 	</section>
 </div><!-- /header -->
 
@@ -19,7 +18,7 @@
 			<a href="/">Resilient Coders</a>
 		</div>
 		*/ ?>
-		<h2>What we do</h2>
+		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p>
 				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll spend eight weeks building their own websites, exploring web development as a means of improving their communities.

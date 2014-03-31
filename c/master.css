@@ -20,12 +20,14 @@
     src: url('/f/Carton-Slab.otf');
 }
 
+@import url(http://fonts.googleapis.com/css?family=Lato:900|Bitter);
+
 * {
 	margin:0;
 	padding:0;
 }
 body {
-	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: center;
 	margin:0 auto;
 	background: #f7f7f7;

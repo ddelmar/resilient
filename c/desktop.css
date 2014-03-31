@@ -40,7 +40,8 @@ h3 {
 
 .body_ p{
 	margin: 0 0 20px 0;	
-	font-size: 1.6em;
+	font-size: 1.3em;
+	line-height: 1.6em;
 }
 
 .body_ h2 { margin: 0; }
@@ -143,7 +144,7 @@ h2#tagline {
 
 .body_ #tier3 {
 	position: absolute;
-	top: 1987px;
+	top: 1907px;
 	padding: 60px 0 90px 0;
 	background: #333;
 	color: #f7f7f7;
@@ -194,7 +195,7 @@ h2#tagline {
 
 #footer_home .footer {
 	position: absolute;
-	top: 2440px;
+	top: 2360px;
 	z-index:4;
 }
 
