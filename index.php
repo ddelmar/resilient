@@ -21,7 +21,7 @@
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p>
-				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll spend eight weeks building their own websites, exploring web development as a means of improving their communities.
+				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. They'll build their own websites, exploring web development as a means of improving their communities.
 			</p>
 				<p>
 		<b>It's good for the student</b><br />
