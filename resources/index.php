@@ -1,8 +1,8 @@
 <?php /* require_once("includes/password_protect.php") */?>
-<?php include('includes/head.php'); ?>
+<?php include('_assets/includes/head.php'); ?>
 
 
-<?php require_once("includes/nav.php"); ?>
+<?php require_once("_assets/includes/nav.php"); ?>
 
 
 <div class="content_right">	
@@ -13,14 +13,14 @@
 	
 
 
-<h1 class="orange_copy"><span class="cat">Resilient Coders</span></h1>
+<h1 class="orange_copy"><span class="cat">Resources and Examples</span></h1>
 
 	<div class="margin4pc">
 		<p>
-			Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. Here's all sorts of content. 
+Here are some snippets of code that you can can copy and paste into your HTML and CSS files to see how they work. You'll find a bunch of examples to help get you started building your own.
 		</p>
 	</div><!-- /margin4pc -->
 </div><!-- /content_log -->
 
-<?php include('includes/footer.php'); ?>
+<?php include('_assets/includes/footer.php'); ?>
 

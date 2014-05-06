@@ -1,21 +1,24 @@
-<?php include('../includes/head.php'); ?>
+<?php include('../_assets/includes/head.php'); ?>
 
 
-<?php require_once("../includes/nav.php"); ?>
+<?php require_once("../_assets/includes/nav.php"); ?>
 
 
 <div class="content_right">	
-	<div class="margin4pc hidden" id="compose">
-
-	<div class="clr"></div>
-	</div><!-- /margin4pc -->
-	
-
-
 <h1 class="orange_copy"><span class="cat">HTML Overview</span></h1>
 
 	<div class="margin4pc">
-		<div class="example_code">	
+		<section>
+			<h3>What does HTML even look like?</h3>
+			<p>It's just a series of "tags" that you'd write in order to render "elements" like paragraphs, images, links, and other stuff. For example, if you want to render a paragraph, you might write something like this in your document: </p>
+			<pre>&lt;p&gt;Here's a paragraph.&lt;/p&gt;</pre><br /><br />
+			<p>If you want to show a link, it looks like this:</p>
+			<pre>&lt;a href="http://google.com"&gt;This will render a link to Google&lt;/a&gt;</pre><br /><br />
+			<p>Any website you're on, you can "View Source," and see the HTML (or "markup") that renders all the stuff you see on the website. It will look sort of like the example below. Copy and paste that example into your text file, and then save that file with a name like "index.html." Then if you drag that file into a browser like Chrome or Firefox, you'll see a very simple website.</p>
+		
+		</section>
+		<section>
+			<h3>HTML</h3>	
 		<pre>
 &lt;!doctype&gt;
 &lt;html&gt;
@@ -58,9 +61,9 @@
 &lt;script type="text/javascript" src="/j/nbw-parallax.js"&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-		</pre>
+		</section>
 		</div>
 </div><!-- /margin4pc -->
 </div><!-- /content_log -->
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../_assets/includes/footer.php'); ?>

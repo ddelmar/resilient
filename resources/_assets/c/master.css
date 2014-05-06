@@ -81,9 +81,11 @@ h2 {
 }
 
 h3 {
-	font-weight:100;
-	font-size: .08em;
+	font-weight: 100;
+	font-size: 1.8em;
+	text-align: left;
 	width: 100%;
+	padding: 0 0 8% 0;
 }
 
 h4 {
@@ -100,6 +102,14 @@ h4#name {
 	color: white;
 }
 
+section {
+	border-top: 1px solid #fff;
+	padding: 8% 0;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
 p {
 	font-size: .9em;
 	color:#333;
@@ -108,7 +118,6 @@ p {
 }
 
 pre {
-	float: left;
 }
 
 ul, li, ol { list-style-type: none; }
