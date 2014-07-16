@@ -1,19 +1,13 @@
-<?php include_once("includes/head.php") ?>
-<div id="pos" style="display:none; position: fixed; top: 10px; left:0; z-index:9999; ">Nope</div>
+<?php include_once("../includes/head.php") ?>
+<?php include_once("../includes/logo_nav.php") ?>
 
 
 
 <div id="container">
 
-<div id="header">
-	<section>
-	<h1>Resilient Coders</h1>
-	</section>
-</div><!-- /header -->
 
 <div id="tier2">
 	<section>
-		<?php include_once("includes/logo_nav.php") ?>
 		
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
@@ -50,13 +44,7 @@ for public progress. We love solving hard problems; particularly those that matt
 	</section>
 </div><!-- /tier3 -->
 
-	<div id="intro"></div> <!--#intro-->
-<div id="overlaid"></div> <!--#overlaid-->
-<div id="underlaid"></div> <!--#underlaid-->
-
-<div id="footer_home">
-	<?php include_once("includes/footer.php") ?>
-</div>
+<?php include_once("../includes/footer.php") ?>
 </div><!-- container -->
 
 

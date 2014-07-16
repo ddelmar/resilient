@@ -21,12 +21,7 @@ body{
 }
 
 h1 {
-	font-family: "league gothic", helvetica;
 	font-size: 6em;
-	text-transform: uppercase;
-	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
-	color: white;
-	-webkit-font-smoothing: antialiased;
 }
 
 h2 {
@@ -46,9 +41,8 @@ h3 {
 ::::::::::::::::
 */
 
-.body_ p{
+.body_ p {
 	margin: 0 0 20px 0;	
-	font-size: 1.6em;
 }
 
 .body_ h2 { margin: 0; }
@@ -64,15 +58,13 @@ h2#tagline {
 	the height of this div determines how long the scroll is.
 	Make sure to also edit the JS
 	*/
-	height:500px;
+	height:400px;
 	width:100%;
 	position: absolute;
 	top:0;
 	left:0;
 	z-index:194;
 }
-
-#logo { display:none;}
 
 #overlaid{
 	/*
@@ -131,7 +123,7 @@ h2#tagline {
 
 .body_ #tier2 {
 	position: absolute;
-	top: 600px;
+	top: 500px;
 	text-align: center;
 	width: 100%;
 	padding: 60px 0 90px 0;
@@ -141,7 +133,7 @@ h2#tagline {
 
 .body_ #tier3 {
 	position: absolute;
-	top: 1550px;
+	top: 1200px;
 	padding: 60px 0 90px 0;
 	background: #333;
 	color: #f7f7f7;
@@ -169,32 +161,13 @@ h2#tagline {
 	color: #ccc;
 }
 
-.product a.resilient { 
-	/* background: url(http://delmarsenties.s3.amazonaws.com/resilient/busstop_thumb.jpg) center top no-repeat; */
-	background-size: 100% auto;
-}
-
-.product a.brass { 
-	/* background: url(http://delmarsenties.s3.amazonaws.com/resilient/brass_thumb.png) center top no-repeat; */
-	background-size: 100% auto;
-	margin: 0 0 0 12px;
-}
-
-.product a h3 {
-	margin: 0px auto 20px auto;
-}
-
-.product > p {
-	margin: 30px 0 0 0 ;
-}
-
 #footer_home .footer {
 	position: absolute;
-	top: 2040px;
+	top: 1600px;
 	z-index:4;
 }
 
-.body_ .footer {
+.footer {
 	background: #333;
 	color: #ccc;
 	border-top: 1px solid #4e4e4e;
@@ -206,16 +179,6 @@ h2#tagline {
 ::: PAGES ::::
 ::::::::::::::::
 */
-
-.body_rlab #header {
-	width: 100%;
-	height: 300px;
-	background-image: url(http://delmarsenties.s3.amazonaws.com/resilient/hero2_clear.jpg);
-	background-position: center 70%;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
 
 #container {
 	margin: 140px auto 0px auto;

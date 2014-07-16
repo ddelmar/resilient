@@ -41,11 +41,7 @@ if (($(document).width()) < 768){
 			
 	//function that places the navigation in the center of the window
 	function RepositionNav(){
-		var windowHeight = $window.height(); //get the height of the window
-		var navHeight = $('#nav').height() / 2;
-		var windowCenter = (windowHeight / 2); 
-		var newtop = windowCenter - navHeight;
-		$('#nav').css({"top": newtop}); //set the new top position of the navigation list
+		
 	}
 	
 	//function that is called for every pixel the user scrolls. Determines the position of the background
@@ -73,7 +69,20 @@ if (($(document).width()) < 768){
 		
 		if (($(document).width()) < 1025){
 		} else {
-
+			/*
+			This only happens in desktop
+			*/
+			$("#pos").html(pos);
+			$overlaidBG.css({"opacity": (pos * 0.005)});
+			$tagline.css({"opacity": (pos * 0.002)});
+			if(pos > 1100){
+				$(".body_ .logo_nav").addClass("fixed");
+			} else {
+				$(".body_ .logo_nav").removeClass("fixed");
+			}
+			/*
+			This was the bit that faded in the second and third divs 
+			 
 		//if the second section is in view...
 		if($('#tier2').hasClass("inview")){
 			$tier2.css({"opacity": ((pos - 420) * 0.004)});
@@ -81,11 +90,10 @@ if (($(document).width()) < 768){
 		if($('#tier3').hasClass("inview")){
 			$tier3.css({"opacity": ((pos - 1260) * 0.004)});
 		}
+			*/
 } // end of the conditional
 		
-		$("#pos").html(pos);
-		$overlaidBG.css({"opacity": (pos * 0.005)});
-		$tagline.css({"opacity": (pos * 0.002)});
+		
 	}
 
 	RepositionNav(); //Reposition the Navigation to center it in the window when the script loads

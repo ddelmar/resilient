@@ -32,7 +32,7 @@
 	background: #d24836;
 }
 
-.nav, .footer {
+.navig, .footer {
 	width: 100%;
 	background: #4e4e4e;
 	display: block;float: left;
@@ -68,7 +68,7 @@
 </style>
 <div class="container">
 	<div class="header"><p>Header</p></div>
-	<div class="nav"><p>Nav</p></div>
+	<div class="navig"><p>Nav</p></div>
 	<div class="content">
 		<div class="content_main"><p>Content</p></div>
 		<div class="content_sidebar"><p>Sidebar</p></div>
@@ -84,7 +84,7 @@
 <pre>
 &lt;div class="container"&gt;
 	&lt;div class="header"&gt;&lt;p&gt;Header&lt;/p&gt;&lt;/div&gt;
-	&lt;div class="nav"&gt;&lt;p&gt;Nav&lt;/p&gt;&lt;/div&gt;
+	&lt;div class="navig"&gt;&lt;p&gt;Nav&lt;/p&gt;&lt;/div&gt;
 	&lt;div class="content"&gt;
 		&lt;div class="content_main"&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/div&gt;
 		&lt;div class="content_sidebar"&gt;&lt;p&gt;Sidebar&lt;/p&gt;&lt;/div&gt;
@@ -119,7 +119,7 @@
 	background: #d24836;
 }
 
-.nav, .footer {
+.navig, .footer {
 	width: 100%;
 	background: #4e4e4e;
 	display: block;float: left;

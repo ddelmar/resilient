@@ -26,3 +26,9 @@ $(document).ready(function(){
 </head>
 
 <body class="<?php echo $pagetitle; ?>">
+<style>
+#nav li a.<?php echo $uri_clean; ?> { 
+	border-bottom: 4px solid #ed1b24; 
+}
+</style>
+			

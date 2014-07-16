@@ -7,6 +7,9 @@
 /* #General styles
 ================================================== */
 
+/* red: #ed1b24; */
+
+
 @font-face {
     font-family: 'league gothic';
     src: url('/f/LeagueGothic.otf');
@@ -30,15 +33,34 @@ body {
 	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: center;
 	margin:0 auto;
-	background: #f7f7f7;
+	background: #f2f2f2;
 	font-size: 81.25%;
+}
+
+h1 {
+	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+h2 {
+	font-size: 4em;
+	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3 {
+	font-size: 2em;
 }
 
 h2 {
 	margin: 1.2em 0 .5em 0;
 }
 
-.body_ p { text-align: left; }
+p { text-align: left; }
 
 ul, ol, li { list-style-type:none; }
 
@@ -48,33 +70,11 @@ a { text-decoration:none; color:#666; }
 
 a:hover { text-decoration:none; color:#0093c2; }
 
-#tier3 {
-	text-align: center;
-	width: 100%;
-}
-
-#tier3 .product p {text-align: justify;}
-
-#logo a {
-background-image: url(http://delmarsenties.s3.amazonaws.com/resilient/resilient_logo.png);
-background-position: center top;
-background-repeat: no-repeat;
-display: block;
-overflow: hidden;
-text-indent: -999px;
-}
-
 .footer {
 	text-align: center;
 	width: 100%;
 	padding: 12px 0;
 }
-
-/*
-::::::::::::::::
-::: PAGES ::::
-::::::::::::::::
-*/
 
 p {
 margin: 0 0 20px 0;
@@ -88,30 +88,66 @@ b, i, a {font-size: 1em; }
 
 b {font-weight: bold; }
 
-#nav {
-	z-index: 0;
+#logo {
+	float: left;
+	background: #ed1b24;
+	padding: 12px;
+}
+
+#logo a img {
+	width: 80px;
+}
+
+.logo_nav {
 	position: fixed;
 	top: 0px;
 	width: 100%;
 	float: left;
-	z-index:4;
-	padding: 12px;
+	z-index:8;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
-	background: #f7f7f7;
+	background: white;
 }
 
-#nav a {
+.body_ .logo_nav {
+	position: absolute;
+}
+
+.logo_nav.fixed {position:fixed;}
+
+#nav li {
+	float: left; 
+	margin: 2.7em 1em;
+}
+
+#nav li a {
 	font: 2.2em "league gothic", helvetica;
 	text-transform: uppercase;
-	color: #333;
-	-webkit-font-smoothing: antialiased;
-	
+	color: #ed1b24;
+	-webkit-font-smoothing: antialiased;	
 }
 
 p a {
 	border-bottom: 1px dotted #666;
 }
 
-.body_rlab .footer, .body_brass .footer {
-	padding-top: 80px;
+
+
+/*
+::::::::::::::::
+::: HOME ::::
+::::::::::::::::
+*/
+
+
+
+
+#tier3 {
+	text-align: center;
+	width: 100%;
+}
+
+#tier3 .product p {text-align: justify;}
+
+.body_ #tier2 h2 {
+	margin: 100px 0 0 0;
 }
