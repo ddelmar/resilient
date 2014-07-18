@@ -7,13 +7,13 @@
 		
 		<ul id="nav">
 			<li>
-				<a class="program" href="/program/">The Program</a>
+				<a class="Program" href="/program/">The Program</a>
 			</li>
 			<li>
-				<a class="students" href="/students/">The Students</a>
+				<a class="Students" href="/students/">The Students</a>
 			</li>
 			<li>
-				<a class="you" href="/you/">You</a>
+				<a class="You" href="/you/">You</a>
 				<?php /* I want to get involved as a : student // volunteer // partner // donor // */ ?>
 			</li>
 		

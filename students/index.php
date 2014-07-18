@@ -2,47 +2,80 @@
 <?php include_once("../includes/logo_nav.php") ?>
 
 
-
+<div class="hero"></div>
 <div id="container">
+
 
 
 <div id="tier2">
 	<section>
 		
-		<h2>Hacking the opportunity gap</h2>
+		<h2>The Coders</h2>
 		<div class="product">
 			<p>
-				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. Each student builds his or her own website, coached along by a web professional.
+Coding can be a medium of self-expression and self-discovery. Below are some examples of sites built by our student coders over the course of eight hours. These are the fruits of their hard work: their research, their self-directed learning, their collaborative problem-solving, and ultimately, their implementation. 
 			</p>
-				<p>
-		<b>It's good for the student</b><br />
-		A student could have an innate gift for web development, and just never have an opportunity to explore it. He may not have the right role model, or live in a community that values it. If we were to just introduce the basics to these kids, we might awaken the curiosity of one such student, and begin to bridge the opportunity gap in that one case.
-		<br /><br />
-		<b>The tech world needs these kids</b><br />
-		While 7% of Americans can't find work, the tech industry still struggles to find talent. There simply aren't enough people in the workforce to satisfy a market hungry for certain skill sets. The local tech community stands to benefit from an investment in programs that expand the talent pool, and open the doors to young people from communities traditionally underrepresented in technology.
+			<p>
+This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.trinityinspires.org/teep/" target="_blank">Trinity Education for Excellence Program,</a> at which Resilient Coders is offered as a class. Students are encouraged to collaborate. They help each other when they're stuck, and they share ideas. 
 	
-				</p>
+			</p>
+			<p>Lorenzo, having just scraped a site, is lending Jahvon a second pair of eyes to make sure his image references are absolute.
 		</div>
+	</section>
+	<section>
+		<ul class="student_gallery">
+			<li>
+				<a href="/students/201406/adriana/" target="_blank">Adriana's site features her dance videos</a>
+			</li>
+			<?php /*
+			<li>
+				<a href="/students/201406/andre/" target="_blank">Andre compares Lebron with Kevin Durant</a>
+			</li>
+			*/ ?>
+			<li>
+				<a href="/students/201406/angelica/" target="_blank">Angie's site is about style and fashion</a>
+			</li>
+			<li>
+				<a href="/students/201406/bolivar/" target="_blank">Bolivar's site is for real magicians only</a>
+			</li>
+			<li>
+				<a href="/students/201406/cobey/" target="_blank">Cobey wants to help you dress better</a>
+			</li>
+			<li>
+				<a href="/students/201406/dakhari/" target="_blank">Check Dakhari's site for his thoughts on games</a>
+			</li>
+			<?php /*
+			<li>
+				<a href="/students/201406/detaun/" target="_blank">Detaun</a>
+			</li>
+			*/ ?>
+			<li>
+				<a href="/students/201406/erik/" target="_blank">Erik and his brother remix songs they find online</a>
+			</li>
+			<?php /*
+			<li>
+				<a href="/students/201406/jahvon/" target="_blank">Jahvon</a>
+			</li>
+			*/ ?>
+			<li>
+				<a href="/students/201406/khendra/" target="_blank">Khendra's site is all about Jordans</a>
+			</li>
+			<li>
+				<a href="/students/201406/lina/" target="_blank">Lina's site features her swim team</a>
+			</li>
+			<li>
+				<a href="/students/201406/nelson/" target="_blank">Nelson wants to teach how to make nougat</a>
+			</li>
+			<li>
+				<a href="/students/201406/oscar/" target="_blank">For Oscar, it's all about soccer</a>
+			</li>
+			<li>
+				<a href="/students/201406/rebecca/" target="_blank">Rebecca &#60;3 Candy</a>
+			</li>
+		</ul>
 	</section>
 </div><!-- /tier2 -->
 
-<div id="tier3">
-	<section>
-		<div class="product">
-		<h2>
-			Who we are
-		</h2>
-		<p>
-Resilient Coders is run by Civica.io. We build web products that do public good. We partner with
-government agencies and with social change-makers to advance a mutual vision of technology as a tool
-for public progress. We love solving hard problems; particularly those that matter most to the community.</p>
-
-<p>Start a project with us. Or volunteer with Resilient Coders. Drop us a note at <a href="mailto:david@civica.io">david@civica.io.</a></p>
-
-		</p>
-		</div>
-	</section>
-</div><!-- /tier3 -->
 
 <?php include_once("../includes/footer.php") ?>
 </div><!-- container -->

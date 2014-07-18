@@ -56,10 +56,6 @@ h3 {
 	font-size: 2em;
 }
 
-h2 {
-	margin: 1.2em 0 .5em 0;
-}
-
 p { text-align: left; }
 
 ul, ol, li { list-style-type:none; }
@@ -76,12 +72,12 @@ a:hover { text-decoration:none; color:#0093c2; }
 	padding: 12px 0;
 }
 
-p {
-margin: 0 0 20px 0;
+p { margin: 0 0 20px 0;}
+
+p, li {
 font-size: 1.2em;
 line-height: 1.4;
 text-align:left;
-color: ;
 }
 
 b, i, a {font-size: 1em; }
@@ -108,15 +104,10 @@ b {font-weight: bold; }
 	background: white;
 }
 
-.body_ .logo_nav {
-	position: absolute;
-}
-
 .logo_nav.fixed {position:fixed;}
 
 #nav li {
 	float: left; 
-	margin: 2.7em 1em;
 }
 
 #nav li a {
@@ -127,10 +118,11 @@ b {font-weight: bold; }
 }
 
 p a {
-	border-bottom: 1px dotted #666;
+	color: #ed1b24;
 }
 
-
+section,
+.footer {float: left;}
 
 /*
 ::::::::::::::::
@@ -139,7 +131,11 @@ p a {
 */
 
 
+.body_ .logo_nav {
+	position: absolute;
+}
 
+.body_ section {float: none;}
 
 #tier3 {
 	text-align: center;
@@ -150,4 +146,65 @@ p a {
 
 .body_ #tier2 h2 {
 	margin: 100px 0 0 0;
+}
+
+.body_ #tier3 h2 {
+	margin: 1.2em 0 .5em 0;
+}
+
+
+/*
+::::::::::::::::
+::: PAGES ::::
+::::::::::::::::
+*/
+.hero {
+	width: 100%;
+	margin: 100px auto 0 auto;
+	display: block;
+	float: left;
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+}
+
+.body_students h2,
+.body_program h2,
+.body_you h2 {
+	margin: -40px 0 40px 0;
+	color: #ed1b24;
+	padding: .4em 0;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+}
+
+/*
+STUDENTS
+*/
+
+.body_students section {
+	width:100%;
+	margin: 2em 0 0 0;
+}
+
+ul.student_gallery li a {
+	width: 96%;
+	padding: 2% 0 2% 4%;
+	font-size: 1em;
+	display: block;
+}
+
+ul.student_gallery li a {
+	background-color: #dadada;
+}
+
+ul.student_gallery li a:hover,
+ul.student_gallery li:nth-child(2n+2) a:hover {
+	color: white;
+	background-color: #ed1b24;
+}
+
+ul.student_gallery li:nth-child(2n+2) a {
+background-color: #e5e5e5;
 }
