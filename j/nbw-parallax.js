@@ -75,7 +75,7 @@ if (($(document).width()) < 768){
 			$("#pos").html(pos);
 			$overlaidBG.css({"opacity": (pos * 0.005)});
 			$tagline.css({"opacity": (pos * 0.002)});
-			if(pos > 1100){
+			if(pos > 700){
 				$(".body_ .logo_nav").addClass("fixed");
 			} else {
 				$(".body_ .logo_nav").removeClass("fixed");

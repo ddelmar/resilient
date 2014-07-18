@@ -12,15 +12,14 @@
 </div><!-- /header -->
 
 <div id="tier2">
-	<section>
+	
 		<?php include_once("includes/logo_nav.php") ?>
-		
+	<section>	
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p>
 				Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. Each student builds his or her own website, coached along by a web professional.
-			</p>
-				<p>
+			<br /><br />
 		<b>It's good for the student</b><br />
 		A student could have an innate gift for web development, and just never have an opportunity to explore it. He may not have the right role model, or live in a community that values it. If we were to just introduce the basics to these kids, we might awaken the curiosity of one such student, and begin to bridge the opportunity gap in that one case.
 		<br /><br />
@@ -39,24 +38,22 @@
 			Who we are
 		</h2>
 		<p>
-Resilient Coders is run by Civica.io. We build web products that do public good. We partner with
+Resilient Coders is run by David Delmar, of Civica.io. We build web products that do public good. We partner with
 government agencies and with social change-makers to advance a mutual vision of technology as a tool
-for public progress. We love solving hard problems; particularly those that matter most to the community.</p>
+for public progress. We love solving hard problems; particularly those that matter most to the community.
+<br /><br />
+Start a project with us. Or volunteer with Resilient Coders. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br /></p>
 
-<p>Start a project with us. Or volunteer with Resilient Coders. Drop us a note at <a href="mailto:david@civica.io">david@civica.io.</a></p>
-
-		</p>
 		</div>
 	</section>
+	<?php include_once("includes/footer.php") ?>
+	
 </div><!-- /tier3 -->
 
 	<div id="intro"></div> <!--#intro-->
 <div id="overlaid"></div> <!--#overlaid-->
 <div id="underlaid"></div> <!--#underlaid-->
 
-<div id="footer_home">
-	<?php include_once("includes/footer.php") ?>
-</div>
 </div><!-- container -->
 
 

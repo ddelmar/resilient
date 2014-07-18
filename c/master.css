@@ -90,10 +90,6 @@ b {font-weight: bold; }
 	padding: 12px;
 }
 
-#logo a img {
-	width: 80px;
-}
-
 .logo_nav {
 	position: fixed;
 	top: 0px;
@@ -104,14 +100,14 @@ b {font-weight: bold; }
 	background: white;
 }
 
-.logo_nav.fixed {position:fixed;}
+.body_ .logo_nav.fixed {position:fixed;}
 
 #nav li {
 	float: left; 
 }
 
 #nav li a {
-	font: 2.2em "league gothic", helvetica;
+	font-family: "league gothic", helvetica;
 	text-transform: uppercase;
 	color: #ed1b24;
 	-webkit-font-smoothing: antialiased;	
@@ -123,6 +119,8 @@ p a {
 
 section,
 .footer {float: left;}
+
+.footer {padding-top:4em;}
 
 /*
 ::::::::::::::::
@@ -140,12 +138,13 @@ section,
 #tier3 {
 	text-align: center;
 	width: 100%;
+	z-index:4;
 }
 
 #tier3 .product p {text-align: justify;}
 
 .body_ #tier2 h2 {
-	margin: 100px 0 0 0;
+	margin: 100px 0 30px 0;
 }
 
 .body_ #tier3 h2 {
@@ -160,7 +159,6 @@ section,
 */
 .hero {
 	width: 100%;
-	margin: 100px auto 0 auto;
 	display: block;
 	float: left;
 	background-size: 100% auto;

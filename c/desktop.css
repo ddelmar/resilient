@@ -10,10 +10,18 @@ body{
 	
 }
 
-#nav li {
-	margin: 2.7em 1em;
+#logo a img {
+	width: 80px;
 }
 
+#nav li {
+	margin: 2em 1em;
+	box-shadow: none;
+}
+
+#nav li a {
+	font-size: 1.8em;	
+}
 
 /*
 ::::::::::::::::
@@ -22,9 +30,6 @@ body{
 */
 
 .body_ p{
-	margin: 0 0 20px 0;	
-	font-size: 1.3em;
-	line-height: 1.6em;
 }
 
 .body_ h2 { margin: 0; }
@@ -96,6 +101,12 @@ h2#tagline {
 	margin: 0;
 }
 
+.body_ section {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .body_ #header {
 	width: 70%;
 	margin: 400px 0 0 -35%;
@@ -119,22 +130,20 @@ h2#tagline {
 
 .body_ #tier3 {
 	position: absolute;
-	top: 1507px;
-	padding: 60px 0 90px 0;
+	top: 1357px;
+	padding: 0px;
 	background: #333;
 	color: #f7f7f7;
 }
 
 #footer_home .footer {
-	position: absolute;
-	top: 1960px;
-	z-index:4;
+	
 }
 
 .body_ .footer {
 	background: #333;
 	color: #ccc;
-	border-top: 1px solid #4e4e4e;
+	padding-top: 40px;
 }
 
 
@@ -155,8 +164,10 @@ h2#tagline {
 
 .hero {
 	height: 400px;
-	margin: 100px auto;
-	
+	margin: 100px auto 0 auto;
 }
 
 .body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.jpg);}
+.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.jpg);}
+.body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
+

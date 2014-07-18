@@ -1,60 +1,196 @@
-#intro, #overlaid, #underlaid, h2#tagline { display:none; }
 
-* {
-	font: 14px Helvetica;
+/*
+*****************************
+This stylesheet has deviated from desktop.css
+
+*****************************
+*/
+
+
+
+
+@charset "utf-8";
+
+* {margin:0; padding:0;}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #ededed;
+	
 }
 
-h1 {font: 6em "league gothic"; text-transform: uppercase; margin: 0 0 30px 0}
+h1 {
+	font-size: 2em;
+}
 
 h2 {
-	font: 1em "carton";
+	font-size: 2em;
+	font-family: "brix", helvetica;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3 {
+	font-size: 2em;
 }
 
 #nav li {
-	margin: 1em;
+	margin: 1.2em 1em;
 }
 
-h2#tagline, h3 { font: bold 14px Helvetica; }
+#nav li a {
+	font-size: 1.2em;	
+}
 
-#logo a {
-	background-size: 100%;
-	width: 300px;
-	height: 113px;
-	text-align: center;
+#logo a img {
+	width: 40px;
+}
+
+
+
+/*
+::::::::::::::::
+::: HOME ::::
+::::::::::::::::
+*/
+
+.body_ p {
+	margin: 0 0 20px 0;	
+}
+
+.body_ h2 { margin: 0; }
+
+h2#tagline {
+	margin: 300px 0 0 0 ;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 1px;
+}
+
+.body_ #intro{
+	/*
+	the height of this div determines how long the scroll is.
+	Make sure to also edit the JS
+	*/
+
+}
+
+#overlaid{
+	/*
+	This is the image that fades in 
+	*/
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;
+	color: white;
+	height: 600px;
 	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
-div {width: 100%; float: left; display: block;}
-
-#container {
-	width: 90%;
-	padding: 5%;
-	margin: 60px auto 0px auto;
+#underlaid{
+	/*
+	This is the bottom image 
+	*/
+	z-index:1;
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 0 ;
+	background-attachment: fixed;	color: white;
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
 }
 
 .body_ #container {
-	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	z-index:4;
+	margin: 0;
 }
 
-#tier2, #tier3 {
-	width:100%;
-	padding: 20px 0 0 0;
-	}
+.body_ #header {
+	width: 70%;
+	margin: 100px 0 0 -35%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	background: transparent;
+	z-index: 4;
+}
 
-.product {width:100%;}
-
-#tier2 .product a {
+.body_ #tier2 {
+	position: absolute;
+	top: 200px;
+	text-align: center;
 	width: 100%;
-	float: left;
-	padding: 12px 0;
-	margin: 12px 0 0 0;
-	color: #ccc;
+	padding: 0 0 90px 0;
+	z-index: 3;
+	background: #f7f7f7;
+}
+
+.body_ #tier3 {
+	position: absolute;
+	top: 1100px;
 	background: #333;
+	color: #f7f7f7;
 }
 
-#footer_home, .footer {
-	width: 100%;
-	padding: 12px 0 0 0;
+.body_ #tier2 p,
+.body_ #tier3 p { padding: 5%; }
+
+#footer_home .footer {
+	position: absolute;
+	top: 1500px;
+	z-index:4;
+}
+
+.body_ .footer {
+	background: #333;
+	color: #ccc;
+	border-top: 1px solid #4e4e4e;
+}
+
+
+/*
+::::::::::::::::
+::: PAGES ::::
+::::::::::::::::
+*/
+
+#container {
+	margin: 140px auto 0px auto;
+	width: 800px;
+}
+
+#tier2 img {width: 100%; }
+
+
+
+#container {
+	margin: 0px 5%;
+	width: 90%;
 }
 
 #tier2 img {width:75%; }
+
+.hero {
+	height: 200px;
+	margin: 60px auto 0 auto;
+	
+}
+
+.body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj_640.jpg);}
+.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed_640.jpg);}
+.body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk_640.jpg);}
+

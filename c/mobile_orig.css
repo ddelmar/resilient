@@ -1,0 +1,60 @@
+#intro, #overlaid, #underlaid, h2#tagline { display:none; }
+
+* {
+	font: 14px Helvetica;
+}
+
+h1 {font: 6em "league gothic"; text-transform: uppercase; margin: 0 0 30px 0}
+
+h2 {
+	font: 1em "carton";
+}
+
+#nav li {
+	margin: 1em;
+}
+
+h2#tagline, h3 { font: bold 14px Helvetica; }
+
+#logo a {
+	background-size: 100%;
+	width: 300px;
+	height: 113px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div {width: 100%; float: left; display: block;}
+
+#container {
+	width: 90%;
+	padding: 5%;
+	margin: 60px auto 0px auto;
+}
+
+.body_ #container {
+	margin: 0 auto;
+}
+
+#tier2, #tier3 {
+	width:100%;
+	padding: 20px 0 0 0;
+	}
+
+.product {width:100%;}
+
+#tier2 .product a {
+	width: 100%;
+	float: left;
+	padding: 12px 0;
+	margin: 12px 0 0 0;
+	color: #ccc;
+	background: #333;
+}
+
+#footer_home, .footer {
+	width: 100%;
+	padding: 12px 0 0 0;
+}
+
+#tier2 img {width:75%; }
