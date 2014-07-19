@@ -8,7 +8,7 @@
 
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
 
-<link href="http://resilientcoders.org/c/master.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Special+Elite|Chewy|Rock+Salt|UnifrakturMaguntia' rel='stylesheet' type='text/css'>
 </head>
 <style>
 body.Bolivar{
@@ -17,11 +17,24 @@ color:white;
 
 background-color:blue;
 }
-h2 {margin:.7em;}
+h2 {
+font-size:2em;
+margin:.7em;
+font-family: 'UnifrakturMaguntia', cursive;
+}
+h1 {font-size:2em;
+font-family: 'Kavoon', cursive;
+}
+h3 
+{
+font-family: 'Fruktur', cursive;
+}
+
+
 </style>
 <body class="Bolivar">
-	<h1> Magic </h1>
-	<h2>Horces only</h2>
+	<h1> MAGIC </h1>
+	<h2>horces only intruders beware</h2>
 	<h3>REAL MAGICIANS ONLY</h3>
 
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/QDeGJgOvddc" frameborder="0" allowfullscreen></iframe>
@@ -38,11 +51,10 @@ h2 {margin:.7em;}
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/MmH7YgU4Rw4" frameborder="0" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/ysQibMbGapo" frameborder="0" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/mJXPvJjRJNE" frameborder="0" allowfullscreen></iframe>
-	<div id="links" class="highlight">Here's another div. Remember, each ID should only appear once.
+	
 		<ul>
 			<li><a href="/">My name is Bolivar and this website is for learning magic tricks</a></li>
-			<li><a href="http://resilientcoders.org">This is an absolute link to the homepage.</a></li>
-			<li><a href="mailto:david@resilientcoders.org?subject=Hey">This is a link to send me an email.</a></li>
+		
 		</ul>
 	</div><!-- End of the div -->
 

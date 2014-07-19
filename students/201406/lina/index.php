@@ -9,6 +9,7 @@
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
 
 <link href="http://resilientcoders.org/c/master.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script|Amatic+SC|Pacifico' rel='stylesheet' type='text/css'>
 </head>
 <title>Dorchester House</title>
 <style>
@@ -23,6 +24,16 @@ width: 500px;
 .stingray{
 width: 300px;
 }
+h1 {
+font-family: 'Pacifico', cursive;
+}
+h2 {
+font-family: 'Amatic SC', cursive;
+}
+h3 {
+font-family: 'Dancing Script', cursive;
+}
+
 </style>
 
 <title>This is the title of the page</title>

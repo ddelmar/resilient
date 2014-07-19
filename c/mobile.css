@@ -35,7 +35,7 @@ h3 {
 }
 
 #nav li {
-	margin: 1.2em 1em;
+	margin: 1.2em 0.6em;
 }
 
 #nav li a {
@@ -88,7 +88,7 @@ h2#tagline {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	z-index: 2;
+	z-index: -1;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -98,7 +98,7 @@ h2#tagline {
 	/*
 	This is the bottom image 
 	*/
-	z-index:1;
+	z-index:-2;
 	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -129,36 +129,32 @@ h2#tagline {
 	z-index: 4;
 }
 
+.body_ #tier2,
+.body_ #tier3 {
+	float: left;
+}
+
 .body_ #tier2 {
-	position: absolute;
-	top: 200px;
-	text-align: center;
 	width: 100%;
-	padding: 0 0 90px 0;
-	z-index: 3;
+	margin: 200px 0 0 0;
+	padding: 50px 0 90px 0;
 	background: #f7f7f7;
 }
 
 .body_ #tier3 {
-	position: absolute;
-	top: 1100px;
 	background: #333;
 	color: #f7f7f7;
 }
 
+.body_ #tier2 h2 { margin:0; }
+.body_ #tier3 h2 { margin:1.2em 0 0 0; }
+
 .body_ #tier2 p,
 .body_ #tier3 p { padding: 5%; }
-
-#footer_home .footer {
-	position: absolute;
-	top: 1500px;
-	z-index:4;
-}
 
 .body_ .footer {
 	background: #333;
 	color: #ccc;
-	border-top: 1px solid #4e4e4e;
 }
 
 
@@ -185,7 +181,7 @@ h2#tagline {
 #tier2 img {width:75%; }
 
 .hero {
-	height: 200px;
+	height: 160px;
 	margin: 60px auto 0 auto;
 	
 }

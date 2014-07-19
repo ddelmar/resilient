@@ -136,6 +136,14 @@ h2#tagline {
 	color: #f7f7f7;
 }
 
+.body_ #tier2 h2 {
+	margin: 100px 0 30px 0;
+}
+
+.body_ #tier3 h2 {
+	margin: 1.2em 0 .5em 0;
+}
+
 #footer_home .footer {
 	
 }

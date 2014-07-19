@@ -153,6 +153,14 @@ h2#tagline {
 .body_ #tier2 p,
 .body_ #tier3 p { padding: 5%; }
 
+.body_ #tier2 h2 {
+	margin: 100px 0 30px 0;
+}
+
+.body_ #tier3 h2 {
+	margin: 1.2em 0 .5em 0;
+}
+
 #footer_home .footer {
 	position: absolute;
 	top: 1550px;
