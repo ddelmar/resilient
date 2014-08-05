@@ -52,7 +52,7 @@ width:25%;
 display:square;
 }
 </style>  
-<title> My own dance life...<3 </title>
+<title> Adriana's Website <3  </title>
 <body class="Adriana">
 	<h1 class="heading"> Adriana Alexandra De La Rosa..... d1s bee AdRi@na's p@g3 wech ouT.</h1>
 	
@@ -64,7 +64,6 @@ display:square;
 		<ul>
 			<li></li>
 			<li class="subtitle">There once was a time where I had to stop physically dancing, but I did not stop menatally learning dance...<3</li>
-		</ul>
 		<img class="me"  src=http://31.media.tumblr.com/tumblr_lydcbiCdcS1ro54cvo1_500.jpg  />
 		<iframe class="dance"width="420" height="315" src="http://www.youtube.com/embed/SfpekbI48VY" frameborder="0" allowfullscreen></iframe>
 		<iframe class="house"width="560" height="315" src="http://www.youtube.com/embed/e3NjFJZ0nUk" frameborder="0" allowfullscreen></iframe>

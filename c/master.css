@@ -45,26 +45,31 @@ h1 {
 	-webkit-font-smoothing: antialiased;
 }
 
-h2 {
-	font-size: 4em;
+h2, h3 {
 	font-family: "league gothic", helvetica;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 }
 
-h3 {
-	font-size: 2em;
-}
+h2 {font-size: 4em;}
+
+h3 {font-size: 3em; margin: 1em; width:90%; float: left;}
+
+h4 {color: #ed1b24;}
 
 p { text-align: left; }
 
 ul, ol, li { list-style-type:none; }
+
+ul#nav {float: left;}
 
 img {border:none;}
 
 a { text-decoration:none; color:#666; }
 
 a:hover { text-decoration:none; color:#0093c2; }
+
+.red { color: #ed1b24; }
 
 .footer {
 	text-align: center;
@@ -113,7 +118,7 @@ b {font-weight: bold; }
 	-webkit-font-smoothing: antialiased;	
 }
 
-p a {
+p a, li a {
 	color: #ed1b24;
 }
 
@@ -161,7 +166,8 @@ section,
 
 .body_students h2,
 .body_program h2,
-.body_you h2 {
+.body_you h2,
+.body_roadmap h2 {
 	margin: -40px 0 40px 0;
 	color: #ed1b24;
 	padding: .4em 0;
@@ -169,24 +175,33 @@ section,
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
 }
 
+.body_roadmap h2 {margin: -40px 0 0 0;}
+
 /*
 STUDENTS
 */
 
-.body_students section {
+.body_students section,
+.body_roadmap section {
 	width:100%;
 	margin: 2em 0 0 0;
 }
 
+ul.student_gallery li.title,
 ul.student_gallery li a {
 	width: 96%;
 	padding: 2% 0 2% 4%;
-	font-size: 1em;
 	display: block;
+}
+
+ul.student_gallery li.title {
+	background-color: #333;
+	color: #fff;
 }
 
 ul.student_gallery li a {
 	background-color: #dadada;
+	color: #333;
 }
 
 ul.student_gallery li a:hover,
@@ -197,4 +212,21 @@ ul.student_gallery li:nth-child(2n+2) a:hover {
 
 ul.student_gallery li:nth-child(2n+2) a {
 background-color: #e5e5e5;
+}
+
+.meta {
+	color: #666;
+	padding: 0 1em 0 0;
+	/* color: #ed1b24; */
+}
+
+/*
+::::::::::::::::
+::: ROADMAP ::::
+::::::::::::::::
+*/
+
+.body_roadmap section li {
+	list-style-type: disc;
+	padding: 0 0 1em 0;
 }

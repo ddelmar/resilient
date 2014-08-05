@@ -6,9 +6,18 @@
 <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <meta name="directions" content="Here's the directions for the site" />
 
-<link href="/c/master.css" rel="stylesheet" type="text/css" />
 
-<link href="http://resilientcoders.org/c/master.css" rel="stylesheet" type="text/css" />
+<style> .nelson{
+	font: Helvetica;
+	background:light gray;
+	color: white;
+background-image:url(http://www.barcelonapoint.com/en/blog/files/2012/10/Turron.jpg);
+background-size:100%;
+background-attachment:fixed;
+text-align:center;
+	}
+	</style>
+
 </head>
 
 <title>Turron is Delicous</title>
@@ -18,7 +27,7 @@
 	<h3>It's Spanish!</h3>
 
 	<div>
-	<p></p>
+	     <p></p>
 		<ul>Ingredints for some Nougat
 			<li>:D  (>'_'<)   (0_o)    (T.T)</li>
 			<li>1. 1 3/4 cup roasted almond slivers</li>
@@ -46,34 +55,56 @@
 		<li>Quickly pour the turron mixture into a parchment paper lined dish. Place another piece of parchment paper
 		<li>directly on top of the mixture which will allow you to press it down and prevent anything from sticking to it.
 		<li>6. Cool in the refrigerator for 2-3 hours before slicing.
-		<li>TOO MANY INSTRUCTIONS! :(      (- . -)      (T.T)       (0_o)        (<'_')       (>'.'<)          (>'o'<)        :D          XD
+		<li>TOO MANY INSTRUCTIONS! : (      (-  .  -)      (T.T)       (0_o)        (< '_')       (>'.'<)          (>'o'<)        :D          XD
 	</ul>
 		<img src="http://www.vitadelia.com/images/2009/12/Turron.jpg" alt="TURRON! DELICOUS" />
+		<ul>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+		<li>heres some music hope you like
+		<li>- - - - - - - - - - - - - - - - - - - - - - - - - 
+		</ul>
 		
-		<form action="" method="post">
-Comments HERE:<br />
-<textarea name="comments" id="comments">
-SAY STUFF HERE!NEVER MIND YOU CAN'T! 
-</textarea><br />
-<input type="submit" value="Submit" />
-</form>
-	
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/LQU9RFTR_84" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/7sSarLmx-8s" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/4kFMZ3SEMbk" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/eErwpZb5upM" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/lszy3G0M-ks" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/IuugowyR6yQ" frameborder="0" allowfullscreen></iframe>
+		
+		<iframe width="640" height="360" src="http://www.youtube.com/embed/eHQeYxPpeh0" frameborder="0" allowfullscreen></iframe>
+		<ul>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		<li>I lurve music :3 (To bad no TURRON song)
+		<li>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+		</ul>
+		
+	        <form method='post'>
+		NAME: <input type='text' name='name' id='name'/><br />
+		
+		EMAIL: <input type='text' name='email' id='email'/><br />
+		
+		WEBSITE: <input type='text' name='email'/><br />
+		
+		COMMENT:<br />
+		<textarea name='comment' id='comment' /></textarea><br />
+		
+		<input type='hidden' name='articleid' id='articleid' valu='<? echo $_GET["id"]; ?>' />
+		<input type='submit' value='submit' />
+        </form>		
 	<div id="links" class="highlight">Here are a couple of links
 		<ul>
 			<li><a href="/there's no link here ">don't click this it does nothing.</a></li>
-			<li><a href="file:///C:/Users/student/Desktop/nelson.html">This is an absolute link to the same page.</a></li>
-			<li><a href="mailto:fljaljlgjfj@gmail.com?subject=Hey">This is a link to send me an email.</a></li>
+			
+			<li><a href="mailto:gangerex@gmail.com?subject=Hey">This is a link to send me an email.</a></li>
 		</ul>
 	</div>
     
-<script type="text/javascript" src="/j/nbw-parallax.js"></script>
 </body>
 </html>
 
 
-<style> .nelson{
-	font- Helvetica;
-	background:light gray;
-	color: brown;
-	}
-	</style>
+
+

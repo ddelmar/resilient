@@ -5,15 +5,18 @@
 	<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml" /> 
 	<meta name="HandheldFriendly" content="True" /> 
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<meta property="og:title" content="Hacking the opportunity gap" />
+	<meta property="og:site_name" content="Resilient Coders"/>
+	<meta property="og:url" content="http://resilientcoders.org" />
+	<meta property="og:image" content="https://delmarsenties.s3.amazonaws.com/resilient/logo_redBG.jpg" />
+
+	<meta property="og:description" content="Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. Each student builds his or her own website, coached along by a web professional." />
+	
+	
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="http://delmarsenties.s3.amazonaws.com/resilient/favicon.gif" />
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-});
-</script>
 <title><?php 
 	$uri = "{$_SERVER['REQUEST_URI']}";
 	$uri_clean = ucwords(basename($uri));

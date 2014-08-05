@@ -33,6 +33,19 @@ color: white;
 		<ul>This is an "unordered list." BUt you will still find the song you want to listen to.
 		</ul>
 		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/vrz5NEfCSgk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form> 
 		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/xAFGPSyeGkg" frameborder="0" allowfullscreen></iframe>
 		<form method='post'>
   NAME: <input type='text' name='name' id='name' /><br />
@@ -122,7 +135,7 @@ color: white;
 
   <input type='submit' value='Submit' />  
 </form>
-		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/D2qkHNDssvQ" frameborder="0" allowfullscreen></iframe>
+		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/8Touj9ZY8Qs" frameborder="0" allowfullscreen></iframe>
 		<form method='post'>
   NAME: <input type='text' name='name' id='name' /><br />
 
@@ -242,25 +255,104 @@ color: white;
 
   <input type='submit' value='Submit' />  
 </form>
-		<iframe width="640" height="360" 
-		<iframe width="640" height="360" 
-		<iframe width="640" height="360" 
-		<iframe width="640" height="360" 
+		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/o8UCI7r1Aqw" frameborder="0" allowfullscreen></iframe>
+		<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/Ytz-Xr7BDNc" frameborder="0" allowfullscreen></iframe>
+			<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/ybnPZOgl--Q" frameborder="0" allowfullscreen></iframe> 
+			<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+		<iframe width="640" height="360" src="HTTP://www.youtube.com/embed/JXbRe6Iqxr8" frameborder="0" allowfullscreen></iframe> 
+			<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+		<iframe width="640" height="360"src="HTTP://www.youtube.com/embed/KDlDOgFz_KA" frameborder="0" allowfullscreen></iframe>
+					<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+		<iframe width="640" height="360"src="HTTP://www.youtube.com/embed/IrHZe7d9PzI" frameborder="0" allowfullscreen></iframe> 
+						<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment' /></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+
+
+
+
+
 	</div><!-- End of the div -->
 
-	
 
-	
-	<div id="links" class="highlight">http://youtu.be/vrz5NEfCSgk
-		<ul>
-			<li><a href="/">This is a relative link to our website's "root."</a></li>
-			<li><a href="http://resilientcoders.org">This is an absolute link to the homepage.</a></li>
-			<li><a href="mailto:david@resilientcoders.org?subject=Hey">This is a link to send me an email.</a></li>
-		</ul>
-	</div><!-- End of the div -->
-
-<!-- This is a JavaScript file -->
-<script type="text/javascript" src="/j/nbw-parallax.js"></script>
 </body>
 </html>
 		

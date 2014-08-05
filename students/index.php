@@ -16,7 +16,7 @@
 Coding can be a medium of self-expression and self-discovery. Below are some examples of sites built by our student coders over the course of eight hours. These are the fruits of their hard work: their research, their self-directed learning, their collaborative problem-solving, and ultimately, their implementation. 
 			</p>
 			<p>
-This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.trinityinspires.org/teep/" target="_blank">Trinity Education for Excellence Program,</a> at which Resilient Coders is offered as a class. Students are encouraged to collaborate. They help each other when they're stuck, and they share ideas. 
+This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.trinityinspires.org/teep/" target="_blank">Trinity Education for Excellence Program,</a> at which Resilient Coders is offered as a class. Students are encouraged to collaborate. They help each other when they're stuck, and they share ideas. You'll notice that many websites within a single class will share common elements, as the students learn from and inspire each other.
 	
 			</p>
 			<p>Lorenzo, having just scraped a site, is lending Jahvon a second pair of eyes to make sure his image references are absolute.
@@ -24,6 +24,9 @@ This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.t
 	</section>
 	<section>
 		<ul class="student_gallery">
+			<li class="title">
+				<span class="meta">07.2014</span> Eight hours to build a simple site 
+			</li>
 			<li>
 				<a href="/students/201406/adriana/" target="_blank">Adriana's site features her dance videos</a>
 			</li>
