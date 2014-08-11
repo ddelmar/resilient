@@ -13,7 +13,7 @@
 				<a class="Students" href="/students/">The Students</a>
 			</li>
 			<li>
-				<a class="You" href="/you/">You</a>
+				<a class="You" href="/you/">Get involved</a>
 				<?php /* I want to get involved as a : student // volunteer // partner // donor // */ ?>
 			</li>
 		

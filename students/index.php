@@ -45,6 +45,9 @@ This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.t
 				<a href="/students/201406/cobey/" target="_blank">Cobey wants to help you dress better</a>
 			</li>
 			<li>
+				<a href="/students/201406/cyrus/" target="_blank">Cyrus's site is about Pein and the Great Ninja War</a>
+			</li>
+			<li>
 				<a href="/students/201406/dakhari/" target="_blank">Check Dakhari's site for his thoughts on games</a>
 			</li>
 			<?php /*
@@ -55,11 +58,9 @@ This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.t
 			<li>
 				<a href="/students/201406/erik/" target="_blank">Erik and his brother remix songs they find online</a>
 			</li>
-			<?php /*
 			<li>
-				<a href="/students/201406/jahvon/" target="_blank">Jahvon</a>
+				<a href="/students/201406/jahvon/" target="_blank">Jahvon's is all about basketball</a>
 			</li>
-			*/ ?>
 			<li>
 				<a href="/students/201406/khendra/" target="_blank">Khendra's site is all about Jordans</a>
 			</li>
@@ -70,7 +71,7 @@ This shot of ninth-graders Lorenzo and Jahvon was taken at <a href="http://www.t
 				<a href="/students/201406/nelson/" target="_blank">Nelson wants to teach how to make nougat</a>
 			</li>
 			<li>
-				<a href="/students/201406/oscar/" target="_blank">For Oscar, it's all about soccer</a>
+				<a href="/students/201406/oscar/" target="_blank">Oscar asks, who's the best player in the league?</a>
 			</li>
 			<li>
 				<a href="/students/201406/rebecca/" target="_blank">Rebecca &#60;3 Candy</a>

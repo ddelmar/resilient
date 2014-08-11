@@ -10,7 +10,7 @@
 <div id="tier2">
 	<section>
 		
-		<h2>You</h2>
+		<h2>Get involved</h2>
 		<div class="product">
 			<p>This is Erik. He's one of our students with Trinity's Education for Excellence Program. Shortly after this photo was taken, he figured out how to implement a "comments" box on his site. He jumped up, hands in the air, and dropped his headphones on the floor. He'd figured it out. Everyone within arm's length was given a hand-stinging high five. 
 </p><p>
@@ -25,12 +25,15 @@ We're looking for coders with proficiency in HTML and CSS to spend an hour a wee
 You might be a school, a community center, or an educational program looking to incorporate Resilient Coders into your curriculum.
 </p><p>
 <b>3. Give</b><br />
-We're a <a href="http://tsne.org" title="Third Sector New England">Third Sector New England</a> company, and as such are able to accept donations. The site will be updated soon with a way to do so electronically. 
+We work with <a href="http://tsne.org" title="Third Sector New England">Third Sector New England</a> for our fiscal sponsorship, and as such are able to accept donations. 
 </p>
-<p>
-<b>4. All of the other stuff I haven't thought of</b><br />
-I don't know, you tell me. 
-</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="66U8WYDLT7C5J">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<p></p>
 <p>
 	However it is you choose to help, email me at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a> and I will dispense one hand-stinging high five, like Erik's. The kind that makes people look to make sure everyone's okay.
 </p>
