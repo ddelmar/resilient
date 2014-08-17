@@ -89,6 +89,10 @@ b, i, a {font-size: 1em; }
 
 b {font-weight: bold; }
 
+#logo_skull {
+	width: 15%;
+}
+
 #logo {
 	float: left;
 	background: #ed1b24;

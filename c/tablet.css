@@ -124,15 +124,25 @@ h2#tagline {
 	margin: 0;
 }
 
+.body_ section {
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.body_ #header section {
+	text-align: left;
+}
+
 .body_ #header {
 	width: 70%;
-	margin: 400px 0 0 -35%;
 	background: white;
 	position: absolute;
-	left: 50%;
+	left: 20px;
+	top: 20px;
 	background: transparent;
 	z-index: 4;
-}
+} 
 
 .body_ #tier2 {
 	position: absolute;

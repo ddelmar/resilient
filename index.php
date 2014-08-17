@@ -7,7 +7,7 @@
 
 <div id="header">
 	<section>
-	<h1>Resilient Coders</h1>
+	<img id="logo_skull" src="https://delmarsenties.s3.amazonaws.com/resilient/logo_skull.png" alt="Resilient Coders">
 	</section>
 </div><!-- /header -->
 
