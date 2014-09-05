@@ -197,7 +197,7 @@ Education, Quality, and Workforce Demand.</a> The Urban Institute</li>
 		</article>
 		<article>
 			<h1>3. Employment</h1>
-			<p>When our students are ready, we will launch "Resilient Lab," an actual web design and development studio, run by Resilient staff. We will have real clients. And the students, under staff guidance and supervision, will work on these projects. They will be paid for their work, on a skill-based scale.</p>
+			<p>We aim to help Boston reach <a href="http://www.bostonglobe.com/business/2014/08/17/walsh-falling-short-ambitious-goal-for-teen-jobs/WDbVb6QtsmLJ5zAzHf6C3I/story.html" target="_blank">its goals for youth employment.</a> When our students are ready, we will launch "Resilient Lab," an actual web design and development studio, run by Resilient staff. We will have real clients. And the students, under staff guidance and supervision, will work on these projects. They will be paid for their work, on a skill-based scale.</p>
 				
 		</article>	
 		
@@ -263,13 +263,51 @@ Education, Quality, and Workforce Demand.</a> The Urban Institute</li>
 		</article>
 		<article>
 			<h1>Sustainability</h1>
-			<p>Once our students have the aptitude necessary to begin charging for their work, we intend to open Resilient Lab, and begin generating revenue. Our partners Press Pass TV operate on a mixed model, and we expect to do the same.</p>
-			<p>But we need to teach them first.</p>
+			<p>Once our students have the aptitude necessary to begin charging for their work, we intend to unlock real-world employment opportunities for them by launching Resilient Lab, a web design/development studio. We expect Resilient Lab to be largely self-sufficient.</p>
+			<p>But we need to get there first.</p>
 		</article>
 		<article>
-			<h1>Keeping the lights on</h1>
+			<h1>Maximizing our Impact</h1>
+			
+			<?php 
+			/*
+			SUMMER BOOTCAMP
+			***************
+			My time
+			40hrs * $75/hr * 4wks = $12,000
+			Interns
+			40hrs * $20/hr * 4wks = $3,200
+			Student mentors
+			40hrs * $12/hr * 4wks * 2 students = $3,840
+			Total === $19,040	
+			
+			POPUP
+			******
+			My time
+			8hrs * $75 = $600
+			
+			SCHOOL YEAR
+			************
+			1st employee = $40,000
+			
+			FULL YEAR
+			*********
+			Me = $70,000
+			One employee = $60,000
+			Student mentors = $3,840
+					
+			*/
+			?>
+			
+			
 			<p>
-I've received a grant from the Police Department for $24,500. This will cover my intern and myself through the rest of 2014. In Q1 2015, I'll need to hire one full-time employee, and will need to be able to hire four student mentors for the summer bootcamp. For four students, at $15/hour for 40 hours a week for 4 weeks, I'll need $9,600. Plus $160,000 for a year's salary for myself and my employee. <b>So we're looking to raise $169,600. </b>
+I've received a grant from the Police Department for $24,500. This will cover my intern and myself through the rest of 2014. With every donation of $600, we can run a Popup cohort, in which students build their own simple websites. With a gift of $20,000 we will be able to run our summer program, in which students will gain valuable real-world professional skills, and hone their technical aptitude. And with a gift of $40,000 we will begin our expansion into Boston's Public Schools.</b>
+			</p>
+		</article>
+		<article>
+			<h1>Maximizing our Impact</h1>
+			<p>
+				With a gift of $150,000 for this first year, we can expand into the Boston Public School System, launch our summer program, and employ youth mentors.
 			</p>
 		</article>
 		
