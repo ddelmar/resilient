@@ -80,8 +80,63 @@
 		
 		
 <section>
-<h3>HTML</h3>
+<h3>HTML and CSS</h3>
 <pre>
+&lt;style&gt;
+	.container {
+		width: 100%;
+		margin: 0px auto;
+		text-align: left;
+	}
+
+	.container * {
+		margin: 6px 0;
+		color: #ffffff;
+	}
+
+	.container p {
+		padding: 12px;
+	}
+
+	.header {
+		width: 100%;
+		height: 200px;
+		background: #d24836;
+	}
+
+	.navig, .footer {
+		width: 100%;
+		background: #4e4e4e;
+		display: block;float: left;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		display: block;
+		padding: 0;
+	}
+
+	.content_main, .content_sidebar {
+		float: left;
+		display: block;
+	}
+
+	.content_main {
+		width:69%;
+		height: 300px;
+		margin: 0 1% 0 0;
+		background: #82d8eb;
+	}
+
+	.content_sidebar {
+		width: 30%;
+		height: 300px;
+		margin: 0;
+		background: #b2f1ff;
+	}
+&lt;/style&gt;
+
 &lt;div class="container"&gt;
 	&lt;div class="header"&gt;&lt;p&gt;Header&lt;/p&gt;&lt;/div&gt;
 	&lt;div class="navig"&gt;&lt;p&gt;Nav&lt;/p&gt;&lt;/div&gt;
@@ -96,65 +151,6 @@
 
 
 <section>
-<h3>CSS</h3>
-<pre>
-.container {
-	width: 100%;
-	margin: 0px auto;
-	text-align: left;
-}
-
-.container * {
-	margin: 6px 0;
-	color: #ffffff;
-}
-
-.container p {
-	padding: 12px;
-}
-
-.header {
-	width: 100%;
-	height: 200px;
-	background: #d24836;
-}
-
-.navig, .footer {
-	width: 100%;
-	background: #4e4e4e;
-	display: block;float: left;
-}
-
-.content {
-	width: 100%;
-	float: left;
-	display: block;
-	padding: 0;
-}
-
-.content_main, .content_sidebar {
-	float: left;
-	display: block;
-}
-
-.content_main {
-	width:69%;
-	height: 300px;
-	margin: 0 1% 0 0;
-	background: #82d8eb;
-}
-
-.content_sidebar {
-	width: 30%;
-	height: 300px;
-	margin: 0;
-	background: #b2f1ff;
-}
-</pre>
-</section>
-
-
-		<section>
 			<h3>Tips</h3>
 			<p>
 _ These elements have defined heights. Once they're full of content, you'll want to take out the height.<br />
