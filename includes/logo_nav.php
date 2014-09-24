@@ -16,11 +16,8 @@
 				<a class="You" href="/you/">Get involved</a>
 				<?php /* I want to get involved as a : student // volunteer // partner // donor // */ ?>
 			</li>
-		
-			<?php /*
 			<li>
-				<a href="/press/">Press</a>
+				<a class="Partners" href="/partners/">Our Partners</a>
 			</li>
-			*/ ?>
 		</ul>
 	</div>

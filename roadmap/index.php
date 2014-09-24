@@ -13,7 +13,7 @@
 		<h2>The Roadmap</h2>
 		
 		<div class="product">
-			<h3>1. Groundwork. <span class="red">Done.</span></h3>
+			<h3>Groundwork. <span class="red">Done.</span></h3>
 			<h4 class="may">05.2014</h4>
 			<ul class="may">
 				<li><b>First cohort</b> begins behind bars, in partnership with the Department of Youth Services</li>
@@ -34,17 +34,20 @@
 				<li>Website overhauled, with student content</li>				
 			</ul>
 			
+			<h3>Big wins from the summer and fall</h3>
+			<h4 class="fall">Summer and Fall 2014</h4>
+			<ul class="fall">
+				<li>We have been selected to join TUGG</li>
+				<li>We won TUGG's Tech Gives Back event, and took home $50k in funding</li>
+				<li>We have started a cohort at Community Academy, our first forray into Boston Public Schools</li>
+			</ul>
 			
-			<h3>2. Building the coalition. <span class="red">Yet To Do.</span></h3>
-			<h4 class="august">08.2014</h4>
-			<ul class="august">
-				<li>Establish a board</li>
-				<li>Submit a proposal to <a href="http://www.cityofboston.gov/news/Default.aspx?id=12723" target="_blank">the Mayor's RFI</a> for the Roxbury Innovation Center. This involves establishing a coalition of tech educators who would share the space, as well as lining up a brain trust of folks involved in the build up of the Boston tech community</li>
-				<li>Submit a letter of intent to The Boston Foundation</li>
-				<li>Begin an awareness campaign for the need for volunteers</li>
-				<li>Continue to leverage relationships with:<br />
-					<b>Schools,</b> to source students. <b>Universities,</b> to source volunteers. <b>Community organizations,</b> to source students and space. <b>The local tech community,</b> to source space, volunteers, speakers, and (potentially) funding
-				</li>
+			
+			<?php /*
+			<h3>2. Starting to Scale. <span class="red">Now.</span></h3>
+			<h4 class="fall">Fall 2014</h4>
+			<ul class="fall">
+				<li>We have submitted a proposal to <a href="http://www.cityofboston.gov/news/Default.aspx?id=12723" target="_blank">the Mayor's RFI</a> for the Roxbury Innovation Center. This involves establishing a coalition of tech educators who would share the space, as well as lining up a brain trust of folks involved in the build up of the Boston tech community</li>
 				
 			</ul>
 			
@@ -60,8 +63,9 @@
 				<li>Once we have a sense for what our relationships with schools and community centers will look like in terms of hours, we'll be able to ramp up recruitment efforts, and finalize our "More hours, more code" curriculum. This will be based on the values outlined in <a href="https://delmarsenties.s3.amazonaws.com/resilient/RCCurriculum.pdf" target="_blank">this proposal</a> drafted for us by <a href="https://www.linkedin.com/profile/view?id=4306733" target="_blank">Tammy Sanders</a> and her team for the Startup Institute IdeaHack. It's a three-prong approach: (1) Learn to code (2) Personal and professional development (3) Business plan development</li>
 			</ul>
 			
-			
-			<h3>4. The Ultimate Vision. <span class="red">Yet To Do.</span></h3>
+	*/
+	?>		
+			<h3>The Ultimate Vision. <span class="red">Yet To Do.</span></h3>
 			<h4 class="spring">Spring 2015</h4>
 			<ul class="spring">
 				<li>Semester-long classes, two or three times a week. This may be either at community centers or at schools</li>

@@ -96,7 +96,6 @@ b {font-weight: bold; }
 #logo {
 	float: left;
 	background: #ed1b24;
-	padding: 12px;
 }
 
 .logo_nav {
@@ -171,7 +170,8 @@ section,
 .body_students h2,
 .body_program h2,
 .body_you h2,
-.body_roadmap h2 {
+.body_roadmap h2,
+.body_partners h2 {
 	margin: -40px 0 40px 0;
 	color: #ed1b24;
 	padding: .4em 0;

@@ -215,15 +215,15 @@ Education, Quality, and Workforce Demand.</a> The Urban Institute</li>
 		</article>
 		
 		<article>
-			<h1>Early Successes, 3 months in</h1>
+			<h1>Early Successes, 5 months in</h1>
 			<p>
-				We've just been selected to join the new cohort of <a href="http://tugg.org" target="_blank">TUGG.</a> 
+				We've been selected to join the new cohort of <a href="http://tugg.org" target="_blank">TUGG,</a> and we won their "Tech Gives Back" event, bringing home <b>$50,000 in funding.</b> 
 			</p>
 			<p>
 				We were selected for <a href="http://bostinno.streetwise.co/2014/06/26/startup-institutes-24-hour-ideahack-to-bolster-the-next-generation-of-resilient-coders/" target="_blank">the Startup Institute's IdeaHack.</a>
 			</p>
 			<p>
-				And we've been awarded a grant from the Boston Police Department.</p>
+				And we've been awarded two grants from the Boston Police Department.</p>
 				
 		</article>
 		
@@ -269,45 +269,45 @@ Education, Quality, and Workforce Demand.</a> The Urban Institute</li>
 		<article>
 			<h1>Maximizing our Impact</h1>
 			
-			<?php 
-			/*
-			SUMMER BOOTCAMP
-			***************
-			My time
-			40hrs * $75/hr * 4wks = $12,000
-			Interns
-			40hrs * $20/hr * 4wks = $3,200
-			Student mentors
-			40hrs * $12/hr * 4wks * 2 students = $3,840
-			Total === $19,040	
-			
-			POPUP
-			******
-			My time
-			8hrs * $75 = $600
-			
-			SCHOOL YEAR
-			************
-			1st employee = $40,000
-			
-			FULL YEAR
-			*********
-			Me = $70,000
-			One employee = $60,000
-			Student mentors = $3,840
-					
-			*/
-			?>
-			
-			
 			<p>
-I've received a grant from the Police Department for $24,500. This will cover my intern and myself through the rest of 2014. With every donation of $600, we can run a Popup cohort, in which students build their own simple websites. With a gift of $20,000 we will be able to run our summer program, in which students will gain valuable real-world professional skills, and hone their technical aptitude. And with a gift of $40,000 we will begin our expansion into Boston's Public Schools.</b>
-			</p>
-		</article>
-		<article>
-			<h1>Maximizing our Impact</h1>
-			<p>
-				With a gift of $150,000 for this first year, we can expand into the Boston Public School System, launch our summer program, and employ youth mentors.
+We've received a grant from the Police Department for $24,500, to be used to teach behind bars. We've also won TUGG's Tech Gives Back event, and took home a $50,000 donation, which will help us start teaching at Boston Public Schools. We're off to a good start, but we have plans to do more. </p>
+</article>
+<article>
+	
+	<?php 
+	/*
+	SUMMER BOOTCAMP
+	***************
+	My time
+	40hrs * $75/hr * 4wks = $12,000
+	Interns
+	40hrs * $20/hr * 4wks = $3,200
+	Student mentors
+	40hrs * $12/hr * 4wks * 2 students = $3,840
+	Total === $19,040	
+	
+	POPUP
+	******
+	My time
+	8hrs * $75 = $600
+	
+	SCHOOL YEAR
+	************
+	1st employee = $40,000
+	
+	FULL YEAR
+	*********
+	Me = $70,000
+	One employee = $60,000
+	Student mentors = $3,840
+			
+	*/
+	?>
+	
+	
+	<p>
+		<h1>Maximizing our Impact</h1>
+			<b>With every donation of $600, we can run a Popup cohort.</p> This means a class of students will build their own simple websites. With a gift of $20,000 we will be able to run our summer program, in which students will gain valuable real-world professional skills, and hone their technical aptitude.</b>
 			</p>
 		</article>
 		

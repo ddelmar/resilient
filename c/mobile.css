@@ -39,7 +39,11 @@ h3 {
 }
 
 #nav li a {
-	font-size: 1.2em;	
+	font-size: .8em;	
+}
+
+#logo {
+	padding: 12px 2px;
 }
 
 #logo a img {
@@ -193,5 +197,6 @@ h2#tagline {
 .body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj_640.jpg);}
 .body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed_640.jpg);}
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk_640.jpg);}
+.body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg_640.jpg);}
 .body_roadmap .hero { height: 40px;}
 

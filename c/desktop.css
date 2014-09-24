@@ -10,6 +10,10 @@ body{
 	
 }
 
+#logo {
+	padding: 12px;
+}
+
 #logo a img {
 	width: 80px;
 }
@@ -184,6 +188,7 @@ h2#tagline {
 .body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.jpg);}
 .body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.jpg);}
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
+.body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg.jpg);}
 .body_roadmap .hero { height: 60px;}
 
 /*
@@ -193,7 +198,7 @@ h2#tagline {
 */
 
 .body_roadmap h4, 
-.body_roadmap ul {
+.body_roadmap .product ul {
 	float: left;
 	width: 46%;
 	display:block;
