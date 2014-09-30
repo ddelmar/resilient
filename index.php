@@ -35,14 +35,17 @@
 	<section>
 		<div class="product">
 		<h2>
-			Who we are
+			Learning by failing
 		</h2>
 		<p>
-Resilient Coders is run by David Delmar, of Civica.io. We build web products that do public good. We partner with
-government agencies and with social change-makers to advance a mutual vision of technology as a tool
-for public progress. We love solving hard problems; particularly those that matter most to the community.
-<br /><br />
-Start a project with us. Or volunteer with Resilient Coders. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br /></p>
+Our approach to coding is a little different from traditional education. We learn by doing things wrong. We scrape, we tweak, we break. And then we iterate, each time failing smarter than the last. Our objective is not a scholastic one; we aim to acquire a skill that can gainfully employ someone who has the resilience to learn by failure. 
+		</p>
+		<p>
+			<b>Better ROI.</b> Young people will invest their talent and energy wherever they see most opportunity for return. And while talent and energy are broadly consistent across neighborhoods, opportunities are not. So youth in underserved communities invest accordingly, "hustling" wherever they see the most chance for personal success. We present ourselves as another option: Hustle smarter. The same character traits that get a student kicked out of school can make him successful, if he sees an opportunity. They say you shouldn't try to stop a runaway train, when you can just switch the tracks and still leverage all that good momentum. </p>
+			
+<p>
+Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br />
+</p>
 
 		</div>
 	</section>
