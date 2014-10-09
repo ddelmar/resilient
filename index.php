@@ -47,6 +47,12 @@ Our approach to coding is a little different from traditional education. We lear
 Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br />
 </p>
 
+			<?php 
+			require_once('includes/twitter.php');
+		
+			?>
+
+
 		</div>
 	</section>
 	<?php include_once("includes/footer.php") ?>

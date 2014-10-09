@@ -307,7 +307,8 @@ We've received a grant from the Police Department for $24,500, to be used to tea
 	
 	<p>
 		<h1>Maximizing our Impact</h1>
-			<b>With every donation of $600, we can run a Popup cohort.</p> This means a class of students will build their own simple websites. With a gift of $20,000 we will be able to run our summer program, in which students will gain valuable real-world professional skills, and hone their technical aptitude.</b>
+			<p>
+				<b>With every donation of $600, we can run a Popup cohort.</b> This means a class of students will build their own simple websites. With a gift of $20,000 we will be able to run our summer program, in which students will gain valuable real-world professional skills, and hone their technical aptitude.</b>
 			</p>
 		</article>
 		

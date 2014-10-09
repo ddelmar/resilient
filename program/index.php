@@ -13,20 +13,38 @@
 		<h2>The Program</h2>
 		<div class="product">
 			<p>
-				
-Resilient Coders <span class="highlight">is brand new.</span> But we're off to a running start. We gave our first class behind bars in May of this year, and have since been making friends. We're immensely grateful for the enthusiastic early support (financial or otherwise) of our partners in the Boston Police Department, Mayor's Office of New Urban Mechanics, Trinity Boston Foundation, Department of Youth Services, and others in Boston's City Hall. We've also been lucky enough to have received plenty of help from our friends at Startup Institute Boston.
-</p><p>
 
-We like to think of the program as being <span class="highlight">adaptive</span> to the needs of our partners. In a corrections facility, the program is eight weeks long, for an hour a week. Whereas our summer program is four weeks long, twice a week, and based out of community centers. This photo was taken at one such center, with our partner, Trinity's Education for Excellence Program (TEEP). 
-</p><p>
-When we begin working with schools, the program will be longer, and the curriculum will be more robust. And by this time next year, we hope to have achieved the scale necessary to transition to a four-part model: 
-</p><p>
-&bull;&nbsp;&nbsp; School year 1: After school studies<br />
-&bull;&nbsp;&nbsp; Summer 1: Tech bootcamp<br />
-&bull;&nbsp;&nbsp; School year 2: Student mentors at after school studies<br />
-&bull;&nbsp;&nbsp; Summer 2: Internship placement, or mentoring at Tech bootcamp</p><p>
+<h3>Three-Part Program</h3>
 
-Currently, our students learn the basic tenets of HTML and CSS. They're coached along by a web professional as they learn by doing. There's a community of web developers working today who have learned what they know by tinkering; by building, breaking, problem solving, and building anew. We believe this to be the best way to learn. This is the spirit of Resilient Coders.
+<img src="https://delmarsenties.s3.amazonaws.com/resilient/3model.svg" class="program_3model" />
+
+<h3>1. Popup ("Teaser") Cohort.</h3>
+<p>
+These are partner-based cohorts, taught at <b>schools, correctional facilities, and community centers.</b> They are often part of an existing program, and allow us to source students for our Coworking initiative. The objective is to spark an interest in technology, and recruit interested students. A Popup cohort is eight hours long. Usually 1 hour a week for 8 weeks, or 2 hours a week for 4 weeks. Students are expected to produce a simple HTML/CSS website. You can see examples of work produced during a Popup Cohort on our <a href="/students">students page.</a>
+</p>
+<p>
+To help us keep the mission sustainable, we invite our supporters and our partners to make a one-time donation to help us bring Resilient to a particular school or community center.
+</p>
+
+<h3>2. Coworking</h3>
+<p>We believe in "HOMAGO," which stands for "Hang Out. Mess Around. Geek Out." Seymour Paert's learning theory of Constructionism stipulates that the best learning happens when you have hands-on experience, as well as room for exploration, thinking and reflection, rather than transmission of knowledge from teacher to student. Coworking presents our students with an opportunity to hang out in a safe space together, meet other young coders, and interact with tech professionals as they further explore web development at their pace. Coworking also provides an opportunity for employment for our higher performers, as they earn a stipend to mentor newer students. 
+</p>
+
+<h3>3. Resilient Lab</h3>
+<p>This is a web design and development studio operated by more experienced youth. They work with a client to build a microsite or web application, for pay. Clients are encouraged to treat this as an opportunity to play an active role in the student's learning experience. Ideally, a client company will provide a technical volunteer who will help coach the students through the task. The student then gains real experience building product, and develops a relationship with a mentor working in the field.
+</p>
+
+<h3>The Big Picture</h3>
+<p>
+A student's growth through Resilient Coders would look like this:</p>
+<ul>
+<li>She attends a Resilient Coders class offered at her school. 
+</li><li>After the 8 weeks are over, she joins us downtown for Coworking after school.
+</li><li>She's hired as a mentor.
+</li><li>She works as part of a team, for a real client.
+	</li>
+</ul>
+
 </p>
 		</div>
 	</section>
