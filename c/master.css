@@ -37,6 +37,8 @@ body {
 	font-size: 81.25%;
 }
 
+img {display: block;}
+
 h1 {
 	font-family: "league gothic", helvetica;
 	text-transform: uppercase;
@@ -98,7 +100,7 @@ b {font-weight: bold; }
 	background: #ed1b24;
 }
 
-.logo_nav {
+#logo_nav {
 	position: fixed;
 	top: 0px;
 	width: 100%;
@@ -108,15 +110,21 @@ b {font-weight: bold; }
 	background: white;
 }
 
-.body_ .logo_nav.fixed {position:fixed;}
+.body_ #logo_nav.fixed {position:fixed;}
 
 #nav li {
 	float: left; 
 }
 
 #nav li a {
-	font-family: "league gothic", helvetica;
+	/* 
+	font-family: "league gothic", helvetica; 
 	text-transform: uppercase;
+	
+	font-family: bold "Roboto Slab", serif;
+	*/
+	font-family: Helvetica;
+	font-size: 1em;
 	color: #ed1b24;
 	-webkit-font-smoothing: antialiased;	
 }
@@ -137,7 +145,7 @@ section,
 */
 
 
-.body_ .logo_nav {
+.body_ #logo_nav {
 	position: absolute;
 }
 
@@ -171,13 +179,16 @@ section,
 .body_program h2,
 .body_you h2,
 .body_roadmap h2,
-.body_partners h2 {
+.body_partners h2,
+.body_lab h2 {
 	margin: -40px 0 40px 0;
 	color: #ed1b24;
 	padding: .4em 0;
 	background: white;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
 }
+
+img.program_3model {float: left;}
 
 .body_roadmap h2 {margin: -40px 0 0 0;}
 

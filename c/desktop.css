@@ -11,7 +11,7 @@ body{
 }
 
 #logo {
-	padding: 12px;
+	padding: 8px;
 }
 
 #logo a img {
@@ -28,6 +28,9 @@ body{
 #nav li a {
 	font-size: 1.8em;	
 }
+
+#logo_nav > .mobileonly,
+.mobileonly {display: none;}
 
 /*
 ::::::::::::::::
@@ -182,13 +185,14 @@ h2#tagline {
 
 .hero {
 	height: 400px;
-	margin: 100px auto 0 auto;
+	margin: 80px auto 0 auto;
 }
 
 .body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.jpg);}
 .body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.jpg);}
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
 .body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg.jpg);}
+.body_lab .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao.jpg);}
 .body_roadmap .hero { height: 60px;}
 
 /*

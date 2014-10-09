@@ -76,9 +76,9 @@ if (($(document).width()) < 768){
 			$overlaidBG.css({"opacity": (pos * 0.005)});
 			$tagline.css({"opacity": (pos * 0.002)});
 			if(pos > 700){
-				$(".body_ .logo_nav").addClass("fixed");
+				$(".body_ #logo_nav").addClass("fixed");
 			} else {
-				$(".body_ .logo_nav").removeClass("fixed");
+				$(".body_ #logo_nav").removeClass("fixed");
 			}
 			/*
 			This was the bit that faded in the second and third divs 

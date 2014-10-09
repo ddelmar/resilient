@@ -15,8 +15,12 @@
 	
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="http://delmarsenties.s3.amazonaws.com/resilient/favicon.gif" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/j/resilient.js"></script>
+<script type="text/javascript" src="/j/nbw-parallax.js"></script>
+
 <title><?php 
 	$uri = "{$_SERVER['REQUEST_URI']}";
 	$uri_clean = ucwords(basename($uri));
@@ -31,7 +35,8 @@
 <body class="<?php echo $pagetitle; ?>">
 <style>
 #nav li a.<?php echo $uri_clean; ?> { 
-	border-bottom: 4px solid #ed1b24; 
+	/* border-bottom: 4px solid #ed1b24; */
+	color: #999;
 }
 </style>
 			
