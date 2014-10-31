@@ -1,0 +1,212 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Team</title>
+
+<style>
+	.team, .partners{
+		float: left;
+		width: 100%;
+	}
+	.team ul, .partners ul{
+		float: left;
+		width: 50%;
+		list-style: none;
+	}
+	.team li, .partners li{
+		line-height: 0;
+	}
+	.team li a, .team li a.unselected, .partners li a, .partners li a.unselected{
+		border: 1px solid transparent;
+		display: block;
+		float: left;
+		margin: 0 auto;
+		width: 24%;
+	}
+	.team li a:hover, .team li a.unselected:hover, .partners li a:hover, .partners li a.unselected:hover{
+		border: 1px solid #999;
+		display: block;
+		float: left;
+		margin: 0 auto;
+		width: 24%;
+	}
+	.team li a img, .partners li a img{
+		width: 100%;
+	}
+	.team_hiddenCopy, .partners_hiddenCopy{
+		display: none;
+		
+	}
+	.team_writeup, .partners_writeup{
+		float: left;
+		text-align: left;
+		
+		padding: 20px 0 0 30px;
+		width: 40%;
+	}
+	.clr {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    clear: both;
+	    height: 1px;
+	    width: 100%;
+	}
+
+</style>
+<script src="jquery.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+		$(".team_photos a").click(function(){
+		var thisclass = $(this).parent().attr("class");
+		var thiscontent = $(".team_hiddenCopy ." + thisclass).html();
+		var thisSiblings = $(this).parent().siblings();
+//		alert(thisSiblings);
+		$(thisSiblings).children().removeClass("selected").addClass("unselected");
+		$(".team_photos ." + thisclass + " a").addClass("selected");
+		$(".team_writeup").html(thiscontent);
+	});
+	$(".partners_photos a").click(function(){
+			var thisclass = $(this).parent().attr("class");
+			var thiscontent = $(".partners_hiddenCopy ." + thisclass).html();
+			var thisSiblings = $(this).parent().siblings();
+	//		alert(thisSiblings);
+			$(thisSiblings).children().removeClass("selected").addClass("unselected");
+			$(".partners_photos ." + thisclass + " a").addClass("selected");
+			$(".partners_writeup").html(thiscontent);
+		});
+	
+});
+
+</script>
+</head>
+<body>
+<div class="team">
+		<ul class="team_photos">
+			
+			<li class="David"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+			<li class="Tyler"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+			<li class="mentor"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+		</ul>
+
+		<div class="team_hiddenCopy">
+				<article>
+						<div class="David">
+							<h1>
+								David Delmar
+							</h1>
+							<h2>CEO, Founder</h2>
+							<div class="clr"></div>						
+							<p>
+	<a href="http://daviddelmarsenties.com">David</a> is building tomorrow's messenger.
+							</p>
+						</div><!-- /firehose -->
+				</article>
+			<article>
+					<div class="Tyler">
+						<h1>
+							Tyler Mitchell
+						</h1>
+						<h2>Fall Program Director</h2>
+						<div class="clr"></div>						
+						<p>
+<a href="http://tylerlmitchell.com">Tyler</a> is a virtual service that trains the next generation of web developers and technical talent.
+						</p>
+					</div><!-- /firehose -->
+			</article>
+			<article>
+					<div class="Mentor">
+						<h1>
+							Mentor
+						</h1>
+						
+						<div class="clr"></div>						
+						<p>
+<a href="http://tylerlmitchell.com">The Firehose Project</a> is a virtual service that trains the next generation of web developers and technical talent.
+						</p>
+					</div><!-- /firehose -->
+			</article>
+			
+		</div><!--/team_copy-->
+		<div id="s_detail"></div>
+		
+		<div class="team_writeup">
+			<h1>The team</h1><div class="clr"></div>
+			<p>
+				The Resilient Coders team</a>
+			</p>
+			
+		</div><!-- /team_writeup -->
+	</div><!-- /team -->
+<div class="partners">
+		<ul class="partners_photos">
+			
+			<li class="BPD"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+			<li class="TUGG"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+			<li class="Goulston-Storrs"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+			<li class="Allies"><a href="#s_detail" >
+				<img src="i/partners/logo_skull.png" />
+			</a></li>
+		</ul>
+
+		<div class="partners_hiddenCopy">
+				<article>
+						<div class="BPD">
+							<h1>Boston Police Department</h1>
+							<div class="clr"></div>						
+							<p>We're indebted to the BPD Grants office; particularly to Cheryl Joyce, Laura Gross, Jason Whyte, and Demon Bills. They have been early and steadfast believers in Resilient Coders, and have provided us with the funding necessary to begin teaching behind bars. 
+							</p>
+						</div><!-- /BPD -->
+				</article>
+			<article>
+					<div class="TUGG">
+						<h1>
+							Tyler Mitchell
+						</h1>
+						<div class="clr"></div>						
+						<p>Resilient Coders is one of the new members of the TUGG portfolio, and the winner of<a href="http://tugg.org/techgivesback" target="_blank">Link TextTech Gives Back 2014. </a> We're enormously grateful to TUGG, and to its supporters. 
+						</p>
+					</div><!-- /TUGG -->
+			</article>
+			<article>
+					<div class="Goulston-Storrs">
+						<h1>Goulston & Storrs</h1>
+						<div class="clr"></div>						
+						<p>Resilient Coders is one of the new members of the TUGG portfolio, and the winner of<a href="http://tugg.org/techgivesback" target="_blank">Link TextTech Gives Back 2014. </a> We're enormously grateful to TUGG, and to its supporters. 
+						</p>
+					</div><!-- /TUGG -->
+			</article>
+			<article>
+					<div class="Allies">
+						<h1>Allies</h1>
+						<div class="clr"></div>						
+						<p>We've been lucky enough to work with some great change-makers in the space, including the Trinity Boston Foundation, Press Pass TV, the Mayor's Office of New Urban Mechanics, the Startup Institute, the Boston Center for Youth and Families, and of course the Department of Youth Services.</p>
+					</div><!-- /TUGG -->
+			</article>
+			
+			
+			
+		</div><!-- /partners_copy -->
+		<div id="s_detail"></div>
+		
+		<div class="partners_writeup">
+			<h1>Start Tank partners</h1><div class="clr"></div>
+			<p>
+				The team in Start Tank are diverse as the teams themselves. From recycling and payments tech to social communities and fashion, many companies have already been awarded some high honors. Click around, and <a href="https://angel.co/jobs?slug=start-tank" title="Start Tank jobs">see which team are hiring now.</a>
+			</p>
+			
+		</div><!-- /partners_writeup -->
+	</div><!-- /partners -->
+</body>
+</html>
