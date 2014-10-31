@@ -36,7 +36,7 @@ To help us keep the mission sustainable, we invite our supporters and our partne
 
 <h3>The Big Picture</h3>
 <p>
-A student's growth through Resilient Coders would look like this:</p>
+A student's growth through Resilient Coders might look like this:</p>
 <ul>
 <li>She attends a Resilient Coders class offered at her school. 
 </li><li>After the 8 weeks are over, she joins us downtown for Coworking after school.

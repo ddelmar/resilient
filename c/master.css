@@ -106,7 +106,6 @@ b {font-weight: bold; }
 	width: 100%;
 	float: left;
 	z-index:8;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
 	background: white;
 }
 
@@ -154,11 +153,34 @@ section,
 #tier3 {
 	text-align: center;
 	width: 100%;
-	z-index:4;
+	z-index:1;
 }
 
 #tier3 .product p {text-align: justify;}
 
+/*
+::::::::::::::::
+::: HOME : TWITTER
+::::::::::::::::
+*/
+
+.product.twitter {
+	border-top: 1px solid #999;
+	padding: 40px 0;
+}
+
+.product.twitter p a {
+	font-size: .9em;
+	color: #666;
+}
+
+.product.twitter p a:hover {
+}
+
+.product.twitter a img {
+	width: 60px;
+	margin: 40px auto 0 auto;
+}
 
 /*
 ::::::::::::::::

@@ -5,7 +5,7 @@ require_once('TwitterOAuth.php');
 
 # Define constants
 define('TWEET_LIMIT', 1);
-define('TWITTER_USERNAME', 'starttank');
+define('TWITTER_USERNAME', 'resilientcoders');
 # define('HASHTAG', 'Brandathon2014');
 define('CONSUMER_KEY', 'yWCr0xcfJR3rJHh30TPir7C2k');
 define('CONSUMER_SECRET', '7HXJo9fmkdqRcTjEdaLS8xbCEqyS9VNIymOQusgkE59ugnjdW7');
@@ -37,14 +37,23 @@ $tweets = $twitter->get('statuses/user_timeline', array('screen_name' => TWITTER
 		# You'll see all available parameters
 		########################################################################
 		
-        $tweetText = $tweet['0']['text'];
+        # $tweetText = $tweet['0']['text'];
+
+$tweetText = $tweet['text'];
+
 
         # Make links active
+		
         $tweetText = preg_replace("/(http:\/\/|(www\.))(([^\s<]{4,68})[^\s<]*)/", '<a href="http://$2$3" target="_blank" >$1$2$4</a >', $tweetText);
+		
 
+		echo mb_convert_encoding(
+		    $tweetText, "HTML-ENTITIES", "UTF-8"
+		  );
+		  
 
         # Output
-        echo $tweetText;
+        // echo $tweetText;
 		// print_r($tweets);
 		
 

@@ -18,6 +18,10 @@ body{
 	width: 80px;
 }
 
+#logo_nav {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+}
+
 #nav li {
 	margin: 2.1em 1em;
 	box-shadow: none;

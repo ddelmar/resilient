@@ -46,15 +46,20 @@ Our approach to coding is a little different from traditional education. We lear
 <p>
 Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br />
 </p>
+</div>
+</section>
 
-			<?php 
-			require_once('includes/twitter.php');
+<section>
+	<div class="product twitter">
+		<p><?php /* require_once('includes/twitter.php'); */ ?></p>
+		<a href="http://twitter.com/resilientcoders">
+			<img src="https://delmarsenties.s3.amazonaws.com/resilient/tw_grey.png">
+		</a>
+	</div>
+</section>
+
+
 		
-			?>
-
-
-		</div>
-	</section>
 	<?php include_once("includes/footer.php") ?>
 	
 </div><!-- /tier3 -->
