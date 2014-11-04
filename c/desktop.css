@@ -217,3 +217,15 @@ h2#tagline {
 	margin: 0 4% 0 0;
 	line-height: 1.6em;
 }
+
+/*
+::::::::::::::::
+::: Team ::::
+::::::::::::::::
+*/
+.team{
+	height: 500px;
+}
+.partners{
+	height: 500px;
+}
