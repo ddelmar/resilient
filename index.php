@@ -3,7 +3,7 @@
 
 
 
-<div id="container">
+<div id="container_home">
 
 <div id="header">
 	<section>

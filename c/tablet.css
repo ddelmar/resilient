@@ -199,9 +199,13 @@ h2#tagline {
 ::::::::::::::::
 */
 
-#container {
-	margin: 140px auto 0px auto;
+#container,
+.container800 {
+	margin: 0px auto;
+	text-align: center;
 	width: 800px;
+	padding: 40px 0 80px 0;
+	
 }
 
 #tier2 img {width: 100%; }

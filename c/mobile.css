@@ -224,10 +224,11 @@ h2#tagline {
 
 #tier2 img {width:75%; }
 
+.body_program #tier3 p { padding: 0 5%; }
+
 .hero {
 	height: 160px;
 	margin: 60px auto 0 auto;
-	
 }
 
 .body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj_640.jpg);}

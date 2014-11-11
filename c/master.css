@@ -53,7 +53,13 @@ h2, h3 {
 	-webkit-font-smoothing: antialiased;
 }
 
-h2 {font-size: 4em;}
+h2 {font-size: 4em; 
+	/* color: #ed1b24;  RED */
+	color: #333;
+	margin: 1.6em 0;
+	}
+
+
 
 h3 {font-size: 3em; margin: 1em; width:90%; float: left;}
 
@@ -90,6 +96,9 @@ text-align:left;
 b, i, a {font-size: 1em; }
 
 b {font-weight: bold; }
+
+.hidden {display:none;}
+.visible {display: block;}
 
 #logo_skull {
 	width: 15%;
@@ -135,7 +144,7 @@ p a, li a {
 section,
 .footer {float: left;}
 
-.footer {padding-top:4em;}
+.footer {/* padding-top:4em; */}
 
 /*
 ::::::::::::::::
@@ -150,10 +159,18 @@ section,
 
 .body_ section {float: none;}
 
+.body h2 {
+	margin: 0;
+}
+
 #tier3 {
 	text-align: center;
 	width: 100%;
 	z-index:1;
+}
+
+#tier3 h2 {
+	color: #d6d6d6;
 }
 
 #tier3 .product p {text-align: justify;}
@@ -194,21 +211,12 @@ section,
 	background-size: 100% auto;
 	background-position: center top;
 	background-repeat: no-repeat;
-	
 }
 
-.body_students h2,
-.body_program h2,
-.body_you h2,
-.body_roadmap h2,
-.body_partners h2,
-.body_lab h2,
-.body_donate h2 {
-	margin: -40px 0 40px 0;
-	color: #ed1b24;
-	padding: .4em 0;
-	background: white;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px;
+#preload, #preload * {height: 0;}
+
+#container {
+	padding: 100px 0 0 0 ;
 }
 
 img.program_3model {float: left;}
@@ -257,6 +265,57 @@ background-color: #e5e5e5;
 	padding: 0 1em 0 0;
 	/* color: #ed1b24; */
 }
+
+/*
+::::::::::::::::
+::: PROGRAM ::::
+::::::::::::::::
+*/
+
+.program_nav {
+	max-width: 900px;
+	width: 100%;
+}
+
+.program_nav li a {
+	width: 13%;
+	padding: 20% 10% 12% 10%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent:-999;
+	font-size: 0;
+	line-height: 0;
+	background-color: transparent;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.program_nav li a:hover {
+	background-color: #dfdfdf;
+}
+.program_nav li a#selected {
+	background-color: #333;
+}
+
+.program_nav li a.popup,
+.program_nav li a.popup:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupTop.png");}
+.program_nav li a.popup#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupBottom.png");}
+.program_nav li a.coworking,
+.program_nav li a.coworking:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_coworkingTop.png");}
+.program_nav li a.coworking#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_coworkingBottom.png");}
+.program_nav li a.resilient,
+.program_nav li a.resilient:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientTop.png");}
+.program_nav li a.resilient#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientBottom.png");}
+
+.body_program #tier3 {
+	background: #333;
+	color: #dbdbdb;
+	margin-top: -1px;
+}
+
+
 
 /*
 ::::::::::::::::

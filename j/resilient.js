@@ -15,7 +15,7 @@ $(document).ready(function(){
 	});
 	
 
-
+// Twitter
 	var rssUrl = "http://twitrss.me/twitter_user_to_rss/?user=resilientcoders";
 	// if you want "replies" add to the URL &replies=on
 	function parseRSS(url, callback) {
@@ -34,7 +34,21 @@ $(document).ready(function(){
 	    }
 		$(".product.twitter p").html(html);
 	});
-	
+
+
+//----------- if Program pg ----------//
+	if(window.location.pathname == '/program/'){
+		$(".program_nav li a").click(function(){
+			var thisClass = $(this).attr("class");
+			var thisSibs = $(".program_nav li a:not(." + thisClass + ")");
+			var contentSiblings = $("#tier3 > * > div:not(." + thisClass + "_content)");
+			
+			$(thisSibs).attr("id","");
+			$(this).attr("id","selected");
+			$("." + thisClass + "_content").addClass("visible").removeClass("hidden");
+			$(contentSiblings).addClass("hidden").removeClass("visible");
+		});
+	}
 
 	deviceDetect();
 }); // END DOC.READY

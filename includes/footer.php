@@ -1,5 +1,4 @@
 <div class="footer">
-
 &copy;
 <script type="text/javascript">
       now = new Date
