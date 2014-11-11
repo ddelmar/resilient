@@ -38,14 +38,17 @@ $(document).ready(function(){
 
 //----------- if Program pg ----------//
 	if(window.location.pathname == '/program/'){
-		$(".program_nav li a").click(function(){
-			var thisClass = $(this).attr("class");
-			var thisSibs = $(".program_nav li a:not(." + thisClass + ")");
-			var contentSiblings = $("#tier3 > * > div:not(." + thisClass + "_content)");
+		// 
+		
+		$(".program_nav li a, #tier3 a:not('.external')").click(function(){
+			var btnClass = $(this).attr("class");
+			var btnSibs = $(".program_nav li a:not(." + btnClass + ")");
+			var content = $("#tier3 ." + btnClass + "_content");
+			var contentSiblings = $("#tier3 > * > div:not(." + btnClass + "_content)");
 			
-			$(thisSibs).attr("id","");
-			$(this).attr("id","selected");
-			$("." + thisClass + "_content").addClass("visible").removeClass("hidden");
+			$(btnSibs).attr("id","");
+			$(".program_nav li ." + btnClass).attr("id","selected");
+			$("." + btnClass + "_content").addClass("visible").removeClass("hidden");
 			$(contentSiblings).addClass("hidden").removeClass("visible");
 		});
 	}
