@@ -53,6 +53,51 @@ $(document).ready(function(){
 		});
 	}
 
+//----------- if Team pg ----------//
+	if(window.location.pathname == '/team/'){
+
+	// Wait until images are loaded before displaying them
+		var TeamImgTotal = $(".team img").size(); 	// get the number of images
+		var PartnersImgTotal = $(".partners img").size();
+		var imgCount = 0;
+		$(".team img").load(function(){
+			if(++imgCount == TeamImgTotal){
+				$(".team img, .partners img").animate({
+				"opacity":1
+				});	
+				}
+		});
+	setTimeout(function(){
+		// Force the load if it doesn't happen after 3 seconds
+		$(".team img, .partners img").css("opacity","1");
+	}, 2000);
+	
+	
+			$(".team_photos a").click(function(){
+			var thisclass = $(this).parent().attr("class");
+			var thiscontent = $(".team_hiddenCopy ." + thisclass).html();
+			var thisSiblings = $(this).parent().siblings();
+	//		alert(thisSiblings);
+			$(thisSiblings).children().removeClass("selected").addClass("unselected");
+			$(".team_photos ." + thisclass + " a").addClass("selected");
+			$(".team_writeup").html(thiscontent);
+		});
+		$(".partners_photos a").click(function(){
+				var thisclass = $(this).parent().attr("class");
+				var thiscontent = $(".partners_hiddenCopy ." + thisclass).html();
+				var thisSiblings = $(this).parent().siblings();
+		//		alert(thisSiblings);
+				$(thisSiblings).children().removeClass("selected").addClass("unselected");
+				$(".partners_photos ." + thisclass + " a").addClass("selected");
+				$(".partners_writeup").html(thiscontent);
+			});
+		
+	}
+	
+	
+	
+	
+
 	deviceDetect();
 }); // END DOC.READY
 
@@ -78,4 +123,9 @@ function mobileJS(){
 function desktopTabletJS(){
 	$(".nav_x, .nav_button").hide();
 	$("#nav").show();
+
+	// If desktop, remove anchor tag functionality
+	$(".team_photos a, .partners_photos a").click(function(){
+	 return false;	
+	});
 }
