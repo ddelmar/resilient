@@ -2,6 +2,38 @@
 <?php include_once("../includes/logo_nav.php") ?>
 
 <!--<div class="hero"></div>-->
+<div id="donate-modal">
+	<form id="shirts-form">
+		<h2>Details</h2>
+		<p>Thanks for supporting Resilient Coders! We need a few details to make sure you get the gift you want.</p>
+		<ul id="clothing">
+			<li>T-shirt</li>
+			<li>Hoodie</li>
+		</ul>
+		<ul id="size">
+			<li>Size:</li>
+			<li>S</li>
+			<li>L</li>
+			<li>XL</li>
+		</ul>
+		<ul id="color">
+			<li>white</li>
+			<li>red</li>
+		</ul>
+		<div id="address">
+			<input type="text" id="street" value="STREET ADDRESS" />
+			<input type="text" id="city" value="CITY" />
+			<input type="text" id="state" value="STATE" />
+			<input type="text" id="zip" value="ZIP" />
+		</div>
+		<ul id="newsletter">
+			<li>Join Our Newsletter?</li>
+			<li>Yes</li>
+			<li>No</li>
+		</ul>
+	
+	</form>
+</div>
 <div id="container">
 	<div id="tier2">
 	

@@ -432,12 +432,115 @@ a.donate-button{
 	font-size: 20px;
 	color: #FFF;
 	text-align: center;
-	background-color: red;
+	background-color: #F1142A;
 	font-family: "league gothic", helvetica;
 	display: inline-block;
 	margin: 0 auto;
 	
 }
+a.donate-button:hover{
+	background-color: #f22435;
+}
+::-webkit-input-placeholder {
+   color: rgba(51, 51, 51, .75);
+   text-transform: capitalize;
+   
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(51, 51, 51, .75);
+   text-transform: capitalize;
+   
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(51, 51, 51, .75); 
+   text-transform: capitalize;
+    
+}
+
+:-ms-input-placeholder {  
+   color: rgba(51, 51, 51, .75);
+   text-transform: capitalize;
+     
+}
+
+#donate-modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .75);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	
+	z-index: 100;
+}
+#donate-modal form{
+	width: 500px;
+	height: 900px;
+	background: #F2F2F2;
+	margin: 40px auto;
+	padding: 10px 40px;
+	
+	
+	color: #333;
+	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
+	text-align: left;
+}
+#donate-modal h2{
+	font-size: 2em;
+	line-height: 1.6em;
+	margin: 0 0 20px 0;
+	text-align: left;
+	
+}
+#donate-modal p{
+	font-size: 1.3em;
+	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+#donate-modal form ul{
+	margin: 30px 0;
+	font-size: 1.5em;
+}
+#donate-modal form ul li{
+	display: inline;
+	border: 3px solid #f2f2f2;
+	padding: 4px 5px;
+	cursor: pointer;
+	line-height: 0;
+}
+#donate-modal form ul li:hover, #donate-modal form ul li.selected{
+	border: 3px solid #333;
+}
+#donate-modal form input{
+	height: 40px;
+	color: #333;
+	font-family: "league gothic", helvetica;
+	text-transform: capitalize;
+}
+#donate-modal form input{
+	height: 40px;
+	color: #333;
+	font-family: "league gothic", helvetica;
+	font-size: 2em;
+}
+#donate-modal #street{
+	width: 100%;
+}
+#donate-modal #city{
+	width: 45%;
+	margin-top: 20px;
+}
+#donate-modal #state, #donate-modal #zip{
+	padding: 0;
+	width: 25%;
+	margin-top: 20px;
+}
+
+
 
 
 
