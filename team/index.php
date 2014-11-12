@@ -6,15 +6,19 @@
 	<div class="team">
 		<ul class="team_photos">
 			
-			<li class="David"><a href="#s_detail">
-				<img src="i/partners/logo_skull.png" />
+			<li class="David"><a href="#s_detail" class="unselected">
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/del.jpg" />
 			</a></li>
-			<li class="Tyler"><a href="#s_detail">
-				<img src="i/partners/logo_skull.png" />
+			<li class="Tyler"><a href="#s_detail" class="unselected">
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/tyler.png" />
 			</a></li>
-			<li class="Mentor"><a href="#s_detail" >
-				<img src="i/partners/logo_skull.png" />
+			<li class="Fredy"><a href="#s_detail" class="unselected" >
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/fredy.jpg" />
 			</a></li>
+			<li class="Micah"><a href="#s_detail" class="unselected" >
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/micah.jpg" />
+			</a></li>
+			<li class="clr"></li>
 		</ul>
 
 		<div class="team_hiddenCopy">
@@ -23,10 +27,10 @@
 							<h2>
 								David Delmar
 							</h2>
-							<h3>CEO, Founder</h3>
+							<h3>Executive Director, Founder</h3>
 							<div class="clr"></div>						
 							<p>
-	<a href="http://daviddelmarsenties.com">David</a> is building tomorrow's messenger.
+	
 							</p>
 						</div><!-- /firehose -->
 				</article>
@@ -43,16 +47,28 @@
 					</div><!-- /firehose -->
 			</article>
 			<article>
-					<div class="Mentor">
+					<div class="Fredy">
 						<h2>
-							Mentor
+							Fredy Melo
 						</h2>
 						
 						<div class="clr"></div>						
 						<p>
-<a href="http://tylerlmitchell.com">The Firehose Project</a> is a virtual service that trains the next generation of web developers and technical talent.
+Here's some content about Frederick
 						</p>
-					</div><!-- /firehose -->
+					</div><!-- /Fredy -->
+			</article>
+			<article>
+					<div class="Micah">
+						<h2>
+							Micah Martin
+						</h2>
+						
+						<div class="clr"></div>						
+						<p>
+Here's some content about Micah
+						</p>
+					</div><!-- /Fredy -->
 			</article>
 			
 		</div><!--/team_copy-->
@@ -69,19 +85,20 @@
 	</div><!-- /container-->
 	
 <div class="partners" id="tier3">
+	
 	<ul>
-		<li>
+		<p>Our partners make it all possible.</p>
+		<li class="tugg">
 			<a href="http://tugg.org">
-				<img src="">
-				testing that betch
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png">
 			</a>
-		</li>
+		</li class="bpd">
 		<li>
-				<img src="">
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/bpd.jpg">
 		</li>
-		<li>
+		<li class="goulston">
 			<a href="http://goulstonstorrs.com">
-				<img src="">
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/goulston.jpg">
 			</a>
 		</li>
 	</ul>

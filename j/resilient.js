@@ -79,18 +79,9 @@ $(document).ready(function(){
 			var thisSiblings = $(this).parent().siblings();
 	//		alert(thisSiblings);
 			$(thisSiblings).children().removeClass("selected").addClass("unselected");
-			$(".team_photos ." + thisclass + " a").addClass("selected");
+			$(".team_photos ." + thisclass + " a").removeClass("unselected").addClass("selected");
 			$(".team_writeup").html(thiscontent);
 		});
-		$(".partners_photos a").click(function(){
-				var thisclass = $(this).parent().attr("class");
-				var thiscontent = $(".partners_hiddenCopy ." + thisclass).html();
-				var thisSiblings = $(this).parent().siblings();
-		//		alert(thisSiblings);
-				$(thisSiblings).children().removeClass("selected").addClass("unselected");
-				$(".partners_photos ." + thisclass + " a").addClass("selected");
-				$(".partners_writeup").html(thiscontent);
-			});
 		
 	}
 	

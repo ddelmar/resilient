@@ -334,18 +334,33 @@ background-color: #e5e5e5;
 ::::::::::::::::
 */
 
-.body_team #tier3 {
+.body_team .partners {
 	background: white;
+}
+
+.body_team .partners ul {
+	max-width: 800px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.body_team .partners ul li { width: 33%; float: left; display: block; }
+.body_team .partners ul li a { width: 80%; }
+.body_team .partners ul li a img { width: 100%; }
+.body_team .partners ul li.goulston,
+.body_team .partners ul li.tugg {margin: 30px 0 0 0; }
+
+.team, .partners {
+	padding: 80px 0;
 }
 
 .team, .partners{
 	float: left;
 	width: 100%;
 }
-.team ul, .partners ul{
+.team ul{
+	display: block;
 	float: left;
-	width: 50%;
-	list-style: none;
 }
 .team li, .partners li{
 	line-height: 0;
@@ -355,14 +370,15 @@ background-color: #e5e5e5;
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width: 24%;
+	width: 32%;
 }
-.team li a:hover, .team li a.unselected:hover, .partners li a:hover, .partners li a.unselected:hover{
-	border: 1px solid #999;
+
+.team li a:hover, .team li a.unselected:hover {
+	opacity: 1;
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width: 24%;
+	width: 32%;
 }
 .team li a img, .partners li a img{
 	width: 100%;
@@ -371,23 +387,28 @@ background-color: #e5e5e5;
 	display: none;
 	
 }
-.team_writeup, .partners_writeup{
-	float: left;
+.team_writeup {
 	text-align: left;
-	
-	padding: 0px 0 0 30px;
-	width: 40%;
 }
+
+.team h2 { margin: 0; }
+.team h3 { color: #ed1b24; }
+
 .team h3, .partners h3{
 	margin: 0;
 	
 }
+
+.selected {opacity:1;}
+.unselected {opacity:.4;}
+
 .clr {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     clear: both;
     height: 1px;
     width: 100%;
 }
+
 /*
 ::::::::::::::::
 :::: Donate ::::

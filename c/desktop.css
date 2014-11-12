@@ -200,6 +200,7 @@ h2#tagline {
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
 .body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg.jpg);}
 .body_lab .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao.jpg);}
+.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/team/team.jpg);}
 .body_roadmap .hero { height: 60px;}
 
 /*
@@ -226,9 +227,11 @@ h2#tagline {
 ::: Team ::::
 ::::::::::::::::
 */
-.team{
-	height: 500px;
-}
-.partners{
-	height: 500px;
+.team ul{ width: 50%; }
+
+.team_writeup {
+	float: left;
+	text-align: left;
+	padding: 0px 0 0 30px;
+	width: 40%;
 }
