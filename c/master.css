@@ -87,6 +87,15 @@ a:hover { text-decoration:none; color:#0093c2; }
 
 p { margin: 0 0 20px 0;}
 
+p.intro { 
+	font-family: bold "Roboto Slab", serif; 
+	font-size: 1.8em;
+	color: #666;
+	padding: 0 0 2em 0;
+	border-bottom: 1px solid #d8d8d8;
+	margin: 0 0 2em 0;
+	}
+
 p, li {
 font-size: 1.2em;
 line-height: 1.4;
@@ -145,6 +154,7 @@ section,
 .footer {float: left;}
 
 .footer {/* padding-top:4em; */}
+
 
 /*
 ::::::::::::::::
@@ -334,24 +344,26 @@ background-color: #e5e5e5;
 ::::::::::::::::
 */
 
+.body_team #tier2 { margin: 0; }
+
 .body_team .partners {
 	background: white;
 }
 
 .body_team .partners ul {
 	max-width: 800px;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
-.body_team .partners ul li { width: 33%; float: left; display: block; }
-.body_team .partners ul li a { width: 80%; }
+.body_team .partners ul li { width: 32%; float: left; display: block; }
+.body_team .partners ul li a { width: 80%; float: left; }
 .body_team .partners ul li a img { width: 100%; }
 .body_team .partners ul li.goulston,
 .body_team .partners ul li.tugg {margin: 30px 0 0 0; }
 
-.team, .partners {
-	padding: 80px 0;
+.team {
+	padding: 0 0 80px 0;
 }
 
 .team, .partners{
@@ -365,24 +377,30 @@ background-color: #e5e5e5;
 .team li, .partners li{
 	line-height: 0;
 }
-.team li a, .team li a.unselected, .partners li a, .partners li a.unselected{
-	border: 1px solid transparent;
+.team li a, 
+.team li a.unselected {
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width: 32%;
 }
 
-.team li a:hover, .team li a.unselected:hover {
+.team li a:hover, 
+.team li a.unselected:hover {
 	opacity: 1;
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width: 32%;
 }
-.team li a img, .partners li a img{
+
+.team li a img { 
 	width: 100%;
 }
+
+.partners li img{
+	width: 80%;
+	padding: 0 10%;
+}
+
 .team_hiddenCopy, .partners_hiddenCopy{
 	display: none;
 	
@@ -408,6 +426,9 @@ background-color: #e5e5e5;
     height: 1px;
     width: 100%;
 }
+
+.partners { padding: 80px 0;}
+
 
 /*
 ::::::::::::::::

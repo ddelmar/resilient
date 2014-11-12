@@ -227,11 +227,20 @@ h2#tagline {
 ::: Team ::::
 ::::::::::::::::
 */
+
+.body_team .team li a, 
+.body_team .team li a.unselected,
+.body_team .team li a:hover, 
+.body_team .team li a:hover.unselected {
+	width: 32%;
+	border: 1px solid transparent;
+}
+
 .team ul{ width: 50%; }
 
 .team_writeup {
 	float: left;
 	text-align: left;
-	padding: 0px 0 0 30px;
+	padding: 80px 0 0 30px;
 	width: 40%;
 }

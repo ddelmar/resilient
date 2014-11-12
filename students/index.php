@@ -12,7 +12,7 @@
 		
 		<h2>The Coders</h2>
 		<div class="product">
-			<p>
+			<p class="intro">
 Coding can be a medium of self-expression and self-discovery. Below are some examples of sites built by our student coders over the course of eight hours. These are the fruits of their hard work: their research, their self-directed learning, their collaborative problem-solving, and ultimately, their implementation. 
 			</p>
 			<p>

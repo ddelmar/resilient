@@ -83,7 +83,8 @@ Email David at <a href="mailto:david@resilientcoders.org" class="external">david
 <h3>Resilient Lab</h3>
 <p>This is a web design and development studio operated by the more experienced youth from <a class="coworking" href="#" onclick="return false;">Coworking.</a> They work with a client to build a microsite or web application, for pay. Clients are encouraged to treat this as an opportunity to play an active role in the student's learning experience. Ideally, a client company will provide a technical volunteer who will help coach the students through the task. The student then gains real experience building product, and develops a relationship with a mentor working in the field.
 </p>
-<a href="/lab" class="external">Learn more</a> about how you can get involved.
+<p>
+	<a href="/lab" class="external">Learn more</a> about how you can get involved.
 </p>
 
 </div>

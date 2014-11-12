@@ -11,7 +11,7 @@
 	<section>
 		<h2>Resilient Lab</h2>
 		<div class="product">
-<p>
+<p class="intro">
 Our most experienced students operate a web design and development studio. Our young coders work with clients to build a microsite or web application. Resilient Lab represents an opportunity for both the student and the client. Students gain real, practical, hands-on experience. And clients are able to give back to the community in a way that benefits their business.
 </p>
 

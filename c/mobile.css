@@ -70,14 +70,6 @@ img.nav_x {
 	float: right;
 }
 
-#s_detail {
-	width: 100%;
-	height: 1px;
-	float: left;
-	margin-top: -80px;
-	padding: 80px 0 0 0;
-}
-
 #logo {
 	padding: 12px 2px;
 }
@@ -221,16 +213,11 @@ h2#tagline {
 	width: 800px;
 }
 
-#tier2 img {width: 100%; }
-
-
 
 #container {
 	margin: 0px 5%;
 	width: 90%;
 }
-
-#tier2 img {width:75%; }
 
 .body_program #tier3 p { padding: 0 5%; }
 
@@ -252,10 +239,33 @@ h2#tagline {
 ::: Team ::::
 ::::::::::::::::
 */
-.team ul{ width: 90%; margin: 0 auto; }
+
+.body_team .team li a, 
+.body_team .team li a.unselected,
+.body_team .team li a:hover,
+.body_team .team li a:hover.unselected {
+	border: 0px;
+	width: 25%;
+}
+
+.team ul{ width: 100%; margin: 0 auto; }
 
 .team_writeup {
 	float: left;
 	padding-top: 80px;
+	width: 96%;
+	margin: 0 2%;
+}
+
+.partners ul > * {
+	width: 90%;
+	padding: 0 3%;
+}
+
+#s_detail {
 	width: 100%;
+	height: 1px;
+	float: left;
+	margin-top: 0px;
+	padding: 0;
 }
