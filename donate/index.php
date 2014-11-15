@@ -2,8 +2,9 @@
 <?php include_once("../includes/logo_nav.php") ?>
 
 <!--<div class="hero"></div>-->
-<div id="donate-modal">
-	<form id="shirts-form">
+<div id="donate-modal" class="modal">
+	<div class="overlay"> </div>
+	<form class="class" id="shirts-form">
 		<h2>Details</h2>
 		<p>Thanks for supporting Resilient Coders! We need a few details to make sure you get the gift you want.</p>
 		<ul id="clothing">
@@ -21,10 +22,10 @@
 			<li>red</li>
 		</ul>
 		<div id="address">
-			<input type="text" id="street" value="STREET ADDRESS" />
-			<input type="text" id="city" value="CITY" />
-			<input type="text" id="state" value="STATE" />
-			<input type="text" id="zip" value="ZIP" />
+			<input type="text" id="street" placeholder="STREET ADDRESS" />
+			<input type="text" id="city" placeholder="CITY" />
+			<input type="text" id="state" placeholder="STATE" />
+			<input type="text" id="zip" placeholder="ZIP" />
 		</div>
 		<ul id="newsletter">
 			<li>Join Our Newsletter?</li>
@@ -45,13 +46,25 @@
 					<div class="merch" id="shirt-w"></div>
 					<div class="merch" id="shirt-r"></div>
 				</div>
-				<a class="donate-button" href="http://#">DONATE $20</a>
+				<div class="donate-button">DONATE $20</div>
 			</section>
 	
 	</div>
 </div><!-- /container-->
 	
 	<?php include_once("../includes/footer.php") ?>
-		
+<script>
+$(function() {
+	$('.donate-button').click(function () {
+//		alert("clicked");
+		$('#donate-modal').addClass('open');
+	});
+	$('.overlay').click(function(e) {
+			$('#donate-modal').removeClass('open');
+//			alert('Nailed it');
+	});
+
+})
+</script>		
 </body>
 </html>
