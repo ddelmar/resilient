@@ -4,20 +4,24 @@
 <!--<div class="hero"></div>-->
 <div id="donate-modal" class="modal">
 	<div class="overlay"> </div>
-	<form class="class" id="shirts-form">
+	<form id="shirts-form">
 		<h2>Details</h2>
 		<p>Thanks for supporting Resilient Coders! We need a few details to make sure you get the gift you want.</p>
 		<ul id="clothing">
-			<li>T-shirt</li>
-			<li>Hoodie</li>
+			<li class="list-title">Item:</li>
+			<li id="tshirt" class="selected">T-shirt</li>
+			<li id="hoodie">Hoodie</li>
 		</ul>
 		<ul id="size">
-			<li>Size:</li>
+			<li class="list-title">Size:</li>
 			<li>S</li>
+			<li>M</li>
 			<li>L</li>
 			<li>XL</li>
+			<li>XXL</li>
 		</ul>
 		<ul id="color">
+			<li class="list-title">Color:</li>
 			<li>white</li>
 			<li>red</li>
 		</ul>
@@ -28,10 +32,11 @@
 			<input type="text" id="zip" placeholder="ZIP" />
 		</div>
 		<ul id="newsletter">
-			<li>Join Our Newsletter?</li>
-			<li>Yes</li>
+			<li class="list-title">Join Our Newsletter?</li>
+			<li class="selected">Yes</li>
 			<li>No</li>
 		</ul>
+		<div class="donate-button">Donate $20 via PayPal</div>
 	
 	</form>
 </div>
@@ -62,6 +67,42 @@ $(function() {
 	$('.overlay').click(function(e) {
 			$('#donate-modal').removeClass('open');
 //			alert('Nailed it');
+	});
+	$('#shirts-form ul li').click(function () {
+		if (!$(this).hasClass('selected') && !$(this).hasClass('list-title')) {
+			$(this).siblings().removeClass('selected');
+			$(this).addClass('selected');
+//			CHANGE BUTTON TEXT FOR SHIRT OR SWEATSHIRT
+			if($(this).parent().attr('id') == 'clothing'){
+				if ($('#clothing #tshirt').hasClass('selected')) {
+					$('#shirts-form .donate-button').text("Donate $20 via PayPal");
+					
+				}
+				else if ($('#shirts-form #hoodie').hasClass('selected')) {
+					$('#shirts-form .donate-button').text("Donate $35 via PayPal");
+				}
+			}
+		}
+	});
+	//ALERT THE ORDER DETAILS JUST FOR KICKS
+	$('#shirts-form .donate-button').click(function (){
+		var $form_details = "",
+			$counter = 0;
+		
+		$('#shirts-form ul li').each(function () {
+			if ($(this).hasClass('selected')) {
+				$form_details +=$(this).text() + ", ";
+				$counter++;
+			}
+		});
+		
+		$('#address input').each(function () {
+			$form_details +=$(this).val() + ", ";
+		});
+		if ($counter < 4) {
+			alert("Whoops, it looks like you forgot something. Please make sure you've completed each section.");
+		}
+//		alert($form_details);
 	});
 
 })
