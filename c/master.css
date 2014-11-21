@@ -470,7 +470,7 @@ background-color: #e5e5e5;
 #shirt-r:hover{
 	background: url('../donate/i/red-b.png') no-repeat top center;
 }
-.donate-button{
+.donate-button, input[type="submit"].donate-button{
 	width: 200px;
 	
 	padding: 10px 20px;
@@ -483,7 +483,12 @@ background-color: #e5e5e5;
 	display: inline-block;
 	margin: 0 auto;
 	cursor: pointer;
+	border: none;
+	text-transform: capitalize;
 	
+}
+input[type="submit"].donate-button{
+	margin-top: 40px;
 }
 .donate-button:hover{
 	background-color: #f22435;
@@ -512,7 +517,7 @@ background-color: #e5e5e5;
 }
 
 :-ms-input-placeholder {  
-   color: rgba(51, 51, 51, .75);
+   color: rgba(51, 51, 51, .55);
    text-transform: capitalize;
      
 }
@@ -528,7 +533,7 @@ background-color: #e5e5e5;
 	cursor: pointer;
 }
 #donate-modal{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	
@@ -541,8 +546,15 @@ background-color: #e5e5e5;
 #donate-modal.open{
 	display: inline-block;
 }
+#donate-modal h2{
+	font-size: 3em;
+	padding-left: 5px;
+	margin: 10px 0;
+}
 #donate-modal form{
 	width: 500px;
+	height: auto;
+	overflow-y: scroll;
 	background: #F2F2F2;
 	margin: 40px auto;
 	padding: 30px 50px;
@@ -554,10 +566,13 @@ background-color: #e5e5e5;
 	text-align: left;
 	z-index: 69;
 }
-#donate-modal h2{
-	font-size: 3em;
-	line-height: 1.6em;
-	margin: 0 0 20px 0;
+.form-title, form li{
+	font-size: 2em;
+}
+.form-title{
+	font-size: 2em;
+/*	line-height: 1.6em;*/
+/*	margin: 0 0 20px 0;*/
 	text-align: left;
 	padding-left: 8px;
 	
@@ -570,15 +585,29 @@ background-color: #e5e5e5;
 	
 }
 #donate-modal form ul{
-	margin: 30px 0;
-	font-size: 1.5em;
+/*	margin: 30px 0;
+	font-size: 1.5em;*/
 }
 #donate-modal form ul li{
 	display: inline;
+	
+}
+ul.ss-choices{
+	display: inline;
+}
+.ss-form-entry *{
+	display: inline;
+}
+.ss-form-entry{
+	margin-top: 10px;
+	/*white-space: nowrap;*/
+}
+.ss-choice-label{
 	border: 3px solid #f2f2f2;
 	padding: 4px 8px;
 	cursor: pointer;
 	line-height: 0;
+	
 	
 	transition: all 0.2s ease 0.0s;
 		-moz-transition: all 0.2s ease 0.0s;
@@ -586,19 +615,19 @@ background-color: #e5e5e5;
 		-o-transition: all 0.2s ease 0.0s;
 		-ms-transition: all 0.2s ease 0.0s;
 }
-#donate-modal form ul li:hover{
+.ss-choice-label:hover{
 	border: 3px solid #999999;
 }
-#donate-modal form ul li.selected{
+/*#donate-modal form ul li.selected{
 	border: 3px solid #333;
 	background: #333;
 	color: #FFF;
 	
-}
+}*/
 #donate-modal form ul li.list-title, #donate-modal form ul li.list-title.selected{
 	border: 3px solid #f2f2f2;
 }
-#donate-modal form input{
+#donate-modal form input[type="text"]{
 	height: 40px;
 	color: #333;
 	font-family: "league gothic", helvetica;
@@ -607,19 +636,28 @@ background-color: #e5e5e5;
 	font-size: 2em;
 	margin: 0;
 }
-
-#donate-modal #street{
-	width: 400px;
+#donate-modal form input[type="text"].full-text-input{
+	width:474px;
 }
-#donate-modal #city{
-	width: 200px;
-	margin-top: 20px;
+#donate-modal form input[type="text"].half-text-input{
+	width:245px;
+	float: left;
+	margin-bottom: 7px;
 }
-#donate-modal #state, #donate-modal #zip{
-	width: 75px;
-	margin-top: 20px;
+#donate-modal form input[type="text"].quarter-text-input{
+	width:80px;
+	margin-left: 10px;
+	float: left;
+	margin-bottom: 7px;	
 }
-
+#donate-modal form input[type="radio"]{
+	display: none;
+}
+#donate-modal form input[type="radio"]:checked + .ss-choice-label{
+	border: 3px solid #333;
+	background: #333;
+	color: #FFF;
+}
 
 
 

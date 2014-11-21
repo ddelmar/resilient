@@ -1,6 +1,6 @@
 <?php include_once("../includes/head.php") ?>
 <?php include_once("../includes/logo_nav.php") ?>
-
+https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a-rg/pubhtml
 <!--<div class="hero"></div>-->
 <div id="donate-modal" class="modal">
 	<div class="overlay"> </div>
@@ -26,10 +26,12 @@
 			<li>red</li>
 		</ul>
 		<div id="address">
+			<input type="text" id="name" placeholder="NAME" />
 			<input type="text" id="street" placeholder="STREET ADDRESS" />
 			<input type="text" id="city" placeholder="CITY" />
 			<input type="text" id="state" placeholder="STATE" />
 			<input type="text" id="zip" placeholder="ZIP" />
+			<input type="text" id="email" placeholder="EMAIL" />
 		</div>
 		<ul id="newsletter">
 			<li class="list-title">Join Our Newsletter?</li>
@@ -59,7 +61,9 @@
 	
 	<?php include_once("../includes/footer.php") ?>
 <script>
+//	$.getJSON("http://cors.io/spreadsheets.google.com/feeds/list/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a-rg/od6/public/values?alt=json",
 $(function() {
+	//google spreadsheets json
 	$('.donate-button').click(function () {
 //		alert("clicked");
 		$('#donate-modal').addClass('open');
@@ -99,13 +103,19 @@ $(function() {
 		$('#address input').each(function () {
 			$form_details +=$(this).val() + ", ";
 		});
-		if ($counter < 4) {
-			alert("Whoops, it looks like you forgot something. Please make sure you've completed each section.");
-		}
+//		if ($counter < 4) {
+//			alert("Whoops, it looks like you forgot something. Please make sure you've completed each section.");
+//		}
+		
+		$.post(
+			"https://spreadsheets.google.com/feeds/list/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a-rg/od6/public/basic?hl=en_US&alt=json", 
+			{"name":"tyler", "item":"tyler","size":"tyler", "color":"tyler", "address":"tyler", "newsletter":"tyler"}, 
+			function (results) {alert("Apparently it worked");}
+			);
 //		alert($form_details);
 	});
 
-})
+});
 </script>		
 </body>
 </html>
