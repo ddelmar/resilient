@@ -359,8 +359,9 @@ background-color: #e5e5e5;
 .body_team .partners ul li { width: 32%; float: left; display: block; }
 .body_team .partners ul li a { width: 80%; float: left; }
 .body_team .partners ul li a img { width: 100%; }
-.body_team .partners ul li.goulston,
 .body_team .partners ul li.tugg {margin: 30px 0 0 0; }
+
+.body_team .partners ul li.goulston a { margin: 15px 0; }
 
 .team {
 	padding: 0 0 80px 0;

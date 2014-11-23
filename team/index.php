@@ -18,6 +18,12 @@
 			<li class="Micah"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/micah.jpg" />
 			</a></li>
+			<li class="Susanne"><a href="#s_detail" class="unselected" >
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/susanne.jpg" />
+			</a></li>
+			<li class="Josh"><a href="#s_detail" class="unselected" >
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/josh.jpg" />
+			</a></li>
 			<li class="clr"></li>
 		</ul>
 
@@ -71,8 +77,32 @@ Here's some content about Frederick
 						<p>
 Here's some content about Micah
 						</p>
-					</div><!-- /Fredy -->
+					</div><!-- /Micah -->
 			</article>
+			<article>
+					<div class="Susanne">
+						<h2>
+							Susanne Beck
+						</h2>
+						<h3>Board</h3>
+						<div class="clr"></div>						
+						<p>
+Susanne is a Management Consultant specializing in organizational strategy, organizational development, and leadership in the non-profit sector.  Prior to consulting, Ms. Beck held a number of executive positions including:  Executive Director of NCGS, a national coalition of educators committed to girls’ education; Founding Partner and Managing Director of the Trefler Foundation; and  Senior Administrator and Director at Harvard’s Kennedy School of Government.  She holds a BA from Princeton University (English, High Honors) and a graduate degree from Harvard University.  Ms. Beck previously worked in the fields of investment banking, management consulting, and marketing.
+						</p>
+					</div><!-- /Susanne -->
+			</article>
+			<article>
+					<div class="Josh">
+						<h2>
+							Joshua Summers
+						</h2>
+						<h3>Board</h3>
+						<div class="clr"></div>						
+						<p>
+Joshua Summers is a serial entrepreneur that believes the best companies are built in and around Boston. As the Co-founder and CEO of clypd Joshua is leading the charge in building the next evolution in tv advertising sales models by bridging the gap between traditional linear TV ads and programmatic solutions. Joshua holds a bachelors degree in Industrial Management with an additional major in Economics from Carnegie Mellon University. Joshua lives with his forgiving wife Rachel and awesome kids Zachary and Alisha in Lexington, MA.						</p>
+					</div><!-- /josh -->
+			</article>
+			
 			
 		</div><!--/team_copy-->
 		<div id="s_detail"></div>
@@ -102,6 +132,10 @@ Here's some content about Micah
 		<li class="goulston">
 			<a href="http://goulstonstorrs.com">
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/goulston.jpg">
+			</a>
+			
+			<a href="http://milkstreetcafe.com">
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/MilkStreetCafe.jpg">
 			</a>
 		</li>
 	</ul>
