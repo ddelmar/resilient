@@ -89,7 +89,7 @@ Here's some content about Micah
 						<h3>Board</h3>
 						<div class="clr"></div>						
 						<p>
-Susanne is a Management Consultant specializing in organizational strategy, organizational development, and leadership in the non-profit sector.  Prior to consulting, Ms. Beck held a number of executive positions including:  Executive Director of NCGS, a national coalition of educators committed to girls’ education; Founding Partner and Managing Director of the Trefler Foundation; and  Senior Administrator and Director at Harvard’s Kennedy School of Government.  She holds a BA from Princeton University (English, High Honors) and a graduate degree from Harvard University.  Ms. Beck previously worked in the fields of investment banking, management consulting, and marketing.
+Susanne is a Management Consultant specializing in organizational strategy, organizational development, and leadership in the non-profit sector.  Prior to consulting, Ms. Beck held a number of executive positions including:  Executive Director of NCGS, a national coalition of educators committed to girls' education; Founding Partner and Managing Director of the Trefler Foundation; and  Senior Administrator and Director at Harvard's Kennedy School of Government.  She holds a BA from Princeton University (English, High Honors) and a graduate degree from Harvard University.  Ms. Beck previously worked in the fields of investment banking, management consulting, and marketing.
 						</p>
 					</div><!-- /Susanne -->
 			</article>
