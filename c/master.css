@@ -438,19 +438,20 @@ background-color: #e5e5e5;
 */
 
 .body_donate #container{
-	margin-top:174px;
+	
 }
 .body_donate h2 {
 	
 	width: 100%;
-	text-align: center;
+	/*text-align: center;*/
 }
 #shirts-container{
 	width: 100%;
 	text-align: center;
 }
 #shirts{
-	
+	margin: 50px 0;
+	height: auto;
 }
 .merch{
 	width: 330px;
@@ -552,7 +553,7 @@ input[type="submit"].donate-button{
 	padding-left: 5px;
 	margin: 10px 0;
 }
-#donate-modal form{
+#donate-modal form, #confirmation{
 	width: 500px;
 	height: auto;
 	overflow-y: scroll;
@@ -566,6 +567,11 @@ input[type="submit"].donate-button{
 	text-transform: uppercase;
 	text-align: left;
 	z-index: 69;
+}
+#confirmation{
+	display: none;
+	text-align: center;
+
 }
 .form-title, form li{
 	font-size: 2em;
