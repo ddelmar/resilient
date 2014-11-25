@@ -10,14 +10,16 @@
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/del.jpg" />
 			</a></li>
 			<li class="Tyler"><a href="#s_detail" class="unselected">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/tyler.png" />
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/tyler2.jpg" />
 			</a></li>
+			<?php /*
 			<li class="Fredy"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/fredy.jpg" />
 			</a></li>
 			<li class="Micah"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/micah.jpg" />
 			</a></li>
+			*/ ?>
 			<li class="Susanne"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/susanne.jpg" />
 			</a></li>

@@ -230,8 +230,9 @@ h2#tagline {
 .body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed_640.jpg);}
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk_640.jpg);}
 .body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg_640.jpg);}
-.body_lab .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao_640.jpg);}
-.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/team/team.jpg);}
+.body_donate .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao_640.jpg);}
+.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/coworkingboys_640.JPG);}
+.body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_coding_640.JPG);}
 .body_roadmap .hero { height: 40px;}
 
 /*
