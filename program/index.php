@@ -62,7 +62,7 @@ Email David at <a href="mailto:david@resilientcoders.org" class="external">david
 <div class="product">
 <h3>Coworking</h3>
 
-<p>We believe in "HOMAGO," which stands for "Hang Out. Mess Around. Geek Out." Seymour Paert's learning theory of Constructionism stipulates that the best learning happens when you have hands-on experience, as well as room for exploration, thinking and reflection, rather than transmission of knowledge from teacher to student. Coworking presents our students with an opportunity to hang out in a safe space together, meet other young coders, and interact with tech professionals as they further explore web development at their pace. Coworking also provides an opportunity for employment for our higher performers, as they earn a stipend to mentor newer students. 
+<p>We believe in "HOMAGO," which stands for "Hang Out. Mess Around. Geek Out." Seymour Papert's learning theory of Constructionism stipulates that the best learning happens when you have hands-on experience, as well as room for exploration, thinking and reflection, rather than transmission of knowledge from teacher to student. Coworking presents our students with an opportunity to hang out in a safe space together, meet other young coders, and interact with tech professionals as they further explore web development at their pace. Coworking also provides an opportunity for employment for our higher performers, as they earn a stipend to mentor newer students. 
 </p>
 <p>
 Students are sourced from our <a class="popup" href="#" onclick="return false;">Popup Cohorts.</a> And it's from this pool that we staff <a class="resilient" href="#" onclick="return false;">Resilient Lab.</a>
