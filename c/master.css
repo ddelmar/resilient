@@ -85,6 +85,8 @@ a:hover { text-decoration:none; color:#0093c2; }
 	padding: 12px 0;
 }
 
+.photocredit {display:none;}
+
 p { margin: 0 0 20px 0;}
 
 p.intro { 
@@ -309,6 +311,8 @@ background-color: #e5e5e5;
 	background-color: #333;
 }
 
+/* PHOTOS, PHOTO CREDIT */
+
 .program_nav li a.popup,
 .program_nav li a.popup:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupTop.png");}
 .program_nav li a.popup#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupBottom.png");}
@@ -318,6 +322,8 @@ background-color: #e5e5e5;
 .program_nav li a.resilient,
 .program_nav li a.resilient:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientTop.png");}
 .program_nav li a.resilient#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientBottom.png");}
+
+.body_lab .photocredit, .body_team .photocredit {display:block;}
 
 .body_program #tier3 {
 	background: #333;

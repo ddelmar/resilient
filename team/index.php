@@ -52,7 +52,7 @@ David is a professional designer and interface developer with experience working
 						<h3>Fall Program Director</h3>
 						<div class="clr"></div>						
 						<p>
-<a href="http://tylerlmitchell.com" target="_blank">Tyler</a> is a Junior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user experience, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other.
+<a href="http://tylerlmitchell.com" target="_blank">Tyler</a> is a Junior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user experience, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other. 
 						</p>
 					</div><!-- /firehose -->
 			</article>
