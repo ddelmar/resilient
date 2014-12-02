@@ -270,3 +270,18 @@ h2#tagline {
 	margin-top: 0px;
 	padding: 0;
 }
+
+/*
+::::::::::::::::
+:::: Donate ::::
+::::::::::::::::
+*/
+
+.merch{
+	width: 100%;
+	
+}
+#shirt-r{
+	float: left;
+	background: url('../donate/i/red-f.png') no-repeat top center;
+}

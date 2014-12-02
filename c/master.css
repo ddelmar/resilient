@@ -452,31 +452,54 @@ background-color: #e5e5e5;
 	/*text-align: center;*/
 }
 #shirts-container{
-	width: 100%;
-	text-align: center;
+
+	float: none;
+	width: 500px;
+	height: auto;
+	overflow-y: scroll;
+	background: #F2F2F2;
+	margin: 40px auto;
+	padding: 30px 50px;
+	
+	color: #333;
+	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
+	text-align: left;
+	z-index: 60;
 }
 #shirts{
 	margin: 50px 0;
 	height: auto;
 }
 .merch{
-	width: 330px;
-	height: 350px;
+	width: 33%;
+	height: 250px;
+
+
 	
 }
 #shirt-w{
 	float: left;
 	background: url('../donate/i/white-f.png') no-repeat top center;
+	background-size: 100% auto;
 }
 #shirt-w:hover{
 	background: url('../donate/i/white-b.png') no-repeat top center;
+	background-size: 100% auto;
 }
 #shirt-r{
-	float: right;
+	float: left;
 	background: url('../donate/i/red-f.png') no-repeat top center;
+	background-size: 100% auto;
 }
 #shirt-r:hover{
 	background: url('../donate/i/red-b.png') no-repeat top center;
+	background-size: 100% auto;
+}
+#hoodie{
+	float: left;
+	background: url('../donate/i/red-f.png') no-repeat top center;
+	background-size: 100% auto;
 }
 .donate-button, input[type="submit"].donate-button{
 	width: 200px;
@@ -536,11 +559,11 @@ input[type="submit"].donate-button{
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: -69;
+	z-index: -60;
 	
 	cursor: pointer;
 }
-#donate-modal{
+.modal{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -551,10 +574,10 @@ input[type="submit"].donate-button{
 	display: none;
 	z-index: 100;
 }
-#donate-modal.open{
+.modal.open{
 	display: inline-block;
 }
-#donate-modal h2{
+.modal h2{
 	font-size: 3em;
 	padding-left: 5px;
 	margin: 10px 0;
@@ -567,12 +590,11 @@ input[type="submit"].donate-button{
 	margin: 40px auto;
 	padding: 30px 50px;
 	
-	
 	color: #333;
 	font-family: "league gothic", helvetica;
 	text-transform: uppercase;
 	text-align: left;
-	z-index: 69;
+	z-index: 60;
 }
 #confirmation{
 	display: none;
@@ -590,7 +612,7 @@ input[type="submit"].donate-button{
 	padding-left: 8px;
 	
 }
-#donate-modal p{
+.modal p{
 	text-transform: initial;
 	font-size: 1.3em;
 	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -603,7 +625,6 @@ input[type="submit"].donate-button{
 }
 #donate-modal form ul li{
 	display: inline;
-	
 }
 ul.ss-choices{
 	display: inline;
