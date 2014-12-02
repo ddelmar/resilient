@@ -73,7 +73,7 @@ h2#tagline {
 	/*
 	This is the image that fades in 
 	*/
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -95,7 +95,7 @@ h2#tagline {
 	This is the bottom image 
 	*/
 	z-index:1;
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
+	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -195,13 +195,13 @@ h2#tagline {
 	margin: 80px auto 0 auto;
 }
 
-.body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.jpg);}
-.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.jpg);}
+.body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.png);}
+.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.png);}
 .body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
 .body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg.jpg);}
 .body_donate .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao.jpg);}
-.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/coworkingboys1.JPG);}
-.body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_coding.JPG);}
+.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/coworkingboys1.gif);}
+.body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_coding.gif);}
 .body_roadmap .hero { height: 60px;}
 
 /*

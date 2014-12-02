@@ -12,10 +12,11 @@
 			<li class="Tyler"><a href="#s_detail" class="unselected">
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/tyler2.jpg" />
 			</a></li>
-			<?php /*
+			
 			<li class="Fredy"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/fredy.jpg" />
 			</a></li>
+			<?php /*
 			<li class="Micah"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/micah.jpg" />
 			</a></li>
@@ -65,7 +66,7 @@ David is a professional designer and interface developer with experience working
 						
 						<div class="clr"></div>						
 						<p>
-Here's some content about Frederick
+First generation born Bostonian, Fredy Melo is an artist, Brazilian Jiu Jitsu practitioner, and creative generator amongst other things. From the moment he heard Resilient Coders's mission it hit home: To provide opportunity in areas where opportunity is scarce. He is passionate about social issues and sees technology as a solution to the disparity between communities and the judicial system. Fredy is currently a student at Northeastern University through its Foundation Year Program.
 						</p>
 					</div><!-- /Fredy -->
 			</article>
