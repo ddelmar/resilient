@@ -200,9 +200,9 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		
 		<p class="lorenzo_andre">
 		<b>$1200</b> will bring a Popup Cohort to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
-		<b>$200</b> will allow us to hire a youth mentor. <br /><br />
+		<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
 		
-		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> Rock the skull like Lorenzo and Andre.<br /><br />
+		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
 		
 		<b>$2</b> will buy David the coffee he needs to deal with these clowns. 
 		</p>
@@ -212,7 +212,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 			<div class="overlay"> </div>	
 			<section id="shirts-container">
 				<h2>Shirts and Hoodies</h2>
-				<p>A donation of $50 or more will give you your pick of either a Resilient Coders t-shirt or hoodie.</p>
+				<p>A donation of $50 or more will give you your pick of either a Resilient Coders t-shirt or hoodie. They're printed here in Massachusetts by court-involved youth. Learn more about <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">Exclusive Tees</a></p>
 				<div id="shirts">
 					<div class="merch" id="shirt-w"></div>
 					<div class="merch" id="shirt-r"></div>
@@ -232,6 +232,9 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 			</li>
 		</ul>
 
+		<p>Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
+		<p></p>
+		<p></p>
 	</div>
 </div><!-- /container-->
 
