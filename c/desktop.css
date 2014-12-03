@@ -271,6 +271,11 @@ h2#tagline {
 	width: 38%;
 	padding: 5%;
 }
+
+form .donate-button, form input[type="submit"].donate-button{
+	width: 90%;
+	padding: 5%;
+}
 .donate-button:first-child {
 	margin: 0 1% 0 0;
 }
