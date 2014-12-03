@@ -297,9 +297,9 @@ h2#tagline {
 	padding: 5%;
 }
 
-form .donate-button, form input[type="submit"].donate-button{
-	width: 90%;
-	padding: 5%;
+form .donate-button, form input[type="submit"].donate-button {
+	width: 100%;
+	padding: 5% 0;
 }
 
 .donate-button:first-child {

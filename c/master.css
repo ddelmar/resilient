@@ -467,12 +467,13 @@ background-color: #e5e5e5;
 
 #shirts-container{
 	float: none;
-	width: 500px;
+	width: 90%;
+	max-width: 500px;
 	height: auto;
 	overflow-y: scroll;
 	background: #F2F2F2;
 	margin: 40px auto;
-	padding: 30px 50px;
+	padding: 5%;
 	color: #333;
 	font-family: "league gothic", helvetica;
 	text-align: left;
@@ -520,7 +521,11 @@ background-color: #e5e5e5;
 	cursor: pointer;
 	border: none;
 	font-family: bold "Roboto Slab", serif; 
-	
+}
+
+form .donate-button, form input[type="submit"].donate-button {
+	width: 100%;
+	padding: 5% 0;
 }
 
 .donate-button p {
@@ -599,12 +604,13 @@ input[type="submit"].donate-button{
 	margin: 10px 0;
 }
 #donate-modal form, #confirmation{
-	width: 500px;
+	width: 90%;
+	max-width: 500px;
 	height: auto;
 	overflow-y: scroll;
 	background: #F2F2F2;
 	margin: 40px auto;
-	padding: 30px 50px;
+	padding: 5%;
 	
 	color: #333;
 	font-family: "league gothic", helvetica;
@@ -686,7 +692,7 @@ ul.ss-choices{
 	margin: 0;
 }
 #donate-modal form input[type="text"].full-text-input{
-	width:474px;
+	max-width:474px;
 }
 #donate-modal form input[type="text"].half-text-input{
 	width:245px;

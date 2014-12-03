@@ -302,9 +302,9 @@ h2#tagline {
 	width: 100%;
 }
 
-.donate-button, input[type="submit"].donate-button{
-	width: 90%;
-	padding: 5%;
+.donate-button, input[type="submit"].donate-button {
+	width: 100%;
+	padding: 5% 0;
 }
 
 .donate-button:first-child {
