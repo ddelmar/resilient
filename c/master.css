@@ -451,8 +451,21 @@ background-color: #e5e5e5;
 	width: 100%;
 	/*text-align: center;*/
 }
-#shirts-container{
 
+.body_donate #tier2 ul {
+	text-align: left;
+	margin: 50px 0 ;
+}
+
+.body_donate #tier2 p.intro {
+	width: 100%;
+	clear:both;
+}
+
+.body_donate #tier2 img {
+}
+
+#shirts-container{
 	float: none;
 	width: 500px;
 	height: auto;
@@ -460,10 +473,8 @@ background-color: #e5e5e5;
 	background: #F2F2F2;
 	margin: 40px auto;
 	padding: 30px 50px;
-	
 	color: #333;
 	font-family: "league gothic", helvetica;
-	text-transform: uppercase;
 	text-align: left;
 	z-index: 60;
 }
@@ -502,22 +513,27 @@ background-color: #e5e5e5;
 	background-size: 100% auto;
 }
 .donate-button, input[type="submit"].donate-button{
-	width: 200px;
-	
-	padding: 10px 20px;
-	font-weight: 500;
-	font-size: 1.7em;
-	color: #FFF;
+	color: #ededed;
 	text-align: center;
-	background-color: #F1142A;
-	font-family: "league gothic", helvetica;
+	background-color: #333;
 	display: inline-block;
-	margin: 0 auto;
 	cursor: pointer;
 	border: none;
-	text-transform: capitalize;
+	font-family: bold "Roboto Slab", serif; 
 	
 }
+
+.donate-button p {
+	text-align: center;
+	margin: 0;
+}
+
+.donate-button p:first-child {
+	font-weight: 500;
+	font-size: 1.7em;
+	font-family: bold "Roboto Slab", serif; 
+}
+
 input[type="submit"].donate-button{
 	margin-top: 40px;
 }
@@ -592,7 +608,6 @@ input[type="submit"].donate-button{
 	
 	color: #333;
 	font-family: "league gothic", helvetica;
-	text-transform: uppercase;
 	text-align: left;
 	z-index: 60;
 }
@@ -693,6 +708,6 @@ ul.ss-choices{
 	color: #FFF;
 }
 
-
+#navigation-table {width: 100%; }
 
 

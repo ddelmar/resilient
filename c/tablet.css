@@ -270,3 +270,32 @@ h2#tagline {
 	padding: 80px 0 0 30px;
 	width: 40%;
 }
+
+/*
+::::::::::::::::
+::: Donate ::::
+::::::::::::::::
+*/
+
+.body_donate #tier2 img,
+.body_donate #tier2 p.lorenzo_andre {
+	float: left;
+}
+
+.body_donate #tier2 img {
+	width: 40%;
+	margin: 0 5% 0 0;
+	border: 8px solid white;
+}
+
+.body_donate #tier2 p.lorenzo_andre {
+	width: 50%;
+}
+
+.donate-button, input[type="submit"].donate-button{
+	width: 38%;
+	padding: 5%;
+}
+.donate-button:first-child {
+	margin: 0 1% 0 0;
+}

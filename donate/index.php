@@ -176,7 +176,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 	<input type="hidden" name="fbzx" value="-3790939465112778216">
 
 	<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-		<input type="submit" name="submit" value="DONATE VIA PAYPAL" id="ss-submit" class="jfk-button jfk-button-action donate-button" >
+		<input type="submit" name="submit" value="Donate via PayPal" id="ss-submit" class="jfk-button jfk-button-action donate-button" >
 	</td>
 	</tr></tbody></table></div></ol>
 
@@ -191,14 +191,22 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 	<div id="tier2">
 
 		<h2>Donate</h2>
-		<p>We work with Third Sector New England for our fiscal sponsorship, and as such are able to accept donations. Your donations will help us get in front of more kids and create more student mentors.
-		Here is what your support can do:<br />
-		<br />
-		$1200 will bring a Popup Cohort to a school, or community center, where students will build their own websites, like<a href="http://resilientcoders.org/students" target="_blank"> these.</a><br/>
-		$200 will sponsor a youth mentor to help guide new students. <br />
-		<br />
-
-		Every bit counts to help us expand and get in front of more kids. And a donation of $50 or more will give you your pick of either a <a href="#" id="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a></p>
+	
+		<p class="intro">
+		For any donation of $50 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a>
+		</p>
+		
+		<img class="lorenzo_andre" src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
+		
+		<p class="lorenzo_andre">
+		<b>$1200</b> will bring a Popup Cohort to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
+		<b>$200</b> will allow us to hire a youth mentor. <br /><br />
+		
+		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> Rock the skull like Lorenzo and Andre.<br /><br />
+		
+		<b>$2</b> will buy David the coffee he needs to deal with these clowns. 
+		</p>
+		<p class="clr"></p>
 		<div id="shirts-modal" class="modal">
 
 			<div class="overlay"> </div>	
@@ -210,12 +218,19 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 					<div class="merch" id="shirt-r"></div>
 					<div class="merch" id="hoodie"></div>
 				</div>
-				<div class="donate-button for-shirts">DONATE</div>
+				<div class="donate-button for-shirts">Donate</div>
 			</section>
 		</div>
-		
-		<div class="donate-button for-shirts">Donate and Get a shirt</div>
-		<div class="donate-button" onclick="RC_PayPal()">Donate</div>
+		<ul>
+			<li class="donate-button for-shirts">
+				<p>Donate $50 or More</p>
+				<p>Get a shirt or hoodie</p>
+			</li>
+			<li class="donate-button" onclick="RC_PayPal()">
+				<p>Donate Any Amount</p>
+				<p>&nbsp;</p>
+			</li>
+		</ul>
 
 	</div>
 </div><!-- /container-->
@@ -254,11 +269,12 @@ $('.donate-button').click(function () {
 		}, 500);
 	};
 });
-$('#shirts-modal-link').click(function () {
+$('.shirts-modal-link').click(function () {
 	$('#shirts-modal').addClass('open');
 	$('html, body').animate({
 		scrollTop: $('#donate-modal').offset().top
 	}, 500);
+	return false;
 });
 $('.overlay').click(function() {
 	$('.modal').removeClass('open');

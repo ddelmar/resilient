@@ -285,3 +285,32 @@ h2#tagline {
 	float: left;
 	background: url('../donate/i/red-f.png') no-repeat top center;
 }
+
+.body_donate #tier2 img,
+.body_donate #tier2 p.lorenzo_andre {
+	float: left;
+}
+
+.body_donate #tier2 img {
+	width: 100%;
+	margin: 0;
+	border: 0px;
+}
+
+.body_donate #tier2 p.lorenzo_andre {
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+
+.donate-button, input[type="submit"].donate-button{
+	width: 90%;
+	padding: 5%;
+}
+
+.donate-button:first-child {
+	margin: 0 0 1% 0;
+}
+
+.modal .donate-button {
+	font-size: 1.6em;
+}
