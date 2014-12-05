@@ -611,9 +611,9 @@ input[type="submit"].donate-button{
 	background: #F2F2F2;
 	margin: 40px auto;
 	padding: 5%;
-	
 	color: #333;
 	font-family: "league gothic", helvetica;
+	text-transform: uppercase;
 	text-align: left;
 	z-index: 60;
 }
@@ -630,14 +630,12 @@ input[type="submit"].donate-button{
 /*	line-height: 1.6em;*/
 /*	margin: 0 0 20px 0;*/
 	text-align: left;
-	padding-left: 8px;
 	
 }
 .modal p{
 	text-transform: initial;
 	font-size: 1.3em;
 	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-	padding-left: 8px;
 	
 }
 #donate-modal form ul{
@@ -685,12 +683,17 @@ ul.ss-choices{
 #donate-modal form input[type="text"]{
 	height: 40px;
 	color: #333;
-	font-family: "league gothic", helvetica;
-	text-transform: capitalize;
 	padding: 0 10px;
-	font-size: 2em;
+	font-size: 1em;
 	margin: 0;
 }
+
+#donate-modal form .small {
+	font-size: 0.9em;
+	padding: 1em 0;
+	display:block;
+}
+
 #donate-modal form input[type="text"].full-text-input{
 	max-width:474px;
 }

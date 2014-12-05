@@ -17,25 +17,26 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 
 	</iframe>
 	<form id="PP_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none">
-		<input type="hidden" name="cmd" value="_donations">
-		<input id="donation_amount" type="hidden" name="hosted_button_id" value="2D4YQBAPSW9DC">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input id="donation_amount" type="hidden" name="hosted_button_id" value="66U8WYDLT7C5J">
 		<!-- <input type="hidden" name="amount" value="$69"> -->
 	</form>
 <!-- MAIN FORM FOR SHIRTS -->
 <form id="shirts_form" action="https://docs.google.com/forms/d/1Kv6aEhZp55Gcdr4inVs6xVwlLZE3G7TA8Jj8hq5ob7I/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		<h2>Details</h2>
-		<p>Thanks for supporting Resilient Coders! We need a few details to make sure you get the gift you want.</p>
+		<p>Thanks for supporting Resilient Coders! We'll accept any amount at all, and for <b>$50 or more</b> we'll say thanks with some pretty slick apparel. Just tell us what and where.</p>
 		
 		<div class="ss-form-question errorbox-good" role="listitem">
-			<div dir="ltr" class="ss-item ss-item-required ss-text">
+			<div dir="ltr" class="ss-item ss-text">
 				<div class="ss-form-entry">
 					<label class="ss-q-item-label" for="entry_1446090153">
-						<div class="form-title ">Donation Amount: $
+						<div class="form-title ">Committing Amount: $
 						</div>
 						<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 					</label>
 					<input type="text" name="entry.1446090153" value="50" class="ss-q-short" id="entry_1446090153" dir="auto" aria-label="Donation Amount  " aria-required="true" required="" title="" style="width:50px">
 					<div class="error-message" id="121361927_errorMessage"></div>
+					<p class="small">You'll enter this again on PayPal</p>
 				</div>
 			</div>
 		</div> 
@@ -44,7 +45,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 			<div dir="ltr" class="ss-item ss-item-required ss-radio">
 				<div class="ss-form-entry">
 					<label class="ss-q-item-label" for="entry_477687963">
-						<div class="form-title">Item:
+						<div class="form-title">Send me a:
 							<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 						</div>
 						<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
@@ -77,6 +78,9 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 								</label>
 							</li>
 						</ul>
+						<p>
+							<a href="#" class="shirts-modal-link small">Wait, what do they look like?</a>
+								</p>
 					<div class="error-message" id="477687963_errorMessage"></div>
 				</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 				<div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
@@ -91,11 +95,30 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 					<span class="ss-choice-label">M</span>
 				</label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1510066314" value="L" id="group_1510066314_3" role="radio" class="ss-q-radio" aria-label="L" required="" aria-required="true">
 				<span class="ss-choice-label">L</span>
-			</label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1510066314" value="XL" id="group_1510066314_4" role="radio" class="ss-q-radio" aria-label="XL" required="" aria-required="true">
-			<span class="ss-choice-label">XL</span>
-		</label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1510066314" value="XLL" id="group_1510066314_5" role="radio" class="ss-q-radio" aria-label="XLL" required="" aria-required="true">
-		<span class="ss-choice-label">XLL</span>
-	</label></li></ul>
+			</label></li> 
+			
+			<li class="ss-choice-item">
+				<label>
+					<input type="radio" name="entry.1510066314" value="XL" id="group_1510066314_4" role="radio" class="ss-q-radio" aria-label="XL" required="" aria-required="true">
+						<span class="ss-choice-label">XL</span>
+				</label>
+			</li> 
+			
+			<li class="ss-choice-item">
+				<label>
+					<input type="radio" name="entry.1510066314" value="2X" id="group_1510066314_5" role="radio" class="ss-q-radio" aria-label="2X" required="" aria-required="true">
+					<span class="ss-choice-label">2X</span>
+				</label>
+			</li>
+		
+			<li class="ss-choice-item">
+				<label>
+					<input type="radio" name="entry.1510066314" value="3X" id="group_1510066314_5" role="radio" class="ss-q-radio" aria-label="3X" required="" aria-required="true">
+					<span class="ss-choice-label">3X</span>
+				</label>
+			</li>
+		
+		</ul>
 	<div class="error-message" id="2128526830_errorMessage"></div>
 	</div></div></div> 
 
@@ -161,13 +184,16 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 			<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 		</div>
 		<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-		
+
 		<ul class="ss-choices" role="radiogroup" aria-label="Join Our Newsletter?  "><li class="ss-choice-item"><label><input type="radio" name="entry.1884029523" value="Yes" id="group_1884029523_1" role="radio" class="ss-q-radio" aria-label="Yes" required="" aria-required="true">
 			<span class="ss-choice-label">Yes</span>
 		</label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1884029523" value="No" id="group_1884029523_2" role="radio" class="ss-q-radio" aria-label="No" required="" aria-required="true">
-		<span class="ss-choice-label">No</span>
+		<span class="ss-choice-label">No</span>		
+		
 	</label></li></ul>
 	<div class="error-message" id="2008566408_errorMessage"></div>
+	<p class="small">We won't share your info. And we don't email often. </p>
+	
 	</div></div></div>
 	<input type="hidden" name="draftResponse" value="[,,&quot;-3790939465112778216&quot;]">
 	<input type="hidden" name="pageHistory" value="0">
@@ -199,10 +225,10 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		<img class="lorenzo_andre" src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
 		
 		<p class="lorenzo_andre">
-		<b>$1200</b> will bring a Popup Cohort to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
+		<b>$1200</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
 		<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
 		
-		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
+		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" title="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
 		
 		<b>$2</b> will buy David the coffee he needs to deal with these clowns. 
 		</p>
