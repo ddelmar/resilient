@@ -82,7 +82,9 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 							<a href="#" class="shirts-modal-link small">Wait, what do they look like?</a>
 								</p>
 					<div class="error-message" id="477687963_errorMessage"></div>
-				</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+				</div></div></div> 
+				
+				<div class="ss-form-question errorbox-good" role="listitem"  style="width:100%;">
 				<div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
 					<label class="ss-q-item-label" for="entry_2128526830"><div class="form-title">Size:
 						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
@@ -131,13 +133,28 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 	<input type="text" placeholder="NAME" name="entry.1270275619" value="" class="ss-q-short full-text-input" id="entry_1270275619" dir="auto" aria-label="Name:  " aria-required="true" required="" title="">
 	<div class="error-message" id="524213110_errorMessage"></div>
 
-	</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+	</div></div></div> 
+	
+	<div class="ss-form-question errorbox-good" role="listitem" style="margin-left: 10px;">
+	<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+		<label class="ss-q-item-label" for="entry_1697486718"><!--<div class="form-title">Email:
+		<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+	</div>-->
+	<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+	<input type="text" placeholder="EMAIL" name="entry.1697486718" value="" class="ss-q-short full-text-input" id="entry_1697486718" dir="auto" aria-label="Email:  " aria-required="true" required="" title="">
+	<div class="error-message" id="1558084290_errorMessage"></div>
+
+	</div></div></div>
+	
+	
+	
+	<div class="ss-form-question errorbox-good" role="listitem"  style="width:100%;">
 	<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 		<label class="ss-q-item-label" for="entry_657943473"><!--<div class="form-title">Address:
 		<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 	</div>-->
 	<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-	<input type="text" placeholder="STREET ADDRESS" name="entry.657943473" value="" class="ss-q-short full-text-input" id="entry_657943473" dir="auto" aria-label="Address:  " aria-required="true" required="" title="">
+	<input type="text" placeholder="STREET ADDRESS" name="entry.657943473" value="" class="ss-q-short full-text-input" id="entry_657943473" dir="auto" aria-label="Address:  " aria-required="true" required="" title=""  style="width:94.7%;">
 	<div class="error-message" id="508549276_errorMessage"></div>
 
 	</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -169,16 +186,11 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 
 	</div>
 	</div>
-	</div> <div class="ss-form-question errorbox-good" role="listitem">
-	<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-		<label class="ss-q-item-label" for="entry_1697486718"><!--<div class="form-title">Email:
-		<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-	</div>-->
-	<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-	<input type="text" placeholder="EMAIL" name="entry.1697486718" value="" class="ss-q-short full-text-input" id="entry_1697486718" dir="auto" aria-label="Email:  " aria-required="true" required="" title="">
-	<div class="error-message" id="1558084290_errorMessage"></div>
-
-	</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+	</div> 
+	
+	
+	
+	<div class="ss-form-question errorbox-good" role="listitem" style="width:100%;">
 	<div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
 		<label class="ss-q-item-label" for="entry_2008566408"><div class="form-title">Join Our Newsletter?
 			<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
@@ -291,17 +303,17 @@ $('.donate-button').click(function () {
 	if ($(this).parent().attr('id')==('shirts-container')) {
 		$('#shirts-modal').removeClass('open');
 	};
-	if ($(this).hasClass('for-shirts')) {
+//	if ($(this).hasClass('for-shirts')) {
 	$('#donate-modal').addClass('open');
 		$('html, body').animate({
 			scrollTop: $('#donate-modal').offset().top
 		}, 500);
-	};
+//	};
 });
 $('.shirts-modal-link').click(function () {
 	$('#shirts-modal').addClass('open');
 	$('html, body').animate({
-		scrollTop: $('#donate-modal').offset().top
+		scrollTop: $('#shirts-modal').offset().top
 	}, 500);
 	return false;
 });

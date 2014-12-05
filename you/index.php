@@ -31,14 +31,9 @@ Hire a small team of "youth consultants" to work alongside our mentors to solve 
 
 
 <b>4. You're a generous soul</b><br />
-We work with <a href="http://tsne.org" title="Third Sector New England">Third Sector New England</a> for our fiscal sponsorship, and as such are able to accept donations. 
+We work with <a href="http://tsne.org" title="Third Sector New England">Third Sector New England</a> for our fiscal sponsorship, and as such are able to accept donations. <a href="/donate" title="Donate to Resilient Coders">Please consider giving.</a>
 </p>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="66U8WYDLT7C5J">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+
 <p></p>
 
 

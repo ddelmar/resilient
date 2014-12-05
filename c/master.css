@@ -454,7 +454,7 @@ background-color: #e5e5e5;
 
 .body_donate #tier2 ul {
 	text-align: left;
-	margin: 50px 0 ;
+	margin: 30px 0 ;
 }
 
 .body_donate #tier2 p.intro {
@@ -494,6 +494,7 @@ background-color: #e5e5e5;
 	float: left;
 	background: url('../donate/i/white-f.png') no-repeat top center;
 	background-size: 100% auto;
+	margin-top: 25px;
 }
 #shirt-w:hover{
 	background: url('../donate/i/white-b.png') no-repeat top center;
@@ -503,6 +504,7 @@ background-color: #e5e5e5;
 	float: left;
 	background: url('../donate/i/red-f.png') no-repeat top center;
 	background-size: 100% auto;
+	margin-top: 25px;
 }
 #shirt-r:hover{
 	background: url('../donate/i/red-b.png') no-repeat top center;
@@ -510,7 +512,7 @@ background-color: #e5e5e5;
 }
 #hoodie{
 	float: left;
-	background: url('../donate/i/red-f.png') no-repeat top center;
+	background: url('../donate/i/hoodie.png') no-repeat top center;
 	background-size: 100% auto;
 }
 .donate-button, input[type="submit"].donate-button{
@@ -631,6 +633,10 @@ input[type="submit"].donate-button{
 /*	margin: 0 0 20px 0;*/
 	text-align: left;
 	
+}
+.ss-form-question {
+	display: block;
+	float: left;
 }
 .modal p{
 	text-transform: initial;

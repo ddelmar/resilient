@@ -20,6 +20,9 @@
 				<a class="You" href="/you/">Get involved</a>
 			</li>
 			<li>
+				<a class="Donate" href="/donate/">Donate</a>
+			</li>
+			<li>
 				<a class="Lab" href="/lab/">Resilient Lab</a>
 			</li>
 			
