@@ -24,7 +24,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 <!-- MAIN FORM FOR SHIRTS -->
 <form id="shirts_form" action="https://docs.google.com/forms/d/1Kv6aEhZp55Gcdr4inVs6xVwlLZE3G7TA8Jj8hq5ob7I/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		<h2>Details</h2>
-		<p>Thanks for supporting Resilient Coders! We'll accept any amount at all, and for <b>$50 or more</b> we'll say thanks with some pretty slick apparel. Just tell us what and where.</p>
+		<p>Thanks for supporting Resilient Coders! We'll accept any amount at all, and for <b>$75 or more</b> we'll say thanks with some pretty slick apparel. Just tell us what and where.</p>
 		
 		<div class="ss-form-question errorbox-good" role="listitem">
 			<div dir="ltr" class="ss-item ss-text">
@@ -34,7 +34,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 						</div>
 						<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 					</label>
-					<input type="text" name="entry.1446090153" value="50" class="ss-q-short" id="entry_1446090153" dir="auto" aria-label="Donation Amount  " aria-required="true" required="" title="" style="width:50px">
+					<input type="text" name="entry.1446090153" value="75" class="ss-q-short" id="entry_1446090153" dir="auto" aria-label="Donation Amount  " aria-required="true" required="" title="" style="width:50px">
 					<div class="error-message" id="121361927_errorMessage"></div>
 					<p class="small">You'll enter this again on PayPal</p>
 				</div>
@@ -231,7 +231,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		<h2>Donate</h2>
 	
 		<p class="intro">
-		For any donation of $50 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a>
+		For any donation of $75 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a>
 		</p>
 		
 		<img class="lorenzo_andre" src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
@@ -240,9 +240,9 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		<b>$1200</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
 		<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
 		
-		For any individual gift of <b>$50</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" title="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
+		For any individual gift of <b>$75</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" title="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
 		
-		<b>$2</b> will buy David the coffee he needs to deal with these clowns. 
+		<b>$2</b> will buy David the coffee he needs to deal with these hackers. 
 		</p>
 		<p class="clr"></p>
 		<div id="shirts-modal" class="modal">
@@ -250,7 +250,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 			<div class="overlay"> </div>	
 			<section id="shirts-container">
 				<h2>Shirts and Hoodies</h2>
-				<p>A donation of $50 or more will give you your pick of either a Resilient Coders t-shirt or hoodie. They're printed here in Massachusetts by court-involved youth. Learn more about <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">Exclusive Tees</a></p>
+				<p>A donation of $75 or more will give you your pick of either a Resilient Coders t-shirt or hoodie. They're printed here in Massachusetts by court-involved youth. Learn more about <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">Exclusive Tees</a></p>
 				<div id="shirts">
 					<div class="merch" id="shirt-w"></div>
 					<div class="merch" id="shirt-r"></div>
@@ -261,7 +261,7 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		</div>
 		<ul>
 			<li class="donate-button for-shirts">
-				<p>Donate $50 or More</p>
+				<p>Donate $75 or More</p>
 				<p>Get a shirt or hoodie</p>
 			</li>
 			<li class="donate-button" onclick="RC_PayPal()">
