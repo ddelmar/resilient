@@ -78,7 +78,8 @@ First generation born Bostonian, Fredy Melo is an artist, Brazilian Jiu Jitsu pr
 						<h3>Resilient Lab</h3>
 						<div class="clr"></div>						
 						<p>
-Here's some content about Micah
+18 Year Old Micah Martin is a student, mentor, and a leader born and raised in the inner city. He is passionate about bringing code literacy to his peers, and believes our team at Resilient is the perfect vehicle to do so. Micah hopes that by becoming aware of programming and technology in general, it will create more opportunities for his peers to create businesses and close the financial disparity in our social hierarchy. 
+
 						</p>
 					</div><!-- /Micah -->
 			</article>
