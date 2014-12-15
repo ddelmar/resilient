@@ -728,3 +728,69 @@ ul.ss-choices{
 #navigation-table {width: 100%; }
 
 
+/*
+::::::::::::::::
+:::: NEWSLETTER SIGNUP ::::
+::::::::::::::::
+*/
+
+
+#mc_embed_signup {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 500px;
+}
+
+#mc_embed_signup * {
+	text-align: left;
+}
+
+#mc_embed_signup label, #mc_embed_signup input {
+	font-size: 1em;
+	color: #666;
+}
+
+#mc_embed_signup input[type="text"],
+#mc_embed_signup input[type="email"] {
+	padding: 2%;
+}
+
+#mc_embed_signup input[type="text"],
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="submit"] { float: left; width: 96%;}
+
+#mc_embed_signup input[type="submit"] {
+	background-color: #222;
+	padding: 4%;
+	border: none;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 50px 0;
+}
+
+#mc_embed_signup input[type="submit"]:hover {
+	background-color: #f22435;
+	transition: all 0.3s ease 0.0s;
+		-moz-transition: all 0.3s ease 0.0s;
+		-webkit-transition: all 0.3s ease 0.0s;
+		-o-transition: all 0.3s ease 0.0s;
+		-ms-transition: all 0.3s ease 0.0s;
+	cursor: pointer;
+}
+
+
+.checkbox {
+	float: left;
+	margin: 5% 0;
+	width: 100%;
+	clear: right;
+}
+
+.response {
+	float: left;
+	display: block;
+	margin: 2em 0;
+	color: #666;
+}
+

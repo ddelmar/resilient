@@ -36,7 +36,7 @@ We work with <a href="http://tsne.org" title="Third Sector New England">Third Se
 
 <p></p>
 
-
+<?php include_once("../includes/mailchimp.php") ?>
 </div><!-- /tier2 -->
 
 
