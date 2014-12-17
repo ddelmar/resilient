@@ -129,6 +129,11 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 			<a href="http://tugg.org">
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png">
 			</a>
+		</li>
+		<li class="cic">
+			<a href="http://cic.us">
+				<img id="cic" src="https://delmarsenties.s3.amazonaws.com/resilient/logos/cic.png">
+			</a>
 		</li class="bpd">
 		<li>
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/bpd.jpg">
