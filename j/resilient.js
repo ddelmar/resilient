@@ -13,6 +13,9 @@ $(document).ready(function(){
 		$(".nav_x, #nav").hide();
 		$(".nav_button").show();
 	});
+	$("#micahvideo #x").click(function(){
+		$("#micahvideo").remove();
+	});
 	
 
 // Twitter

@@ -69,6 +69,8 @@ p { text-align: left; }
 
 ul, ol, li { list-style-type:none; }
 
+.clear {clear: both; width:100%;}
+
 ul#nav {float: left;}
 
 img {border:none;}
@@ -728,6 +730,25 @@ ul.ss-choices{
 
 #navigation-table {width: 100%; }
 
+.left50 iframe {width:100%; height:281px;}
+
+.left50 img {width:100%;}
+
+.body_donate #tier2 a.donate-button {
+	width: 100%;
+}
+
+.body_donate #tier2 a:hover.donate-button {
+	color: white;
+}
+
+.body_donate .hr {
+	background: #d8d8d8;
+	float: left;
+	height:1px;
+	width: 100%;
+	margin: 40px 0;
+}
 
 /*
 ::::::::::::::::
@@ -795,3 +816,69 @@ ul.ss-choices{
 	color: #666;
 }
 
+
+/*
+::::::::::::::::
+::: Micah Video :::
+::::::::::::::::
+*/
+#micahvideo #black {
+	position: fixed;
+	z-index:100;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.90;
+}
+
+#micahvideo #x {
+	width: 30px;
+	position: absolute;
+	z-index: 101;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+#micahvideo #video {
+	position: absolute;
+	top: 100px;
+	width: 90%;
+	max-width: 500px;
+	z-index: 101;
+	color: white;
+}
+
+#micahvideo #video h1 {
+	margin: 0 0 0.5em 0;
+}
+
+#micahvideo #video p {
+	margin: 1.4em 0;
+}
+
+#micahvideo #video p.intro {
+	border-bottom: none;
+	margin: 2em 0 0 0;
+	color: white;
+}
+
+#micahvideo a.donate-button {
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0;
+	background-color: #0093c2;
+	border-radius: 6px;
+}
+
+#micahvideo a:hover.donate-button {
+	background-color: #026f92;
+	color: white;
+	transition: all 0.3s ease 0.0s;
+		-moz-transition: all 0.3s ease 0.0s;
+		-webkit-transition: all 0.3s ease 0.0s;
+		-o-transition: all 0.3s ease 0.0s;
+		-ms-transition: all 0.3s ease 0.0s;
+	cursor: pointer;
+}

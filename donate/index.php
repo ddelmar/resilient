@@ -1,6 +1,6 @@
 <?php include_once("../includes/head.php") ?>
 <?php include_once("../includes/logo_nav.php") ?>
-https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a-rg/pubhtml
+
 <!--<div class="hero"></div>-->
 <meta itemprop="url" content="https://docs.google.com/forms/d/1Kv6aEhZp55Gcdr4inVs6xVwlLZE3G7TA8Jj8hq5ob7I/viewform">
 <meta itemprop="embedUrl" content="https://docs.google.com/forms/d/1Kv6aEhZp55Gcdr4inVs6xVwlLZE3G7TA8Jj8hq5ob7I/viewform?embedded=true">
@@ -234,9 +234,26 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		For any donation of $75 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a>
 		</p>
 		
-		<img class="lorenzo_andre" src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
+		<div class="left50">
+		<iframe src="//player.vimeo.com/video/117124124" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="right50">
+		<p>
+			<b>Micah's Story</b><br />
+			Help Micah take his next step towards a career as a coder. He's been accepted to the Startup Institute, an intensive 10-week program. Tuition is $4,750. Help him get there. <br /><br />
+			<a class="donate-button" title="Splitzee" href="http://splitzee.com/collection/lets-send-micah-to-startup-institute#.VL11cy7F-1G">
+				Help us send Micah to Startup Institute
+			</a>
+		</p>
+		</div>
+		<div class="hr" ></div>
 		
-		<p class="lorenzo_andre">
+		
+		<div class="left50">
+			<img src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
+		</div>
+		<div  class="right50">
+		<p >
 		<b>$1200</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
 		<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
 		
@@ -244,6 +261,11 @@ https://docs.google.com/spreadsheets/d/1zEJ_0-nYK3AEx9Por6qub9eHMF6NtHZbi1uKO50a
 		
 		<b>$2</b> will buy David the coffee he needs to deal with these hackers. 
 		</p>
+		</div><!-- left50 -->
+		
+		<div class="hr" ></div>
+		
+		
 		<p class="clr"></p>
 		<div id="shirts-modal" class="modal">
 

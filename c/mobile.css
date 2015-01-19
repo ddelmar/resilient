@@ -314,3 +314,16 @@ h2#tagline {
 .modal .donate-button {
 	font-size: 1.6em;
 }
+
+/*
+:::::::::::::::
+:: MICAH VIDEO
+:::::::::::::::
+*/
+
+#micahvideo iframe {width: 90%; height: 169px;}
+
+#micahvideo #video {
+	padding: 0 5%;
+	width:90%;
+}
