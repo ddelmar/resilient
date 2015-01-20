@@ -225,15 +225,37 @@
 	<p><br />Now directing you to PayPal.com to complete your donation.</p>
 </div>
 </div>
-<div id="container">
-	<div id="tier2">
+
+<?php /*
+
+::::::::::::::::::::::
+::: BEGIN CONTAINER ::
+::::::::::::::::::::::
+
+*/?>
+<div class="spacer"  style="padding: 0;">
+	<div class="container">
+		<div id="tier2">
 
 		<h2>Donate</h2>
 	
 		<p class="intro">
-		For any donation of $75 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a>
+		There's a lot going on, and many opportunities for you to get involved. For any donation of $75 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a> Here are some of our projects.
 		</p>
 		
+	</div><!-- /tier2 -->
+</div><!-- /container -->
+</div><!-- /spacer -->
+		
+		
+<!-- MICAH --><div class="spacer_images"></div>
+		
+
+<div class="spacer">
+	<div class="container" style="padding: 0;">
+		<div id="tier2">
+			<h2>Micah's Story</h2>
+					
 		<div class="left50">
 		<iframe src="//player.vimeo.com/video/117124124" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -246,24 +268,52 @@
 			</a>
 		</p>
 		</div>
-		<div class="hr" ></div>
-		
-		
+		</div><!-- /tier2 -->
+	</div><!-- /container -->
+</div><!-- /spacer -->
+<div class="clear"></div>
+
+<!-- COWORKING --><div class="spacer_images"></div>
+
+	
+<div class="spacer">
+	<div class="container" style="padding: 0;">
+		<div id="tier2">
+			<h2>Popup Cohorts</h2>
+					
 		<div class="left50">
-			<img src="https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_andre.png" />
+			<p >
+			<b>$2500</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
+			<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
+
+			For any individual gift of <b>$75</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" title="Exclusive Tees">court-involved youth.</a> 
+
+			</p>
+			
+			
 		</div>
 		<div  class="right50">
-		<p >
-		<b>$1200</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
-		<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
+			<ul>
+				<li class="donate-button for-shirts">
+					<p>Donate $75 or More</p>
+					<p>Get a shirt or hoodie</p>
+				</li>
+				<li class="donate-button" onclick="RC_PayPal()">
+					<p>Donate Any Amount</p>
+				</li>
+			</ul>
+			
+		</div><!-- right50 -->
+		<p class="clear"></p>
+		<div class="hr"></div>
+		<p>Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
 		
-		For any individual gift of <b>$75</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" title="Exclusive Tees">court-involved youth.</a> And rock the skull like Lorenzo and Andre. <br /><br />
-		
-		<b>$2</b> will buy David the coffee he needs to deal with these hackers. 
-		</p>
-		</div><!-- left50 -->
-		
-		<div class="hr" ></div>
+	</div><!-- /tier2 -->
+</div><!-- /container -->
+</div><!-- /spacer -->
+
+
+	
 		
 		
 		<p class="clr"></p>
@@ -281,22 +331,18 @@
 				<div class="donate-button for-shirts">Donate</div>
 			</section>
 		</div>
-		<ul>
-			<li class="donate-button for-shirts">
-				<p>Donate $75 or More</p>
-				<p>Get a shirt or hoodie</p>
-			</li>
-			<li class="donate-button" onclick="RC_PayPal()">
-				<p>Donate Any Amount</p>
-				<p>&nbsp;</p>
-			</li>
-		</ul>
+		
 
-		<p>Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
+		
 		<p></p>
 		<p></p>
 	</div>
 </div><!-- /container-->
+
+<div class="image-container">
+<div class="main-header fullheightwidth bg_micah"></div>
+<div class="main-header fullheightwidth bg_coworking"></div>
+</div>
 
 <?php include_once("../includes/footer.php") ?>
 <script>

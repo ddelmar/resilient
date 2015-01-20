@@ -156,7 +156,8 @@ h2#tagline {
 	padding: 0;
 }
 
-.body_ #container {
+.body_ #container,
+.body_ .container {
 	position: absolute;
 	width: 100%;
 	z-index:4;
@@ -208,13 +209,7 @@ h2#tagline {
 ::::::::::::::::
 */
 
-#container {
-	margin: 140px auto 0px auto;
-	width: 800px;
-}
-
-
-#container {
+.container {
 	margin: 0px 5%;
 	width: 90%;
 }

@@ -108,7 +108,7 @@ h2#tagline {
 	padding: 0;
 }
 
-.body_ #container_home {
+.body_ #container, .container_home {
 	position: absolute;
 	width: 100%;
 	z-index:4;
@@ -180,8 +180,7 @@ h2#tagline {
 */
 
 
-
-#container,
+#container, .container,
 .container800 {
 	margin: 0px auto;
 	text-align: center;
@@ -252,6 +251,26 @@ h2#tagline {
 ::::::::::::::::
 */
 
+
+.body_donate .intro {
+	border-bottom: 0px;
+}
+
+.body_donate .spacer {
+	width:100%; 
+	background: #f2f2f2;
+	float: left;
+	padding: 0 0 100px 0;
+}
+
+.body_donate .spacer_images {
+	width:100%; height: 400px; float: left;
+}
+
+.body_donate .container {
+	
+}
+
 .body_donate #tier2 img,
 .body_donate #tier2 p.lorenzo_andre {
 	float: left;
@@ -292,6 +311,39 @@ form .donate-button, form input[type="submit"].donate-button{
 	width:45%;
 	margin-left: 5%;
 }
+
+.main-header {
+height: 100%;
+}
+
+.main-header .row-fluid {
+height: 100%;
+}
+.main-header section {
+display: table-cell;
+vertical-align: middle;
+}
+.fullheightwidth {
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.image-container {
+position: absolute; 
+width: 100%;
+height: 1200px;
+top:0;
+z-index:-1;	
+}
+
+.bg_micah {	background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/donate/micah_bw.jpg); }
+.bg_coworking {	
+	background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/donate/leanstartup.png); }
 
 /*
 :::::::::::::::
