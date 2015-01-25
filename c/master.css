@@ -325,7 +325,8 @@ background-color: #e5e5e5;
 .program_nav li a.resilient:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientTop.png");}
 .program_nav li a.resilient#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientBottom.png");}
 
-.body_lab .photocredit, .body_team .photocredit {display:block;}
+.body_lab .photocredit.krysta, .body_team .photocredit.krysta {display:block;}
+.body_donate .photocredit.andyfilm {display:block;}
 
 .body_program #tier3 {
 	background: #333;

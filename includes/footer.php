@@ -5,7 +5,7 @@
       theYear=now.getYear()
 		theYear=theYear+1900
       document.write(theYear)
-</script> Resilient Coders. 50 Milk Street, 17th Floor. Boston, MA 02109. <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a><span class="photocredit krysta">Photo by <a href="http://www.midnightdrifter.com" target="_blank" title="Krysta Voskowsky">Krysta Voskowsky</a></span>
+</script> Resilient Coders. 50 Milk Street, 17th Floor. Boston, MA 02109. <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a><span class="photocredit krysta">Photo by <a href="http://www.midnightdrifter.com" target="_blank" title="Krysta Voskowsky">Krysta Voskowsky</a></span><span class="photocredit andyfilm">Photography, video, and music by Andy Laub, of <a href="http://asithappens.tv" target="_blank" title="As It Happens Films">As It Happens Films</a></span><span class="photocredit andyphoto">Photography by Andy Laub, of <a href="http://asithappens.tv" target="_blank" title="As It Happens Films">As It Happens Films</a></span>
 </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

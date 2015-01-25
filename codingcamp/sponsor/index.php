@@ -61,8 +61,10 @@
   <!-- <div class="roadblock"><p>This works best in Firefox!</p></div> -->
     <section class='slides layout-regular template-default'>
       <!-- Your slides (<article>s) go here. Delete or comment out the slides below. -->
-      <article style="background: transparent; box-shadow:none;">
-       
+      <article>
+		<h2>April 20-24, 2015</h2>
+       <h1>Boston.Coding.Camp.</h1>
+		<h2>Microsoft N.E.R.D. Center</h2>
       </article>
 	  
       <article>
@@ -84,7 +86,81 @@
 			</p>
 		</div>
       </article>
+
+
+	<article>
+        <h1>
+          The Program
+        </h1>
+		<p class="intro">
+       	Our youth will build product from Monday through Thursday, and then present on Friday.
+   		</p>
+		<div class="left45">
+			<h2>The Sprint</h2>
+			<p>
+				Here's some text. Mention speakers
+			</p>
+		</div>
+		<div class="right45">
+			<h2>Demo Day</h2>
+			<p>
+				On Friday, April 24th, our young people will present to a room full of tech professionals. 
+			</p>
+		</div>
+      </article>
+
+
+	<article>
+        <h1>
+          The Speakers
+        </h1>
+		<p class="intro">
+       	Here's some text about the speakers
+   		</p>
+		<div class="left45">
+			<h2>Doug Turner</h2>
+			<p>
+				Here's some text. Mention speakers
+			</p>
+		</div>
+		<div class="right45">
+			<h2>Chris Swenor</h2>
+			<p>
+				VSnap, etc 
+			</p>
+		</div>
+      </article>
 	  
+	
+	<article>
+        <h1>
+          Sponsorship Opportunities
+        </h1>
+		
+		<div class="left28">
+			<h2>Gold - $5,000</h2>
+			<p>
+				Allows x number of students to do x
+			</p>
+			<ul>
+				<li>Full page color ad in program</li>
+				<li>Prominent mention in press release</li>
+				<li>Prominent logo placement on event website</li>
+			</ul>
+		</div>
+		<div class="left28">
+			<h2>Gold - $5,000</h2>
+			<p>
+				Allows x number of students to do x
+			</p>
+		</div>
+		<div class="right28">
+			<h2>Chris Swenor</h2>
+			<p>
+				VSnap, etc 
+			</p>
+		</div>
+      </article>
   
 	
 	<?php 
