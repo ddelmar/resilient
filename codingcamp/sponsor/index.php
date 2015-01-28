@@ -1,4 +1,4 @@
-<?php require_once("../../includes/password_protect_deck.php")  ?>
+<?php require_once("../includes/psw.php")  ?>
 
 
 <!DOCTYPE html>
@@ -13,48 +13,12 @@
 -->
 <html>
   <head>
-    <title>Resilient Coders</title>
+    <title>Boston Coding Camp</title>
     <meta charset='utf-8' />
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="http://delmarsenties.s3.amazonaws.com/resilient/favicon.gif" />
     <script src='slides_orig.js' type='text/javascript'></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script>
-	$(document).ready(function(){
-	
-	/*
-	I've added an iframe.remove in slides.js
-	in the handleBodyKeyDown event
-	*/
-	
-		$(".distribution div.ebay").click(function(){
-			$(".distribution div.under1 div, .distribution div.under2 div").addClass("splay");
-			
-				setTimeout(function(){
-				$(".distribution div.under1 div").css({
-				"top":"340px"
-				}).removeClass("splay").addClass("endframe");
-				},950);
-				
-				setTimeout(function(){
-				$(".distribution div.under2 div").css({
-				"top":"440px"
-				}).removeClass("splay").addClass("endframe");
-				},950);
-			});
-
-	$(".moredebbie img.earl").click(function(){
-		$(this).attr("src","i/earlx.jpg");
-		});
-
-		
-		
-	});
-	
-	
-	
-	
-	</script>
   </head>
   <body style='display: none'>
   
@@ -66,14 +30,22 @@
        <h1>Boston.Coding.Camp.</h1>
 		<h2>Microsoft N.E.R.D. Center</h2>
       </article>
+
+		<article>
+			<h1>Introducing Boston Coding Camp</h1>
+			<p class="intro" >
+				5 full days, from April 20th to the 24th. 3 speakers. 20 urban youth learning to code, at Microsoft N.E.R.D. And 1 demo day, during which they show the tech community what they've done. This is the first annual free alternative spring break, run jointly by <a  href="http://resilientcoders.org" title="Resilient Coders" target="_blank">Resilient Coders</a> and <a href="http://typp.org" title="The Young People's Project" target="_blank">the Young People's Project.</a> </p>
+				
+			<p class="intro" style="border:none;">
+					Help us spread tech literacy throughout Boston.
+			</p>
+		</article>
 	  
       <article>
         <h1>
-          This is what we do.
+          Who We Are
         </h1>
-		<p class="intro">
-       	<a  href="http://resilientcoders.org" title="Resilient Coders" target="_blank">Resilient Coders</a> and <a href="http://typp.org" title="The Young People's Project" target="_blank">the Young People's Project</a> are teaming up to spread tech literacy among urban youth during their spring break.
-   		</p>
+	
 		<div class="left45">
 			<h2>Resilient Coders</h2>
 			<p>
@@ -93,18 +65,46 @@
           The Program
         </h1>
 		<p class="intro">
-       	Our youth will build product from Monday through Thursday, and then present on Friday.
+       	Our youth will build product from Monday through Thursday, and then present on Friday's Demo Day.
    		</p>
 		<div class="left45">
 			<h2>The Sprint</h2>
 			<p>
-				Here's some text. Mention speakers
+Over the course of the week, students will learn enough HTML and CSS to each build his or her own website. They'll have help from Resilient Coders' youth mentors, and from professional developers as they learn by doing.
 			</p>
 		</div>
 		<div class="right45">
 			<h2>Demo Day</h2>
 			<p>
-				On Friday, April 24th, our young people will present to a room full of tech professionals. 
+On Friday, April 24th, our young people will present to a room full of tech professionals. They will discuss what they've done, and what they hope to accomplish next.
+			</p>
+		</div>
+      </article>
+
+
+	<article style="text-align:center;">
+        <h1>
+          The Speakers
+        </h1>
+
+		<div class="left28">
+			<h2>Chris Swenor</h2>
+			<img src="https://delmarsenties.s3.amazonaws.com/resilient/codingcamp/photos/chrisswenor.jpg" />
+			<p>
+				Here's some text about Chris.
+			</p>
+		</div>
+		<div class="left28">
+			<h2>Tim Wright</h2>
+			<img src="https://delmarsenties.s3.amazonaws.com/resilient/codingcamp/photos/timwright.jpeg" />
+			<p>
+				Here's some text about Tim.
+			</p>
+		</div>
+		<div class="right28">
+			<h2>Surprise Demo Day Speaker</h2>
+			<p>
+				Here's some text about our Demo Day speaker 
 			</p>
 		</div>
       </article>
@@ -112,23 +112,27 @@
 
 	<article>
         <h1>
-          The Speakers
+          Join the movement
         </h1>
 		<p class="intro">
-       	Here's some text about the speakers
-   		</p>
+			We have designed a curriculum that's best for hands-on technical learning, while providing a safe space for students who may not otherwise have one. Here's what your support enables us to accomplish.
+		</p>
+		<h2>Thanks to your support...</h2>
 		<div class="left45">
-			<h2>Doug Turner</h2>
-			<p>
-				Here's some text. Mention speakers
-			</p>
+			<ul>
+				<li>20 students will learn HTML/CSS on our laptops</li>
+				<li>5 student coders will be employed to mentor their peers</li>
+				<li>We will offer free daily breakfast and lunch</li>
+			</ul>
 		</div>
 		<div class="right45">
-			<h2>Chris Swenor</h2>
-			<p>
-				VSnap, etc 
-			</p>
+			<ul>
+				<li>Staff-to-student ratio will be conducive to intensive learning</li>
+				<li>Students will have the opportunity to present their work to tech professionals
+				<li>Participants will earn their Boston Coding Camp t-shirts</li>
+			</ul>
 		</div>
+		
       </article>
 	  
 	
@@ -138,29 +142,64 @@
         </h1>
 		
 		<div class="left28">
-			<h2>Gold - $5,000</h2>
-			<p>
-				Allows x number of students to do x
-			</p>
+			<h2>Gold - $10,000</h2>
 			<ul>
 				<li>Full page color ad in program</li>
 				<li>Prominent mention in press release</li>
 				<li>Prominent logo placement on event website</li>
+				<li>Title signage during Demo Day</li>
+				<li>Recognition onstage during Demo Day</li>
 			</ul>
 		</div>
 		<div class="left28">
-			<h2>Gold - $5,000</h2>
-			<p>
-				Allows x number of students to do x
-			</p>
+			<h2>Silver - $5,000</h2>
+			<ul>
+				<li>Signage during Demo Day</li>
+				<li>Half page color ad in program</li>
+				<li>Acknowledgement in press release</li>
+				<li>Organizational logo on event website</li>
+			</ul>
 		</div>
 		<div class="right28">
-			<h2>Chris Swenor</h2>
-			<p>
-				VSnap, etc 
-			</p>
+			<h2>Bronze - $2,500</h2>
+			<ul>
+				<li>Quarter page color ad in program</li>
+				<li>Acknowledgement in press release</li>
+				<li>Organizational logo on event website</li>
+			</ul>
 		</div>
       </article>
+
+		<article style="text-align:center;">
+			<h1>
+				Thank you
+			</h1>
+			<p class="intro">
+				Please reach out with any questions.
+			</p>
+			<div class="left45">
+				<h2>David Delmar</h2>
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/codingcamp/photos/delmar.jpg" />
+				<p style="text-align: center;">
+				<a href="http://resilientcoders.org" title="Resilient Coders" target="_blank">Resilient Coders</a><br />
+				<a href="mailto:david@resilientcoders.org" title="david@resilientcoders.org" target="_blank">
+					david@resilientcoders.org
+				</a>
+				</p>
+			</div>
+			<div class="right45">
+				
+				<h2>Chad Milner</h2>
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/codingcamp/photos/chadmilner.png" />
+				<p style="text-align: center;">
+				<a href="http://typp.org" title="The Young People's Project">
+				The Young People's Project</a><br />
+				<a href="mailto:cmilner@typp.org" title="cmilner@typp.org" target="_blank">
+					cmilner@typp.org
+				</a>
+				</p>
+			</div>
+		</article>
   
 	
 	<?php 
