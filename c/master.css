@@ -53,7 +53,7 @@ h2, h3 {
 	-webkit-font-smoothing: antialiased;
 }
 
-h2 {font-size: 4em; 
+h2 {font-size: 4em;
 	/* color: #ed1b24;  RED */
 	color: #333;
 	margin: 1.6em 0;
@@ -91,8 +91,8 @@ a:hover { text-decoration:none; color:#0093c2; }
 
 p { margin: 0 0 20px 0;}
 
-p.intro { 
-	font-family: bold "Roboto Slab", serif; 
+p.intro {
+	font-family: bold "Roboto Slab", serif;
 	font-size: 1.8em;
 	color: #666;
 	padding: 0 0 2em 0;
@@ -134,20 +134,20 @@ b {font-weight: bold; }
 .body_ #logo_nav.fixed {position:fixed;}
 
 #nav li {
-	float: left; 
+	float: left;
 }
 
 #nav li a {
-	/* 
-	font-family: "league gothic", helvetica; 
+	/*
+	font-family: "league gothic", helvetica;
 	text-transform: uppercase;
-	
+
 	font-family: bold "Roboto Slab", serif;
 	*/
 	font-family: Helvetica;
 	font-size: 1em;
 	color: #ed1b24;
-	-webkit-font-smoothing: antialiased;	
+	-webkit-font-smoothing: antialiased;
 }
 
 p a, li a {
@@ -388,14 +388,14 @@ background-color: #e5e5e5;
 .team li, .partners li{
 	line-height: 0;
 }
-.team li a, 
+.team li a,
 .team li a.unselected {
 	display: block;
 	float: left;
 	margin: 0 auto;
 }
 
-.team li a:hover, 
+.team li a:hover,
 .team li a.unselected:hover {
 	opacity: 1;
 	display: block;
@@ -403,7 +403,7 @@ background-color: #e5e5e5;
 	margin: 0 auto;
 }
 
-.team li a img { 
+.team li a img {
 	width: 100%;
 }
 
@@ -414,7 +414,7 @@ background-color: #e5e5e5;
 
 .team_hiddenCopy, .partners_hiddenCopy{
 	display: none;
-	
+
 }
 .team_writeup {
 	text-align: left;
@@ -425,7 +425,7 @@ background-color: #e5e5e5;
 
 .team h3, .partners h3{
 	margin: 0;
-	
+
 }
 
 .selected {opacity:1;}
@@ -447,12 +447,12 @@ background-color: #e5e5e5;
 ::::::::::::::::
 */
 
-.body_donate #container, 
+.body_donate #container,
 .body_donate .container{
-	
+
 }
 .body_donate h2 {
-	
+
 	width: 100%;
 	/*text-align: center;*/
 }
@@ -494,7 +494,7 @@ background-color: #e5e5e5;
 	height: 250px;
 
 
-	
+
 }
 #shirt-w{
 	float: left;
@@ -528,7 +528,7 @@ background-color: #e5e5e5;
 	display: inline-block;
 	cursor: pointer;
 	border: none;
-	font-family: bold "Roboto Slab", serif; 
+	font-family: bold "Roboto Slab", serif;
 }
 
 form .donate-button, form input[type="submit"].donate-button {
@@ -543,7 +543,7 @@ form .donate-button, form input[type="submit"].donate-button {
 
 .donate-button p:first-child {
 	font-weight: 500;
-	font-family: bold "Roboto Slab", serif; 
+	font-family: bold "Roboto Slab", serif;
 }
 
 input[type="submit"].donate-button{
@@ -553,25 +553,25 @@ input[type="submit"].donate-button{
 ::-webkit-input-placeholder {
    color: rgba(51, 51, 51, .75);
    text-transform: capitalize;
-   
+
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: rgba(51, 51, 51, .75);
    text-transform: capitalize;
-   
+
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(51, 51, 51, .75); 
+   color: rgba(51, 51, 51, .75);
    text-transform: capitalize;
-    
+
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
    color: rgba(51, 51, 51, .55);
    text-transform: capitalize;
-     
+
 }
 .overlay{
 	width: 100%;
@@ -581,14 +581,14 @@ input[type="submit"].donate-button{
 	top: 0;
 	left: 0;
 	z-index: -60;
-	
+
 	cursor: pointer;
 }
 .modal{
 	position: absolute;
 	top: 0;
 	left: 0;
-	
+
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -630,7 +630,7 @@ input[type="submit"].donate-button{
 /*	line-height: 1.6em;*/
 /*	margin: 0 0 20px 0;*/
 	text-align: left;
-	
+
 }
 .ss-form-question {
 	display: block;
@@ -640,7 +640,7 @@ input[type="submit"].donate-button{
 	text-transform: initial;
 	font-size: 1.3em;
 	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-	
+
 }
 #donate-modal form ul{
 /*	margin: 30px 0;
@@ -664,8 +664,8 @@ ul.ss-choices{
 	padding: 4px 8px;
 	cursor: pointer;
 	line-height: 0;
-	
-	
+
+
 	transition: all 0.2s ease 0.0s;
 		-moz-transition: all 0.2s ease 0.0s;
 		-webkit-transition: all 0.2s ease 0.0s;
@@ -679,7 +679,7 @@ ul.ss-choices{
 	border: 3px solid #333;
 	background: #333;
 	color: #FFF;
-	
+
 }*/
 #donate-modal form ul li.list-title, #donate-modal form ul li.list-title.selected{
 	border: 3px solid #f2f2f2;
@@ -710,7 +710,7 @@ ul.ss-choices{
 	width:80px;
 	margin-left: 10px;
 	float: left;
-	margin-bottom: 7px;	
+	margin-bottom: 7px;
 }
 #donate-modal form input[type="radio"]{
 	display: none;
@@ -819,7 +819,7 @@ ul.ss-choices{
 */
 #micahvideo #black {
 	position: fixed;
-	z-index:100;
+	z-index:200;
 	top: 0;
 	width: 100%;
 	height: 100%;
@@ -830,7 +830,7 @@ ul.ss-choices{
 #micahvideo #x {
 	width: 30px;
 	position: absolute;
-	z-index: 101;
+	z-index: 201;
 	right: 15px;
 	top: 15px;
 	cursor: pointer;
@@ -841,7 +841,7 @@ ul.ss-choices{
 	top: 100px;
 	width: 90%;
 	max-width: 500px;
-	z-index: 101;
+	z-index: 201;
 	color: white;
 }
 
@@ -857,6 +857,11 @@ ul.ss-choices{
 	border-bottom: none;
 	margin: 2em 0 0 0;
 	color: white;
+}
+
+#micahvideo .donate-button {
+  width: 100%;
+  margin: 5% 0;
 }
 
 .body_donate a.donate-button,
