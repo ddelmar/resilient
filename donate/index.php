@@ -24,9 +24,9 @@
 <!-- MAIN FORM FOR SHIRTS -->
 <form id="shirts_form" action="https://docs.google.com/forms/d/1Kv6aEhZp55Gcdr4inVs6xVwlLZE3G7TA8Jj8hq5ob7I/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		<h2>Details</h2>
-		<p>Thanks for supporting Resilient Coders! We'll accept any amount at all, and for <b>$75 or more</b> we'll say thanks with some pretty slick apparel. Just tell us what and where.</p>
+		<p>Thanks for supporting Resilient Coders! We'll accept any amount at all, and for <b>$75 or more</b> we'll say thanks with a pretty slick hoodie.</p>
 
-		<div class="ss-form-question errorbox-good" role="listitem">
+		<div class="ss-form-question errorbox-good" role="listitem" style="width:100%;">
 			<div dir="ltr" class="ss-item ss-text">
 				<div class="ss-form-entry">
 					<label class="ss-q-item-label" for="entry_1446090153">
@@ -40,6 +40,11 @@
 				</div>
 			</div>
 		</div>
+<?php
+/*
+Commenting out the selection of shirts vs. hoodies
+
+
 
 		<div class="ss-form-question errorbox-good" role="listitem">
 			<div dir="ltr" class="ss-item ss-item-required ss-radio">
@@ -84,6 +89,8 @@
 					<div class="error-message" id="477687963_errorMessage"></div>
 				</div></div></div>
 
+
+
 				<div class="ss-form-question errorbox-good" role="listitem"  style="width:100%;">
 				<div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
 					<label class="ss-q-item-label" for="entry_2128526830"><div class="form-title">Size:
@@ -123,6 +130,8 @@
 		</ul>
 	<div class="error-message" id="2128526830_errorMessage"></div>
 	</div></div></div>
+
+	*/?>
 
 	<div class="ss-form-question errorbox-good" role="listitem">
 	<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
@@ -233,89 +242,37 @@
 ::::::::::::::::::::::
 
 */?>
-<div class="spacer"  style="padding: 0;">
 	<div class="container">
 		<div id="tier2">
 
 		<h2>Donate</h2>
 
-		<p class="intro">
-		There's a lot going on, and many opportunities for you to get involved. For any donation of $75 or more, we'll send you your pick of either the <a href="#" class="shirts-modal-link">Resilient Coders t-shirt or hoodie.</a> Here are some of our projects.
+		<p class="intro" style="margin-bottom:1em;">
+		There's a lot going on, and many opportunities for you to get involved. For any donation of $75 or more, we'll send you a Resilient Coders hoodie.
+		They're printed here in Massachusetts by <a href="http://www.commcorp.org/sites/home.cfm?ID=25" target="_blank" title="Exclusive Tees">court-involved youth.</a>
 		</p>
+
+		<ul>
+			<li class="donate-button for-shirts">
+				<p>Donate $75 or More</p>
+			</li>
+			<li class="donate-button" onclick="RC_PayPal()">
+				<p>Donate Any Amount</p>
+			</li>
+		</ul>
+		<p style="float: left; padding:4em 0;">Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
+
+
 
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 </div><!-- /spacer -->
 
 
-<!-- MICAH --><div class="spacer_images"></div>
 
-
-<div class="spacer">
-	<div class="container" style="padding: 0;">
-		<div id="tier2">
-			<h2>Micah's Story</h2>
-
-		<div class="left50">
-			<iframe src="https://www.youtube.com/embed/JU1UunsFgpU" frameborder="0" allowfullscreen></iframe>
-			</div>
-		<div class="right50">
-		<p>
-			<b>Micah and Fredy</b><br />
-			<p>
-				Meet Micah and Fredy. Micah is an aspiring engineer. He's our Dev Lead at Resilient Lab, an initiative of Resilient Coders. Fredy Melo is an aspiring front developer and designer and our Design Lead. Both been accepted into the Startup Institute, an intensive 8-week program.
-				<br /><br />
-				Startup Institute and Yelp have agreed to provide a scholarship to both students and will collectively match every dollar you donate until we've paid their tuition.
-			</p>
-			<br /><br />
-			<a class="donate-button" title="IndieGoGo" href="https://www.indiegogo.com/projects/send-micah-martin-to-startup-institute--2/x/9832214">
-				Help us send Micah and Fredy to Startup Institute
-			</a>
-		</p>
-		</div>
-		</div><!-- /tier2 -->
-	</div><!-- /container -->
-</div><!-- /spacer -->
-<div class="clear"></div>
-
-<!-- COWORKING --><div class="spacer_images"></div>
-
-
-<div class="spacer">
-	<div class="container" style="padding: 0;">
-		<div id="tier2">
-			<h2>Popup Cohorts</h2>
-
-		<div class="left50">
-			<p >
-			<b>$2500</b> will bring a <a href="/program" target="_blank" title="Resilient Coders Program">Popup Cohort</a> to a school, or community center, where students will <a href="http://resilientcoders.org/students" target="_blank">build their own websites.</a><br/><br />
-			<b>$200</b> will allow us to hire a youth mentor to lead a Cohort. <br /><br />
-
-			For any individual gift of <b>$75</b> or more, we'll send you a <a href="#" class="shirts-modal-link">hoodie or a shirt.</a> They're printed here in Massachusetts by <a href="http://www.commcorp.org/sites/home.cfm?ID=25" target="_blank" title="Exclusive Tees">court-involved youth.</a>
-
-			</p>
-
-
-		</div>
-		<div  class="right50">
-			<ul>
-				<li class="donate-button for-shirts">
-					<p>Donate $75 or More</p>
-					<p>Get a shirt or hoodie</p>
-				</li>
-				<li class="donate-button" onclick="RC_PayPal()">
-					<p>Donate Any Amount</p>
-				</li>
-			</ul>
-
-		</div><!-- right50 -->
-		<p class="clear"></p>
-		<div class="hr"></div>
-		<p>Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
-
-	</div><!-- /tier2 -->
-</div><!-- /container -->
-</div><!-- /spacer -->
+<div class="image-container">
+<div class="main-header fullheightwidth hero"></div>
+</div>
 
 
 
@@ -327,27 +284,13 @@
 			<div class="overlay"> </div>
 			<section id="shirts-container">
 				<h2>Shirts and Hoodies</h2>
-				<p>A donation of $75 or more will give you your pick of either a Resilient Coders t-shirt or hoodie. They're printed here in Massachusetts by court-involved youth. Learn more about <a href="http://www.masslive.com/business-news/index.ssf/2013/03/springfields_exclusive_tees_trains_worke.html" target="_blank" alt="Exclusive Tees">Exclusive Tees</a></p>
-				<div id="shirts">
-					<div class="merch" id="shirt-w"></div>
-					<div class="merch" id="shirt-r"></div>
-					<div class="merch" id="hoodie"></div>
-				</div>
-				<div class="donate-button for-shirts">Donate</div>
+				<p>A donation of $75 or more will give you a slick Resilient Coders hoodie. They're printed here in Massachusetts by court-involved youth. Learn more about <a href="http://www.commcorp.org/sites/home.cfm?ID=25" target="_blank" alt="Exclusive Tees">Exclusive Tees.</a></p>
+
 			</section>
 		</div>
 
-
-
-		<p></p>
-		<p></p>
 	</div>
-</div><!-- /container-->
 
-<div class="image-container">
-<div class="main-header fullheightwidth bg_micah"></div>
-<div class="main-header fullheightwidth bg_coworking"></div>
-</div>
 
 <?php include_once("../includes/footer.php") ?>
 <script>

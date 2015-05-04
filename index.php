@@ -1,5 +1,5 @@
 <?php include_once("includes/head.php") ?>
-<?php include_once("includes/micahvideo.php") ?>
+<?php /* include_once("includes/micahvideo.php") */ ?>
 
 <div id="pos" style="display:none; position: fixed; top: 10px; left:0; z-index:9999; ">Nope</div>
 
@@ -14,37 +14,70 @@
 </div><!-- /header -->
 
 <div id="tier2">
-	
+
 		<?php include_once("includes/logo_nav.php") ?>
-	<section>	
+	<section>
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
-			<p>
+			<p class="intro">
 				Resilient Coders is a volunteer-based program focused on making web technology more available to urban youth who might not otherwise be exposed to it. It's a <a href="/program" title="Resilient Coders Program">three-part program</a> that funnels students from learning HTML after school, through our downtown "Coworking" sessions, and ultimately, hourly employment. Our higher performers participate in <a href="/lab" title="Resilient Lab">Resilient Lab,</a> a web design and development shop with real clients.
-			<br /><br />
-		<b>Coding as meritocracy</b><br />
-		A student could have an innate gift for web development, and just never have an opportunity to explore it. He may not have the right role model, or live in a community that values it. If we were to just introduce the basics to these kids, we might awaken the curiosity of one such student, and begin to bridge the opportunity gap.
-		<br /><br />
-		<b>Join the movement</b><br />
-		There is more than one way to join the code literacy movement. Coders: Help us teach. Business owners: Hire Resilient Lab to work on your web presence. Dev teams: Hire our youth for a once-a-week micro-internship. Learn more about <a href="/you" title="Get Involved">how to get involved,</a> or just email us at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a>
-	
-				</p>
+			</p>
+			<p>
+
+		There is more than one way to join the code literacy movement. Coders: Help us teach. Business owners: Hire Resilient Lab to work on your web presence. Learn more about <a href="/you" title="Get Involved">how to get involved,</a> or just email us at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a>
+
+		</p>
 		</div>
 	</section>
 </div><!-- /tier2 -->
 
+
+
+<div class="image-container">
+<div class="main-header fullheightwidth bg_micah"></div>
+</div>
+
+
+
+<div class="spacer">
+	<div class="container">
+		<div>
+			<h2 style="padding-bottom: 80px;">Micah's Story</h2>
+
+		<div class="left50">
+			<iframe src="https://www.youtube.com/embed/JU1UunsFgpU" frameborder="0" allowfullscreen></iframe>
+			</div>
+		<div class="right50">
+
+			<p>
+				Micah is an aspiring engineer. He's our Dev Lead at Resilient Lab, an initiative of Resilient Coders.
+				Earlier this year, he and our Design Lead, Fredy Melo, were accepted into Startup Institute, an intensive
+				8-week bootcamp. They've since graduated and have begun working for other companies. Hear why web
+				development is so important to Micah.
+			</p>
+
+
+		</div>
+		</div>
+	</div><!-- /container -->
+</div><!-- /spacer -->
+<div class="clear"></div>
+
+
+
+
+
+
 <div id="tier3">
+	<div class="container">
 	<section>
 		<div class="product">
 		<h2>
 			Learning by failing
 		</h2>
 		<p>
-Our approach to coding is a little different from traditional education. We learn by doing things wrong. We scrape, we tweak, we break. And then we iterate, each time failing smarter than the last. Our objective is not a scholastic one; we aim to acquire a skill that can gainfully employ someone who has the resilience to learn by failure. 
+Our approach to coding is a little different from traditional education. We learn by doing things wrong. We scrape, we tweak, we break. And then we iterate, each time failing smarter than the last. Our objective is not a scholastic one; we aim to acquire a skill that can gainfully employ someone who has the resilience to learn by failure.
 		</p>
-		<p>
-			<b>Better ROI.</b> Young people will invest their talent and energy wherever they see most opportunity for return. And while talent and energy are broadly consistent across neighborhoods, opportunities are not. So youth in underserved communities invest accordingly, "hustling" wherever they see the most chance for personal success. We present ourselves as another option: Hustle smarter. The same character traits that get a student kicked out of school can make him successful, if he sees an opportunity. They say you shouldn't try to stop a runaway train, when you can just switch the tracks and still leverage all that good momentum. </p>
-			
 <p>
 Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a><br /><br />
 </p>
@@ -59,11 +92,13 @@ Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">
 		</a>
 	</div>
 </section>
+</div>
 
 
-		
+
+
 	<?php include_once("includes/footer.php") ?>
-	
+
 </div><!-- /tier3 -->
 
 	<div id="intro"></div> <!--#intro-->

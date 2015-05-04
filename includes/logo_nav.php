@@ -11,10 +11,7 @@
 				<a class="Program" href="/program/">The Program</a>
 			</li>
 			<li>
-				<a class="Partners" href="/team/">The Team</a>
-			</li>
-			<li>
-				<a class="Students" href="/students/">The Students</a>
+				<a class="Team" href="/team/">The Team</a>
 			</li>
 			<li>
 				<a class="You" href="/you/">Get involved</a>
@@ -25,6 +22,6 @@
 			<li>
 				<a class="Lab" href="/lab/">Resilient Lab</a>
 			</li>
-			
+
 		</ul>
 	</div>

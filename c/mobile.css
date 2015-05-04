@@ -1,14 +1,4 @@
 
-/*
-*****************************
-This stylesheet has deviated from desktop.css
-
-*****************************
-*/
-
-
-
-
 @charset "utf-8";
 
 * {margin:0; padding:0;}
@@ -17,7 +7,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background: #ededed;
-	
+
 }
 
 h1 {
@@ -45,9 +35,9 @@ ul#nav {
 	background: white;
 }
 
-ul#nav li { 
-	width: 100%; 
-	padding: 0; 
+ul#nav li {
+	width: 100%;
+	padding: 0;
 	margin: 0;
 }
 
@@ -99,7 +89,7 @@ img.nav_x {
 */
 
 .body_ p {
-	margin: 0 0 20px 0;	
+	margin: 0 0 20px 0;
 }
 
 .body_ h2 { margin: 0; }
@@ -120,7 +110,7 @@ h2#tagline {
 
 #overlaid{
 	/*
-	This is the image that fades in 
+	This is the image that fades in
 	*/
 	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.jpg);
 	background-size: 100% auto;
@@ -140,7 +130,7 @@ h2#tagline {
 
 #underlaid{
 	/*
-	This is the bottom image 
+	This is the bottom image
 	*/
 	z-index:-2;
 	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.jpg);
@@ -156,11 +146,8 @@ h2#tagline {
 	padding: 0;
 }
 
-.body_ #container,
 .body_ .container {
-	position: absolute;
 	width: 100%;
-	z-index:4;
 	margin: 0;
 }
 
@@ -216,19 +203,6 @@ h2#tagline {
 
 .body_program #tier3 p { padding: 0 5%; }
 
-.hero {
-	height: 160px;
-	margin: 60px auto 0 auto;
-}
-
-.body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj_640.jpg);}
-.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed_640.jpg);}
-.body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk_640.jpg);}
-.body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg_640.jpg);}
-.body_donate .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ao_640.jpg);}
-.body_team .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/coworkingboys_640.JPG);}
-.body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/lorenzo_coding_640.JPG);}
-.body_roadmap .hero { height: 40px;}
 
 /*
 ::::::::::::::::
@@ -236,12 +210,16 @@ h2#tagline {
 ::::::::::::::::
 */
 
-.body_team .team li a, 
+.body_team .team li a,
 .body_team .team li a.unselected,
 .body_team .team li a:hover,
 .body_team .team li a:hover.unselected {
 	border: 0px;
-	width: 25%;
+	width: 33.33%;
+}
+
+.body_team #tier2 {
+	margin-top: 62px;
 }
 
 .team ul{ width: 100%; margin: 0 auto; }
@@ -274,7 +252,7 @@ h2#tagline {
 
 .merch{
 	width: 100%;
-	
+
 }
 #shirt-r{
 	float: left;
@@ -295,6 +273,10 @@ h2#tagline {
 .body_donate #tier2 p.lorenzo_andre {
 	margin: 20px 0 0 0;
 	width: 100%;
+}
+
+.body_donate .container ul li {
+  width: 100%;
 }
 
 .donate-button, input[type="submit"].donate-button {

@@ -26,6 +26,9 @@
 			<li class="Josh"><a href="#s_detail" class="unselected" >
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/josh.jpg" />
 			</a></li>
+			<li class="Chris"><a href="#s_detail" class="unselected" >
+				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/chris.jpg" />
+			</a></li>
 			<li class="clr"></li>
 		</ul>
 
@@ -105,6 +108,17 @@ Susanne is a Management Consultant specializing in organizational strategy, orga
 Joshua Summers is a serial entrepreneur that believes the best companies are built in and around Boston. As the Co-founder and CEO of clypd Joshua is leading the charge in building the next evolution in tv advertising sales models by bridging the gap between traditional linear TV ads and programmatic solutions. Joshua holds a bachelors degree in Industrial Management with an additional major in Economics from Carnegie Mellon University. Joshua lives with his forgiving wife Rachel and awesome kids Zachary and Alisha in Lexington, MA.						</p>
 					</div><!-- /josh -->
 			</article>
+			<article>
+					<div class="Chris">
+						<h2>
+							Chris Swenor
+						</h2>
+						<h3>Technical Advisor</h3>
+						<div class="clr"></div>
+						<p>
+							Taught himself how to code at the age of 12. Discovered he loved it and couldn't get enough. Decided to bypass college and dive right into his career as a developer. Worked his way up through the developer ranks until it was time inspire other developers to make amazing things. Currently CTO at Vsnap, and loving every minute of it.
+					</div><!-- /chris -->
+			</article>
 
 
 		</div><!--/team_copy-->
@@ -120,7 +134,19 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 	</div><!-- /team -->
 	</div><!-- /container-->
 
-<div class="partners" id="tier3">
+
+
+
+	<div class="image-container">
+	<div class="main-header fullheightwidth hero"></div>
+	</div>
+
+
+
+
+
+
+<div class="container partners" >
 
 	<ul>
 		<p>Our partners make it all possible.</p>
