@@ -1,4 +1,10 @@
 /*
+Loosely based on the work of Ian Lunn (credit below)
+Modified for Resilient Coders
+http://resilientcoders.org
+If you're reading this, you should join us.
+
+
 JavaScript for the demo: Recreating the Nikebetterworld.com Parallax Demo
 Demo: Recreating the Nikebetterworld.com Parallax Demo
 Author: Ian Lunn
@@ -13,7 +19,7 @@ http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/licenses/gpl.html
 */
 
-$(document).ready(function() { //when the document is ready...
+$(document).ready(function() {
 
 if (($(document).width()) < 768){
 } else {
@@ -22,7 +28,6 @@ if (($(document).width()) < 768){
 	var $window = $(window);
 	var $firstBG = $('#intro');
 	var $overlaidBG = $('#overlaid');
-	var $tagline = $('#tagline');
 	var $tier2 = $('#tier2 *');
 	var $tier3 = $('#tier3 *');
 
@@ -74,7 +79,6 @@ if (($(document).width()) < 768){
 			*/
 			$("#pos").html(pos);
 			$overlaidBG.css({"opacity": (pos * 0.005)});
-			$tagline.css({"opacity": (pos * 0.002)});
 			if(pos > 700){
 				$(".body_ #logo_nav").addClass("fixed");
 			} else {
@@ -82,6 +86,7 @@ if (($(document).width()) < 768){
 			}
 			/*
 			This was the bit that faded in the second and third divs
+			But it looked weird on "taller" browser windows
 
 		//if the second section is in view...
 		if($('#tier2').hasClass("inview")){
