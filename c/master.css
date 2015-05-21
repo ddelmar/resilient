@@ -378,10 +378,10 @@ background-color: #e5e5e5;
 	margin: 0 auto;
 }
 
-.body_team .partners ul li { width: 24%; float: left; display: block; }
+.body_team .partners ul li { width: 19%; float: left; display: block; }
 .body_team .partners ul li a { width: 80%; float: left; }
 .body_team .partners ul li a img { width: 100%; }
-.body_team .partners ul li.tugg {margin: 30px 0 0 0; }
+.body_team .partners ul li.tugg {margin: 10px 0 0 0; }
 .body_team .partners ul li.tugg a img#cic {width:50%; margin: 20px 0 0 20px; float: right; }
 
 .body_team .partners ul li.goulston a { margin: 15px 0; }

@@ -155,6 +155,12 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png">
 			</a>
 		</li>
+		<li class="tugg">
+			<a href="http://masschallenge.org">
+				<img src="/i/masschallenge.png">
+			</a>
+		</li class="bpd">
+		<li>
 		<li class="cic">
 			<a href="http://cic.us">
 				<img id="cic" src="https://delmarsenties.s3.amazonaws.com/resilient/logos/cic.png">
