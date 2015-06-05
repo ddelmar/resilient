@@ -18,7 +18,9 @@
 	</iframe>
 	<form id="PP_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none">
 		<input type="hidden" name="cmd" value="_s-xclick">
-		<input id="donation_amount" type="hidden" name="hosted_button_id" value="66U8WYDLT7C5J">
+		<input id="donation_amount" type="hidden" name="hosted_button_id" value="2D4YQBAPSW9DC">
+
+		<?php /* third sector was 66U8WYDLT7C5J */ ?>
 		<!-- <input type="hidden" name="amount" value="$69"> -->
 	</form>
 <!-- MAIN FORM FOR SHIRTS -->
@@ -260,7 +262,7 @@ Commenting out the selection of shirts vs. hoodies
 				<p>Donate Any Amount</p>
 			</li>
 		</ul>
-		<p style="float: left; padding:4em 0;">Our 501(c)(3) application is pending (we're pretty new). So we work with Third Sector New England for fiscal sponsorship in order to be able to accept your tax deductible gift.</p>
+		<p style="float: left; padding:4em 0;">Resilient Coders is a 501(c)(3) organization.</p>
 
 
 

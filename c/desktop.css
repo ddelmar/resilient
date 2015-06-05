@@ -218,7 +218,8 @@ h2#tagline {
 .body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/julio.jpg);}
 .body_roadmap .hero { height: 60px;}
 
-
+.bg_mark {	background-image: url("/i/camp_mark.jpg"); }
+.bg_kunle {	background-image: url("/i/camp_kunle.JPG"); }
 .body_donate .hero {	background-image: url("/i/Ben_Kenobi.png"); }
 .bg_micah {	background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/donate/micah_bw.jpg"); }
 .bg_coworking {
@@ -368,6 +369,19 @@ background-size: cover;
 }
 
 
+/*
+::::::::::::::::
+::: Camp :::::::
+::::::::::::::::
+*/
+
+.body_camp section:first-of-type h2 {
+	margin: 1.6em 0;
+}
+
+.body_camp h2 {
+	margin: 0;
+}
 
 /*
 :::::::::::::::
