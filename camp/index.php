@@ -18,7 +18,7 @@
  	<b>What does it mean to be a mentor?</b> We're looking for hacktivists like ourselves. We are designers and developers
 	who believe that being able to code can provide Boston's youth with a path towards meaningful employment.
 	If you're interested in getting involved, and you're curious as to the schedule, the curriculum, and
-	level of time commitment, you can learn some of those details in this PDF we hand out to new mentors.
+	level of time commitment, you can learn some of those details in <a href="/i/mentorship.pdf">this PDF</a> we hand out to new mentors.
 </p>
 
 
@@ -36,12 +36,17 @@
 		<div>
 			<h2 style="padding-bottom: 80px;">Summer</h2>
 
-
+			<p class="intro">
+				This summer, we'll be co-hosting the Media Leadership Center with our friends at
+				<a href="http://www.presspasstv.org/" target="_blank">Press Pass TV</a>, designing and building a functional
+				prototype	for the Mayor's Office. And on August 20th, they will be presenting their work to an audience at Demo Day.
+			</p>
 			<p>
-				Micah is an aspiring engineer. He's our Dev Lead at Resilient Lab, an initiative of Resilient Coders.
-				Earlier this year, he and our Design Lead, Fredy Melo, were accepted into Startup Institute, an intensive
-				8-week bootcamp. They've since graduated and have begun working for other companies. Hear why web
-				development is so important to Micah.
+				Students will be coached along by their peers and by our network of mentors as they design, pitch, and ultimately
+				build product. Are you a designer or developer, interested in mentoring?
+				We're coding on Tuesdays and Thursdays, from 2pm to 4pm, in Dudley Square. Join us for an afternoon.
+				Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a>
+
 			</p>
 
 
@@ -61,18 +66,60 @@
 	<div class="container">
 		<div>
 			<h2 style="padding-bottom: 80px;">Spring Break</h2>
+			<iframe src="https://www.youtube.com/embed/ASKzlgmopyo" frameborder="0" allowfullscreen style="width:100%; height:400px"></iframe>
 
-		<div class="left50">
-			<iframe src="https://www.youtube.com/embed/JU1UunsFgpU" frameborder="0" allowfullscreen></iframe>
-			</div>
-		<div class="right50">
 
-			<p>
-				Micah is an aspiring engineer. He's our Dev Lead at Resilient Lab, an initiative of Resilient Coders.
-				Earlier this year, he and our Design Lead, Fredy Melo, were accepted into Startup Institute, an intensive
-				8-week bootcamp. They've since graduated and have begun working for other companies. Hear why web
-				development is so important to Micah.
+			<p class="intro" style="margin-top: 20px">
+				This April, 25 young people built their first websites and presented them to an audience of technologists.
+				We partnered up with the Young People's Project to run the first annual Boston Coding Camp.
 			</p>
+			<p>
+				Video and original music by Andy Laub of <a href="http://asithappens.tv" target="_blank">As It Happens Films.</a>
+			</p>
+			<div id="sponsors">
+      <p>Our camps are made possible by our sponsors:</p>
+      <a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
+        <img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png" style="padding-top:12px;" />
+      </a>
+      <a href="http://svb.com" title="Silicon Valley Bank" target="_blank" class="horizontal">
+        <img src="img/svb.png"/>
+      </a>
+      <a href="http://clypd.com" title="clypd" target="_blank">
+        <img src="img/Clypd.png" />
+      </a>
+      <a href="http://www.atlasventure.com/" title="Atlas Venture" target="_blank">
+        <img src="img/FKA.png"  />
+      </a>
+      <a href="http://hopper.com/" title="Hopper" target="_blank">
+        <img src="img/hopper.png"  />
+      </a>
+      <a href="http://nextstepliving.com/" title="Next Step Living" target="_blank" class="horizontal">
+        <img src="img/NextStepLiving.png" />
+      </a>
+      <a href="http://wilmerhale.com/" title="Wilmer Hale" target="_blank" class="horizontal">
+        <img src="img/WilmerHale.JPG" />
+      </a>
+      <a href="http://dataxu.com/" title="DataXu" target="_blank"  >
+        <img src="img/DataXu.png" />
+      </a>
+
+      <a href="http://cambridgesavingsbank.com/" title="Cambridge Savings Bank" target="_blank"  class="horizontal" >
+        <img src="img/cambridgesavingsbank.png" />
+      </a>
+      <a href="http://nitrous.io" title="Nitrous" target="_blank">
+        <img src="img/nitrous.png" />
+      </a>
+      <a href="http://easternbank.com" title="Eastern Bank" target="_blank" class="horizontal">
+        <img src="img/easternbank.gif"/>
+      </a>
+      <a href="http://www.cambridgesciencefestival.org/" title="Cambridge Science Festival" target="_blank">
+        <img src="img/CSFLogo.png" style="padding-top:12px;" />
+      </a>
+      <a href="http://www.tjx.com/" title="TJX" target="_blank">
+        <img src="img/tjx.png" style="padding-top:12px;" />
+      </a>
+
+    </div>
 
 
 		</div>
@@ -80,18 +127,6 @@
 	</div><!-- /container -->
 </div><!-- /spacer -->
 
-
-
-
-
-
-
-
-
-
-<div class="image-container">
-<div class="main-header fullheightwidth hero"></div>
-</div>
 
 
 <?php include_once("../includes/footer.php") ?>

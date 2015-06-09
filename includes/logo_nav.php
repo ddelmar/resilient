@@ -14,6 +14,9 @@
 				<a class="Team" href="/team/">The Team</a>
 			</li>
 			<li>
+				<a class="Camp" href="/camp/">Camp</a>
+			</li>
+			<li>
 				<a class="You" href="/you/">Get involved</a>
 			</li>
 			<li>

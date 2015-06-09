@@ -308,6 +308,29 @@ form .donate-button, form input[type="submit"].donate-button {
 }
 
 /*
+::::::::::::::::
+::: Camp :::::::
+::::::::::::::::
+*/
+
+.body_camp section:first-of-type h2 {
+	margin: 1.6em 0;
+}
+
+.body_camp h2 {
+	margin: 0;
+}
+
+#sponsors a {
+  width: 100%;  /* Change as we start getting more sponsors */
+  max-width: 120px;
+  text-align: center;
+  margin: 40px 0;
+  display: inline-block;
+
+}
+
+/*
 :::::::::::::::
 :: MICAH VIDEO
 :::::::::::::::

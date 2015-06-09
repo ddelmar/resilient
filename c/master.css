@@ -903,3 +903,69 @@ ul.ss-choices{
 		-ms-transition: all 0.3s ease 0.0s;
 	cursor: pointer;
 }
+
+/*
+=========
+sponsors
+=========
+*/
+#sponsors{
+  max-width:800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#sponsors a {
+  width: 100%;  /* Change as we start getting more sponsors */
+  max-width: 120px;
+  text-align: center;
+  margin: 40px 0;
+  display: inline-block;
+
+}
+
+#sponsors a img {
+  width:100%;
+  max-width: 80px;
+}
+
+#sponsors .horizontal {
+  max-width: 140px;
+}
+
+#sponsors .horizontal img {
+  max-width: 120px;
+}
+
+#microsoftLogo{
+  background-image: url("../img/microsoftLogo.jpeg");
+  background-size: 75% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 29%;
+  height:25%;
+  margin-top: 5%; margin-left: 6.5%;
+  display: inline-block;
+}
+#logoskull{
+  background-image: url("../img/logoskull.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 28%;
+  height:35%;
+  margin-top: 5%;
+  display: inline-block;
+}
+#ypp{
+  background-image: url("../img/ypp.jpg");
+  background-size: 80% 70%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 29%;
+  height:50%;
+  margin-top: 5%; margin-right:4.5%;
+  display: inline-block;
+}
