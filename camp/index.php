@@ -37,7 +37,7 @@
 			<h2 style="padding-bottom: 80px;">Summer</h2>
 
 			<p class="intro">
-				This summer, we'll be co-hosting the Media Leadership Center with our friends at
+				This summer, we'll be co-hosting the Media Leadership Institute with our friends at
 				<a href="http://www.presspasstv.org/" target="_blank">Press Pass TV</a>, designing and building a functional
 				prototype	for the Mayor's Office. And on August 20th, they will be presenting their work to an audience at Demo Day.
 			</p>
@@ -77,7 +77,22 @@
 				Video and original music by Andy Laub of <a href="http://asithappens.tv" target="_blank">As It Happens Films.</a>
 			</p>
 			<div id="sponsors">
-      <p>Our camps are made possible by our sponsors:</p>
+			<p>Media Leadership Institute 2015 is made possible by our sponsors:</p>
+			<a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
+        <img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png" style="padding-top:12px;" />
+      </a>
+			<a href="https://twitter.com/bpdshannon" title="Boston Police Department Shannon Grant" target="_blank" >
+        <img src="img/bpd.png"/>
+      </a>
+			<a href="http://svb.com" title="Silicon Valley Bank" target="_blank" class="horizontal">
+        <img src="img/svb.png"/>
+      </a>
+			<a href="https://testive.com/" title="Testive" target="_blank" style="margin:0;">
+        <img src="img/testive.png"/>
+      </a>
+			<div class="clr"></div>
+
+      <p>Boston Coding Camp 2015 was made possible by our sponsors:</p>
       <a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
         <img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png" style="padding-top:12px;" />
       </a>
@@ -97,7 +112,7 @@
         <img src="img/NextStepLiving.png" />
       </a>
       <a href="http://wilmerhale.com/" title="Wilmer Hale" target="_blank" class="horizontal">
-        <img src="img/WilmerHale.JPG" />
+        <img src="img/WilmerHale.png" />
       </a>
       <a href="http://dataxu.com/" title="DataXu" target="_blank"  >
         <img src="img/DataXu.png" />

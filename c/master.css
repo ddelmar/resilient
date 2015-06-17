@@ -921,6 +921,7 @@ sponsors
   width: 100%;  /* Change as we start getting more sponsors */
   max-width: 120px;
   text-align: center;
+  vertical-align: top;
   margin: 40px 0;
   display: inline-block;
 
