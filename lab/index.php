@@ -25,11 +25,5 @@ Our youth are trained to build websites, and enjoy the guidance and support of p
 
 
 <?php include_once("../includes/footer.php") ?>
-
-
-<script type="text/javascript" src="/j/nbw-parallax.js"></script>
-<script type="text/javascript" src="/j/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="/j/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="/j/jquery.inview.js"></script>
 </body>
 </html>

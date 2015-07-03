@@ -97,7 +97,7 @@ h2#tagline {
 	/*
 	This is the image that fades in
 	*/
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.png);
+	background-image:  url(http://resilientcoders.s3.amazonaws.com/resilient/hero2.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -341,4 +341,15 @@ form .donate-button, form input[type="submit"].donate-button {
 #micahvideo #video {
 	left: 50%;
 	margin-left:-250px;
+}
+
+/*
+::::::::::::::::
+:::: Badges ::::
+::::::::::::::::
+*/
+
+.content_2col div { width: 44%;}
+.content_2col div:first-of-type {
+  margin-right: 2%;
 }

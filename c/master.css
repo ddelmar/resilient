@@ -28,6 +28,7 @@
 * {
 	margin:0;
 	padding:0;
+  vertical-align:top;
 }
 body {
 	font-family: "Bitter", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -330,14 +331,14 @@ background-color: #e5e5e5;
 /* PHOTOS, PHOTO CREDIT */
 
 .program_nav li a.popup,
-.program_nav li a.popup:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupTop.png");}
-.program_nav li a.popup#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_popupBottom.png");}
+.program_nav li a.popup:hover { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_popupTop.png");}
+.program_nav li a.popup#selected { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_popupBottom.png");}
 .program_nav li a.coworking,
-.program_nav li a.coworking:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_coworkingTop.png");}
-.program_nav li a.coworking#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_coworkingBottom.png");}
+.program_nav li a.coworking:hover { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_coworkingTop.png");}
+.program_nav li a.coworking#selected { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_coworkingBottom.png");}
 .program_nav li a.resilient,
-.program_nav li a.resilient:hover { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientTop.png");}
-.program_nav li a.resilient#selected { background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientBottom.png");}
+.program_nav li a.resilient:hover { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_resilientTop.png");}
+.program_nav li a.resilient#selected { background-image: url("https://resilientcoders.s3.amazonaws.com/i/3model_resilientBottom.png");}
 
 .body_team .photocredit.krysta {display:block;}
 .body_ .photocredit.andyfilm {display:block;}
@@ -969,4 +970,30 @@ sponsors
   height:50%;
   margin-top: 5%; margin-right:4.5%;
   display: inline-block;
+}
+
+/*
+::::::::::::::::
+:::: Badges ::::
+::::::::::::::::
+*/
+
+.content_2col {
+  margin: 0 auto;
+  width:100%;
+}
+
+.content_2col div {
+  display: inline-block;
+  margin: 0;
+}
+
+.content_2col div img {
+  margin: 0 auto;
+}
+
+.content_2col div p {
+  margin:2em auto;
+  padding: 0;
+  width: 90%;
 }

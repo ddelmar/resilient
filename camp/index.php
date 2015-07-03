@@ -21,7 +21,6 @@
 	level of time commitment, you can learn some of those details in <a href="/i/mentorship.pdf">this PDF</a> we hand out to new mentors.
 </p>
 
-
 </div><!-- tier2 -->
 </div><!-- container -->
 
@@ -145,11 +144,5 @@
 
 
 <?php include_once("../includes/footer.php") ?>
-
-
-<script type="text/javascript" src="/j/nbw-parallax.js"></script>
-<script type="text/javascript" src="/j/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="/j/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="/j/jquery.inview.js"></script>
 </body>
 </html>

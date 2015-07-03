@@ -9,7 +9,7 @@
 
 <div id="header">
 	<section>
-	<img id="logo_skull" src="https://delmarsenties.s3.amazonaws.com/resilient/logo_skull.png" alt="Resilient Coders">
+	<img id="logo_skull" src="https://resilientcoders.s3.amazonaws.com/i/logo_skull.png" alt="Resilient Coders">
 	</section>
 </div><!-- /header -->
 
@@ -88,7 +88,7 @@ Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">
 	<div class="product twitter">
 		<p><?php /* require_once('includes/twitter.php'); */ ?></p>
 		<a href="http://twitter.com/resilientcoders">
-			<img src="https://delmarsenties.s3.amazonaws.com/resilient/tw_grey.png">
+			<img src="https://resilientcoders.s3.amazonaws.com/i/tw_grey.png">
 		</a>
 	</div>
 </section>
@@ -109,8 +109,5 @@ Join the movement. Drop us a note at <a href="mailto:david@resilientcoders.org">
 
 
 <script type="text/javascript" src="/j/nbw-parallax.js"></script>
-<script type="text/javascript" src="/j/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="/j/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="/j/jquery.inview.js"></script>
 </body>
 </html>

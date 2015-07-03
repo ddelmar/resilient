@@ -7,27 +7,27 @@
 		<ul class="team_photos">
 
 			<li class="David"><a href="#s_detail" class="unselected">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/del.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
 			</a></li>
 			<?php /*
 			<li class="Tyler"><a href="#s_detail" class="unselected">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/tyler2.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/tyler2.jpg" />
 			</a></li>
 			*/ ?>
 			<li class="Fredy"><a href="#s_detail" class="unselected" >
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/fredy.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/fredy.jpg" />
 			</a></li>
 			<li class="Micah"><a href="#s_detail" class="unselected" >
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/micah.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/micah.jpg" />
 			</a></li>
 			<li class="Susanne"><a href="#s_detail" class="unselected" >
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/susanne.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/susanne.jpg" />
 			</a></li>
 			<li class="Josh"><a href="#s_detail" class="unselected" >
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/josh.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/josh.jpg" />
 			</a></li>
 			<li class="Chris"><a href="#s_detail" class="unselected" >
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/team/chris.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/chris.jpg" />
 			</a></li>
 			<li class="clr"></li>
 		</ul>
@@ -152,7 +152,7 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 		<p>Our partners make it all possible.</p>
 		<li class="tugg">
 			<a href="http://tugg.org">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/tugg.png">
 			</a>
 		</li>
 		<li class="tugg">
@@ -163,19 +163,19 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 		<li>
 		<li class="cic">
 			<a href="http://cic.us">
-				<img id="cic" src="https://delmarsenties.s3.amazonaws.com/resilient/logos/cic.png">
+				<img id="cic" src="https://resilientcoders.s3.amazonaws.com/i/logos/cic.png">
 			</a>
 		</li class="bpd">
 		<li>
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/bpd.jpg">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/bpd.jpg">
 		</li>
 		<li class="goulston">
 			<a href="http://goulstonstorrs.com">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/goulston.jpg">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/goulston.jpg">
 			</a>
 
 			<a href="http://milkstreetcafe.com">
-				<img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/MilkStreetCafe.jpg">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/MilkStreetCafe.jpg">
 			</a>
 		</li>
 	</ul>

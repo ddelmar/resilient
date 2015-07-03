@@ -78,7 +78,7 @@ h2#tagline {
 	/*
 	This is the image that fades in
 	*/
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero2.png);
+	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/hero2.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -100,7 +100,7 @@ h2#tagline {
 	This is the bottom image
 	*/
 	z-index:1;
-	background-image:  url(http://delmarsenties.s3.amazonaws.com/resilient/hero1.png);
+	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/hero1.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -210,20 +210,22 @@ h2#tagline {
 }
 */
 
-.body_students .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_lj.png);}
-.body_you .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_ed.png);}
-.body_program .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/teep_rk.jpg);}
-.body_partners .hero { background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/tugg.jpg);}
+.body_students .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/teep_lj.png);}
+.body_you .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/teep_ed.png);}
+.body_program .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/teep_rk.jpg);}
+.body_partners .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/tugg.jpg);}
 .body_team .hero {background-image: url("/i/tugg.JPG");}
-.body_lab .hero {background-image: url(https://delmarsenties.s3.amazonaws.com/resilient/julio.jpg);}
+.body_lab .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/julio.jpg);}
+.body_badges .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/ackeempaul.jpg);}
+
 .body_roadmap .hero { height: 60px;}
 
 .bg_mark {	background-image: url("/i/camp_mark.jpg"); }
 .bg_kunle {	background-image: url("/i/camp_kunle.JPG"); }
 .body_donate .hero {	background-image: url("/i/Ben_Kenobi.png"); }
-.bg_micah {	background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/donate/micah_bw.jpg"); }
+.bg_micah {	background-image: url("https://resilientcoders.s3.amazonaws.com/i/donate/micah_bw.jpg"); }
 .bg_coworking {
-	background-image: url("https://delmarsenties.s3.amazonaws.com/resilient/donate/leanstartup.png"); }
+	background-image: url("https://resilientcoders.s3.amazonaws.com/i/donate/leanstartup.png"); }
 
 
 
@@ -396,4 +398,15 @@ background-size: cover;
 #micahvideo #video {
 	left: 50%;
 	margin-left:-250px;
+}
+
+/*
+::::::::::::::::
+:::: Badges ::::
+::::::::::::::::
+*/
+
+.content_2col div { width: 44%;}
+.content_2col div:first-of-type {
+  margin-right: 2%;
 }
