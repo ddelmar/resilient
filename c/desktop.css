@@ -23,14 +23,14 @@ body{
 }
 
 #nav li {
-	margin: 2.1em 1em;
+	margin: 2.3em 1em;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 }
 
 #nav li a {
-	font-size: 1.8em;
+	font-size: 1em;
 }
 
 #logo_nav > .mobileonly,

@@ -8,23 +8,27 @@
 		<img src="https://resilientcoders.s3.amazonaws.com/i/nav_x.png" class="mobileonly nav_x" />
 		<ul id="nav">
 			<li>
-				<a class="Program" href="/program/">The Program</a>
+				<a class="Program" href="/program/">Program</a>
 			</li>
 			<li>
-				<a class="Team" href="/team/">The Team</a>
+				<a class="Team" href="/team/">Team</a>
 			</li>
 			<li>
 				<a class="Camp" href="/camp/">Camp</a>
 			</li>
 			<li>
-				<a class="You" href="/you/">Get involved</a>
+				<a class="Lab" href="/lab/">Lab</a>
+			</li>
+			<li>
+				<a class="Lab" href="/press/">Press</a>
+			</li>
+			<li>
+				<a class="You" href="/you/">You</a>
 			</li>
 			<li>
 				<a class="Donate" href="/donate/">Donate</a>
 			</li>
-			<li>
-				<a class="Lab" href="/lab/">Resilient Lab</a>
-			</li>
+
 
 		</ul>
 	</div>

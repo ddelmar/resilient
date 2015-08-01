@@ -18,7 +18,7 @@
  	<b>What does it mean to be a mentor?</b> We're looking for hacktivists like ourselves. We are designers and developers
 	who believe that being able to code can provide Boston's youth with a path towards meaningful employment.
 	If you're interested in getting involved, and you're curious as to the schedule, the curriculum, and
-	level of time commitment, you can learn some of those details in <a href="/i/mentorship.pdf">this PDF</a> we hand out to new mentors.
+	level of time commitment, you can learn some of those details in <a href="/i/logos/mentorship.pdf">this PDF</a> we hand out to new mentors.
 </p>
 
 </div><!-- tier2 -->
@@ -36,15 +36,23 @@
 			<h2 style="padding-bottom: 80px;">Summer</h2>
 
 			<p class="intro">
-				This summer, we'll be co-hosting the Media Leadership Institute with our friends at
+				This summer, we're co-hosting the Media Leadership Institute with our friends at
 				<a href="http://www.presspasstv.org/" target="_blank">Press Pass TV</a>, designing and building a functional
-				prototype	for the Mayor's Office. And on August 20th, they will be presenting their work to an audience at Demo Day.
+				prototype	for the Mayor's Office. And on August 27th, they will be presenting their work to an audience.
+				<a href="https://www.eventbrite.com/e/bearing-witness-tickets-17980658634" target="_blank">Join us.</a>
+
 			</p>
 			<p>
-				Students will be coached along by their peers and by our network of mentors as they design, pitch, and ultimately
-				build product. Are you a designer or developer, interested in mentoring?
-				We're coding on Tuesdays and Thursdays, from 2pm to 4pm, in Dudley Square. Join us for an afternoon.
-				Drop us a note at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org.</a>
+
+				"Bearing Witness" is a celebration of our youth's transitions from passive consumers of media
+				to active contributors. Our students will have spent the summer learning about journalism,
+				audio and film production, plus web design and development. Watch a series of short, 3-minute films,
+				and check out the prototypes for a snow removal application that our youth have pitched, designed,
+				and built. Join us for some food and drink, while we celebrate our great city and its youth.
+				Opening remarks from Meghan Verena Joyce, General Manager for Uber Boston.
+				Music from B4 records, a youth-run record label that challenges the status quo by producing
+				socially conscious and progressive music.
+				<a href="https://www.eventbrite.com/e/bearing-witness-tickets-17980658634" target="_blank">RSVP to join us for free.</a>
 
 			</p>
 
@@ -78,59 +86,64 @@
 			<div id="sponsors">
 			<p>Media Leadership Institute 2015 is made possible by our sponsors:</p>
 			<a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
-        <img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png" style="padding-top:12px;" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/tugg.png" style="padding-top:12px;" />
       </a>
 			<a href="https://twitter.com/bpdshannon" title="Boston Police Department Shannon Grant" target="_blank" >
-        <img src="img/bpd.png"/>
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/bpd.png"/>
       </a>
 			<a href="http://svb.com" title="Silicon Valley Bank" target="_blank" class="horizontal">
-        <img src="img/svb.png"/>
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/svb.png"/>
       </a>
 			<a href="https://testive.com/" title="Testive" target="_blank" style="margin:0;">
-        <img src="img/testive.png"/>
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/testive.png"/>
       </a>
+			<a href="http://openviewpartners.com/" title="OpenView Partners" target="_blank" class="horizontal">
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/openview.png"/>
+      </a>
+
+			https://resilientcoders.s3.amazonaws.com/i/logos/openview.png
 			<div class="clr"></div>
 
       <p>Boston Coding Camp 2015 was made possible by our sponsors:</p>
       <a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
-        <img src="https://delmarsenties.s3.amazonaws.com/resilient/logos/tugg.png" style="padding-top:12px;" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/tugg.png" style="padding-top:12px;" />
       </a>
       <a href="http://svb.com" title="Silicon Valley Bank" target="_blank" class="horizontal">
-        <img src="img/svb.png"/>
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/svb.png"/>
       </a>
       <a href="http://clypd.com" title="clypd" target="_blank">
-        <img src="img/Clypd.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/Clypd.png" />
       </a>
       <a href="http://www.atlasventure.com/" title="Atlas Venture" target="_blank">
-        <img src="img/FKA.png"  />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/FKA.png"  />
       </a>
       <a href="http://hopper.com/" title="Hopper" target="_blank">
-        <img src="img/hopper.png"  />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/hopper.png"  />
       </a>
       <a href="http://nextstepliving.com/" title="Next Step Living" target="_blank" class="horizontal">
-        <img src="img/NextStepLiving.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/NextStepLiving.png" />
       </a>
       <a href="http://wilmerhale.com/" title="Wilmer Hale" target="_blank" class="horizontal">
-        <img src="img/WilmerHale.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/WilmerHale.png" />
       </a>
       <a href="http://dataxu.com/" title="DataXu" target="_blank"  >
-        <img src="img/DataXu.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/DataXu.png" />
       </a>
 
       <a href="http://cambridgesavingsbank.com/" title="Cambridge Savings Bank" target="_blank"  class="horizontal" >
-        <img src="img/cambridgesavingsbank.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/cambridgesavingsbank.png" />
       </a>
       <a href="http://nitrous.io" title="Nitrous" target="_blank">
-        <img src="img/nitrous.png" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/nitrous.png" />
       </a>
       <a href="http://easternbank.com" title="Eastern Bank" target="_blank" class="horizontal">
-        <img src="img/easternbank.gif"/>
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/easternbank.gif"/>
       </a>
       <a href="http://www.cambridgesciencefestival.org/" title="Cambridge Science Festival" target="_blank">
-        <img src="img/CSFLogo.png" style="padding-top:12px;" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/CSFLogo.png" style="padding-top:12px;" />
       </a>
       <a href="http://www.tjx.com/" title="TJX" target="_blank">
-        <img src="img/tjx.png" style="padding-top:12px;" />
+        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/tjx.png" style="padding-top:12px;" />
       </a>
 
     </div>
