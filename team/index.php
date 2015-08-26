@@ -9,22 +9,23 @@
 			<li class="David"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
 			</a></li>
-			<?php /*
 			<li class="Tyler"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/tyler2.jpg" />
 			</a></li>
-			*/ ?>
 			<li class="Fredy"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/fredy.jpg" />
 			</a></li>
 			<li class="Micah"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/micah.jpg" />
 			</a></li>
-			<li class="Susanne"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/susanne.jpg" />
-			</a></li>
 			<li class="Josh"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/josh.jpg" />
+			</a></li>
+			<li class="Pamela"><a href="#s_detail" class="unselected" >
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/pamela.jpg" />
+			</a></li>
+			<li class="Susanne"><a href="#s_detail" class="unselected" >
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/susanne.jpg" />
 			</a></li>
 			<li class="Chris"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/chris.jpg" />
@@ -52,10 +53,10 @@ David is a professional designer and interface developer with experience working
 						<h2>
 							Tyler Mitchell
 						</h2>
-						<h3>Fall Program Director</h3>
+						<h3>Resilient Lab Lead</h3>
 						<div class="clr"></div>
 						<p>
-<a href="http://tylerlmitchell.com" target="_blank">Tyler</a> is a Junior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user experience, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other.
+<a href="http://tylerlmitchell.com" target="_blank">Tyler</a> is a Senior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user experience, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other.
 						</p>
 					</div><!-- /firehose -->
 			</article>
@@ -98,11 +99,23 @@ Susanne is a Management Consultant specializing in organizational strategy, orga
 					</div><!-- /Susanne -->
 			</article>
 			<article>
+					<div class="Pamela">
+						<h2>
+							Pamela Aldsworth
+						</h2>
+						<h3>Board</h3>
+						<div class="clr"></div>
+						<p>
+							Pamela Aldsworth is a managing director with Silicon Valley Bank Capital. In this role, she oversees strategic relationships with venture capital firms by leveraging the diverse financial services of SVB Financial Group (SVB) platform. She is primarily focused on managing relationships with a key subset of venture capital firms that have historically and consistently achieved top decile returns. She builds strategic roadmanps with firms in her coverage universe to ensure that SVB is providing the best possible insights, guidance, products and services to the partnership and their portfolio companies.
+						</p>
+					</div><!-- /Susanne -->
+			</article>
+			<article>
 					<div class="Josh">
 						<h2>
 							Joshua Summers
 						</h2>
-						<h3>Board</h3>
+						<h3>Board Chair</h3>
 						<div class="clr"></div>
 						<p>
 Joshua Summers is a serial entrepreneur that believes the best companies are built in and around Boston. As the Co-founder and CEO of clypd Joshua is leading the charge in building the next evolution in tv advertising sales models by bridging the gap between traditional linear TV ads and programmatic solutions. Joshua holds a bachelors degree in Industrial Management with an additional major in Economics from Carnegie Mellon University. Joshua lives with his forgiving wife Rachel and awesome kids Zachary and Alisha in Lexington, MA.						</p>
@@ -160,13 +173,12 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 				<img src="/i/masschallenge.png">
 			</a>
 		</li class="bpd">
-		<li>
 		<li class="cic">
 			<a href="http://cic.us">
 				<img id="cic" src="https://resilientcoders.s3.amazonaws.com/i/logos/cic.png">
 			</a>
-		</li class="bpd">
-		<li>
+		</li>
+		<li class="bpd">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/bpd.jpg">
 		</li>
 		<li class="goulston">
@@ -176,6 +188,11 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 
 			<a href="http://milkstreetcafe.com">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/MilkStreetCafe.jpg">
+			</a>
+		</li>
+		<li class="deepcoredata">
+				<a href="http://deepcoredata.com">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/deepcoredata.png">
 			</a>
 		</li>
 	</ul>

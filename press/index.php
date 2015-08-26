@@ -21,9 +21,13 @@
     sure everyone's okay.
 
     </p>
-
 		<section>
 			<ul class="press">
+				<li>
+					<a href="http://blog.microsoftnewengland.com/2015/08/12/hacktivists-roll-up-your-sleeves/" target="_blank" title="Hacktivists: Roll up your sleeves">
+						<span class="meta">Microsoft Blog</span>Hacktivists: Roll up your sleeves
+					</a>
+				</li>
 				<li>
 					<a href="http://www.bostonherald.com/business/technology/technology_news/2015/07/inner_city_startup_to_pitch_snow_removal_app" target="_blank" title="Inner-city startup to pitch snow removal app">
 						<span class="meta">Boston Herald</span>Inner-city startup to pitch snow removal app

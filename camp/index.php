@@ -85,9 +85,6 @@
 			</p>
 			<div id="sponsors">
 			<p>Media Leadership Institute 2015 is made possible by our sponsors:</p>
-			<a href="http://tugg.org" title="Tech Underwriting Greater Good" target="_blank">
-        <img src="https://resilientcoders.s3.amazonaws.com/i/logos/tugg.png" style="padding-top:12px;" />
-      </a>
 			<a href="https://twitter.com/bpdshannon" title="Boston Police Department Shannon Grant" target="_blank" >
         <img src="https://resilientcoders.s3.amazonaws.com/i/logos/bpd.png"/>
       </a>
@@ -100,8 +97,13 @@
 			<a href="http://openviewpartners.com/" title="OpenView Partners" target="_blank" class="horizontal">
         <img src="https://resilientcoders.s3.amazonaws.com/i/logos/openview.png"/>
       </a>
+			<a href="http://actblue.com/" title="ActBlue" target="_blank" class="horizontal">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/actblue.png"/>
+			</a>
+			<a href="http://samadams.com/" title="Sam Adams" target="_blank" class="horizontal">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/samadams.png"/>
+			</a>
 
-			https://resilientcoders.s3.amazonaws.com/i/logos/openview.png
 			<div class="clr"></div>
 
       <p>Boston Coding Camp 2015 was made possible by our sponsors:</p>

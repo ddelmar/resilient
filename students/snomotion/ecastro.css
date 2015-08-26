@@ -1,0 +1,34 @@
+body{background-image: url(http://i.imgur.com/MlDWZUt.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+img{
+width:500px;
+height: auto;
+margin: 0 auto;
+}
+h1{
+	font-size: 150px;
+	color:#000033;
+	text-align:center;
+	font-family: 'Playfair Display', serif;
+background: 
+}
+
+div {
+	display:inline-block;
+	
+}
+
+div.blue{
+	background-color:none;
+width:30%;
+height:2550px;
+}
+
+div.red{
+	background-color:none;
+	width:69%;
+	height:2550px;
+}
+

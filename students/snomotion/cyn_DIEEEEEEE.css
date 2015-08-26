@@ -1,0 +1,20 @@
+body{ background-color: gray;}
+
+h1{ font-size: 40px;
+	color:#337499;
+	text-align: center;
+	margin:2 auto;}
+li{ font-size: 11px;
+	margin:100 auto;}
+div.black{background-color: white;
+	width:30%;
+	height:600px;
+	text-align:center;}
+.button{ width: 70%;
+	height:5%;
+	background-color:#47BAC2;
+	text-align:center;
+	padding:15px;
+	margin:150px auto;
+}
+.button a {color: white;}
