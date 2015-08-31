@@ -57,8 +57,6 @@ a:hover {
 	color: #b6280b;
 	}
 
-img {width: 200px;}
-
 img.logo {
   position: absolute;
   left: 50%;
@@ -67,7 +65,7 @@ img.logo {
   margin-left: -300px;
 }
 
-.left45, .right45 {display:block; float: left; width: 45%;}
+.left45, .right45 {display:block; float: left; width: 48%;}
 .left45 { margin: 0 2% 0 0;}
 .right45 { margin: 0 0 0 2%;}
 
@@ -95,6 +93,7 @@ img.logo {
 	text-shadow: 1px 1px 0px rgba(0,0,0,.6);
 	color: white;
 	font-weight: 100;
+  margin-top:150px;
 }
 
 .slides > article:first-of-type h1 { font-size: 5.8em; }
@@ -123,11 +122,11 @@ img.logo {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background-color: white;
-  background-size: 80px auto;
-  background-position: bottom left;
+  background-size: 100% auto;
+  background-position: top left;
   background-repeat: no-repeat;
 
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
 
   transition: transform .3s ease-out;
   -o-transition: -o-transform .3s ease-out;
@@ -165,7 +164,7 @@ h1 {
 
 h2 {
   	font-size: 2.2em;
-	margin: 1em 0 .6em 0;
+	margin: 1em 0 0 0;
 }
 
 p.intro {
@@ -175,7 +174,6 @@ p.intro {
 	padding: 1.2em 0;
 	border-bottom: 1px solid #d8d8d8;
 	margin: 0;
-	text-align: center;
 }
 
 /*
@@ -380,13 +378,9 @@ article.fill h3 {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-
-  margin-top: 40px;
-
-  margin-left: .75em;
 }
 ul:first-child {
   margin-top: 0;
@@ -397,6 +391,7 @@ ul ul {
 li {
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 li::before {
   content: '·';

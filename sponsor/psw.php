@@ -1,4 +1,4 @@
-<?php $photopassword = 'medialeadership';
+<?php $photopassword = 'codecomplete';
 
 
 ###############################################################
@@ -138,7 +138,7 @@ function showLoginPasswordProtect($error_msg) {
 			text-align:center;
 			margin: 0 auto;
 			font-family: "Roboto Slab", Helvetica ;
-		  background-image: url(leanstartup_rc.jpg);			background-repeat: no-repeat;
+		  background-image: url(../leanstartup_rc.jpg);			background-repeat: no-repeat;
 			background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;

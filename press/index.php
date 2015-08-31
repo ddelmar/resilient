@@ -14,15 +14,24 @@
 
 		<h2>Press</h2>
 
-		<p class="intro">
-    However it is you choose to help, email David Delmar at
-    <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a> and we will
-    dispense one hand-stinging high five. The kind that makes people look to make
-    sure everyone's okay.
 
-    </p>
+		<div class="product twitter" style="border:none;">
+			<p class="intro"  style="border:none; margin-bottom:0; padding-bottom: 0;"><?php /* require_once('includes/twitter.php'); */ ?></p>
+			<?php /*
+			<a href="http://twitter.com/resilientcoders">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/tw_grey.png" style="margin-bottom:40px;">
+			</a>
+			*/ ?>
+		</div>
+
 		<section>
 			<ul class="press">
+
+				<li>
+					<a href="http://www.metro.us/boston/resilient-coders-helps-troubled-youth-hack-the-opportunity-gap/zsJohz---W1Puyu7ukKm7c/" target="_blank" title="Hacktivists: Roll up your sleeves">
+						<span class="meta">Metro</span>Resilient Coders helps troubled youth hack the opportunity gap
+					</a>
+				</li>
 				<li>
 					<a href="http://blog.microsoftnewengland.com/2015/08/12/hacktivists-roll-up-your-sleeves/" target="_blank" title="Hacktivists: Roll up your sleeves">
 						<span class="meta">Microsoft Blog</span>Hacktivists: Roll up your sleeves
