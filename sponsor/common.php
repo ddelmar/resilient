@@ -39,23 +39,13 @@
 				<a href="http://resilientcoders.org" title="Resilient Coders Program" target="_blank">Resilient Coders</a> teaches at-risk youth from traditionally underserved communities how to code.
         We introduce them to a career path that is lucrative, and in high demand. Higher performers participate in <a href="http://resilientcoders.org/lab" title="Resilient Lab" target="_blank">Resilient Lab,</a> a web design and development shop with real clients.
 			<p>
-				At a moment at which their city is experiencing a crisis in skills gap, and struggling to find
-        talent, too many Bostonians are struggling to find work. The problem is that we don’t teach our
-        youth the skills that are actually in demand. And they know that.
+				<Strong>We've had some early wins.</strong> We've sent two students to Startup Institute. One of our hackers designed the iPhone app for Wanderu, which hit #1 in its category the week it was released.
+        You can read about it in <a href="http://time.com/3714747/iphone-apps-snl/" target="_blank">TIME.</a>
+        Another one of our hackers is a software engineer for the Boston Globe, at the age of 19. You can see <a href="https://www.youtube.com/watch?v=JU1UunsFgpU" target="_blank">the video</a> with which we were able to
+        crowdfund his tuition to Startup Institute.
 			</p>
 		</article>
 
-      <article>
-        <h1>
-          Why
-        </h1>
-        <p class="intro">
-          The program hinges on one core premise: That the student is an investor of her time and energy. Let’s take a look at education from an investor’s perspective.
-        </p>
-        <p>Students are being asked to invest twelve years of hard work, in a social structure they often distrust, in an authority paradigm they often resent, for a return that is unclear. Similar investments have been made around them, most of them having failed to meet their promise of meaningful employment. If the return seems low,
-a savvy investor will divest, in favor of opportunities with clearer opportunity for return. Many of the young people who are disengaged from school are those with high intellectual potential.
-        </p>
-      </article>
 
       <article>
         <h1>
@@ -73,21 +63,12 @@ a savvy investor will divest, in favor of opportunities with clearer opportunity
 
 
 
-	<article>
+	<article style="text-align:center">
         <h1>
           How
         </h1>
-			<p class="intro">In order to effectively source, educate, and employ our students, we’ve developed a funnel with “overlapping” means of engagement.
+			<p class="intro" style="border:0; text-align: left;">In order to effectively source, educate, and employ our students, we’ve developed a funnel with “overlapping” means of engagement.
 			</p>
-      <p>We run Coding Camps in the summer and over spring break, as a way of sourcing youth for our Coworking Cohort.
-        From the Coworking Cohort, we select students for our Satellites. And our highest-performing youth are asked to
-        join Resilient Lab, our web development shop that employs them at a level commensurate with their skill set.
-      </p>
-      <p>Bootcamp is a full-day program for high-risk youth who are no longer in school. It's 5 days a week for 8 weeks.
-      </p>
+      <img src="../funnel.png" style="width:50%; margin:0 auto;"/>
 		</div>
-</article>
-<article style="text-align:center;">
-  <h1>Tiered Program</h1>
-  <img src="../funnel.png" style="width:50%; margin-top:50px;"/>
 </article>
