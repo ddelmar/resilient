@@ -1,105 +1,119 @@
 <?php include_once("../includes/head.php") ?>
 <?php include_once("../includes/logo_nav.php") ?>
 
+<?php /*
 
+::::::::::::::::::::::
+::: BEGIN CONTAINER ::
+::::::::::::::::::::::
 
-<div id="preload">
-	<img src="https://delmarsenties.s3.amazonaws.com/resilient/3model_popupBottom.png" />
-	<img src="https://delmarsenties.s3.amazonaws.com/resilient/3model_coworkingBottom.png" />
-	<img src="https://delmarsenties.s3.amazonaws.com/resilient/3model_resilientBottom.png" />
+*/?>
+
+<div id="donate-modal" class="modal">
+	<div class="overlay"> </div>
+	<div class="detail funnel1">
+		<h2>Coding Camps and Partnerships</h2>
+		<iframe src="https://www.youtube.com/embed/ASKzlgmopyo" frameborder="0" allowfullscreen style="width:100%; height:200px"></iframe>
+
+		<p style="margin-top:20px;">We source our students from our partnerships with organizations such as Youth Options Unlimited,
+			the Department of Youth Services, and the Boston Private Industry Council. We also run Coding Camps
+			to expose new students to coding. <a href="/camp">Learn more about Coding Camp.</a>
+		</p>
+		<p>
+		Our objective at the top of the funnel is for students to progress to the next step along the process.
+		</p>
+
+	</div>
+	<div class="detail funnel2">
+		<h2>Coworking and Satellites</h2>
+		<p>
+			<strong>Coworking</strong><br />
+		On Tuesdays and Thursdays, our dedicated group of young people join us at CIC Boston's coworking space,
+		in which they are surrounded by tech entrepreneurs. Most of these youth have joined us through referrals
+		from a variety of different programs, including Youth Options Unlimited, the Boston Private Industry Council,
+		and the Department of Youth Services.
+	</p>
+	<p>We believe that the best learning happens when you have hands-on experience,
+		as well as room for exploration, thinking and reflection, rather than transmission of knowledge from teacher to student.
+		Coworking presents our students with an opportunity to hang out in a safe space together, meet other young coders,
+		and interact with tech professionals as they further explore web development at their pace.
+		<br /><br />
+		<strong>Satellites</strong><br />
+ 		Satellites are Coworking Cohorts held "away," at offices including the Microsoft NERD Center,
+		giving our more experienced youth a deeper level of exposure into careers in technology.
+</p>
+	</div>
+	<div class="detail funnel3">
+		<h2>Bootcamp</h2>
+		<p>
+We are designing a new, full-day "bootcamp" model, for higher-risk young people who are not in school. A cohort of 5 - 8
+students meets for five hours a day, five days a week, for 8 weeks. During this time, they are working out of a coworking space,
+alongside tech entrepreneurs, in order to create a fully immersive learning environment. The program is built around key
+"milestones," identified in our curriculum and informed by the needs of the market. The cohorts will run quarterly.
+</p>
+
+	</div>
+	<div class="detail funnel4">
+		<h2>Resilient Lab</h2>
+		<p>We run a web development shop that provides meaningful employment opportunities for our highest-performing youth.
+			Client projects include design and development of <a href="http://cityawake.is" target="_blank">City Awake,</a> and designing the interface for the iPhone app released by Wanderu, a local tech startup.
+		</p>
+		<p>
+			<a href="http://time.com/3714747/iphone-apps-snl/" target="_blank">Wanderu iPhone app mentioned in TIME.</a>
+		</p>
+		<p>
+			<a href="/lab" target="_blank">More about Resilient Lab</a>
+		</p>
+	</div>
 </div>
 
 
-<div style="padding-top:100px;">
 
-<div id="tier2" style="padding-bottom:0;">
+<div class="spacer"  style="padding: 0;">
+	<div class="container">
+		<div id="tier2">
 
-		<h2>Three-Part Program</h2>
-		<div class="product">
+		<h2>The Tiered Program</h2>
+
+		<p class="intro">
+		In order to effectively source, educate, and employ our students,
+		we've developed a funnel with "overlapping" means of engagement, which you can explore below.
 
 
-<ul class="program_nav">
-	<li><a class="popup" href="#" onclick="return false;">Popup</a></li>
-	<li><a class="coworking" id="selected" href="#" onclick="return false;">Coworking</a></li>
-	<li><a class="resilient" href="#" onclick="return false;">Resilient</a></li>
-</ul>
-	</div><!-- /product -->
-	<div class="clr"></div>
+		</p>
+
+		<div id="funnel">
+			<div id="funnel1"><p>Coding Camps, Partnerships</p></div>
+			<div id="funnel2"><p>Coworking, <br />Satellites</p></div>
+			<div id="funnel3"><p>Bootcamp</p></div>
+			<div id="funnel4"><p>Resilient Lab</p></div>
+
+		</div><!-- /funnel -->
+
+
+
 
 	</div><!-- /tier2 -->
-</div><!-- container -->
+</div><!-- /container -->
+</div><!-- /spacer -->
 
+<script>
+$(document).ready(function(){
 
-<div id="tier3">
-<div class="container800">
+$('#funnel div').click(function () {
+	var thisID = $(this).attr("id");
+	$('#donate-modal').addClass('open');
+	$(".detail." + thisID).show();
+	$(".detail:not(." + thisID + ")").hide();
+		$('html, body').animate({
+			scrollTop: $('#donate-modal').offset().top
+		}, 500);
+});
 
-
-<div class="popup_content hidden">
-<div class="product">
-<h3>Popup Cohorts</h3>
-<p>
-These are partner-based cohorts, taught at <b>schools, correctional facilities, and community centers.</b> They are often part of an existing program, and allow us to source students for our Coworking initiative. The objective is to spark an interest in technology, and recruit interested students. A Popup cohort is eight hours long. Usually 1 hour a week for 8 weeks, or 2 hours a week for 4 weeks. Students are expected to produce a simple HTML/CSS website. You can see examples of work produced during a Popup Cohort on our <a href="/students" class="external">students page.</a>
-</p>
-<p>
-To help us keep the mission sustainable, we invite our supporters and our partners to make a one-time donation to help us bring Resilient to a particular school or community center.
-</p>
-<p><b>Interested in volunteering?</b><br/>
-We ask our volunteers to commit to an entire cohort, which is usually eight weeks long, an hour a week. Most of our Popup Cohorts are right after school, and so tend to take place around 3pm. We do run an evening cohort in Dorchester. Email us for details.
-</p>
-<p>
-If you're not ready to commit to a Popup Cohort, we'd encourage you to volunteer for either <a class="coworking" href="#" onclick="return false;">Coworking</a> or for <a class="resilient" href="#" onclick="return false;">Resilient Lab.</a> They both take place downtown around 4:30pm. You'd stop by with your laptop and code with us. That's about it.
-</p>
-<p>
-<b>Where are the details?</b><br />
-We don't give too many details online regarding our Popup Cohorts because we'd rather not have people "drop in." We like to get to know our friends before inviting them over. Give us a shout to learn more.
-<p>
-<p>
-Email David at <a href="mailto:david@resilientcoders.org" class="external">david@resilientcoders.org</a> to get involved.
-
-</p>
-</div>
-</div>
-
-<div class="coworking_content visible">
-<div class="product">
-<h3>Coworking</h3>
-
-<p>We believe in "HOMAGO," which stands for "Hang Out. Mess Around. Geek Out." Seymour Papert's learning theory of Constructionism stipulates that the best learning happens when you have hands-on experience, as well as room for exploration, thinking and reflection, rather than transmission of knowledge from teacher to student. Coworking presents our students with an opportunity to hang out in a safe space together, meet other young coders, and interact with tech professionals as they further explore web development at their pace. Coworking also provides an opportunity for employment for our higher performers, as they earn a stipend to mentor newer students.
-</p>
-<p>
-Students are sourced from our <a class="popup" href="#" onclick="return false;">Popup Cohorts.</a> And it's from this pool that we staff <a class="resilient" href="#" onclick="return false;">Resilient Lab.</a>
-</p>
-<p><b>Interested in volunteering?</b><br/>
-Coworking is the easiest way to volunteer. Join us downtown, bring your laptop. Help our young people code.
-</p>
-
-<p>
-Email David at <a href="mailto:david@resilientcoders.org" class="external">david@resilientcoders.org</a> to get involved.
-
-</p>
-
-</div>
-</div>
-
-<div class="resilient_content hidden">
-<h3>Resilient Lab</h3>
-<p>This is a web design and development studio operated by the more experienced youth from <a class="coworking" href="#" onclick="return false;">Coworking.</a> They work with a client to build a microsite or web application, for pay. Clients are encouraged to treat this as an opportunity to play an active role in the student's learning experience. Ideally, a client company will provide a technical volunteer who will help coach the students through the task. The student then gains real experience building product, and develops a relationship with a mentor working in the field.
-</p>
-<p>
-	<a href="/lab" class="external">Learn more</a> about how you can get involved.
-</p>
-
-</div>
-</div><!-- /container800 -->
-</div><!-- /tier3 -->
-
+$('.overlay').click(function() {
+	$('.modal').removeClass('open');
+});
+});
+</script>
 
 <?php include_once("../includes/footer.php") ?>
-
-
-<script type="text/javascript" src="/j/nbw-parallax.js"></script>
-<script type="text/javascript" src="/j/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="/j/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="/j/jquery.inview.js"></script>
-</body>
-</html>

@@ -252,6 +252,82 @@ img.program_3model {float: left;}
 .body_roadmap h2 {margin: -40px 0 0 0;}
 
 /*
+::::::::::::::::
+::: PROGRAM ::::
+::::::::::::::::
+*/
+
+*, *:before, *:after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#funnel {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#funnel > div {
+  border-top: 100px solid #333;
+  cursor: pointer;
+  text-align:center;
+  position: relative;
+  padding: 0px;
+}
+
+#funnel > div:hover {
+  border-top: 100px solid #ed1b24;
+  transition: all 0.3s ease 0.0s;
+		-moz-transition: all 0.3s ease 0.0s;
+		-webkit-transition: all 0.3s ease 0.0s;
+		-o-transition: all 0.3s ease 0.0s;
+		-ms-transition: all 0.3s ease 0.0s;
+}
+
+#funnel > div > p {
+  font: 1.4em "League Gothic";
+  text-transform: uppercase;
+  text-align:center;
+  margin:-62px 0 0 0;
+  padding: 0;
+  color: #fff;
+}
+
+#funnel1 {
+  width: 100%;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+#funnel2 {
+  width: 37%;
+  border-left: 60px solid transparent;
+  border-right: 0;
+  margin-right: 3px;
+}
+#funnel3 {
+  width: 37%;
+  border-right: 60px solid transparent;
+  border-left: 0;
+  left: 0px;
+}
+
+#funnel2, #funnel3 {
+  display: inline-block;
+  top:6px;
+}
+
+#funnel4 {
+  width: 50%;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  left: 50%;
+  margin-left: -124px;
+  top: 12px;
+}
+
+/*
 STUDENTS
 */
 
@@ -628,7 +704,8 @@ input[type="submit"].donate-button{
 	padding-left: 5px;
 	margin: 10px 0;
 }
-#donate-modal form, #confirmation{
+#donate-modal form, #confirmation,
+.detail {
 	width: 90%;
 	max-width: 500px;
 	height: auto;

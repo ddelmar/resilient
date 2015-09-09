@@ -206,6 +206,45 @@ h2#tagline {
 
 /*
 ::::::::::::::::
+::: PROGRAM ::::
+::::::::::::::::
+*/
+
+#funnel {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#funnel > div {
+  border-top: 0;
+  cursor: pointer;
+  text-align:center;
+  position: relative;
+  padding: 0px;
+	margin:2px 0;
+  /*    -webkit-transform: rotate(0deg) skew(31deg);
+      transform: rotate(0deg) skew(31deg); */
+}
+
+#funnel #funnel1, #funnel #funnel2, #funnel #funnel3, #funnel #funnel4 {
+	border-left:0;
+	border-right: 0;
+	width:100%;
+	top:0 ;
+}
+
+#funnel > div > p {
+	margin: 0;
+}
+
+#funnel #funnel4 {
+	left: 0;
+	top:0 ;
+}
+
+/*
+::::::::::::::::
 ::: Team ::::
 ::::::::::::::::
 */
