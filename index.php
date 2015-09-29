@@ -20,7 +20,7 @@
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p class="intro">
-				Resilient Coders is a volunteer-based program focused on making web technology more available to urban youth who might not otherwise be exposed to it. It's a <a href="/program" title="Resilient Coders Program">three-part program</a> that funnels students from learning HTML after school, through our downtown "Coworking" sessions, and ultimately, hourly employment. Our higher performers participate in <a href="/lab" title="Resilient Lab">Resilient Lab,</a> a web design and development shop with real clients.
+				Resilient Coders teaches young people from traditionally underserved communities how to code. We do this as a way of aligning them with a lucrative and meaningful career path. It's a <a href="/program" title="Resilient Coders Program">multi-tiered program</a> that funnels students from learning HTML after school, through our downtown "Coworking" sessions, and ultimately, hourly employment. Our higher performers participate in <a href="/lab" title="Resilient Lab">Resilient Lab,</a> a web design and development shop with real clients.
 			</p>
 			<p>
 
