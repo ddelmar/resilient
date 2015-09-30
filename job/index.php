@@ -54,7 +54,7 @@
 		Resilient Coders is only a year old but we're already making some noise. We've launched our web dev shop, Resilient Lab, earlier than expected, and have worked with awesome clients like Wanderu and City Awake. We've picked up some love from the tech community: We've won TUGG's event-based competitions three times consecutively, and we've been selected as finalists at MassChallenge. We've picked up <a href="/press">some press</a> here and there, from the Metro, the Herald, Boston Magazine, to our recent TEDx talk. Still, nobody articulates our culture better than our man Micah does in <a href="https://www.youtube.com/watch?v=JU1UunsFgpU">this 3-minute video.</a>
 	</p>
 	<p>
-		This is what we've done in year one. Help us define year two. Send your resume and cover letter to David at <a href="matilo:david@resilientcoders.org">david@resilientcoders.org.</a>
+		This is what we've done in year one. Help us define year two. Send your resume and cover letter to <a href="mailto:hiring@resilientcoders.org">hiring@resilientcoders.org.</a>
 </p>
 <p>
 		Onward.
