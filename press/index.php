@@ -26,7 +26,11 @@
 
 		<section>
 			<ul class="press">
-
+<li>
+	<a href="http://www.bostonmagazine.com/news/article/2015/09/29/david-delmar-resilient-coders/" target="_blank" title="The Power of Ideas: David Delmar">
+		<span class="meta">Boston Magazine</span>The Power of Ideas: David Delmar
+	</a>
+</li>
 				<li>
 					<a href="http://www.metro.us/boston/resilient-coders-helps-troubled-youth-hack-the-opportunity-gap/zsJohz---W1Puyu7ukKm7c/" target="_blank" title="Hacktivists: Roll up your sleeves">
 						<span class="meta">Metro</span>Resilient Coders helps troubled youth hack the opportunity gap
