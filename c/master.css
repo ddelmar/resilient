@@ -1079,3 +1079,37 @@ sponsors
   padding: 0;
   width: 90%;
 }
+
+/*
+::::::::::::::::
+::: MAP ::::
+::::::::::::::::
+*/
+
+#map {
+  width:100%;
+  background-image: url(/map/i/map.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  float: left;
+}
+
+#map > div {
+  background: black;
+  opacity: .5;
+  cursor: pointer;
+  position: absolute;
+}
+
+#zone1 {
+  width: 16%;
+  height: 16%;
+  top: 19%;
+}
+
+#zone2 {
+  width: 13%;
+  height: 13%;
+  top: 26%;
+  left:20%;
+}

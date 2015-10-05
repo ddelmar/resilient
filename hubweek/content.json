@@ -1,0 +1,132 @@
+{
+	"content": [
+		{
+			"stat" : "arrested",
+			"oppStat": "not arrested",
+			"header" : "Will you get arrested?",
+			"subheader": "Partly due to police presence in school, youth have a 26.8% of getting arrested.",
+			"rate": 26.8,
+			"resultHeader":"Your Odds of Success",
+			"resultCopy": "As a young black man, your odds of success are odd indeed. Try your luck navigating the stats.",
+			"urlText": "American Academy of Arts and Sciences",
+			"url": "https://www.amacad.org/content/publications/pubContent.aspx?d=808",
+			"yes": "highschool-arrested",
+			"no": "highschool-not-arrested"
+
+		},
+		{
+			"stat" : "highschool-arrested",
+			"oppStat": "not yesStat",
+			"header": "Since you've been arrested, will you graduate high school?",
+			"subheader": "Students who have been arrested have on average a 40% likelihood of graduating high school",
+			"rate": 40.9,
+			"resultHeader":"You've been arrested",
+			"resultCopy": "The same mistake is a suspension in once school, and an arrest in another.",
+			"urlText": "Justice Quarterly",
+			"url": "http://www.masslegalservices.org/system/files/library/H.S.ed_and_arrest_-_ct_involvement_study_by_Sweeten.pdf",
+			"yes": "college-highschool",
+			"no": "Likelihood-of-imprisonment"
+
+		},
+		{
+			"stat" : "college-highschool",
+			"oppStat": "not noStat",
+			"header": "High school's done, will you graduate college?",
+			"subheader": "You conquered the first challenge, but college is a whole new monster.",
+			"rate": 41.7,
+			"resultHeader":"Congrats, Grad!",
+			"resultCopy": "Last year, Boston Public Schools celebrated their (highest-ever) graduation rate of 66%.",
+			"urlText": "US Department of Labor",
+			"url": "http://www.bls.gov/opub/ted/2012/ted_20120405.htm",
+			"yes": "college-grad",
+			"no": "college-no-grad"
+
+		},
+		{
+			"stat" : "college-grad",
+			"oppStat": "end",
+			"header": "end",
+			"subheader": "You go to college",
+			"rate": 41.7,
+			"resultHeader":"You graduated college!",
+			"resultCopy": "Too often, youth of color head to college woefully under-prepared",
+			"urlText": "URL Text",
+			"url": "google.com",
+			"yes": "if yes then yes then yes",
+			"no": "if yes then yes then no"
+
+		},
+		{
+			"stat" : "college-no-grad",
+			"oppStat": "end",
+			"header": "end",
+			"subheader": "You don't graduate college",
+			"rate": 70,
+			"resultHeader":"You don't graduate college.",
+			"resultCopy": "Too often, youth of color head to college woefully under-prepared",
+			"urlText": "URL Text",
+			"url": "google.com",
+			"yes": "if yes then yes then yes",
+			"no": "if yes then yes then no"
+
+		},
+		{
+			"stat" : "Likelihood-of-imprisonment",
+			"oppStat": "not noStat",
+			"header": "Will you go to prison?",
+			"subheader": "As a high school dropout, your likelihood of imprisonment skyrockets to 68% percent.",
+			"rate": 68,
+			"resultHeader":"High school didn't work out.",
+			"resultCopy": "Last year, Boston Public Schools celebrated their (highest-ever) graduation rate of 66%. How did your school do?",
+			"urlText": "American Academy of Arts and Sciences",
+			"url": "https://www.amacad.org/content/publications/pubContent.aspx?d=808",
+			"yes": "imprisonment",
+			"no": "no-imprisonment"
+
+		},
+		{
+			"stat" : "imprisonment",
+			"oppStat": "end",
+			"header": "end",
+			"subheader": "You go to jail",
+			"rate": 70,
+			"resultHeader":"You've been arrested and sent to prison.",
+			"resultCopy": "Not only do you have a tough path ahead of you, but you've set the bar for your kids. Studies show that children of offenders are five times more likely than their peers to end up in prison themselves. One in 10 will have been incarcerated before reaching adulthood.",
+			"urlText": "URL Text",
+			"url": "google.com",
+			"yes": "if no then yes",
+			"no": "if no then no"
+
+		},
+		{
+			"stat" : "no-imprisonment",
+			"oppStat": "end",
+			"header": "end",
+			"subheader": "You don't go to jail",
+			"rate": 70,
+			"resultHeader":"You don't go to prison, but you have your work cut out for you.",
+			"resultCopy": "As a high school dropout, there's about a 30 percent likelihood that you will end up living below the poverty line. There's a 12% likelihood that your kids will be gang involved, and a 20% likelihood that they'll be arrested and charged for an adult crime by age 24.",
+			"urlText": "URL Text",
+			"url": "google.com",
+			"yes": "if no then yes",
+			"no": "if no then no"
+
+		},
+		{
+			"stat" : "highschool-not-arrested",
+			"oppStat": "not graduation",
+			"header": "High school Graduation",
+			"subheader": "Since you haven't been arrested, statistically, you have a 81% likelihood of graduating high school.",
+			"rate": 70,
+			"resultHeader":"You were not arrested",
+			"resultCopy": "The same mistake is a suspension in once school, and an arrest in another.",
+			"urlText": "US Census Bureau",
+			"url": "http://www.census.gov/hhes/school/data/cps/historical/",
+			"yes": "college-highschool",
+			"no": "Likelihood-of-imprisonment"
+
+		}
+
+
+	]
+}
