@@ -8,16 +8,16 @@
 ::::::::::::::::::::::
 
 */?>
-
+<script type="text/javascript" src="jquery.js" ></script>
 <div id="donate-modal" class="modal">
 	<div class="overlay"> </div>
-	<div class="detail zone1">
+	<div class="map-detail zone1">
 		<h2>Del leaves PayPal</h2>
 		<p>
 			After having taken a number of vacation days to teach basic coding skills to incarcerated youth, Del leaves PayPal to launch Resilient Coders.
 		</p>
 	</div>
-	<div class="detail zone2">
+	<div class="map-detail zone2">
 		<h2>The Police Step In</h2>
 		<p>
 		Resilient Coders is awarded grants through the Boston Police Department, for our work with high-risk youth.
@@ -25,7 +25,7 @@
 		They believe as we do: Careers over cuffs.
 	</p>
 	</div>
-	<div class="detail zone3">
+	<div class="map-detail zone3">
 		<h2>TUGG</h2>
 		<img src="i/map4_tugg.JPG" />
 		<p>
@@ -39,7 +39,7 @@
 			win those events.
 		</p>
 	</div>
-	<div class="detail zone4">
+	<div class="map-detail zone4">
 		<h2>We become legit</h2>
 		<p>
 			The day after winning TUGG Tech Gives Back, Resilient Coders becomes incorporated, thanks to the efforts of our
@@ -52,7 +52,7 @@
 		</p>
 
 	</div>
-	<div class="detail zone5">
+	<div class="map-detail zone5">
 		<h2>The Board of Superhumans</h2>
 		<p>
 			Del finds three people with that rare blend of experience, grit, passion, and <i>com</i>passion.
@@ -68,7 +68,7 @@
 		</p>
 	</div>
 
-	<div class="detail zone6">
+	<div class="map-detail zone6">
 		<h2>Resilient Coders blows up</h2>
 		<img src="i/map7_grovehall.jpg" />
 		<p>
@@ -80,7 +80,7 @@
 		</p>
 	</div>
 
-	<div class="detail zone7">
+	<div class="map-detail zone7">
 		<h2>We Launch "Coworking"</h2>
 		<img src="i/map8_cic.jpg" />
 		<p>
@@ -95,7 +95,7 @@
 		</p>
 	</div>
 
-	<div class="detail zone8">
+	<div class="map-detail zone8">
 		<h2>We send two hackers to Startup Institute</h2>
 		<iframe src="https://www.youtube.com/embed/JU1UunsFgpU" frameborder="0" allowfullscreen></iframe>
 
@@ -119,7 +119,7 @@
 	</div>
 
 
-	<div class="detail zone9">
+	<div class="map-detail zone9">
 		<h2>Boston Coding Camp</h2>
 		<iframe src="https://www.youtube.com/embed/ASKzlgmopyo" frameborder="0" allowfullscreen style="width:100%; height:400px"></iframe>
 
@@ -137,7 +137,7 @@
 	</div>
 
 
-	<div class="detail zone10">
+	<div class="map-detail zone10">
 		<h2>Micah lands a job at the Boston Globe</h2>
 		<img src="i/map10_kai.jpg" />
 		<p>
@@ -151,7 +151,7 @@
 	</div>
 
 
-	<div class="detail zone11">
+	<div class="map-detail zone11">
 		<h2>Resilient Lab launches with Wanderu</h2>
 		<p>
 			Resilient Lab is the web design and development shop that employs the hackers who are ready for that challenge.
@@ -168,7 +168,7 @@
 
 
 
-	<div class="detail zone12">
+	<div class="map-detail zone12">
 		<h2>We win the TUGG Wine and Tequila Party</h2>
 		<img src="i/map12_tugg.jpg" />
 		<p>
@@ -187,7 +187,7 @@
 
 
 
-	<div class="detail zone13">
+	<div class="map-detail zone13">
 		<h2>Resilient Coders joins the MassChallenge cohort</h2>
 		<img src="i/map12_tugg.jpg" />
 		<p><a href="http://masschallenge.org">MassChallenge</a> is the world's largest tech accelerator program.
@@ -205,7 +205,7 @@
 	</div>
 
 
-	<div class="detail zone14">
+	<div class="map-detail zone14">
 		<h2>Media Leadership Institute</h2>
 		<img src="i/map15_mli.jpg" />
 		<p>
@@ -248,24 +248,25 @@ wrote some very kind things about us.
 		</p>
 	</div><!-- /tier2 -->
 	</div><!-- /container -->
+		<div id="map-outer">
+			<div id="map">
+				<div class="map-hotspot" id="zone1"><img src="i/zone1.png"></div>
+				<div class="map-hotspot" id="zone2"><img src="i/zone2.png"></div>
+				<div class="map-hotspot" id="zone3"><img src="i/zone3.png"></div>
+				<div class="map-hotspot" id="zone4"><img src="i/zone4.png"></div>
+				<div class="map-hotspot" id="zone5"><img src="i/zone5.png"></div>
+				<div class="map-hotspot" id="zone6"><img src="i/zone6.png"></div>
+				<div class="map-hotspot" id="zone7"><img src="i/zone7.png"></div>
+				<div class="map-hotspot" id="zone8"><img src="i/zone8.png"></div>
+				<div class="map-hotspot" id="zone9"><img src="i/zone9.png"></div>
+				<div class="map-hotspot" id="zone10"><img src="i/zone10.png"></div>
+				<div class="map-hotspot" id="zone11"><img src="i/zone11.png"></div>
+				<div class="map-hotspot" id="zone12"><img src="i/zone12.png"></div>
+				<div class="map-hotspot" id="zone13"><img src="i/zone13.png"></div>
+				<div class="map-hotspot" id="zone14"><img src="i/zone14.png"></div>
 
-		<div id="map">
-			<div id="zone1"></div>
-			<div id="zone2"></div>
-			<div id="zone3"></div>
-			<div id="zone4"></div>
-			<div id="zone5"></div>
-			<div id="zone6"></div>
-			<div id="zone7"></div>
-			<div id="zone8"></div>
-			<div id="zone9"></div>
-			<div id="zone10"></div>
-			<div id="zone11"></div>
-			<div id="zone12"></div>
-			<div id="zone13"></div>
-			<div id="zone14"></div>
-
-		</div><!-- /map -->
+			</div><!-- /map -->
+		</div><!-- /map outer -->
 
 
 
@@ -280,33 +281,33 @@ wrote some very kind things about us.
 
 <script>
 $(document).ready(function(){
-hotSpot();
-var docwidth = $(document).width();
-$("#map").height(docwidth);
+	
+	var docwidth = $(document).width();
+	$("#map-outer").height(docwidth);
 
-$('#map div').click(function () {
-	var thisID = $(this).attr("id");
-	$('#donate-modal').addClass('open');
-	$(".detail." + thisID).show();
-	$(".detail:not(." + thisID + ")").hide();
-		$('html, body').animate({
-			scrollTop: $('#donate-modal').offset().top
-		}, 500);
+	$('#map div').click(function () {
+		var thisID = $(this).attr("id");
+		$('#donate-modal').addClass('open');
+		$(".map-detail." + thisID).show();
+		$(".map-detail:not(." + thisID + ")").hide();
+			$('html, body').animate({
+				scrollTop: $('#donate-modal').offset().top
+			}, 500);
+	});
+
+	$('.overlay').click(function() {
+		$('.modal').removeClass('open');
+	});
 });
 
-$('.overlay').click(function() {
-	$('.modal').removeClass('open');
-});
-});
 
-
-function hotSpot(){
-	var marginTop = $((document).width()*0.5);
-	// $("#map > div").css("margin-top", 600);
-}
-$window.resize(function(){
-	hotSpot();
-});
+// function hotSpot(){
+// 	var marginTop = ($(document).width()*0.5);
+// 	// $("#map > div").css("margin-top", 600);
+// }
+// $window.resize(function(){
+// 	hotSpot();
+// });
 </script>
 
 <?php include_once("../includes/footer.php") ?>
