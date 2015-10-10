@@ -28,6 +28,9 @@
 			<li>
 				<a class="Donate" href="/donate/">Donate</a>
 			</li>
+			<li>
+				<a class="Job" href="/job/">We're Hiring</a>
+			</li>
 
 
 		</ul>

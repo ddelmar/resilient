@@ -26,6 +26,12 @@
 
 		<section>
 			<ul class="press">
+
+				<li>
+					<a href="http://www.necn.com/news/business/MassChallenge-Finalists-PopUp-Child-Care-and-Resilient-Coders-331852031.html" target="_blank" title="MassChallenge Finalists PopUp Child Care and Resilient Coders">
+						<span class="meta">NECN</span>[Video] MassChallenge Finalists PopUp Child Care and Resilient Coders
+					</a>
+				</li>
 <li>
 	<a href="http://www.bostonmagazine.com/news/article/2015/09/29/david-delmar-resilient-coders/" target="_blank" title="The Power of Ideas: David Delmar">
 		<span class="meta">Boston Magazine</span>The Power of Ideas: David Delmar
