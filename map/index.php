@@ -283,7 +283,7 @@ wrote some very kind things about us.
 $(document).ready(function(){
 	
 	var docwidth = $(document).width();
-	$("#map-outer").height(docwidth);
+	// $("#map-outer").height(docwidth);
 
 	$('#map div').click(function () {
 		var thisID = $(this).attr("id");
@@ -291,7 +291,7 @@ $(document).ready(function(){
 		$(".map-detail." + thisID).show();
 		$(".map-detail:not(." + thisID + ")").hide();
 			$('html, body').animate({
-				scrollTop: $('#donate-modal').offset().top
+				scrollTop: $("#tier2").height()
 			}, 500);
 	});
 
