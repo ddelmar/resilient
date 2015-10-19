@@ -26,7 +26,11 @@
 
 		<section>
 			<ul class="press">
-
+				<li>
+					<a href="/map" target="_blank" title="Resilient Coders, Year One">
+						[Interactive Infographic] Resilient Coders, Year One
+					</a>
+				</li>
 				<li>
 					<a href="http://www.necn.com/news/business/MassChallenge-Finalists-PopUp-Child-Care-and-Resilient-Coders-331852031.html" target="_blank" title="MassChallenge Finalists PopUp Child Care and Resilient Coders">
 						<span class="meta">NECN</span>[Video] MassChallenge Finalists PopUp Child Care and Resilient Coders

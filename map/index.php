@@ -181,7 +181,7 @@
 		</p>
 		<p>By the way... Fredy's map shows him lifting Del up over his shoulder. That happened.
 		</p>
-		<img src="i/map12_fredy.JPD" />
+		<img src="i/map12_fredy.JPG" />
 
 	</div>
 
@@ -189,7 +189,7 @@
 
 	<div class="map-detail zone13">
 		<h2>Resilient Coders joins the MassChallenge cohort</h2>
-		<img src="i/map12_tugg.jpg" />
+		<img src="i/masschallenge.jpg" />
 		<p><a href="http://masschallenge.org">MassChallenge</a> is the world's largest tech accelerator program.
 			We're selected as one of the 128 MassChallenge companies in Boston, out of 2,300 applicants
 			from around the world.
@@ -281,7 +281,7 @@ wrote some very kind things about us.
 
 <script>
 $(document).ready(function(){
-	
+
 	var docwidth = $(document).width();
 	// $("#map-outer").height(docwidth);
 
