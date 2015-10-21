@@ -10,7 +10,7 @@
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
 			</a></li>
 			<li class="Tyler"><a href="#s_detail" class="unselected">
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/tyler2.jpg" />
+				<img src="i/team/Tyler.png" />
 			</a></li>
 			<li class="Fredy"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/fredy.jpg" />

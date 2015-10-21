@@ -1121,43 +1121,19 @@ sponsors
 	height: auto;
 	position: absolute;
   	cursor: pointer;
-  	position: absolute;
   
   	transform: scale(.833,.833);
 		-webkit-transform: scale(.833,.833);
 		-moz-transform: scale(.833,.833);
 		-ms-transform: scale(.833,.833);
 }
-.map-hotspot::after{
-	content: "";
-    display: block;
-    width: 2px;
-    height: 2px;
-    margin-left: -1px;
-    background-color: black;
-    border-radius: 50px;
-    position: absolute;
-    left: 50%;
-    margin-bottom:0px;
-    z-index: -1;
-    opacity: .6;
 
-    transform: scale(1,.3);
-	    -ms-transform: scale(1,.3); 
-	   	-webkit-transform: scale(1,.3);
-	   	-moz-transform: scale(1,.3);
-	transition: all 0.7s ease 0.0s;
-    -moz-transition: all 0.7s ease 0.0s;
-    -webkit-transition: all 0.7s ease 0.0s;
-    -o-transition: all 0.7s ease 0.0s;
-    -ms-transition: all 0.7s ease 0.0s; 
-    
-}
 .map-hotspot img{
 	width:auto;
 	height: auto;
 	position: relative;
 	z-index: 1;
+	top: 0;
 
 	filter: grayscale(1);
   	-webkit-filter: grayscale(1);
@@ -1177,19 +1153,45 @@ sponsors
 	
 }
 .map-hotspot:hover img{
-	margin-top: -13px;
+	top: -13px;
 		filter: grayscale(1);
   		-webkit-filter: grayscale(0);
   		-moz-filter: grayscale(0);
 
   	
 }
+.map-hotspot::after{
+	content: "";
+    display: block;
+   	width: 100px;
+    height: 40px;
+    /*margin-left: -50px;*/
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left:-50px;
+    bottom:-4px;
+    z-index: -1;
+    opacity: 0;
+
+    /*transform: scale(1,.3);
+	    -ms-transform: scale(1,.3); 
+	   	-webkit-transform: scale(1,.3);
+	   	-moz-transform: scale(1,.3);*/
+	transition: all 0.7s ease 0.0s;
+    -moz-transition: all 0.7s ease 0.0s;
+    -webkit-transition: all 0.7s ease 0.0s;
+    -o-transition: all 0.7s ease 0.0s;
+    -ms-transition: all 0.7s ease 0.0s; 
+    
+}
 .map-hotspot:hover::after{
 	opacity:.2;
-	width: 100px;
-    height: 100px;
-    margin-left: -50px;
-    margin-bottom:-20px;
+/*	width: 100px;
+    height: 100px;*/
+   /* margin-left: 0;*/
+    /*bottom:-30px;*/
 }
 
 #zone1 {
@@ -1204,6 +1206,9 @@ sponsors
 #zone3 {
     top: 9.3%;
     left: 31%;
+}
+#zone3::after{
+	display:none;
 }
 #zone4 {
     top: 24%;

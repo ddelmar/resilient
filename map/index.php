@@ -241,7 +241,7 @@ wrote some very kind things about us.
 		<h2>Year One</h2>
 
 		<p class="intro" style="border:0;">
-		It's been pretty wild. This map, drawn by our own Fredy Melo, calls out some of our pivotal moments. Click around
+		It's been pretty wild. This map, a collaboration between our own Freddy Melo and Tyler Mitchell, calls out some of our pivotal moments. Click around
 		to learn more.
 
 
