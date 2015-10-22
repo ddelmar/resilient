@@ -241,15 +241,17 @@ wrote some very kind things about us.
 		<h2>Year One</h2>
 
 		<p class="intro" style="border:0;">
-		It's been pretty wild. This map, a collaboration between our own Freddy Melo and Tyler Mitchell, calls out some of our pivotal moments. Click around
-		to learn more.
+		It's been a pretty wild first year. This map, a collaboration between our own Fredy Melo and Tyler Mitchell, calls out some of our pivotal moments. Click around to learn more.
 
 
 		</p>
 	</div><!-- /tier2 -->
 	</div><!-- /container -->
 		<div id="map-outer">
+
+			<p id="sorry">This map experience isn't going to work on this screen size. Check it out on a larger screen when you can!</p>
 			<div id="map">
+
 				<div class="map-hotspot" id="zone1"><img src="i/zone1.png"></div>
 				<div class="map-hotspot" id="zone2"><img src="i/zone2.png"></div>
 				<div class="map-hotspot" id="zone3"><img src="i/zone3.png"></div>

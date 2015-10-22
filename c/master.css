@@ -1093,13 +1093,13 @@ sponsors
 
 }
 #map {
-  width:1000px;
-  height:100%;
-  background-image: url(../map/i/map_blank.png);
+	width:1000px;
+	height:100%;
+	background-image: url(../map/i/map_blank.png);
 	background-size: 100% auto;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  position: relative;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
 }
 .map-detail{
 	background: #eeeeee;
@@ -1257,4 +1257,17 @@ sponsors
 #zone15 {
   top: 26%;
   left:20%;
+}
+#sorry{
+	display:none;
+}
+@media (max-width: 1000px){
+	#map {
+		display:none;
+	}
+	#sorry{
+		display:inline-block;
+		text-align: center;
+		margin-top:100px;
+	}
 }
