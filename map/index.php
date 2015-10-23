@@ -27,7 +27,7 @@
 	</div>
 	<div class="map-detail zone3">
 		<h2>TUGG</h2>
-		<img src="i/map4_tugg.JPG" />
+		<img src="i/map4_tugg.jpg" />
 		<p>
 			Resilient Coders is invited to join the <a href="http://tugg.org" target="_blank">TUGG</a> portfolio. As a member
 			company, we're invited to compete at events at which attendees are asked to vote for a grantee from among
@@ -170,7 +170,7 @@
 
 	<div class="map-detail zone12">
 		<h2>We win the TUGG Wine and Tequila Party</h2>
-		<img src="i/map12_tugg.jpg" />
+		<img src="i/map12_tugg.JPG" />
 		<p>
 			This time, we roll in with our young people, and let them hustle.
 			Resilient Coders wins the Wine and Tequila Party, and would later go on to win
