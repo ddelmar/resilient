@@ -43,7 +43,7 @@
 		<h2>We become legit</h2>
 		<p>
 			The day after winning TUGG Tech Gives Back, Resilient Coders becomes incorporated, thanks to the efforts of our
-			allies Goulston Storrs. Our friends at Goulston would go on to help us achieve our 501(c)(3) status, and set up
+			allies Goulston &amp; Storrs. Our friends at Goulston would go on to help us achieve our 501(c)(3) status, and set up
 			our legal operations. Matthew Woodbury gets a special shout out for turning an "advice" phone call into a real, tangible,
 			and invaluable partnership.
 		</p>
