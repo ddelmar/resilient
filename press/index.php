@@ -17,18 +17,24 @@
 
 		<div class="product twitter" style="border:none;">
 			<p class="intro"  style="border:none; margin-bottom:0; padding-bottom: 0;"><?php /* require_once('includes/twitter.php'); */ ?></p>
-			<?php /*
-			<a href="http://twitter.com/resilientcoders">
-				<img src="https://resilientcoders.s3.amazonaws.com/i/tw_grey.png" style="margin-bottom:40px;">
-			</a>
-			*/ ?>
 		</div>
+
 
 		<section>
 			<ul class="press">
 				<li>
+					<a href="https://www.youtube.com/watch?v=-0Q16HklbnI" target="_blank" title="Education as investment: Engaging the disengaged">
+						<span class="meta">TEDxSomerville</span>Education as investment: Engaging the disengaged
+					</a>
+				</li>
+				<li>
+					<a href="http://bostinno.streetwise.co/2015/10/19/coding-skills-how-to-spot-and-hire-engineering-talent/" target="_blank" title="How to Spot Coding Talent Early">
+						<span class="meta">BostInno</span>How to Spot Coding Talent Early
+					</a>
+				</li>
+				<li>
 					<a href="/map" target="_blank" title="Resilient Coders, Year One">
-						[Interactive Infographic] Resilient Coders, Year One
+						Oct. 2015: Interactive Infographic. Resilient Coders, Year One
 					</a>
 				</li>
 				<li>
