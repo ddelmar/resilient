@@ -168,11 +168,16 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/tugg.png">
 			</a>
 		</li>
-		<li class="tugg">
+		<li class="tbf">
+			<a href="http://tbf.org">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/tbf.png">
+			</a>
+		</li>
+		<li class="masschallenge">
 			<a href="http://masschallenge.org">
 				<img src="/i/masschallenge.png">
 			</a>
-		</li class="bpd">
+		</li>
 		<li class="cic">
 			<a href="http://cic.us">
 				<img id="cic" src="https://resilientcoders.s3.amazonaws.com/i/logos/cic.png">
@@ -193,6 +198,11 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 		<li class="deepcoredata">
 				<a href="http://deepcoredata.com">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/deepcoredata.png">
+			</a>
+		</li>
+		<li class="twitter">
+				<a href="http://twitter.com">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/logos/twitter.png">
 			</a>
 		</li>
 	</ul>
