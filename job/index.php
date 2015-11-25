@@ -25,7 +25,7 @@
   We're looking to make our first full-time hire. We need a hustler who is passionate, mission-driven, and comfortable in a startup environment where many hats are worn, pivots are made, and decisions are made swiftly and efficiently.
     </p>
 		<p>
-			This <b>Program and Development Manager</b> is a thought leader, who has the experience and judgment to influence the direction of the company. That said, this person is also comfortable rolling up his/her sleeves and joining us in the hard work that we all share. There is no "waterfall of responsibility" here. As we preach meritocracy, we also practice it: Give us your best ideas, your time, and your sweat, and we will give you the autonomy to make this mission your own. As we tell our young people: Come hungry.
+			This <b>Development Manager</b> is a thought leader, who has the experience and judgment to influence the direction of the company. That said, this person is also comfortable rolling up his/her sleeves and joining us in the hard work that we all share. There is no "waterfall of responsibility" here. As we preach meritocracy, we also practice it: Give us your best ideas, your time, and your sweat, and we will give you the autonomy to make this mission your own. As we tell our young people: Come hungry.
 		</p>
 		<p>
 		What we need is someone who can lead both business development, and program coordination. We're looking for someone who has not only experience, but also innovative ideas when it comes to designing and executing a fundraising strategy. We've all gotten those lame fundraising communications. How would you do it differently?

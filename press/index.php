@@ -23,6 +23,11 @@
 		<section>
 			<ul class="press">
 				<li>
+					<a href="http://www.cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh announces partnership with Resilient Coders">
+						<span class="meta">City of Boston</span>Mayor Walsh announces partnership with Resilient Coders
+					</a>
+				</li>
+				<li>
 					<a href="https://www.youtube.com/watch?v=-0Q16HklbnI" target="_blank" title="Education as investment: Engaging the disengaged">
 						<span class="meta">TEDxSomerville</span>Education as investment: Engaging the disengaged
 					</a>
