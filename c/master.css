@@ -931,7 +931,7 @@ ul.ss-choices{
 
 #micahvideo #x {
 	width: 30px;
-	position: absolute;
+	position: fixed;
 	z-index: 201;
 	right: 15px;
 	top: 15px;
@@ -953,6 +953,10 @@ ul.ss-choices{
 
 #micahvideo #video p {
 	margin: 1.4em 0;
+}
+
+#micahvideo img {
+  width: 100%;
 }
 
 #micahvideo #video p.intro {
