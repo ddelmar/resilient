@@ -345,6 +345,16 @@ h2#tagline {
 
 /*
 :::::::::::::::
+:: NEWS :::::::
+:::::::::::::::
+*/
+
+.body_news section:nth-of-type(2) {
+  margin-top: 2.4em;
+}
+
+/*
+:::::::::::::::
 :: MICAH VIDEO
 :::::::::::::::
 */
@@ -355,4 +365,3 @@ h2#tagline {
 	padding: 0 5%;
 	width:90%;
 }
-

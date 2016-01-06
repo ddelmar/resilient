@@ -413,3 +413,17 @@ background-size: cover;
 .content_2col div:first-of-type {
   margin-right: 2%;
 }
+
+/*
+::::::::::::::::
+::: NEWS ::::
+::::::::::::::::
+*/
+
+.body_news section {
+  width: 49%;
+}
+
+.body_news section:nth-of-type(1) {
+  margin-right: 1%;
+}

@@ -337,30 +337,47 @@ STUDENTS
 	margin: 2em 0 0 0;
 }
 
-ul.press li.title,
-ul.press li a {
-	width: 100%;
-	padding: 2% 0 2% 4%;
-	display: block;
+/*
+::::::::::::::::
+::: NEWS ::::
+::::::::::::::::
+*/
+
+.body_news section p.intro {
+  margin-bottom: 0;
+  border:0;
 }
 
-ul.press li.title {
+.body_news section p.meta {
+  font-size: .75em;
+  margin-top: 2em;
+}
+
+ul.news li.title,
+ul.news li a {
+	width: 100%;
+	padding: 4%;
+	display: block;
+  font-size:.8em;
+}
+
+ul.news li.title {
 	background-color: #333;
 	color: #fff;
 }
 
-ul.press li a {
+ul.news li a {
 	background-color: #dadada;
 	color: #333;
 }
 
-ul.press li a:hover,
-ul.press li:nth-child(2n+2) a:hover {
+ul.news li a:hover,
+ul.news li:nth-child(2n+2) a:hover {
 	color: white;
 	background-color: #ed1b24;
 }
 
-ul.press li:nth-child(2n+2) a {
+ul.news li:nth-child(2n+2) a {
 background-color: #e5e5e5;
 }
 

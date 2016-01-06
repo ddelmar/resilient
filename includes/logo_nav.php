@@ -20,7 +20,7 @@
 				<a class="Lab" href="/lab/">Lab</a>
 			</li>
 			<li>
-				<a class="Press" href="/press/">Press</a>
+				<a class="News" href="/news/">News</a>
 			</li>
 			<li>
 				<a class="You" href="/you/">You</a>

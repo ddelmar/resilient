@@ -21,26 +21,17 @@
 -->
 
 		<section>
-			<p class="intro">news</p>
+			<p class="intro">Press</p>
 			<ul class="news">
 				<li>
 					<a href="http://www.cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh announces partnership with Resilient Coders">
 						<span class="meta">City of Boston</span>Mayor Walsh announces partnership with Resilient Coders
 					</a>
 				</li>
-				<li>
-					<a href="https://www.youtube.com/watch?v=-0Q16HklbnI" target="_blank" title="Education as investment: Engaging the disengaged">
-						<span class="meta">TEDxSomerville</span>Education as investment: Engaging the disengaged
-					</a>
 				</li>
 				<li>
 					<a href="http://bostinno.streetwise.co/2015/10/19/coding-skills-how-to-spot-and-hire-engineering-talent/" target="_blank" title="How to Spot Coding Talent Early">
 						<span class="meta">BostInno</span>How to Spot Coding Talent Early
-					</a>
-				</li>
-				<li>
-					<a href="/map" target="_blank" title="Resilient Coders, Year One">
-						Oct. 2015: Interactive Infographic. Resilient Coders, Year One
 					</a>
 				</li>
 				<li>
@@ -94,11 +85,36 @@
 			<p class="intro">Our film & interactive content</p>
 			<ul class="news">
 				<li>
-					<a href="http://www.cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh announces partnership with Resilient Coders">
-						<span class="meta">City of Boston</span>Mayor Walsh announces partnership with Resilient Coders
+					<a href="https://www.youtube.com/watch?v=onJC4WqBUmU" target="_blank" title="Hour of Code 2015">
+						<span class="meta">12.2015</span>Hour of Code 2015
+					</a>
+				</li>
+				<li>
+					<a href="/map" target="_blank" title="Resilient Coders, Year One">
+						<span class="meta">10.2015</span>Resilient Coders, Year One
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=-0Q16HklbnI" target="_blank" title="Education as investment: Engaging the disengaged">
+						<span class="meta">09.2015</span>TEDxSomerville: Education as Investment
+					</a>
+				<li>
+					<a href="/hubweek" target="_blank" title="Hubweek">
+						<span class="meta">10.2015</span>Your odds of success as young black man
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=ASKzlgmopyo" target="_blank" title="Boston Coding Camp">
+						<span class="meta">04.2015</span>Boston Coding Camp
+					</a>
+				</li>
+				<li>
+					<a href="https://youtube.com/watch?v=JU1UunsFgpU" target="_blank" title="Micah Martin: Resilient Coder">
+						<span class="meta">01.2015</span>Micah Martin: Resilient Coder
 					</a>
 				</li>
 			</ul>
+			<p class="meta">Video content and original soundtracks produced by <a href="http://asithappens.tv" target="_blank">As It Happens Films</a></p>
 		</section>
 
 
