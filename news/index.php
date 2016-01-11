@@ -24,6 +24,11 @@
 			<p class="intro">Press</p>
 			<ul class="news">
 				<li>
+					<a href="https://www.bostonglobe.com/magazine/2016/01/06/fresh-faces-and-bold-new-ideas-from-boston/qC73YuK1zNEH53C4ecfB3M/story.html" target="_blank" title="21 Fresh Faces and Bold Ideas">
+						<span class="meta">Boston Globe</span>21 Fresh Faces and Bold Ideas
+					</a>
+				</li>
+				<li>
 					<a href="http://www.cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh announces partnership with Resilient Coders">
 						<span class="meta">City of Boston</span>Mayor Walsh announces partnership with Resilient Coders
 					</a>
