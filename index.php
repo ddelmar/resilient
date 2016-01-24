@@ -11,7 +11,8 @@
 	<section>
 	<img id="logo_skull" src="https://resilientcoders.s3.amazonaws.com/i/logo_skull.png" alt="Resilient Coders">
 	</section>
-</div><!-- /header -->
+</div>
+
 
 <div id="tier2">
 
@@ -20,6 +21,7 @@
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p class="intro">
+				<!--Resilient Coders Bootcamp 2016 ends today.--> 
 				Resilient Coders teaches young people from traditionally underserved communities how to code. We do this as a way of aligning them with a lucrative and meaningful career path. It's a <a href="/program" title="Resilient Coders Program">multi-tiered program</a> that funnels students from learning HTML after school, through our downtown "Coworking" sessions, and ultimately, hourly employment. Our higher performers participate in <a href="/lab" title="Resilient Lab">Resilient Lab,</a> a web design and development shop with real clients.
 			</p>
 			<p>

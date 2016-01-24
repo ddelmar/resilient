@@ -4,7 +4,7 @@ $(document).ready(function(){
 	}, function(){
 		$(this).removeClass("hover");
 	});
-	
+
 	$(".nav_button").click(function(){
 		$(".nav_x, #nav").show();
 		$(".nav_button").hide();
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$("#micahvideo #x").click(function(){
 		$("#micahvideo").remove();
 	});
-	
+
 
 // Twitter
 	var rssUrl = "http://twitrss.me/twitter_user_to_rss/?user=resilientcoders";
@@ -33,7 +33,7 @@ $(document).ready(function(){
 	html = "";
 	parseRSS(rssUrl, function(rss) {
 	    for(i = 0; i >=0; i--) {
-	          html += "<p><a href='" + rss[i].link + "'>" + rss[i].title + "</a></p>";  
+	          html += "<p><a href='" + rss[i].link + "'>" + rss[i].title + "</a></p>";
 	    }
 		$(".product.twitter p").html(html);
 	});
@@ -41,20 +41,32 @@ $(document).ready(function(){
 
 //----------- if Program pg ----------//
 	if(window.location.pathname == '/program/'){
-		// 
-		
+		//
+
 		$(".program_nav li a, #tier3 a:not('.external')").click(function(){
 			var btnClass = $(this).attr("class");
 			var btnSibs = $(".program_nav li a:not(." + btnClass + ")");
 			var content = $("#tier3 ." + btnClass + "_content");
 			var contentSiblings = $("#tier3 > * > div:not(." + btnClass + "_content)");
-			
+
 			$(btnSibs).attr("id","");
 			$(".program_nav li ." + btnClass).attr("id","selected");
 			$("." + btnClass + "_content").addClass("visible").removeClass("hidden");
 			$(contentSiblings).addClass("hidden").removeClass("visible");
 		});
 	}
+
+//----------- if Bootcamp pg ----------//
+	if(window.location.pathname == '/bootcamp/'){
+
+		$("li#instructor *").click(function(){
+			$("#instructorlist").toggle();
+		});
+
+
+
+	}
+
 
 //----------- if Team pg ----------//
 	if(window.location.pathname == '/team/'){
@@ -67,15 +79,15 @@ $(document).ready(function(){
 			if(++imgCount == TeamImgTotal){
 				$(".team img, .partners img").animate({
 				"opacity":1
-				});	
+				});
 				}
 		});
 	setTimeout(function(){
 		// Force the load if it doesn't happen after 3 seconds
 		$(".team img, .partners img").css("opacity","1");
 	}, 2000);
-	
-	
+
+
 			$(".team_photos a").click(function(){
 			var thisclass = $(this).parent().attr("class");
 			var thiscontent = $(".team_hiddenCopy ." + thisclass).html();
@@ -85,15 +97,13 @@ $(document).ready(function(){
 			$(".team_photos ." + thisclass + " a").removeClass("unselected").addClass("selected");
 			$(".team_writeup").html(thiscontent);
 		});
-		
+
 	}
-	
-	
-	
-	
 
 	deviceDetect();
 }); // END DOC.READY
+
+
 
 window.onresize = deviceDetect;
 
@@ -120,6 +130,6 @@ function desktopTabletJS(){
 
 	// If desktop, remove anchor tag functionality
 	$(".team_photos a, .partners_photos a").click(function(){
-	 return false;	
+	 return false;
 	});
 }

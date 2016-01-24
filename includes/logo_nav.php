@@ -14,7 +14,7 @@
 				<a class="Team" href="/team/">Team</a>
 			</li>
 			<li>
-				<a class="Camp" href="/camp/">Camp</a>
+				<a class="Bootcamp" href="/bootcamp/">Bootcamp</a>
 			</li>
 			<li>
 				<a class="Lab" href="/lab/">Lab</a>
@@ -23,15 +23,16 @@
 				<a class="News" href="/news/">News</a>
 			</li>
 			<li>
-				<a class="You" href="/you/">You</a>
-			</li>
-			<li>
 				<a class="Donate" href="/donate/">Donate</a>
+			</li>
+			<? /*
+			<li>
+				<a class="Camp" href="/camp/">Camp</a>
 			</li>
 			<li>
 				<a class="Job" href="/job/">We're Hiring</a>
 			</li>
-
+			*/ ?>
 
 		</ul>
 	</div>

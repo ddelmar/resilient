@@ -12,12 +12,6 @@
 			<li class="Tyler"><a href="#s_detail" class="unselected">
 				<img src="i/team/Tyler.png" />
 			</a></li>
-			<li class="Fredy"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/fredy.jpg" />
-			</a></li>
-			<li class="Micah"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/micah.jpg" />
-			</a></li>
 			<li class="Josh"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/josh.jpg" />
 			</a></li>

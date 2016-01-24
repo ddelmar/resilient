@@ -164,6 +164,7 @@ section,
 
 #tier2 {
   padding-bottom: 50px;
+  width:100%;
 }
 
 /*
@@ -192,6 +193,7 @@ section,
 #tier3 h2 {
 	color: #d6d6d6;
 }
+
 
 #tier3 .product p {text-align: justify;}
 
@@ -239,12 +241,19 @@ section,
 
 #preload, #preload * {height: 0;}
 
+.container500,
 .container {
 	padding: 100px 0 0 0 ;
 }
 
+.container500 > div,
 .container > div {
   float: left;
+}
+
+.container500 {
+  max-width:500px;
+  margin: 0 auto;
 }
 
 img.program_3model {float: left;}
@@ -467,23 +476,23 @@ background-color: #e5e5e5;
 ::::::::::::::::
 */
 
-.body_team .partners {
+.partners {
 	background: white;
 }
 
-.body_team .partners ul {
+.partners ul {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto;
 }
 
-.body_team .partners ul li { width: 19%; float: left; display: block; }
-.body_team .partners ul li a { width: 80%; float: left; }
-.body_team .partners ul li a img { width: 100%; }
-.body_team .partners ul li.tugg {margin: 10px 0 0 0; }
-.body_team .partners ul li.tugg a img#cic {width:50%; margin: 20px 0 0 20px; float: right; }
+.partners ul li { width: 19%; float: left; display: block; }
+.partners ul li a { width: 80%; float: left; }
+.partners ul li a img { width: 100%; }
+.partners ul li.tugg {margin: 10px 0 0 0; }
+.partners ul li.tugg a img#cic {width:50%; margin: 20px 0 0 20px; float: right; }
 
-.body_team .partners ul li.goulston a { margin: 15px 0; }
+.partners ul li.goulston a { margin: 15px 0; }
 
 .body_team .container {
   /* margin: 0px 5%; */
@@ -741,9 +750,7 @@ input[type="submit"].donate-button{
 	text-align: center;
 
 }
-.form-title, form li{
-	font-size: 2em;
-}
+
 .form-title{
 	font-size: 2em;
 /*	line-height: 1.6em;*/
@@ -893,10 +900,11 @@ ul.ss-choices{
 
 #mc_embed_signup input[type="text"],
 #mc_embed_signup input[type="email"],
-#mc_embed_signup input[type="submit"] { float: left; width: 96%;}
+#mc_embed_signup input[type="submit"] { float: left; }
 
 #mc_embed_signup input[type="submit"] {
 	background-color: #222;
+  width: 100%;
 	padding: 4%;
 	border: none;
 	color: white;
@@ -930,7 +938,40 @@ ul.ss-choices{
 	color: #666;
 }
 
+/*
+::::::::::::::::
+::: BOOTCAMP :::
+::::::::::::::::
+*/
 
+.body_bootcamp #tier3 {
+	padding: 0px;
+  background: #333;
+  color: #f7f7f7;
+  float: left;
+}
+
+#mc_embed_signup li {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 16px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+#mc_embed_signup li:nth-last-of-type(1) {
+  border-bottom: none;
+}
+
+
+#mc_embed_signup #instructorlist {padding-left: 30px;}
+
+#mc_embed_signup li input,
+#mc_embed_signup li label { float: left; cursor: pointer;}
+#mc_embed_signup li input {width: 10%; }
+#mc_embed_signup li label {width: 90%; line-height: .9em;}
+
+.mc-field-group input {width: 100%; }
 /*
 ::::::::::::::::
 ::: Micah Video :::

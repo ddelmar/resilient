@@ -17,7 +17,7 @@
 
 		<p style="margin-top:20px;">We source our students from our partnerships with organizations such as Youth Options Unlimited,
 			the Department of Youth Services, and the Boston Private Industry Council. We also run Coding Camps
-			to expose new students to coding. <a href="/camp">Learn more about Coding Camp.</a>
+			to expose new students to coding. 
 		</p>
 		<p>
 		Our objective at the top of the funnel is for students to progress to the next step along the process.
@@ -46,10 +46,13 @@
 	<div class="detail funnel3">
 		<h2>Bootcamp</h2>
 		<p>
-We are designing a new, full-day "bootcamp" model, for higher-risk young people who are not in school. A cohort of 5 - 8
-students meets for five hours a day, five days a week, for 8 weeks. During this time, they are working out of a coworking space,
-alongside tech entrepreneurs, in order to create a fully immersive learning environment. The program is built around key
-"milestones," identified in our curriculum and informed by the needs of the market. The cohorts will run quarterly.
+		 Our full-day "bootcamp" model is offered in partnership with the Mayor's Office of Public Safety, to young people who are not in school.
+Students meet for five hours a day, five days a week, for 8 weeks. During this time, they are working out of a coworking space,
+receiving instruction and direct mentorship from tech professionals. The program is built around key
+"milestones," identified in our curriculum and informed by the needs of the market.
+</p>
+<p>
+	<a href="/bootcamp">More about Bootcamp</a>
 </p>
 
 	</div>
@@ -96,6 +99,15 @@ alongside tech entrepreneurs, in order to create a fully immersive learning envi
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 </div><!-- /spacer -->
+
+<div class="image-container">
+<div class="main-header fullheightwidth hero"></div>
+</div>
+
+		<?php include_once("../includes/mailchimp.php") ?>
+
+
+
 
 <script>
 $(document).ready(function(){
