@@ -56,16 +56,10 @@ $(document).ready(function(){
 		});
 	}
 
-//----------- if Bootcamp pg ----------//
-	if(window.location.pathname == '/bootcamp/'){
-
+//----------- Form: Bootcamp and Program pages ----------//
 		$("li#instructor *").click(function(){
 			$("#instructorlist").toggle();
 		});
-
-
-
-	}
 
 
 //----------- if Team pg ----------//
