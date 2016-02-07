@@ -213,7 +213,7 @@ h2#tagline {
 .body_students .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/teep_lj.png);}
 .body_you .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/teep_ed.png);}
 .body_partners .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/tugg.jpg);}
-.body_team .hero {background-image: url("/i/tugg.JPG");}
+.body_team .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/hoc.JPG);}
 .body_lab .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/julio.jpg);}
 .body_badges .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/ackeempaul.jpg);}
 .body_job .hero {background-image: url(http://assets1.ignimgs.com/vid/thumbnails/user/2014/08/15/lionel.jpg);}
@@ -266,7 +266,16 @@ h2#tagline {
 	border: 1px solid transparent;
 }
 
-.body_team #tier2 {
+.body_alumni .team li a,
+.body_alumni .team li a.unselected,
+.body_alumni .team li a:hover,
+.body_alumni .team li a:hover.unselected {
+	width: 30%;
+	border: 1px solid transparent;
+}
+
+.body_team #tier2,
+.body_alumni #tier2 {
 	margin-top: 90px;
 }
 
@@ -277,6 +286,15 @@ h2#tagline {
 	text-align: left;
 	padding: 80px 0 0 30px;
 	width: 60%;
+}
+
+.body_alumni .team ul{ width: 50%; }
+
+.body_alumni .team_writeup {
+	float: left;
+	text-align: left;
+	padding: 80px 0 0 30px;
+	width: 40%;
 }
 
 

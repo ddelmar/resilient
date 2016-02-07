@@ -253,6 +253,18 @@ display: none;
 	width: 60%;
 }
 
+.body_alumni .team li a,
+.body_alumni .team li a.unselected,
+.body_alumni .team li a:hover,
+.body_alumni .team li a:hover.unselected {
+	width: 48%;
+	border: 1px solid transparent;
+}
+
+.body_alumni #tier2 {
+	margin-top: 90px;
+}
+
 
 /*
 ::::::::::::::::

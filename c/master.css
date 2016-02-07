@@ -494,6 +494,7 @@ background-color: #e5e5e5;
 
 .partners ul li.goulston a { margin: 15px 0; }
 
+.body_alumni .container,
 .body_team .container {
   /* margin: 0px 5%; */
   width: 100%;
@@ -516,6 +517,7 @@ background-color: #e5e5e5;
 .team li, .partners li{
 	line-height: 0;
 }
+
 .team li a,
 .team li a.unselected {
 	display: block;

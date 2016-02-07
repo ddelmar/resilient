@@ -275,6 +275,18 @@ h2#tagline {
 	padding: 0 3%;
 }
 
+.body_alumni .team li a,
+.body_alumni .team li a.unselected,
+.body_alumni .team li a:hover,
+.body_alumni .team li a:hover.unselected {
+	border: 0px;
+	width: 33.33%;
+}
+
+.body_alumni #tier2 {
+	margin-top: 62px;
+}
+
 #s_detail {
 	width: 100%;
 	height: 1px;

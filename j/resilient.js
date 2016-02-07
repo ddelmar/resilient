@@ -13,6 +13,7 @@ $(document).ready(function(){
 		$(".nav_x, #nav").hide();
 		$(".nav_button").show();
 	});
+
 	$("#micahvideo #x").click(function(){
 		$("#micahvideo").remove();
 	});
@@ -63,7 +64,7 @@ $(document).ready(function(){
 
 
 //----------- if Team pg ----------//
-	if(window.location.pathname == '/team/'){
+	if(window.location.pathname == '/team/' || '/alumni/'){
 
 	// Wait until images are loaded before displaying them
 		var TeamImgTotal = $(".team img").size(); 	// get the number of images
