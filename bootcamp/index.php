@@ -15,11 +15,23 @@
 
 		<h2>Bootcamp</h2>
 
+<?php /*
+recruitment copy
+
 		<p class="intro">
 Eight weeks can transform a young person's life. We're now recruiting instructors and mentors to join us in democratizing the tech community. Let's make it the meritocracy it should be.    </p>
 		<p>
 			"All eyes are on us," said Dan Mulhern, Director of Public Safety Initiatives, to a roomful of applicants to Resilient Coders Bootcamp. And he meant it. Mayor Walsh has <a href="http://cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh Announces Expansion of Boston's Successful Reentry Program, Operation Exit">thrown his support</a> behind this partnership, and even incoming US Secretary of Education John King has voiced his enthusiasm for it. The idea is an audacious one: Select a group of young people who are out of school, who are deemed to be "high risk" for their backgrounds, and give them the tools and the guidance they need to become coders. Join the initiative that's redefining workforce development.
 		</p>
+		*/ ?>
+
+		<p class="intro">
+			The idea behind our Bootcamp is an audacious one: Take a small cohort of young people, who face more challenges than most, who have been hand-picked by our partners for their grit, and teach them fundamentals of web development so that they may have access to a real career.
+		</p>
+		<p>
+			For these last several weeks, this cohort has been meeting daily, at MassChallenge, to learn HTML, CSS, jQuery, JavaScript, Bootstrap, and git, from professionals. They have been developing professional and leadership skills. And they have begun honing a direction for the ambition that they've always had. As we start wrapping up the final weeks of the program, we're beginning to set our sights higher than they were when we started: Some of these young men will be ready to work for <a href="/lab">Resilient Lab,</a> building websites and web applications for paying clients. Hire them, through us.
+		</p>
+		<a href="/alumni" class="donate-button"><p>Meet the grads</p></a>
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 

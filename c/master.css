@@ -861,6 +861,10 @@ ul.ss-choices{
 	width: 100%;
 }
 
+.body_bootcamp #tier2 a.donate-button {
+  max-width: 300px;
+}
+
 .body_donate #tier2 a:hover.donate-button {
 	color: white;
 }
@@ -1030,8 +1034,8 @@ ul.ss-choices{
   margin: 5% 0;
 }
 
-.body_donate a.donate-button,
-.body_donate li.donate-button {
+a.donate-button,
+li.donate-button {
 	width: 100%;
 	margin: 1em 0;
 	padding: 1em 0;
@@ -1039,8 +1043,8 @@ ul.ss-choices{
 	border-radius: 6px;
 }
 
-.body_donate a:hover.donate-button,
-.body_donate li:hover.donate-button {
+a:hover.donate-button,
+li:hover.donate-button {
 	background-color: #ed1b24;
 	color: white;
 	transition: all 0.3s ease 0.0s;
