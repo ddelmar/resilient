@@ -501,6 +501,10 @@ background-color: #e5e5e5;
   margin: 0;
 }
 
+.body_alumni iframe {
+   margin: -75px 0 26px 0;
+}
+
 .team, .partners{
 	float: left;
   width: 100%;

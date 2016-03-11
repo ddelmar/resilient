@@ -88,7 +88,7 @@ Elijah Manago is fresh out of high school and is currently looking for an intern
 
 				<article>
 						<div class="William">
-							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/Qlgnf8O7aSg" frameborder="0" allowfullscreen></iframe>
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/Qlgnf8O7aSg" frameborder="0" allowfullscreen></iframe>
 
 							<h2>
 								William Howell Jr.
@@ -119,7 +119,7 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Lawrence">
-							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/zGZpo3IC3GA" frameborder="0" allowfullscreen></iframe>
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/zGZpo3IC3GA" frameborder="0" allowfullscreen></iframe>
 
 							<h2>
 								Lawrence Brown
@@ -134,7 +134,7 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Devin">
-							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/g4NnpNsL2OI" frameborder="0" allowfullscreen></iframe>
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/g4NnpNsL2OI" frameborder="0" allowfullscreen></iframe>
 
 							<h2>
 								Devin Edwards
@@ -149,7 +149,7 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Aurelio">
-							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/TmBVXN4JLoI" frameborder="0" allowfullscreen></iframe>
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/TmBVXN4JLoI" frameborder="0" allowfullscreen></iframe>
 
 							<h2>
 								Aurelio Pontes
