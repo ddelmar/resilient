@@ -26,10 +26,10 @@
 			<li class="Dedric"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/dedric.jpg" />
 			</a></li>
-			<?php /*
 			<li class="Lawrence"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/lawrence.jpg" />
 			</a></li>
+			<?php /*
 			<li class="Oz"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/oz.jpg" />
 			</a></li>
@@ -88,6 +88,8 @@ Elijah Manago is fresh out of high school and is currently looking for an intern
 
 				<article>
 						<div class="William">
+							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/Qlgnf8O7aSg" frameborder="0" allowfullscreen></iframe>
+
 							<h2>
 								William Howell Jr.
 							</h2>
@@ -117,11 +119,14 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Lawrence">
+							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/zGZpo3IC3GA" frameborder="0" allowfullscreen></iframe>
+
 							<h2>
 								Lawrence Brown
 							</h2>
 							<div class="clr"></div>
 							<p>
+								Lawrence Brown was born and raised in Boston. Recently, he's had a daughter, who motivates him to come to Resilient Coders Bootcamp on time every day. He's at the beginning of his career, but is hungry to learn and continue to improve.
 							</p>
 
 						</div>
@@ -129,6 +134,8 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Devin">
+							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/g4NnpNsL2OI" frameborder="0" allowfullscreen></iframe>
+
 							<h2>
 								Devin Edwards
 							</h2>
@@ -142,6 +149,8 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Aurelio">
+							<iframe width="100%" height="315" style="margin-bottom: 26px;" src="https://www.youtube.com/embed/TmBVXN4JLoI" frameborder="0" allowfullscreen></iframe>
+
 							<h2>
 								Aurelio Pontes
 							</h2>
@@ -156,6 +165,7 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Dedric">
+
 							<h2>
 								Dedric Williams
 							</h2>
