@@ -165,6 +165,7 @@ He now strives to one day join a team of coders working to make the world a bett
 
 				<article>
 						<div class="Dedric">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/JA8NyRqjMGQ" frameborder="0" allowfullscreen></iframe>
 
 							<h2>
 								Dedric Williams
