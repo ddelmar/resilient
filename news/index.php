@@ -22,7 +22,14 @@
 
 		<section>
 			<p class="intro">Press</p>
+
 			<ul class="news">
+				<li>
+					<a href="http://video.wgbh.org/video/2365703576/?start=1200" target="_blank" title="WGBH Greater Bostonians">
+						<span class="meta">WGBH</span>Greater Bostonians (20:00)
+					</a>
+				</li>
+				<li>
 				<li>
 					<a href="https://www.bostonglobe.com/magazine/2016/01/06/fresh-faces-and-bold-new-ideas-from-boston/qC73YuK1zNEH53C4ecfB3M/story.html" target="_blank" title="21 Fresh Faces and Bold Ideas">
 						<span class="meta">Boston Globe</span>21 Fresh Faces and Bold Ideas
