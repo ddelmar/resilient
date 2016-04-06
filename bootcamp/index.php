@@ -29,7 +29,7 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 			The idea behind our Bootcamp is an audacious one: Take a small cohort of young people, who face more challenges than most, who have been hand-picked by our partners for their grit, and teach them fundamentals of web development so that they may have access to a real career.
 		</p>
 		<p>
-			For these last several weeks, this cohort has been meeting daily, at MassChallenge, to learn HTML, CSS, jQuery, JavaScript, Bootstrap, and git, from professionals. They have been developing professional and leadership skills. And they have begun honing a direction for the ambition that they've always had. As we start wrapping up the final weeks of the program, we're beginning to set our sights higher than they were when we started: Some of these young men will be ready to work for <a href="/lab">Resilient Lab,</a> building websites and web applications for paying clients. Hire them, through us.
+			Our coders meet daily to learn HTML, CSS, jQuery, JavaScript, Bootstrap, and git, from professionals. They develop professional and leadership skills. And they begin honing a direction for the ambition that they've always had.
 		</p>
 		<a href="/alumni" class="donate-button"><p>Meet the grads</p></a>
 	</div><!-- /tier2 -->
@@ -63,7 +63,11 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 
 			<ul>
 				<p>Thanks to our Bootcamp partners.</p>
-
+				<li class="you">
+					<a href="http://youboston.org">
+						<img src="https://resilientcoders.s3.amazonaws.com/i/logos/youboston.png">
+					</a>
+				</li>
 				<li class="tbf">
 					<a href="http://tbf.org">
 						<img src="https://resilientcoders.s3.amazonaws.com/i/logos/tbf.png">
