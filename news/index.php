@@ -25,8 +25,8 @@
 
 			<ul class="news">
 				<li>
-					<a href="http://video.wgbh.org/video/2365703576/?start=1200" target="_blank" title="WGBH Greater Bostonians">
-						<span class="meta">WGBH</span>Greater Bostonians (20:00)
+					<a href="https://news.wgbh.org/2016/03/29/local-news/greater-bostonian-coding-bootcamp" target="_blank" title="WGBH Greater Bostonians">
+						<span class="meta">WGBH</span>Greater Bostonian: Coding Camp
 					</a>
 				</li>
 				<li>
