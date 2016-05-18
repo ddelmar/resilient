@@ -23,6 +23,7 @@
 		<section>
 			<p class="intro">news</p>
 			<ul class="news">
+				
 				<li>
 					<a href="http://www.cityofboston.gov/news/Default.aspx?id=20440" target="_blank" title="Mayor Walsh announces partnership with Resilient Coders">
 						<span class="meta">City of Boston</span>Mayor Walsh announces partnership with Resilient Coders

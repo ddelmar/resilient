@@ -25,6 +25,12 @@
 
 			<ul class="news">
 				<li>
+					<a href="http://blog.microsoftnewengland.com/2016/05/05/enabling-youth-employment-a-conversation-with-lawrence-brown/" target="_blank" title="Enabling Youth Employment: A Conversation with Lawrence Brown">
+						<span class="meta">Microsoft Blog</span>Enabling Youth Employment: A Conversation with Lawrence Brown
+					</a>
+				</li>
+				
+				<li>
 					<a href="https://news.wgbh.org/2016/03/29/local-news/greater-bostonian-coding-bootcamp" target="_blank" title="WGBH Greater Bostonians">
 						<span class="meta">WGBH</span>Greater Bostonian: Coding Camp
 					</a>
