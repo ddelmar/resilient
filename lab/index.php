@@ -19,7 +19,7 @@ Our most experienced students operate a web design and development studio. Our y
 	<b>So, can I write it off my taxes as a donation?</b> Some of it, yes. Your invoice will itemize out the straight cost of building your project, versus the investment you're making in our coders' education. Within the hourly rate that you're quoted, usually half of that is a donation, and will be spent on training the coders to be ready to work on your project. The other half is your payment for a service. This will vary depending on the specific needs of a project. We'll be transparent about those proportions when we start.
 </p>
 <p>
-	<b>How do we get started?</b> Drop Tyler a note at <a href="mailto:tyler@resilientcoders.org">tyler@resilientcoders.org</a> to begin scheming.
+	<b>How do we get started?</b> Drop Muigai a note at <a href="mailto:muigai@resilientcoders.org">muigai@resilientcoders.org</a> to begin scheming.
 </p>
 
 

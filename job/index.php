@@ -9,7 +9,7 @@
 
 */?>
 <style>
-#tier2 li {
+#tier2 ul li {
 	list-style-type:disc;
 	padding-left: 20px;
 	margin-left: 20px;
@@ -19,56 +19,46 @@
 	<div class="container">
 		<div id="tier2">
 
-		<h2>Hello. Is it you we're looking for?</h2>
+		<h2>Hiring Summer Instructors</h2>
 
-		<p class="intro">
-  We're looking to make our first full-time hire. We need a hustler who is passionate, mission-driven, and comfortable in a startup environment where many hats are worn, pivots are made, and decisions are made swiftly and efficiently.
-    </p>
-		<p>
-			This <b>Development Manager</b> is a thought leader, who has the experience and judgment to influence the direction of the company. That said, this person is also comfortable rolling up his/her sleeves and joining us in the hard work that we all share. There is no "waterfall of responsibility" here. As we preach meritocracy, we also practice it: Give us your best ideas, your time, and your sweat, and we will give you the autonomy to make this mission your own. As we tell our young people: Come hungry.
-		</p>
-		<p>
-		What we need is someone who can lead both business development, and program coordination. We're looking for someone who has not only experience, but also innovative ideas when it comes to designing and executing a fundraising strategy. We've all gotten those lame fundraising communications. How would you do it differently?
-	</p>
-	<p>
-		This person will also help us run the program. Identify key technologists who should come in and lead a workshop. Keep an eye out for VIP's or organizations who might be instrumental to the advancement of the cause.
-	</p>
-	<p>
-		Be able to speak to your...
-	</p>
-	<ul>
+		<p class="intro" style="margin-bottom:1em; border-bottom: none;">
 
-		<li>Prior multi-faceted fundraising strategy that you've designed and implemented</li>
-		<li>Metrics-based decision-making</li>
-		<li>Experience cultivating relationships with potential donors, partners</li>
-		<li>Broad professional network in the field</li>
-		<li>Experience at a small shop or startup</li>
-		<li>Evidence of thought leadership</li>
-		<li>Vision as to how Resilient Coders could have deeper impact</li>
-	</ul>
-	<p style="padding-top:20px;">
+		Resilient Coders <a href="/bootcamp" title="Bootcamp">Bootcamp</a> starts back up again this summer. We're looking for educators to help us spread code literacy on the front lines.
+	</p>
+</div><!-- /tier2 -->
+</div><!-- /container -->
+</div><!-- /spacer -->
 
-		<b>Why you want to work with us</b>
-	</p>
-	<p>
-		Resilient Coders is only a year old but we're already making some noise. We've launched our web dev shop, Resilient Lab, earlier than expected, and have worked with awesome clients like Wanderu and City Awake. We've picked up some love from the tech community: We've won TUGG's event-based competitions three times consecutively, and we've been selected as finalists at MassChallenge. We've picked up <a href="/press">some press</a> here and there, from the Metro, the Herald, Boston Magazine, to our recent TEDx talk. Still, nobody articulates our culture better than our man Micah does in <a href="https://www.youtube.com/watch?v=JU1UunsFgpU">this 3-minute video.</a>
-	</p>
-	<p>
-		This is what we've done in year one. Help us define year two. Send your resume and cover letter to <a href="mailto:hiring@resilientcoders.org">hiring@resilientcoders.org.</a>
+	<div class="image-container">
+	<div class="main-header fullheightwidth hero"></div>
+	</div>
+
+	<div class="spacer"  style="padding: 0;">
+		<div class="container">
+			<div id="tier2">
+
+	<p>From July 11th through August 26th, 9:30 to 2:30 every day, a small cohort of young people of a higher risk profile than most will gather at the Roxbury Innovation Center to learn to code. The syllabus is a carefully curated combination of technical skills (HTML, CSS, and basic Javascript), verbal and nonverbal communication strategies, and open discussions meant to help our young coders place themselves in a broader social context.
 </p>
 <p>
-		Onward.
-	</p>
+We are considering two configurations:
+</p>
+<p>1. Hiring one instructor who has the strong technical skills to lead the workshops while also having the charisma and demeanor to manage a broad range of personalities. This person should have experience in and passion for youth development, education, and/or mentorship. It's an excellent opportunity for a freelancer to complement her workload with a steady 25 hours a week.
+</p>
+<p>
+2. Hiring two instructors: one to lead the technical workshops, and another to lead the non-technical discussions focused more on personal and professional development, communication strategies, and social context. In this case, both should have experience in and passion for youth development, education, and/or mentorship.
+</p>
 
+<p>
+We also operate a <a href="/lab" title="Resilient Lab">web development company</a> that employs our higher performers to build websites for local businesses. We pair those young people with freelancers who help vet the work. A successful technical instructor could pick up additional freelance work with us, during and/or after Bootcamp.
+</p>
+<p>Interested? Drop us a note at <a href="mailto:hiring@resilientcoders.org">hiring@resilientcoders.org.</a></p>
 
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 </div><!-- /spacer -->
 
 
-<div class="image-container">
-<div class="main-header fullheightwidth hero"></div>
-</div>
+
 
 
 <?php include_once("../includes/footer.php") ?>
