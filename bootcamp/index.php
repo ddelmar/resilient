@@ -26,7 +26,7 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 		*/ ?>
 
 		<p class="intro">
-			The idea behind our Bootcamp is an audacious one: Take a small cohort of young people, who face more challenges than most, who have been hand-picked by our partners for their grit, and teach them fundamentals of web development so that they may have access to a real career.
+			The idea behind our Bootcamp is an audacious one: Take a small cohort of young people, who face more challenges than most, who have been hand-picked by our partners for their grit, and teach them fundamentals of web development so that they may have access to a real career. <a href="https://news.wgbh.org/2016/03/29/local-news/greater-bostonian-coding-bootcamp" title="WGBH Greater Bostonian: Resilient Coders Bootcamp" target="_blank">Watch the video</a> that aired on WGBH to see us in action.
 		</p>
 		<p>
 			Our coders meet daily to learn HTML, CSS, jQuery, JavaScript, Bootstrap, and git, from professionals. They develop professional and leadership skills. And they begin honing a direction for the ambition that they've always had.
@@ -54,6 +54,10 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 </div><!-- /spacer -->
 
 
+
+<div class="image-container">
+<div class="main-header fullheightwidth hero"></div>
+</div>
 
 
 		<?php include_once("../includes/mailchimp.php") ?>
