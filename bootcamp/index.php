@@ -31,7 +31,8 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 		<p>
 			Our coders meet daily to learn HTML, CSS, jQuery, JavaScript, Bootstrap, and git, from professionals. They develop professional and leadership skills. And they begin honing a direction for the ambition that they've always had.
 		</p>
-		<a href="/alumni" class="donate-button"><p>Meet the grads</p></a>
+		<?php /* <a href="/alumni" class="donate-button"><p>Meet the grads</p></a> */ ?>
+		<a href="/apply" class="donate-button"><p>Apply to Bootcamp</p></a>
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 

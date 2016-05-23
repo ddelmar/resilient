@@ -865,7 +865,8 @@ ul.ss-choices{
 	width: 100%;
 }
 
-.body_bootcamp #tier2 a.donate-button {
+.body_bootcamp #tier2 a.donate-button,
+.body_apply #tier2 a.donate-button {
   max-width: 300px;
 }
 
