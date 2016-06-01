@@ -33,6 +33,7 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 		</p>
 		<?php /* <a href="/alumni" class="donate-button"><p>Meet the grads</p></a> */ ?>
 		<a href="/apply" class="donate-button"><p>Apply to Bootcamp</p></a>
+		<a href="/mentor" class="donate-button"><p>Be a Mentor</p></a>
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 
