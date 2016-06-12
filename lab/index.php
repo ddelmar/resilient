@@ -25,22 +25,22 @@ Our most experienced students operate a web design and development studio. Our y
 		<ul class="team_photos">
 
 			<li class="wanderu"><a href="#s_detail" class="unselected">
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_wanderu.png" />
 			</a></li>
 			<li class="cityawake"><a href="#s_detail" class="unselected">
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_cityawake.png" />
 			</a></li>
 			<li class="helpscout"><a href="#s_detail" class="unselected">
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/muigai.png" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_helpscout.png" />
 			</a></li>
 			<li class="masstlcawards"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/josh.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_masstlc.png" />
 			</a></li>
 			<li class="mybrotherskeeper"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/pamela.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_mbk.png" />
 			</a></li>
 			<li class="resilientmap"><a href="#s_detail" class="unselected" >
-				<img src="https://resilientcoders.s3.amazonaws.com/i/team/susanne.jpg" />
+				<img src="https://resilientcoders.s3.amazonaws.com/i/lab/logo_resilientcoders.png" />
 			</a></li>
 
 			<li class="clr"></li>

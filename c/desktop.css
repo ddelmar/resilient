@@ -313,6 +313,10 @@ h2#tagline {
 ::::::::::::::::
 */
 
+.body_lab .team {
+	background-color: #fff;
+}
+
 .casestudy_img, .casestudy_txt {
 	display:inline-block;
 	width:49.75%;
@@ -325,7 +329,16 @@ h2#tagline {
 	padding: 80px 20px 0 20px;
 }
 
-.casestudy_img {background:#666; display:inline-block;}
+.casestudy_img {
+	background-size: cover;
+	display:inline-block;
+}
+
+/*
+Killing this for now...
+.casestudy_img#wanderu { background-image: url(https://resilientcoders.s3.amazonaws.com/i/lab/Wanderu_website.jpg);}
+.casestudy_img#resilientmap { background-image: url(https://resilientcoders.s3.amazonaws.com/i/lab/map.png);}
+*/
 
 .body_lab .team_writeup {
 	padding: 0px;

@@ -85,13 +85,14 @@ $(document).ready(function(){
 	}, 2000);
 
 			$(".team_photos a").click(function(){
+
 			var thisclass = $(this).parent().attr("class");
 			var thiscontent = $(".team_hiddenCopy ." + thisclass).html();
 			var thisSiblings = $(this).parent().siblings();
-	//		alert(thisSiblings);
 			$(thisSiblings).children().removeClass("selected").addClass("unselected");
 			$(".team_photos ." + thisclass + " a").removeClass("unselected").addClass("selected");
 			$(".team_writeup").html(thiscontent);
+			$(".casestudy_img").attr("id",thisclass);
 		});
 	}
 function casestudy(){
