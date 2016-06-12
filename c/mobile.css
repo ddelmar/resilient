@@ -249,6 +249,14 @@ h2#tagline {
 ::::::::::::::::
 */
 
+.body_alumni .team li a,
+.body_alumni .team li a.unselected,
+.body_alumni .team li a:hover,
+.body_alumni .team li a:hover.unselected,
+.body_lab .team li a,
+.body_lab .team li a.unselected,
+.body_lab .team li a:hover,
+.body_lab .team li a:hover.unselected,
 .body_team .team li a,
 .body_team .team li a.unselected,
 .body_team .team li a:hover,
@@ -275,14 +283,6 @@ h2#tagline {
 	padding: 0 3%;
 }
 
-.body_alumni .team li a,
-.body_alumni .team li a.unselected,
-.body_alumni .team li a:hover,
-.body_alumni .team li a:hover.unselected {
-	border: 0px;
-	width: 33.33%;
-}
-
 .body_alumni #tier2 {
 	margin-top: 62px;
 }
@@ -294,6 +294,14 @@ h2#tagline {
 	margin-top: 0px;
 	padding: 0;
 }
+
+/*
+::::::::::::::::
+::: LAB ::::
+::::::::::::::::
+*/
+
+.casestudy_img {display:none;}
 
 /*
 ::::::::::::::::

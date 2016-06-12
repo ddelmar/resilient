@@ -231,6 +231,13 @@ display: none;
 ::: Team ::::
 ::::::::::::::::
 */
+.body_lab .team li a,
+.body_lab .team li a.unselected,
+.body_lab .team li a:hover,
+.body_lab .team li a:hover.unselected {
+	width: 48%;
+	border: 0;
+}
 
 .body_team .team li a,
 .body_team .team li a.unselected,
@@ -341,6 +348,14 @@ form .donate-button, form input[type="submit"].donate-button {
   display: inline-block;
 
 }
+
+/*
+::::::::::::::::
+::: LAB ::::
+::::::::::::::::
+*/
+
+.casestudy_img {display:none;}
 
 /*
 :::::::::::::::

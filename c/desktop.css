@@ -215,6 +215,7 @@ h2#tagline {
 .body_partners .hero { background-image: url(https://resilientcoders.s3.amazonaws.com/i/tugg.jpg);}
 .body_team .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/hoc.JPG);}
 .body_lab .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/julio.jpg);}
+.body_lab .hero2 {background-image: url(https://pbs.twimg.com/media/CknuiH8UoAAC1FU.jpg);}
 .body_badges .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/ackeempaul.jpg);}
 .body_job .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/willdandevin1200.jpg);}
 .body_alumni .hero {background-image: url(https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/dedricworking.jpg);}
@@ -267,6 +268,14 @@ h2#tagline {
 	border: 1px solid transparent;
 }
 
+.body_lab .team li a,
+.body_lab .team li a.unselected,
+.body_lab .team li a:hover,
+.body_lab .team li a:hover.unselected {
+	width: 48%;
+	border: 0;
+}
+
 .body_alumni .team li a,
 .body_alumni .team li a.unselected,
 .body_alumni .team li a:hover,
@@ -298,6 +307,30 @@ h2#tagline {
 	width: 40%;
 }
 
+/*
+::::::::::::::::
+::: Lab ::::
+::::::::::::::::
+*/
+
+.casestudy_img, .casestudy_txt {
+	display:inline-block;
+	width:49.75%;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.casestudy_txt {
+	padding: 80px 20px 0 20px;
+}
+
+.casestudy_img {background:#666; display:inline-block;}
+
+.body_lab .team_writeup {
+	padding: 0px;
+	width: 70%;
+}
 
 /*
 ::::::::::::::::

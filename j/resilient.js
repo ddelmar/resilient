@@ -64,7 +64,8 @@ $(document).ready(function(){
 
 
 //----------- if Team pg ----------//
-	if(window.location.pathname == '/team/' || '/alumni/'){
+	if(window.location.pathname == '/team/' || '/alumni/' || '/lab/'){
+
 
 	// Wait until images are loaded before displaying them
 		var TeamImgTotal = $(".team img").size(); 	// get the number of images
@@ -74,14 +75,14 @@ $(document).ready(function(){
 			if(++imgCount == TeamImgTotal){
 				$(".team img, .partners img").animate({
 				"opacity":1
-				});
+			});
 				}
 		});
 	setTimeout(function(){
 		// Force the load if it doesn't happen after 3 seconds
 		$(".team img, .partners img").css("opacity","1");
+		casestudy(); // on Lab pg, set the casestudy_img to be the same height as parent
 	}, 2000);
-
 
 			$(".team_photos a").click(function(){
 			var thisclass = $(this).parent().attr("class");
@@ -92,8 +93,11 @@ $(document).ready(function(){
 			$(".team_photos ." + thisclass + " a").removeClass("unselected").addClass("selected");
 			$(".team_writeup").html(thiscontent);
 		});
-
 	}
+function casestudy(){
+	var casestudyImg = $(".team").height();
+	$(".casestudy_img").height(casestudyImg);
+}
 
 	deviceDetect();
 }); // END DOC.READY

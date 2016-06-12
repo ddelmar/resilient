@@ -56,17 +56,23 @@ h2, h3 {
 	-webkit-font-smoothing: antialiased;
 }
 
-h2 {font-size: 4em;
+h2 {
+  font-size: 4em;
 	/* color: #ed1b24;  RED */
 	color: #333;
 	margin: 1.6em 0;
 	}
 
-
-
-h3 {font-size: 3em; margin: 1em; width:90%; float: left;}
+h3 {font-size: 3em; margin: 1em; width:100%; float: left;}
 
 h4 {color: #ed1b24;}
+
+h5 {
+    font-size: 1.2em;
+    line-height: 1.4;
+    text-align: left;
+    font-weight:bold;
+  }
 
 p { text-align: left; }
 
