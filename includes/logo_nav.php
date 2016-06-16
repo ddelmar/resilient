@@ -25,10 +25,11 @@
 			<li>
 				<a class="Donate" href="/donate/">Donate</a>
 			</li>
+			<?php /*
 			<li>
 				<a class="Job" href="/job/">We're Hiring Instructors</a>
 			</li>
-			<? /*
+
 			<li>
 				<a class="Camp" href="/camp/">Camp</a>
 			</li>

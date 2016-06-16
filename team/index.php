@@ -9,8 +9,8 @@
 			<li class="David"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
 			</a></li>
-			<li class="Tyler"><a href="#s_detail" class="unselected">
-				<img src="i/team/Tyler.png" />
+			<li class="Muigai"><a href="#s_detail" class="unselected">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/muigai.png" />
 			</a></li>
 			<li class="Josh"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/josh.jpg" />
@@ -43,14 +43,14 @@ David is a professional designer and interface developer with experience working
 						</div><!-- /firehose -->
 				</article>
 			<article>
-					<div class="Tyler">
+					<div class="Muigai">
 						<h2>
-							Tyler Mitchell
+							Muigai Unaka
 						</h2>
 						<h3>Resilient Lab Lead</h3>
 						<div class="clr"></div>
 						<p>
-<a href="http://tylerlmitchell.com" target="_blank">Tyler</a> is a Senior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user experience, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other.
+							Muigai is a Senior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user interface design, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other. Also, his great-grandfather is <a href="https://en.wikipedia.org/wiki/Jomo_Kenyatta" target="_blank"> Jomo Kenyatta.</a>
 						</p>
 					</div><!-- /firehose -->
 			</article>

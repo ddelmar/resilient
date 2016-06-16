@@ -105,7 +105,7 @@ Our most experienced students operate a web design and development studio. Our y
 				<article class="mybrotherskeeper">
 						<div class="casestudy_txt">
 							<h2>
-								Mr Brother's Keeper
+								My Brother's Keeper
 							</h2>
 							<h5>UX research</h5>
 							<p>Boston's response to President Obama's <a href="https://www.whitehouse.gov/my-brothers-keeper" target="_blank" title="My Brother's Keeper">My Brother's Keeper</a> initiative included a web application
