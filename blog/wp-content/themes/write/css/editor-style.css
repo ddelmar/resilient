@@ -1,0 +1,12 @@
+/*
+Theme Name: Write
+Description: Used to style the TinyMCE editor.
+*/
+
+html .mceContentBody {
+	max-width: 700px;
+	margin: 10px;
+}
+body {
+	background-color: #fff;
+}

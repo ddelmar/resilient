@@ -9,6 +9,9 @@
 			<li class="David"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/del.jpg" />
 			</a></li>
+			<li class="Helen"><a href="#s_detail" class="unselected">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/helen.jpg" />
+			</a></li>
 			<li class="Muigai"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/muigai.png" />
 			</a></li>
@@ -52,6 +55,17 @@ David is a professional designer and interface developer with experience working
 						<p>
 							Muigai is a Senior at Northeastern University, pursuing a dual BFA in graphic design and interactive media. He has a passion for user interface design, and hopes to one day be part of a special projects team, designing and building products that redefine how we interact with each other. Also, his great-grandfather is <a href="https://en.wikipedia.org/wiki/Jomo_Kenyatta" target="_blank"> Jomo Kenyatta.</a>
 						</p>
+					</div><!-- /firehose -->
+			</article>
+			<article>
+					<div class="Helen">
+						<h2>
+							Helen Rosenfeld
+						</h2>
+						<h3>Head of Strategic Partnerships</h3>
+						<div class="clr"></div>
+						<p>
+Helen is committed to working on behalf of youth. She has led a series of youth development organizations, utilizing entrepreneurship as a tool to increase skills of underserved youth for success in school and life. She loves the startup phase of organizational development, raising funds, and building strategic partnerships. A grad of UPenn (BA) and Cambridge (MPhil), she is an Overseer with the Boston Children's Museum and is an advisor to Friends of Seva Mandir, supporting the non-profit that she first worked with in Rajasthan, India where she began her career.</p>
 					</div><!-- /firehose -->
 			</article>
 			<article>

@@ -1,0 +1,502 @@
+# Copyright (C) 2015-2016 Themehaus
+msgid ""
+msgstr ""
+"Project-Id-Version: Write\n"
+"Report-Msgid-Bugs-To: http://themehaus.net/support/\n"
+"POT-Creation-Date: 2016-04-04 22:11+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:33 index.php:30 search.php:28
+msgid "&laquo; Previous"
+msgstr ""
+
+#: archive.php:34 index.php:31 search.php:29
+msgid "Next &raquo;"
+msgstr ""
+
+#: comments.php:28
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:28
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:69
+msgid "Leave a Comment"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:19 content-single.php:22 content.php:25
+msgid "Pages:"
+msgstr ""
+
+#: content.php:24
+msgid "<span class=\"continue-reading\">Continue reading &rarr;</span>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:44
+msgid "http://themehaus.net/"
+msgstr ""
+
+#: footer.php:44
+#, php-format
+msgid "Professional WordPress Theme by %s"
+msgstr ""
+
+#: functions.php:58
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:60
+msgid "Footer Social Links"
+msgstr ""
+
+#: functions.php:106
+msgid "Footer Above"
+msgstr ""
+
+#: functions.php:108
+msgid ""
+"Footer Above widget area is displayed at the top of the footer. If you do "
+"not use the area, nothing will be displayed."
+msgstr ""
+
+#: functions.php:115
+msgid "Footer Below 1"
+msgstr ""
+
+#: functions.php:117
+msgid ""
+"3 Footer Below widget areas are displayed at the bottom of the footer, and "
+"the width is auto-adjusted based on how many you use. If you do not use the "
+"area, nothing will be displayed."
+msgstr ""
+
+#: functions.php:124
+msgid "Footer Below 2"
+msgstr ""
+
+#: functions.php:132
+msgid "Footer Below 3"
+msgstr ""
+
+#: functions.php:141
+msgid "After Post"
+msgstr ""
+
+#: functions.php:143
+msgid "Displayed after post."
+msgstr ""
+
+#: functions.php:165
+msgctxt "Gentium Basic font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:170
+msgctxt "Gentium Book Basic font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:175
+msgctxt "Slabo 27px font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:50
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Hide Tagline"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Headings Font"
+msgstr ""
+
+#: inc/customizer.php:56 inc/customizer.php:90 inc/customizer.php:213
+#: inc/customizer.php:432
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Headings Font Size (%)"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Body Font Size (px)"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Background"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid ""
+"If you have selected a wide layout in the Layout settings, the background "
+"color/image is not displayed."
+msgstr ""
+
+#: inc/customizer.php:140 inc/customizer.php:149
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:153 inc/customizer.php:640
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer.php:154 inc/customizer.php:641
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer.php:168 inc/customizer.php:183 inc/customizer.php:652
+#: inc/customizer.php:664
+msgid "Side"
+msgstr ""
+
+#: inc/customizer.php:169 inc/customizer.php:184 inc/customizer.php:653
+#: inc/customizer.php:665
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Disable Responsive"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:209 inc/customizer.php:428
+msgid "Font"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer.php:240 inc/customizer.php:700
+msgid "Bold"
+msgstr ""
+
+#: inc/customizer.php:241 inc/customizer.php:701
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer.php:242 inc/customizer.php:702
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:251 inc/customizer.php:458
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Font Color"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: inc/customizer.php:283 inc/customizer.php:362
+msgid "Margin Top (px)"
+msgstr ""
+
+#: inc/customizer.php:294 inc/customizer.php:373
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "All Uppercase"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:314
+msgid ""
+"In order to use a retina logo image, you must have a version of your logo "
+"that is doubled in size."
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Replace Title"
+msgstr ""
+
+#: inc/customizer.php:341
+msgid "Retina Ready"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid "Add Border Radius"
+msgstr ""
+
+#: inc/customizer.php:381
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Hide Main Navigation"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Hide Search"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "Home"
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "HTML tags are allowed in the home text."
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Home Text"
+msgstr ""
+
+#: inc/customizer.php:466
+msgid "Post"
+msgstr ""
+
+#: inc/customizer.php:474
+msgid "Display"
+msgstr ""
+
+#: inc/customizer.php:478 inc/customizer.php:765
+msgid "Full text"
+msgstr ""
+
+#: inc/customizer.php:479 inc/customizer.php:766
+msgid "Summary"
+msgstr ""
+
+#: inc/customizer.php:480 inc/customizer.php:767
+msgid "Summary with thumbnail"
+msgstr ""
+
+#: inc/customizer.php:489
+msgid "Hide Categories"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Show Author Profile"
+msgstr ""
+
+#: inc/customizer.php:509
+msgid "Hide Older/Newer Post Navigation"
+msgstr ""
+
+#: inc/customizer.php:517
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:518
+msgid "HTML tags are allowed in the footer text."
+msgstr ""
+
+#: inc/customizer.php:526
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:535
+msgid "Hide Credit"
+msgstr ""
+
+#: inc/customizer.php:543 inc/customizer.php:553
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid ""
+"Set custom Google fonts like this: Open+Sans:300,300italic|Roboto:100,900"
+msgstr ""
+
+#: inc/customizer.php:562
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "Older post"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgctxt "Previous post link"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "Newer post"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgctxt "Next post link"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:85 inc/template-tags.php:94
+msgid ", "
+msgstr ""
+
+#: inc/widgets.php:15
+msgid "Profile widget"
+msgstr ""
+
+#: inc/widgets.php:16
+msgid "Write Profile"
+msgstr ""
+
+#: inc/widgets.php:85
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:88
+msgid "Profile Image URL:"
+msgstr ""
+
+#: inc/widgets.php:91
+msgid "Name:"
+msgstr ""
+
+#: inc/widgets.php:96
+msgid "Social Link 1:"
+msgstr ""
+
+#: inc/widgets.php:98
+msgid "Social Link 2:"
+msgstr ""
+
+#: inc/widgets.php:100
+msgid "Social Link 3:"
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "Social Link 4:"
+msgstr ""
+
+#: inc/widgets.php:104
+msgid "Social Link 5:"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Write"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themehaus.net/themes/write/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Write is a minimal WordPress theme for users focused on writing. It's "
+"designed to keep decorations to a minimum and put your writing in the "
+"spotlight."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themehaus"
+msgstr ""

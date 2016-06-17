@@ -871,6 +871,7 @@ ul.ss-choices{
 	width: 100%;
 }
 
+.body_blog a.donate-button,
 .body_bootcamp #tier2 a.donate-button,
 .body_apply #tier2 a.donate-button,
 .body_mentor #tier2 a.donate-button {
@@ -887,6 +888,21 @@ ul.ss-choices{
 	height:1px;
 	width: 100%;
 	margin: 40px 0;
+}
+
+/*
+::::::::::::::::
+:::: BLOG ::::
+::::::::::::::::
+*/
+
+.body_blog ul.news li.title, ul.news li a {
+    padding: 2%;
+  }
+
+.body_blog a.donate-button {
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
 }
 
 /*

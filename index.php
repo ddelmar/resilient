@@ -21,12 +21,12 @@
 		<h2>Hacking the opportunity gap</h2>
 		<div class="product">
 			<p class="intro">
-				<!--Resilient Coders Bootcamp 2016 ends today.--> 
+				<!--Resilient Coders Bootcamp 2016 ends today.-->
 				Resilient Coders teaches young people from traditionally underserved communities how to code. We do this as a way of aligning them with a lucrative and meaningful career path. It's a <a href="/program" title="Resilient Coders Program">multi-tiered program</a> that funnels students from learning HTML after school, through our downtown "Coworking" sessions, and ultimately, hourly employment. Our higher performers participate in <a href="/lab" title="Resilient Lab">Resilient Lab,</a> a web design and development shop with real clients.
 			</p>
 			<p>
 
-		There is more than one way to join the code literacy movement. Coders: Help us teach. Business owners: Hire Resilient Lab to work on your web presence. Learn more about <a href="/you" title="Get Involved">how to get involved,</a> or just email us at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a>
+		There is more than one way to join the code literacy movement. Coders: Help us teach. Business owners: Hire Resilient Lab to work on your web presence. Learn more about <a href="/mentor" title="Get Involved">how to get involved as a mentor,</a> or just email us at <a href="mailto:david@resilientcoders.org">david@resilientcoders.org</a>
 
 		</p>
 		</div>

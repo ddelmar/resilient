@@ -1,0 +1,520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Write\n"
+"Report-Msgid-Bugs-To: http://themehaus.net/support/\n"
+"POT-Creation-Date: 2016-04-04 22:12+0900\n"
+"PO-Revision-Date: 2016-04-04 22:12+0900\n"
+"Last-Translator: Takao Utsumi <takao.utsumi@gmail.com>\n"
+"Language-Team: Takao Utsumi <takao.utsumi@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: 404.php:15
+msgid "That page can&rsquo;t be found."
+msgstr "ページが見つかりませんでした。"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ここには何も見つかりませんでした。検索を試してみますか？"
+
+#: archive.php:33 index.php:30 search.php:28
+msgid "&laquo; Previous"
+msgstr "&laquo; 前へ"
+
+#: archive.php:34 index.php:31 search.php:29
+msgid "Next &raquo;"
+msgstr "次へ &raquo;"
+
+#: comments.php:28
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: comments.php:28
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:36 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "コメントはできません。"
+
+#: comments.php:69
+msgid "Leave a Comment"
+msgstr "コメントを残す"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"最初の投稿をする準備ができましたか？<a href=\"%1$s\">こちらからどうぞ</a>。"
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"キーワードに一致するコンテンツは見つかりませんでした。他のキーワードを試して"
+"みてください。"
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "お探しのものは見つからないようです。検索が助けとなるかもしれません。"
+
+#: content-page.php:19 content-single.php:22 content.php:25
+msgid "Pages:"
+msgstr "ページ："
+
+#: content.php:24
+msgid "<span class=\"continue-reading\">Continue reading &rarr;</span>"
+msgstr "<span class=\"continue-reading\">続きを読む &rarr;</span>"
+
+#. Author URI of the plugin/theme
+#: footer.php:44
+msgid "http://themehaus.net/"
+msgstr "http://themehaus.net/ja/"
+
+#: footer.php:44
+#, fuzzy, php-format
+msgid "Professional WordPress Theme by %s"
+msgstr "WordPressテーマ by %s"
+
+#: functions.php:58
+msgid "Main Navigation"
+msgstr "メインナビゲーションを表示しない"
+
+#: functions.php:59
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: functions.php:60
+msgid "Footer Social Links"
+msgstr "フッターソーシャルリンク"
+
+#: functions.php:106
+msgid "Footer Above"
+msgstr "フッター上"
+
+#: functions.php:108
+msgid ""
+"Footer Above widget area is displayed at the top of the footer. If you do "
+"not use the area, nothing will be displayed."
+msgstr ""
+"フッター上ウィジェットエリアはフッターの上側に表示されます。使用しない場合は"
+"表示されません。"
+
+#: functions.php:115
+msgid "Footer Below 1"
+msgstr "フッター下1"
+
+#: functions.php:117
+msgid ""
+"3 Footer Below widget areas are displayed at the bottom of the footer, and "
+"the width is auto-adjusted based on how many you use. If you do not use the "
+"area, nothing will be displayed."
+msgstr ""
+"3つのフッター下ウィジェットエリアはフッターの下側に表示されます。フッター下"
+"ウィジェットエリアは使用する数によって幅が自動的に調整されます。1つも使用し"
+"ない場合は表示されません。"
+
+#: functions.php:124
+msgid "Footer Below 2"
+msgstr "フッター下2"
+
+#: functions.php:132
+msgid "Footer Below 3"
+msgstr "フッター下3"
+
+#: functions.php:141
+msgid "After Post"
+msgstr "投稿後"
+
+#: functions.php:143
+msgid "Displayed after post."
+msgstr "投稿の後に表示されます。"
+
+#: functions.php:165
+msgctxt "Gentium Basic font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:170
+msgctxt "Gentium Book Basic font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:175
+msgctxt "Slabo 27px font: on or off"
+msgid "on"
+msgstr "off"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: header.php:50
+msgid "Menu"
+msgstr "メニュー"
+
+#: inc/customizer.php:37
+msgid "Hide Tagline"
+msgstr "キャッチフレーズを表示しない"
+
+#: inc/customizer.php:44
+msgid "Fonts"
+msgstr "フォント"
+
+#: inc/customizer.php:52
+msgid "Headings Font"
+msgstr "見出しフォント"
+
+#: inc/customizer.php:56 inc/customizer.php:90 inc/customizer.php:213
+#: inc/customizer.php:432
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/customizer.php:76
+msgid "Headings Font Size (%)"
+msgstr "見出しフォントサイズ (%)"
+
+#: inc/customizer.php:86
+msgid "Body Font"
+msgstr "本文フォント"
+
+#: inc/customizer.php:105
+msgid "Body Font Size (px)"
+msgstr "本文フォントサイズ (px)"
+
+#: inc/customizer.php:118
+msgid "Link Color"
+msgstr "リンクカラー"
+
+#: inc/customizer.php:127
+msgid "Link Hover Color"
+msgstr "リンクホバーカラー"
+
+#: inc/customizer.php:133
+msgid "Background"
+msgstr "背景"
+
+#: inc/customizer.php:134
+msgid ""
+"If you have selected a wide layout in the Layout settings, the background "
+"color/image is not displayed."
+msgstr ""
+"レイアウトでワイドレイアウトを選択した場合、背景色および背景画像は表示されま"
+"せん。"
+
+#: inc/customizer.php:140 inc/customizer.php:149
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer.php:153 inc/customizer.php:640
+msgid "Wide"
+msgstr "ワイド"
+
+#: inc/customizer.php:154 inc/customizer.php:641
+msgid "Boxed"
+msgstr "ボックス"
+
+#: inc/customizer.php:164
+msgid "Header Layout"
+msgstr "ヘッダーレイアウト"
+
+#: inc/customizer.php:168 inc/customizer.php:183 inc/customizer.php:652
+#: inc/customizer.php:664
+msgid "Side"
+msgstr "サイド"
+
+#: inc/customizer.php:169 inc/customizer.php:184 inc/customizer.php:653
+#: inc/customizer.php:665
+msgid "Center"
+msgstr "中央寄せ"
+
+#: inc/customizer.php:179
+msgid "Footer Layout"
+msgstr "フッターレイアウト"
+
+#: inc/customizer.php:193
+msgid "Disable Responsive"
+msgstr "ノンレスポンシブ"
+
+#: inc/customizer.php:201
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer.php:209 inc/customizer.php:428
+msgid "Font"
+msgstr "フォント"
+
+#: inc/customizer.php:236
+msgid "Font Weight"
+msgstr "フォントウェイト"
+
+#: inc/customizer.php:240 inc/customizer.php:700
+msgid "Bold"
+msgstr "太字"
+
+#: inc/customizer.php:241 inc/customizer.php:701
+msgid "Normal"
+msgstr "標準"
+
+#: inc/customizer.php:242 inc/customizer.php:702
+msgid "Light"
+msgstr "細字"
+
+#: inc/customizer.php:251 inc/customizer.php:458
+msgid "Font Size (px)"
+msgstr "フォントサイズ (px)"
+
+#: inc/customizer.php:262
+msgid "Font Color"
+msgstr "フォントカラー"
+
+#: inc/customizer.php:272
+msgid "Letter Spacing (px)"
+msgstr "文字間 (px)"
+
+#: inc/customizer.php:283 inc/customizer.php:362
+msgid "Margin Top (px)"
+msgstr "上マージン (px)"
+
+#: inc/customizer.php:294 inc/customizer.php:373
+msgid "Margin Bottom (px)"
+msgstr "下マージン (px)"
+
+#: inc/customizer.php:305
+msgid "All Uppercase"
+msgstr "全て大文字にする"
+
+#: inc/customizer.php:313
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customizer.php:314
+msgid ""
+"In order to use a retina logo image, you must have a version of your logo "
+"that is doubled in size."
+msgstr ""
+"ロゴ画像をレティーナ対応にするためには、2倍のサイズのロゴ画像が必要になりま"
+"す。"
+
+#: inc/customizer.php:322
+msgid "Upload Logo"
+msgstr "ロゴアップロード"
+
+#: inc/customizer.php:331
+msgid "Replace Title"
+msgstr "サイトタイトルと置き換える"
+
+#: inc/customizer.php:341
+msgid "Retina Ready"
+msgstr "レティーナ対応"
+
+#: inc/customizer.php:351
+msgid "Add Border Radius"
+msgstr "丸く切り抜く"
+
+#: inc/customizer.php:381
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: inc/customizer.php:389
+msgid "Hide Main Navigation"
+msgstr "メインナビゲーションを表示しない"
+
+#: inc/customizer.php:399
+msgid "Hide Search"
+msgstr "検索を表示しない"
+
+#: inc/customizer.php:410
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/customizer.php:411
+msgid "HTML tags are allowed in the home text."
+msgstr "ホームテキストではHTMLタグが許可されています。"
+
+#: inc/customizer.php:419
+msgid "Home Text"
+msgstr "ホームテキスト"
+
+#: inc/customizer.php:466
+msgid "Post"
+msgstr "投稿"
+
+#: inc/customizer.php:474
+msgid "Display"
+msgstr "表示"
+
+#: inc/customizer.php:478 inc/customizer.php:765
+msgid "Full text"
+msgstr "全文"
+
+#: inc/customizer.php:479 inc/customizer.php:766
+msgid "Summary"
+msgstr "概要"
+
+#: inc/customizer.php:480 inc/customizer.php:767
+msgid "Summary with thumbnail"
+msgstr "サムネイル付きの概要"
+
+#: inc/customizer.php:489
+msgid "Hide Categories"
+msgstr "カテゴリーを表示しない"
+
+#: inc/customizer.php:499
+msgid "Show Author Profile"
+msgstr "投稿者プロフィールを表示する"
+
+#: inc/customizer.php:509
+msgid "Hide Older/Newer Post Navigation"
+msgstr "前後投稿ナビゲーションを表示しない"
+
+#: inc/customizer.php:517
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer.php:518
+msgid "HTML tags are allowed in the footer text."
+msgstr "フッターテキストではHTMLタグが許可されています。"
+
+#: inc/customizer.php:526
+msgid "Footer Text"
+msgstr "フッターテキスト"
+
+#: inc/customizer.php:535
+msgid "Hide Credit"
+msgstr "クレジットを表示しない"
+
+#: inc/customizer.php:543 inc/customizer.php:553
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: inc/customizer.php:544
+msgid ""
+"Set custom Google fonts like this: Open+Sans:300,300italic|Roboto:100,900"
+msgstr ""
+"カスタムGoogleフォントは「Open+Sans:300,300italic|Roboto:100,900」のように設"
+"定します。"
+
+#: inc/customizer.php:562
+msgid "Custom Google Fonts"
+msgstr "カスタムGoogleフォント"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/template-tags.php:42
+msgid "Older post"
+msgstr "古い投稿"
+
+#: inc/template-tags.php:42
+msgctxt "Previous post link"
+msgid "%title"
+msgstr "%title"
+
+#: inc/template-tags.php:43
+msgid "Newer post"
+msgstr "新しい投稿"
+
+#: inc/template-tags.php:43
+msgctxt "Next post link"
+msgid "%title"
+msgstr "%title"
+
+#: inc/template-tags.php:64
+msgid "Featured"
+msgstr "注目"
+
+#: inc/template-tags.php:85 inc/template-tags.php:94
+msgid ", "
+msgstr ", "
+
+#: inc/widgets.php:15
+msgid "Profile widget"
+msgstr "プロフィールウィジェット"
+
+#: inc/widgets.php:16
+msgid "Write Profile"
+msgstr "Write プロフィール"
+
+#: inc/widgets.php:85
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/widgets.php:88
+msgid "Profile Image URL:"
+msgstr "プロフィール画像のURL:"
+
+#: inc/widgets.php:91
+msgid "Name:"
+msgstr "名前:"
+
+#: inc/widgets.php:96
+msgid "Social Link 1:"
+msgstr "ソーシャルリンク1:"
+
+#: inc/widgets.php:98
+msgid "Social Link 2:"
+msgstr "ソーシャルリンク2:"
+
+#: inc/widgets.php:100
+msgid "Social Link 3:"
+msgstr "ソーシャルリンク3:"
+
+#: inc/widgets.php:102
+msgid "Social Link 4:"
+msgstr "ソーシャルリンク4:"
+
+#: inc/widgets.php:104
+msgid "Social Link 5:"
+msgstr "ソーシャルリンク5:"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "%sの検索結果"
+
+#. Theme Name of the plugin/theme
+msgid "Write"
+msgstr "Write"
+
+#. Theme URI of the plugin/theme
+msgid "http://themehaus.net/themes/write/"
+msgstr "http://themehaus.net/ja/themes/write/"
+
+#. Description of the plugin/theme
+msgid ""
+"Write is a minimal WordPress theme for users focused on writing. It's "
+"designed to keep decorations to a minimum and put your writing in the "
+"spotlight."
+msgstr ""
+"Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省い"
+"たデザインは、あなたの文章を主役にします。"
+
+#. Author of the plugin/theme
+msgid "Themehaus"
+msgstr "Themehaus"

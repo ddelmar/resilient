@@ -1,0 +1,45 @@
+/*
+Theme Name: Write
+Description: Typography for Japanese.
+*/
+
+html {
+	font-size: 68%;
+}
+body {
+	font-size: 15px;
+	font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+	line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+	font-weight: 700;
+}
+.site-title {
+	font-size: 30px;
+}
+.home-text {
+	font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+	font-size: 23px;
+	line-height: 1.7;
+}
+.intro {
+	line-height: 1.7;
+}
+.widget {
+	line-height: 1.6;
+}
+@media screen and (min-width: 783px) {
+	html {
+		font-size: 80%;
+	}
+	body {
+		font-size: 17px;
+	}
+	.site-title {
+		font-size: 36px;
+	}
+	.home-text {
+		font-size: 27px;
+	}
+}
