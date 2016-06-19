@@ -368,6 +368,7 @@ STUDENTS
   margin-top: 2em;
 }
 
+.nav-links a, /* nav-links is the blog prev/next btns */
 ul.news li.title,
 ul.news li a {
 	width: 100%;
@@ -376,16 +377,19 @@ ul.news li a {
   font-size:.8em;
 }
 
+.nav-links a,
 ul.news li.title {
 	background-color: #333;
 	color: #fff;
 }
 
+.nav-links a,
 ul.news li a {
 	background-color: #dadada;
 	color: #333;
 }
 
+.nav-links a:hover,
 ul.news li a:hover,
 ul.news li:nth-child(2n+2) a:hover {
 	color: white;
@@ -896,14 +900,20 @@ ul.ss-choices{
 ::::::::::::::::
 */
 
-.body_blog ul.news li.title, ul.news li a {
+.body_blog ul.news {margin-top:24px;}
+.post-navigation {margin-top:48px;}
+
+.body_blog ul.news li.title, ul.news li a, .nav-links a {
     padding: 2%;
   }
+
 
 .body_blog a.donate-button {
     font-weight: 500;
     font-family: "Roboto Slab", serif;
 }
+
+nav h2 {display: none;}
 
 /*
 ::::::::::::::::

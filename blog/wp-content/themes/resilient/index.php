@@ -41,7 +41,7 @@ get_header(); ?>
 					</div>
 				<?php twentysixteen_excerpt(); ?>
 
-				<a class="donate-button" href="<?php the_permalink(); ?>">Read More.</a>
+				<a class="donate-button" href="<?php the_permalink(); ?>">Read Full Article</a>
 			</article>
 			<?php endwhile; ?>
 
