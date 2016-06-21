@@ -24,6 +24,9 @@
 			<li class="Susanne"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/susanne.jpg" />
 			</a></li>
+			<li class="CA"><a href="#s_detail" class="unselected" >
+				<img src="https://resilientcoders.s3.amazonaws.com/i/team/ca.jpg" />
+			</a></li>
 			<li class="Chris"><a href="#s_detail" class="unselected" >
 				<img src="https://resilientcoders.s3.amazonaws.com/i/team/chris.jpg" />
 			</a></li>
@@ -117,6 +120,20 @@ Susanne is a Management Consultant specializing in organizational strategy, orga
 							Pamela Aldsworth is a managing director with Silicon Valley Bank Capital. In this role, she oversees strategic relationships with venture capital firms by leveraging the diverse financial services of SVB Financial Group (SVB) platform. She is primarily focused on managing relationships with a key subset of venture capital firms that have historically and consistently achieved top decile returns. She builds strategic roadmanps with firms in her coverage universe to ensure that SVB is providing the best possible insights, guidance, products and services to the partnership and their portfolio companies.
 						</p>
 					</div><!-- /Susanne -->
+			</article>
+			<article>
+					<div class="CA">
+						<h2>
+							C.A. Webb
+						</h2>
+						<h3>Board</h3>
+						<div class="clr"></div>
+						<p>
+							C.A. runs the Community Foundation at <a href="https://underscore.vc/" target="_blank" title="Underscore VC">Underscore VC,</a> incorporating the Startup Secrets program and works on their broader community outreach from which our _Core groups of experienced entrepreneurs are formed.</p>
+
+							<p>As a proven community builder and marketer, C.A. comes from her previous post as Executive Director of the New England Venture Capital Association, where she reinvented and reinvigorated the 40-year old association. Recently, C.A. was recognized as an Innovation All Star by Boston Business Journal and is passionate about creating powerful communities that can have a meaningful and lasting impact on business. She's also helped build ground-up products, programs and brands such as Fast Company, Whole Foods and Preserve.
+												</p>
+					</div><!-- /CA -->
 			</article>
 			<article>
 					<div class="Josh">

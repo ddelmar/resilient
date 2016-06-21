@@ -39,7 +39,7 @@ get_header(); ?>
 					<?php echo get_the_author(); ?>. <?php echo twentysixteen_entry_date(); ?><br />
 
 					</div>
-				<?php twentysixteen_excerpt(); ?>
+				<?php the_excerpt(); ?>
 
 				<a class="donate-button" href="<?php the_permalink(); ?>">Read Full Article</a>
 			</article>

@@ -8,7 +8,7 @@
 	<meta property="og:title" content="Hacking the opportunity gap" />
 	<meta property="og:site_name" content="Resilient Coders"/>
 	<meta property="og:url" content="http://resilientcoders.org" />
-	<meta property="og:image" content="https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg" />
+	<meta property="og:image" content="https://resilientcoders.s3.amazonaws.com/i/logo_skull_360x360.jpg" />
 
 	<meta property="og:description" content="Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. Each student builds his or her own website, coached along by a web professional." />
 	<meta name="google-site-verification" content="f1yFN-l0cdp3rP6UOlZgka1_o77_-WzW-ZyGAe5KC-U" />

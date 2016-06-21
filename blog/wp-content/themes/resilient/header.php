@@ -17,12 +17,12 @@
 	<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml" />
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-	<meta property="og:title" content="Hacking the opportunity gap" />
+	<meta property="og:title" content="<?php the_title(); ?>" />
 	<meta property="og:site_name" content="Resilient Coders"/>
-	<meta property="og:url" content="http://resilientcoders.org" />
-	<meta property="og:image" content="https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg" />
+	<meta property="og:url" content="<?php the_permalink(); ?>" />
+	<meta property="og:image" content="https://resilientcoders.s3.amazonaws.com/i/logo_skull_360x360.jpg" />
 
-	<meta property="og:description" content="Resilient Coders is a free, volunteer-based program focused on making web technology more available to kids who might not otherwise be exposed to it. Each student builds his or her own website, coached along by a web professional." />
+	<meta property="og:description" content="<?php the_excerpt(); ?>" />
 	<meta name="google-site-verification" content="f1yFN-l0cdp3rP6UOlZgka1_o77_-WzW-ZyGAe5KC-U" />
 
 <link href="/c/master.css" rel="stylesheet" type="text/css" />
