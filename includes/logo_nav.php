@@ -23,6 +23,9 @@
 				<a class="News" href="/news/">News</a>
 			</li>
 			<li>
+				<a class="Blog" href="/blog/">Blog</a>
+			</li>
+			<li>
 				<a class="Donate" href="/donate/">Donate</a>
 			</li>
 			<?php /*

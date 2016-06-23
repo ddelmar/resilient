@@ -36,3 +36,7 @@
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
+
+<section id="lab_cta">
+	We believe in justice through economic empowerment. Learn how you can hire our coders through <a href="/lab">Resilient Lab.</a>
+</section>
