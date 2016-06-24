@@ -117,7 +117,7 @@ Susanne is a Management Consultant specializing in organizational strategy, orga
 						<h3>Board</h3>
 						<div class="clr"></div>
 						<p>
-							Pamela Aldsworth is a managing director with Silicon Valley Bank Capital. In this role, she oversees strategic relationships with venture capital firms by leveraging the diverse financial services of SVB Financial Group (SVB) platform. She is primarily focused on managing relationships with a key subset of venture capital firms that have historically and consistently achieved top decile returns. She builds strategic roadmanps with firms in her coverage universe to ensure that SVB is providing the best possible insights, guidance, products and services to the partnership and their portfolio companies.
+							Pamela Aldsworth is a managing director with Silicon Valley Bank Capital. In this role, she oversees strategic relationships with venture capital firms by leveraging the diverse financial services of SVB Financial Group (SVB) platform. She is primarily focused on managing relationships with a key subset of venture capital firms that have historically and consistently achieved top decile returns. She builds strategic road maps with firms in her coverage universe to ensure that SVB is providing the best possible insights, guidance, products and services to the partnership and their portfolio companies.
 						</p>
 					</div><!-- /Susanne -->
 			</article>
