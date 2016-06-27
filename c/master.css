@@ -923,7 +923,7 @@ nav h2 {display: none;}
 
 #lab_cta a {
   background: black;
-  padding: 6px;
+  padding: 0 6px 0 6px;
   border-radius: 5px;
   color: #efefef;
 }
