@@ -43,9 +43,10 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 <div class="container">
 
 	<p class="intro"  style="border-bottom: 0px;">
-		<span style="color: white;">Internship/Externship.</span> There are two ways to hire Bootcamp graduates: Join our 3-month internship program, or enlist <a href="/lab">Resilient Lab,</a>
-		our web development shop, on a contract basis. Either way, our hackers are supported by our network of mentors long past graduation. You're hiring all of us.
+		<span style="color: white;">Looking for talent?</span>
 
+		Our highest-performing Bootcampers are recruited into a paid apprenticeship at <a href="/lab">Resilient Lab,</a> our web development company.
+		There, they further develop their technical skills, as well as core professional skills. Hire Resilient Lab on a contract basis, or hire our alumni as they graduate from their apprenticeship.
 
 </p>
 

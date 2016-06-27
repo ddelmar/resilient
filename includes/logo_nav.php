@@ -7,20 +7,18 @@
 		<img src="https://resilientcoders.s3.amazonaws.com/i/nav_button.png" class="mobileonly nav_button" />
 		<img src="https://resilientcoders.s3.amazonaws.com/i/nav_x.png" class="mobileonly nav_x" />
 		<ul id="nav">
-			<li>
-				<a class="Program" href="/program/">Program</a>
-			</li>
-			<li>
-				<a class="Team" href="/team/">Team</a>
-			</li>
+
 			<li>
 				<a class="Bootcamp" href="/bootcamp/">Bootcamp</a>
 			</li>
 			<li>
-				<a class="Lab" href="/lab/">Lab</a>
+				<a class="Lab" href="/lab/">Resilient Lab</a>
 			</li>
 			<li>
 				<a class="News" href="/news/">News</a>
+			</li>
+			<li>
+				<a class="Team" href="/team/">Team</a>
 			</li>
 			<li>
 				<a class="Blog" href="/blog/">Blog</a>
