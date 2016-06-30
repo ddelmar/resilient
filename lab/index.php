@@ -7,7 +7,9 @@
 	<section>
 		<h2>Resilient Lab</h2>
 <p class="intro" style="border-bottom:0;">
-Our most experienced students operate a web design and development studio. Our young coders work with clients to build a microsite or web application. Resilient Lab represents an opportunity for both the student and the client. Students gain real, practical, hands-on experience. And clients are able to give back to the community in a way that benefits their business.
+	We're a digital design and development agency with a social mission unlike any you've seen.
+Our coders have been identified and trained through our <a href="/bootcamp">Bootcamp,</a> and recruited into the Lab
+for their aptitude and their grit. Our clients get an exceptional product, while also helping to launch our coders' careers.
 </p>
 
 

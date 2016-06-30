@@ -77,8 +77,8 @@ h2#tagline {
 #overlaid{
 	/*
 	This is the image that fades in
-	*/
-	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/hero2.png);
+*/
+	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/micah2.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -100,7 +100,7 @@ h2#tagline {
 	This is the bottom image
 	*/
 	z-index:1;
-	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/hero1.png);
+	background-image:  url(http://resilientcoders.s3.amazonaws.com/i/micah1.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: 50% 0 ;
@@ -229,6 +229,8 @@ h2#tagline {
 .bg_kunle {	background-image: url("/i/camp_kunle.JPG"); }
 .body_donate .hero {	background-image: url("/i/Ben_Kenobi.png"); }
 .bg_micah {	background-image: url("https://resilientcoders.s3.amazonaws.com/i/donate/micah_bw.jpg"); }
+.bg_willdandevin {	background-image: url("https://resilientcoders.s3.amazonaws.com/i/bootcamp2016a/willdandevin1200.jpg"); }
+
 .bg_coworking {
 	background-image: url("https://resilientcoders.s3.amazonaws.com/i/donate/leanstartup.png"); }
 

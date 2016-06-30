@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$("#micahvideo #x").click(function(){
 		$("#micahvideo").remove();
 
-	
+	});
 
 
 // Twitter

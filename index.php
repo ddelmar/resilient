@@ -36,7 +36,7 @@
 
 
 <div class="image-container">
-<div class="main-header fullheightwidth bg_micah"></div>
+<div class="main-header fullheightwidth bg_willdandevin"></div>
 </div>
 
 
