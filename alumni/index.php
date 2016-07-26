@@ -109,7 +109,7 @@ Will was part of the <a href="/lab" title="Resilient Lab">Resilient Lab</a> team
 								Ex's time at Resilient Coders was bookended by a pair of BostInno pieces. The <a hef="http://bostinno.streetwise.co/2015/10/19/coding-skills-how-to-spot-and-hire-engineering-talent/" title="Resilient Coders' David Delmar: How to Spot Coding Talent Early">first</a> was about the potential we saw in him.
 								The <a href="http://bostinno.streetwise.co/2016/05/31/resilient-coders-grad-takes-development-internship-at-the-grommet/" title="How 20-year-old Jean Exavier Went From Skateboarder to Web Developer">second</a> was about his placement at The Grommet as a UI Engineer intern, where he is today.
 								He took to JavaScript like a moth to flame, always pushing to do stuff like building a <a href="https://twitter.com/WhyNotDoStuff/status/707338123693465601">Twitter news feed.</a> He worked, through the <a href="/lab">Lab,</a> on a JavaScript-based web application
-								for <a href="http://helpscout.com">HelpScout,</a> enabling their company-wide tradition of matching employees randomlyl over a prompt. Ex has been a mentor among his fellow
+								for <a href="http://helpscout.com">HelpScout,</a> enabling their company-wide tradition of matching employees randomly over a prompt. Ex has been a mentor among his fellow
 								coders, challenging them, just as he challenges himself.
 
 							</p>

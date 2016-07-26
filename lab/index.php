@@ -6,12 +6,14 @@
 <div id="tier2">
 	<section>
 		<h2>Resilient Lab</h2>
-<p class="intro" style="border-bottom:0;">
+<p class="intro" style="border-bottom:0;margin-bottom:1em;">
 	We're a digital design and development agency with a social mission unlike any you've seen.
 Our coders have been identified and trained through our <a href="/bootcamp">Bootcamp,</a> and recruited into the Lab
 for their aptitude and their grit. Our clients get an exceptional product, while also helping to launch our coders' careers.
 </p>
 </section>
+
+<a href="/alumni" class="donate-button"><p>Meet the Lab Alumni</p></a>
 
 </div>
 </div><!-- container -->
