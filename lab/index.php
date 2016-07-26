@@ -11,7 +11,7 @@
 Our coders have been identified and trained through our <a href="/bootcamp">Bootcamp,</a> and recruited into the Lab
 for their aptitude and their grit. Our clients get an exceptional product, while also helping to launch our coders' careers.
 </p>
-
+</section>
 
 </div>
 </div><!-- container -->

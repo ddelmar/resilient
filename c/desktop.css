@@ -286,6 +286,8 @@ h2#tagline {
 	border: 1px solid transparent;
 }
 
+.body_alumni .team {min-height: 650px;}
+
 .body_team #tier2,
 .body_alumni #tier2 {
 	margin-top: 90px;
