@@ -154,7 +154,9 @@ Joshua Summers is a serial entrepreneur that believes the best companies are bui
 						<h3>Technical Advisor</h3>
 						<div class="clr"></div>
 						<p>
-							Taught himself how to code at the age of 12. Discovered he loved it and couldn't get enough. Decided to bypass college and dive right into his career as a developer. Worked his way up through the developer ranks until it was time inspire other developers to make amazing things. Currently CTO at Vsnap, and loving every minute of it.
+							Taught himself how to code at the age of 12. Discovered he loved it and couldn't get enough. Decided to bypass college and dive right into his career as a developer. Worked his way up through the developer ranks until it was time inspire other developers to make amazing things.</p>
+							<p>
+								Currently the CEO and Co-Founder of <a href="http://eastcoastproduct.com">East Coast Product (ECP)</a> -- a design and development agency that works to be the fastest, most efficient way to build digital product and get companies to their next milestone.
 					</div><!-- /chris -->
 			</article>
 
