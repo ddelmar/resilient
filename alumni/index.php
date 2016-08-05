@@ -38,6 +38,9 @@
 			<li class="ex"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/alumni/ex.jpg" />
 			</a></li>
+			<li class="brian"><a href="#s_detail" class="unselected">
+				<img src="https://resilientcoders.s3.amazonaws.com/i/alumni/brian.jpg" />
+			</a></li>
 			<li class="johan"><a href="#s_detail" class="unselected">
 				<img src="https://resilientcoders.s3.amazonaws.com/i/alumni/johan.jpg" />
 			</a></li>
@@ -56,6 +59,23 @@
 Will caught <a href="http://elplaneta.com/news/2015/feb/06/boston-iniciativa-jovenes-latinos-aprenden-coding/" title="El Planeta">an article</a> in El Planeta and decided to join Resilient Coders.
 He learned HTML and CSS, moving on quickly to JavaScript. When we parnered up with <a href="http://eastcoastproduct.com" title="East Coast Product">East Coast Product</a> to build some software,
 Will was part of the <a href="/lab" title="Resilient Lab">Resilient Lab</a> team, learning React while he <a href="https://twitter.com/resilientcoders/status/624594988064608256" title="Twitter | MassChallenge">built</a>. From there, he joined Launch Academy, where he learned rails-based programming. These days, he works at HubLogix.
+							</p>
+
+						</div>
+				</article>
+				<article>
+						<div class="brian">
+							<h2>
+								Brian Madrigal
+							</h2>
+							<div class="clr"></div>
+							<p>
+								During his time with Resilient Lab, Brian worked closely with the team at <a href="http://eastcoastproduct.com" title="East Coast Product">East Coast Product</a>,
+								helping to conduct user research for a unique project: a web application meant to unite efforts
+								across organizations in Boston fighting for equity, with a focus on black and Latino boys. It's Boston's response
+								to President Obama's <a href="https://www.whitehouse.gov/my-brothers-keeper" title="My Brother's Keeper">My Brother's Keeper</a> initiative.
+								Since then, he's further honed his <a href="http://madrigalbrian.github.io/" title="Brian Madrigal">skills</a> as a UX/UI designer/dev, thanks largely to his time at Startup Institute.
+								And these days, he's participating in Fresh Tilled Soil's competitive UX apprenticeship. 
 							</p>
 
 						</div>
