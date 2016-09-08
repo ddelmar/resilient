@@ -28,6 +28,20 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 		<p class="intro">
 			We're looking for hacktivists who share our vision of technology as an opportunity for real meritocracy, to join us. Share your passion.
 		</p>
+
+		<P>
+			This fall, we'll be at 50 Milk St., 5th floor, on Tuesdays and Thursdays from 3:30 to 6. We don't ask you to make a commitment up front. Come once. Hang out with us. If you think you might stop by, throw us a note at david@resilientcoders.org so that we know to expect you.
+		</p>
+		<p>
+			More information regarding our upcoming Hackathons and winter Bootcamp coming later in the fall. Until then, football, foliage, apple picking, and coding.
+		</p>
+
+		<?php /*
+		:::::::::::::
+		BOOTCAMP COPY
+		:::::::::::::
+
+
 		<p>
 			We're doing things a little different for this next Bootcamp. One of the things that's new is that we're using Google Appointments for mentorship/instructor slots, allowing you to literally sign up for the sessions you want to join us for. All you have to do is open <a href="https://calendar.google.com/calendar/selfsched?sstoken=UUl1RTN1NjMwanR4fGRlZmF1bHR8NjRmMjJiNGYzNTc2MDMyMDVmYzdjMGIyMmNmM2EwMzE" title="Resilient Coders Bootcamp Calendar" >this calendar,</a> skip ahead to July, pick the session(s) you're interested in, and sign up.
 </p><p>
@@ -49,6 +63,10 @@ Eight weeks can transform a young person's life. We're now recruiting instructor
 If you can't make of these windows, don't worry about it. There will be plenty of other opportunities to get involved.
 		</p>
 		<a href="https://calendar.google.com/calendar/selfsched?sstoken=UUl1RTN1NjMwanR4fGRlZmF1bHR8NjRmMjJiNGYzNTc2MDMyMDVmYzdjMGIyMmNmM2EwMzE" title="Resilient Coders Bootcamp Calendar" class="donate-button"><p>Check out the calendar</p></a>
+		:::::::::::::
+		END BOOTCAMP
+		:::::::::::::
+		*/ ?>
 	</div><!-- /tier2 -->
 </div><!-- /container -->
 
